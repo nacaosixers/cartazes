@@ -1,15 +1,25 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "quarta, 11/11, às 15h",
+ "atualizado": "quarta, 11/11, às 17h55",
  "motor": {
   "ligado": true,
-  "texto": "Ligado, versão 2: 4 rodadas por dia (7h51, 12h51, 17h51 e 0h51), com reels, Raio-X e TikTok. Tudo sai sem aprovação."
+  "texto": "Ligado. Última rodada: radar, 17h51."
  },
  "campanha": "9 vitórias e 3 derrotas, 2º do Leste",
  "hoje": {
   "data": "Quarta, 11/11",
-  "resumo": "Placar, agenda e as notícias do Paul George já saíram. À tarde estreiam o carrossel Raio-X (16h) e o primeiro reel (20h30, também no TikTok). Próxima rodada do motor: 17h51.",
+  "resumo": "Placar, agenda, Raio-X e as notícias do Paul George já saíram. O radar das 17h51 achou a fala de Embiid sobre o tornozelo (X às 18h12). Maxey no Instagram às 18h30 e o reel às 20h30.",
   "itens": [
+   {
+    "tipo": "Notícia (citação): Embiid sobre o tornozelo",
+    "status": "agendado",
+    "quando": "18h12, só no X (feed do Instagram já está cheio hoje)",
+    "img": "img/hoje/direto-embiid-tornozelo.png",
+    "arquivo": "direto-embiid-tornozelo.png",
+    "x": "Joel Embiid sobre o susto no tornozelo contra o Celtics: \"Foi uma torção. Estou bem.\"\n\nSobre o arremesso (2 de 8 no jogo), disse que é \"um trabalho em andamento\" e que tem pensado demais em quadra.\n\nQuinta tem 76ers x Raptors, 21h de Brasília.\n\nVia Sixers Wire.",
+    "obs": "Achado no radar das 17h51.",
+    "link": "https://sports.yahoo.com/articles/joel-embiid-addresses-injury-shooting-174030268.html"
+   },
    {
     "tipo": "Raio-X em carrossel (5 cartazes)",
     "status": "agendado",

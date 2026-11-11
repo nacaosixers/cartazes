@@ -1,10 +1,44 @@
 {
- "placares": [{"jogo": "76ers 101 x 123 Celtics", "data_jogo": "2026-11-10", "publicado": "2026-11-11"}],
- "raiox": [{"jogo": "76ers 101 x 123 Celtics", "data_jogo": "2026-11-10", "carrossel": "2026-11-11 16h", "reel": "2026-11-11 20h30"}],
- "noticias": [
-  {"url": "https://nesn.com/boston-celtics/news/celtics-familiar-tune-not-so-subtle-message-76ers/ff711c4f6b0de7b91fd5d5a4", "titulo": "Why Can't We Be Friends? no treino do Celtics", "data": "2026-11-10", "status": "publicado"},
-  {"url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-paul-george-middle-finger-36-points-celtics/766206/", "titulo": "Paul George: gesto para torcedor e frase de Maxey", "data": "2026-11-11", "status": "publicado"}
- ],
- "curiosidades": [],
- "reels": [{"tema": "Raio-X 76ers x Celtics", "data": "2026-11-11"}]
+  "placares": [
+    {
+      "jogo": "76ers 101 x 123 Celtics",
+      "data_jogo": "2026-11-10",
+      "publicado": "2026-11-11"
+    }
+  ],
+  "raiox": [
+    {
+      "jogo": "76ers 101 x 123 Celtics",
+      "data_jogo": "2026-11-10",
+      "carrossel": "2026-11-11 16h",
+      "reel": "2026-11-11 20h30"
+    }
+  ],
+  "noticias": [
+    {
+      "url": "https://nesn.com/boston-celtics/news/celtics-familiar-tune-not-so-subtle-message-76ers/ff711c4f6b0de7b91fd5d5a4",
+      "titulo": "Why Can't We Be Friends? no treino do Celtics",
+      "data": "2026-11-10",
+      "status": "publicado"
+    },
+    {
+      "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-paul-george-middle-finger-36-points-celtics/766206/",
+      "titulo": "Paul George: gesto para torcedor e frase de Maxey",
+      "data": "2026-11-11",
+      "status": "publicado"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/joel-embiid-addresses-injury-shooting-174030268.html",
+      "titulo": "Embiid: torção no tornozelo, estou bem; arremesso é trabalho em andamento",
+      "data": "2026-11-11",
+      "status": "agendado"
+    }
+  ],
+  "curiosidades": [],
+  "reels": [
+    {
+      "tema": "Raio-X 76ers x Celtics",
+      "data": "2026-11-11"
+    }
+  ]
 }
