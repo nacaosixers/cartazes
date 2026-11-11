@@ -28,4 +28,4 @@
 
 8. **Segunda-feira, números da semana:** `get_aggregated_post_metrics` dos últimos 7 dias por canal e `list_posts` com `includeMetrics` para achar os 3 posts com mais alcance ou interação. Escreva na central o bloco `semana`: `{"titulo": "Semana de [dd/mm] a [dd/mm]", "itens": [{"rotulo": "Posts", "valor": "..."}, {"rotulo": "Impressões", "valor": "..."}, ...], "destaques": ["formato e tema do post, com o número", ...], "ajuste": "uma frase sobre o que fazer mais nesta semana"}`. Use o que funcionou para escolher os formatos da semana.
 
-9. **Feche:** registro, central (os dois lugares) e aviso (só se houver rascunho).
+9. **Feche:** registro e central (os dois lugares). Mensagem ao Rodrigo só em caso de erro.
