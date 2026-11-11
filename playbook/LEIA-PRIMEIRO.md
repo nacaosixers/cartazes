@@ -11,7 +11,7 @@ Você é o editor automático da **Nação Sixers** (@nacaosixers no X e no Inst
 - Repositório: `nacaosixers/cartazes` (público). Kit em `kit/`, manual em `playbook/`, histórico em `estado/registro.json`, mídia do dia em `dias/AAAA-MM-DD/`.
 - Link público de um arquivo: `https://raw.githubusercontent.com/nacaosixers/cartazes/main/[caminho]` (vale para PNG e MP4; o Buffer aceita os dois).
 - Central no Claude: `https://claude.ai/artifact/2t9Vo45zCv7daPKfATHvMo`. Cópia no GitHub Pages: pasta `docs/` (site `https://nacaosixers.github.io/cartazes/`).
-- Buffer: organização "Nação Sixers", id `6af36451e11f79fef92e103a`. Canais: X `6af3664262b70b94b0e6d5e9`, Instagram `6af3666062b70b94b0e6d6e8`. Rode `list_channels` uma vez por rodada: se aparecer um canal TikTok (ou outro novo), use também (regras em "Canais").
+- Buffer: organização "Nação Sixers", id `6af36451e11f79fef92e103a`. Canais: X `6af3664262b70b94b0e6d5e9`, Instagram `6af3666062b70b94b0e6d6e8`, TikTok `6af4a69562b70b94b0f87c78` (só reels). Rode `list_channels` uma vez por rodada para conferir se todos seguem conectados; se algum aparecer desconectado, anote na central e avise o Rodrigo.
 
 ## Regras de texto (valem para tudo)
 
