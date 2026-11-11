@@ -1,14 +1,14 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "quarta, 11/11, às 14h20",
+ "atualizado": "quarta, 11/11, às 15h",
  "motor": {
   "ligado": true,
-  "texto": "Ligado, versão 2: 4 rodadas por dia (7h51, 12h51, 17h51 e 0h51), com reels e Raio-X."
+  "texto": "Ligado, versão 2: 4 rodadas por dia (7h51, 12h51, 17h51 e 0h51), com reels, Raio-X e TikTok. Tudo sai sem aprovação."
  },
  "campanha": "9 vitórias e 3 derrotas, 2º do Leste",
  "hoje": {
   "data": "Quarta, 11/11",
-  "resumo": "Placar, agenda e as duas notícias do Paul George já saíram. Hoje à tarde estreiam o carrossel Raio-X (16h) e o primeiro reel (20h30).",
+  "resumo": "Placar, agenda e as notícias do Paul George já saíram. À tarde estreiam o carrossel Raio-X (16h) e o primeiro reel (20h30, também no TikTok). Próxima rodada do motor: 17h51.",
   "itens": [
    {
     "tipo": "Raio-X em carrossel (5 cartazes)",
@@ -22,7 +22,7 @@ window.CENTRAL = {
    {
     "tipo": "Reel: 3 números do jogo",
     "status": "agendado",
-    "quando": "20h30, no Instagram (Reels) e no X",
+    "quando": "20h30, no Instagram (Reels), no X e no TikTok",
     "img": "img/hoje/reel-raiox-capa.png",
     "arquivo": "reel-raiox-capa.png",
     "obs": "Primeiro reel automático: 15 segundos, sem música. A imagem aqui é a capa."
