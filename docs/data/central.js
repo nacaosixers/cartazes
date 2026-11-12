@@ -1,87 +1,99 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "quarta, 11/11, às 17h55",
+ "atualizado": "quinta, 12/11, às 8h15",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: radar, 17h51."
+  "texto": "Ligado. Última rodada: manhã, 8h15."
  },
- "campanha": "9 vitórias e 3 derrotas, 2º do Leste",
+ "campanha": "9 vitórias e 3 derrotas",
  "hoje": {
-  "data": "Quarta, 11/11",
-  "resumo": "Placar, agenda, Raio-X e as notícias do Paul George já saíram. O radar das 17h51 achou a fala de Embiid sobre o tornozelo (X às 18h12). Maxey no Instagram às 18h30 e o reel às 20h30.",
+  "data": "Quinta, 12/11",
+  "resumo": "Dia de 76ers x Raptors, 21h no Prime Video: notícia de Embiid e LeBron às 9h no X, pré-jogo às 12h, número do dia às 16h e reel de contagem às 18h.",
   "itens": [
    {
-    "tipo": "Notícia (citação): Embiid sobre o tornozelo",
+    "tipo": "Notícia: Embiid e LeBron são dúvida",
     "status": "agendado",
-    "quando": "18h12, só no X (feed do Instagram já está cheio hoje)",
-    "img": "img/hoje/direto-embiid-tornozelo.png",
-    "arquivo": "direto-embiid-tornozelo.png",
-    "x": "Joel Embiid sobre o susto no tornozelo contra o Celtics: \"Foi uma torção. Estou bem.\"\n\nSobre o arremesso (2 de 8 no jogo), disse que é \"um trabalho em andamento\" e que tem pensado demais em quadra.\n\nQuinta tem 76ers x Raptors, 21h de Brasília.\n\nVia Sixers Wire.",
-    "obs": "Achado no radar das 17h51.",
-    "link": "https://sports.yahoo.com/articles/joel-embiid-addresses-injury-shooting-174030268.html"
+    "quando": "9h, só no X",
+    "img": "img/hoje/manchete-embiid-lebron-duvida.png",
+    "arquivo": "manchete-embiid-lebron-duvida.png",
+    "x": "Joel Embiid e LeBron James estão listados como dúvida para 76ers x Raptors, hoje às 21h de Brasília.\n\nEmbiid: pé direito, controle de fascite plantar. LeBron: lombar e ciático. Bona, Barlow e Hukporti estão fora.\n\nVia NBC Sports Philadelphia.",
+    "obs": "No Instagram a informação vai na legenda do pré-jogo.",
+    "link": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-injury-report-lebron-james-joel-embiid-sixers-vs-raptors/766323/"
    },
    {
-    "tipo": "Raio-X em carrossel (5 cartazes)",
+    "tipo": "Pré-jogo 76ers x Raptors",
+    "status": "agendado",
+    "quando": "12h, no X e no Instagram",
+    "img": "img/hoje/prejogo-76ers-x-raptors.png",
+    "arquivo": "prejogo-76ers-x-raptors.png",
+    "x": "Hoje tem 76ers x Raptors, 21h de Brasília, no Prime Video. 🏀\n\nO 76ers (9 vitórias e 3 derrotas) volta para casa depois da derrota para o Celtics. O Raptors joga a segunda noite seguida e sem Scottie Barnes.\n\nEmbiid e LeBron são dúvida. Vai assistir?",
+    "ig": "Hoje tem 76ers x Raptors, 21h de Brasília, no Prime Video. 🏀\n\nO 76ers, com 9 vitórias e 3 derrotas, recebe o Raptors depois da derrota para o Celtics. O adversário joga a segunda noite seguida e não tem Scottie Barnes nem Kawhi Leonard.\n\nDo lado do 76ers, Joel Embiid (pé direito) e LeBron James (lombar) estão listados como dúvida. Adem Bona, Dominick Barlow e Ariel Hukporti estão fora.\n\nVai assistir? Comenta aqui.\n\nFonte: relatório de lesões, via NBC Sports Philadelphia e Yahoo Sports.\n\n#Sixers #76ers #NBABrasil #NBA",
+    "obs": "Transmissão confirmada pelo O Tempo: Prime Video e League Pass.",
+    "link": "https://www.otempo.com.br/sports/basquete/nba/2026/11/12/nba-tem-raptors-x-76ers-no-prime-video-e-mais-tres-jogos-nesta-quinta-veja-onde-assistir"
+   },
+   {
+    "tipo": "Número do dia: Maxey, 26,7 pontos por jogo",
     "status": "agendado",
     "quando": "16h, no X e no Instagram",
-    "img": "img/hoje/raiox-1.png",
-    "arquivo": "raiox-1.png",
-    "obs": "Novo formato: os números que explicam o jogo. No X vão os 4 primeiros cartazes.",
-    "x": "Raio-X de 76ers 101 x 123 Celtics:\n\n• 33 pontos de diferença na bola de três (22/49 x 11/37)\n• 17 a 0 do Celtics na virada do 3º para o último quarto\n• 46 a 32 no garrafão, 49 a 29 no banco\n\nE o 76ers foi 28 vezes à linha de lance livre, contra 5. Perdeu por 22 mesmo assim."
+    "img": "img/hoje/numero-maxey.png",
+    "arquivo": "numero-maxey.png",
+    "x": "Tyrese Maxey tem 26,7 pontos por jogo nesta temporada, o cestinha do 76ers.\n\nContra o Celtics, também foi o cestinha do time, com 24.\n\nHoje tem 76ers x Raptors, 21h de Brasília, no Prime Video.",
+    "ig": "Tyrese Maxey: 26,7 pontos por jogo nesta temporada. 🔥\n\nÉ o cestinha do 76ers. Na derrota para o Celtics, também foi o cestinha do time, com 24.\n\nHoje à noite tem 76ers x Raptors, 21h de Brasília, no Prime Video. Quantos ele faz hoje? Comenta aí.\n\nFonte: Fubo e Predictem.\n\n#Sixers #76ers #NBABrasil #NBA",
+    "obs": "Média confirmada em duas fontes.",
+    "link": "https://www.fubo.tv/news/nba/toronto-raptors-at-philadelphia-76ers-where-to-watch-stream-info-tv-channel-and-live-updates-november-12-2026/"
    },
    {
-    "tipo": "Reel: 3 números do jogo",
+    "tipo": "Reel: contagem para o jogo",
     "status": "agendado",
-    "quando": "20h30, no Instagram (Reels), no X e no TikTok",
-    "img": "img/hoje/reel-raiox-capa.png",
-    "arquivo": "reel-raiox-capa.png",
-    "obs": "Primeiro reel automático: 15 segundos, sem música. A imagem aqui é a capa."
-   },
-   {
-    "tipo": "Placar",
-    "status": "publicado",
-    "quando": "8h30, no X e no Instagram",
-    "img": "img/hoje/placar-76ers-x-celtics.png",
-    "arquivo": "placar-76ers-x-celtics.png",
-    "x": "Fim de jogo: 76ers 101 x 123 Celtics.\n\nPaul George fez 36 pontos na volta à Filadélfia e o Celtics acertou 22 bolas de três. O 76ers ficou em 11 de 37. Maxey foi o cestinha do time, com 24.\n\nAgora são 9 vitórias e 3 derrotas, 2º do Leste. Quinta tem Raptors.",
-    "ig": "Fim de jogo: 76ers 101 x 123 Celtics.\n\nPaul George fez 36 pontos na volta à Filadélfia e o Celtics acertou 22 de 49 bolas de três. O 76ers ficou em 11 de 37: Maxey e Dean Wade acertaram 5 de 8, o resto do time, 6 de 29. Maxey foi o cestinha, com 24.\n\nO time cai para 9 vitórias e 3 derrotas, 2º do Leste. Quinta, 21h de Brasília, tem 76ers x Raptors.\n\n#Sixers #76ers #NBABrasil #NBA #Philadelphia76ers",
-    "obs": "Saiu no X e no Instagram.",
-    "link": "https://www.espn.com/nba/game/_/gameId/401909961/celtics-76ers"
-   },
-   {
-    "tipo": "Agenda até 23/11",
-    "status": "publicado",
-    "quando": "12h, no X e no Instagram",
-    "img": "img/hoje/agenda-12-a-23-11.png",
-    "arquivo": "agenda-12-a-23-11.png",
-    "x": "Agenda do 76ers até 23/11, no horário de Brasília:\n\nQui 12/11 · 76ers x Raptors · 21h\nDom 15/11 · 76ers x Pacers · 15h\nSeg 16/11 · Nets x 76ers · 21h30\nQua 18/11 · Magic x 76ers · 21h\nSáb 21/11 · 76ers x Bucks · 15h\nSeg 23/11 · 76ers x Trail Blazers · 21h\n\nSalva aí. 📌",
-    "obs": "Saiu no X e no Instagram."
-   },
-   {
-    "tipo": "Notícia (citação): Maxey sobre Paul George",
-    "status": "agendado",
-    "quando": "Saiu no X; no Instagram sai às 18h30",
-    "img": "img/hoje/direto-maxey-paul-george.png",
-    "arquivo": "direto-maxey-paul-george.png",
-    "x": "\"Eu queria que ele fizesse zero pontos. A gente nem deveria deixar ele tentar 11 bolas de três, e isso é com a gente.\"\n\nTyrese Maxey, sobre Paul George, que fez 36 na derrota para o Celtics. Maxey disse também que ama George e a família dele.\n\nVia NBC Sports Philadelphia.",
-    "ig": "\"Eu queria que ele fizesse zero pontos. A gente nem deveria deixar ele tentar 11 bolas de três, e isso é com a gente.\"\n\nTyrese Maxey, sobre o ex-companheiro Paul George, que fez 36 pontos (6 de 11 de três) na derrota por 123 a 101. Antes, Maxey disse que foi bom rever George: \"Eu amo ele, amo a família dele.\"\n\nFonte: NBC Sports Philadelphia.\n\n#Sixers #76ers #NBABrasil #NBA",
-    "obs": "Você aprovou pelo Buffer.",
-    "link": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-paul-george-middle-finger-36-points-celtics/766206/"
-   },
-   {
-    "tipo": "Notícia: o gesto de Paul George",
-    "status": "publicado",
-    "quando": "saiu de manhã",
-    "img": "img/hoje/manchete-paul-george-gesto.png",
-    "arquivo": "manchete-paul-george-gesto.png",
-    "x": "Paul George mostrou o dedo do meio para um torcedor do 76ers no fim do jogo.\n\nSegundo ele, o torcedor da beira da quadra o encarou e largou a bola no chão em vez de devolver: \"Aí eu respondi com um dedo do meio.\"\n\nVia NBC Sports Philadelphia.",
-    "ig": "Paul George mostrou o dedo do meio para um torcedor do 76ers no fim da vitória do Celtics por 123 a 101.\n\nSegundo George, um torcedor da beira da quadra o encarou e largou a bola no chão em vez de devolver: \"Aí eu respondi com um dedo do meio.\" Ele também elogiou o ginásio: \"Foi divertido jogar nesse ambiente.\"\n\nFonte: NBC Sports Philadelphia.\n\n#Sixers #76ers #NBABrasil #NBA",
-    "obs": "Você aprovou pelo Buffer.",
-    "link": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-paul-george-middle-finger-36-points-celtics/766206/"
+    "quando": "18h, no Instagram (Reels), no X e no TikTok",
+    "img": "img/hoje/reel-contagem-capa.png",
+    "arquivo": "reel-contagem-capa.png",
+    "x": "Hoje tem 76ers x Raptors. ⏰\n\n21h de Brasília, no Prime Video. Bora?",
+    "ig": "Hoje tem 76ers x Raptors. ⏰\n\n21h de Brasília, no Prime Video. O 76ers tem 9 vitórias em 12 jogos e o Raptors chega na segunda noite seguida, sem Scottie Barnes.\n\nMarca quem vai assistir com você.\n\n#Sixers #76ers #NBABrasil #NBA",
+    "obs": "12 segundos, 3 cenas e o fecho. A imagem aqui é a capa."
    }
   ]
  },
- "cola": null,
+ "cola": {
+  "jogo": "76ers x Raptors",
+  "quando": "Quinta, 12/11, 21h de Brasília, na Filadélfia",
+  "onde": "Prime Video e NBA League Pass",
+  "pontos": [
+   "76ers com 9 vitórias e 3 derrotas, vindo da derrota de 123 a 101 para o Celtics em casa.",
+   "Embiid (pé direito, controle de fascite plantar) e LeBron (lombar e ciático) são dúvida. Bona, Barlow e Hukporti estão fora.",
+   "Maxey é o cestinha: 26,7 pontos por jogo. Fez 24 contra o Celtics.",
+   "Raptors joga a segunda noite seguida (perdeu por 5 para o Celtics na quarta) e não tem Scottie Barnes (virilha) nem Kawhi Leonard (joelho).",
+   "Ponto fraco do 76ers até aqui: o ataque. Contra o Celtics foram 11 de 37 de três."
+  ],
+  "roteiro": [
+   "Antes do jogo: confirme se Embiid e LeBron jogam e poste o quinteto.",
+   "Primeiro quarto: o 76ers está explorando o cansaço do Raptors, que jogou ontem? Olhe o contra-ataque.",
+   "Intervalo: placar e o aproveitamento de três do 76ers, comparando com o 11 de 37 contra o Celtics.",
+   "Fim de jogo: placar, cestinha e se o time voltou a vencer depois do Celtics."
+  ],
+  "fontes": [
+   {
+    "t": "NBC Sports Philadelphia",
+    "u": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-injury-report-lebron-james-joel-embiid-sixers-vs-raptors/766323/"
+   },
+   {
+    "t": "PhillyVoice",
+    "u": "https://www.phillyvoice.com/sixers-vs-raptors-76ers-injury-report-news-analysis-lebron-james-updatepjoel-embiid-status-kawhi-leonard-nba/"
+   },
+   {
+    "t": "Yahoo Sports (Heavy)",
+    "u": "https://sports.yahoo.com/articles/raptors-major-lebron-james-joel-032900296.html"
+   },
+   {
+    "t": "Fubo",
+    "u": "https://www.fubo.tv/news/nba/toronto-raptors-at-philadelphia-76ers-where-to-watch-stream-info-tv-channel-and-live-updates-november-12-2026/"
+   },
+   {
+    "t": "O Tempo",
+    "u": "https://www.otempo.com.br/sports/basquete/nba/2026/11/12/nba-tem-raptors-x-76ers-no-prime-video-e-mais-tres-jogos-nesta-quinta-veja-onde-assistir"
+   }
+  ]
+ },
  "jogos": [
   {
    "d": "QUI 12/11",

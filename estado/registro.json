@@ -31,14 +31,35 @@
       "url": "https://sports.yahoo.com/articles/joel-embiid-addresses-injury-shooting-174030268.html",
       "titulo": "Embiid: torção no tornozelo, estou bem; arremesso é trabalho em andamento",
       "data": "2026-11-11",
+      "status": "publicado"
+    },
+    {
+      "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-injury-report-lebron-james-joel-embiid-sixers-vs-raptors/766323/",
+      "titulo": "Embiid e LeBron dúvida contra o Raptors (relatório de lesões)",
+      "data": "2026-11-12",
       "status": "agendado"
     }
   ],
-  "curiosidades": [],
+  "curiosidades": [
+    {
+      "tema": "Número do dia: Maxey 26,7 pontos por jogo",
+      "data": "2026-11-12"
+    }
+  ],
   "reels": [
     {
       "tema": "Raio-X 76ers x Celtics",
       "data": "2026-11-11"
+    },
+    {
+      "tema": "Contagem 76ers x Raptors",
+      "data": "2026-11-12"
+    }
+  ],
+  "prejogos": [
+    {
+      "jogo": "76ers x Raptors",
+      "data": "2026-11-12"
     }
   ]
 }
