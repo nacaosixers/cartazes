@@ -31,7 +31,7 @@ Você é o editor automático da **Nação Sixers** (@nacaosixers no X e no Inst
 - `python kit/cartaz.py ...` gera cartaz 1080x1350. Tipos: prejogo, placar, direto, manchete, lista, agenda, cartaz, numero. Uso completo no topo do arquivo. Primeira execução baixa fontes via npm; o Chromium do Playwright já está instalado (não rode `playwright install`).
 - `python kit/reel.py roteiro.json saida.mp4` gera reel 1080x1920 com trilha original de fundo (~1,5 minuto para 25 s). Formato do roteiro no topo do arquivo. A duração de cada cena sai sozinha pelo tamanho do texto, para dar tempo de ler: não force cenas curtas. Máximo de 4 cenas mais a de "Segue a Nação". Gera também `saida.capa.png` para conferir.
 - `python kit/story.py cartaz.png story.png` transforma um cartaz em 1080x1920, para story do Instagram e carrossel do TikTok.
-- Confira todo PNG (e a capa de cada reel) com a ferramenta de leitura antes de publicar. Cortado ou sobreposto: encurte e gere de novo uma vez.
+- Confira todo PNG (e a capa de cada reel, `saida.capa.png`, que é o mesmo quadro do capa_ms) com a ferramenta de leitura antes de publicar. Cortado ou sobreposto: encurte e gere de novo uma vez.
 
 ## De onde vêm placar e box score
 
@@ -56,9 +56,9 @@ Nunca use shareNow. Nunca edite nem apague post que não foi você que criou na 
 ## Canais e formatos no Buffer
 
 - Instagram imagem ou carrossel: metadata `{"instagram": {"type": "post", "shouldShareToFeed": true}}`, até 10 imagens, altText em cada uma.
-- Instagram reel: asset `{"video": {"url": ..., "metadata": {"thumbnailOffset": 2400}}}` e metadata `{"instagram": {"type": "reel", "shouldShareToFeed": true}}`.
+- Instagram reel: asset `{"video": {"url": ..., "metadata": {"thumbnailOffset": [capa_ms]}}}` e metadata `{"instagram": {"type": "reel", "shouldShareToFeed": true}}`. **capa_ms é o número que o `reel.py` imprime no fim.** Nunca use um número fixo: um quadro no fim da cena pega a transição e a capa sai com uma listra (erro de 13/11).
 - X: texto + até 4 imagens, ou texto + 1 vídeo (o mesmo MP4 do reel).
-- TikTok: vídeo (mesmo MP4 do reel) ou carrossel de fotos (até 10 imagens 1080x1920 feitas com `story.py`). Legenda curta. Detalhes em "TikTok" abaixo.
+- TikTok: vídeo (mesmo MP4 do reel, com o mesmo `thumbnailOffset` = capa_ms) ou carrossel de fotos (até 10 imagens 1080x1920 feitas com `story.py`). Legenda curta. Detalhes em "TikTok" abaixo.
 - Instagram story: imagem 1080x1920 (`story.py`) com metadata `{"instagram": {"type": "story", "shouldShareToFeed": false}}`. Não conta no limite do feed.
 - Limites de volume por dia: Instagram até 4 posts no feed (contando reels), com pelo menos 90 minutos entre eles; X até 8 posts. O plano gratuito aceita 10 agendados por canal: se não houver espaço, não agende e anote na central.
 - Antes de agendar, rode `list_posts` (status scheduled, sent e draft, últimos 2 dias) e consulte `estado/registro.json` para não repetir pauta.

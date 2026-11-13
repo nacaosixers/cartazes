@@ -24,6 +24,8 @@ Número só com dígitos e maior ou igual a 20 sobe contando. "cta": true fecha 
 "trilha": true (padrão) coloca uma batida original de fundo; false deixa sem som.
 O conteúdo fica na área segura do Reels/TikTok (longe do topo, do rodapé e dos botões da direita).
 Nunca use travessão nos textos.
+No fim, imprime capa_ms: é o thumbnailOffset certo (o mesmo quadro de saida.capa.png). Nunca use um número fixo:
+um quadro no fim da cena pega a transição (listra) na capa.
 """
 import json, pathlib, subprocess, sys, tempfile
 
@@ -183,13 +185,14 @@ body{margin:0;background:#000}
         for f in range(n):
             pg.evaluate(f"window.setT({f / FPS:.4f})")
             ff.stdin.write(el.screenshot(type="jpeg", quality=90))
-        pg.evaluate(f"window.setT({max(durs[0] - 0.4, 0):.3f})")
+        pg.evaluate(f"window.setT({max(durs[0] - 0.8, 0):.3f})")
         el.screenshot(path=str(pathlib.Path(out).with_suffix(".capa.png")))
         b.close()
     ff.stdin.close(); ff.wait()
     if ff.returncode != 0:
         sys.exit("ffmpeg falhou ao montar o vídeo.")
     print(out, f"{total:.1f}s", " + ".join(f"{d:.1f}" for d in durs))
+    print(f"capa_ms={int(max(durs[0] - 0.8, 0) * 1000)}  (use este numero como thumbnailOffset no Instagram e no TikTok)")
 
 
 if __name__ == "__main__":
