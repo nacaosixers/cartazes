@@ -4,6 +4,11 @@
    "jogo": "76ers 101 x 123 Celtics",
    "data_jogo": "2026-11-10",
    "publicado": "2026-11-11"
+  },
+  {
+   "jogo": "76ers 123 x 112 Raptors",
+   "data_jogo": "2026-11-12",
+   "publicado": "2026-11-13"
   }
  ],
  "raiox": [
@@ -12,6 +17,12 @@
    "data_jogo": "2026-11-10",
    "carrossel": "2026-11-11 16h",
    "reel": "2026-11-11 20h30"
+  },
+  {
+   "jogo": "76ers 123 x 112 Raptors",
+   "data_jogo": "2026-11-12",
+   "carrossel": "2026-11-13 12h",
+   "reel": "2026-11-13 19h30"
   }
  ],
  "noticias": [
@@ -44,12 +55,22 @@
    "titulo": "LeBron fora contra o Raptors; Embiid segue dúvida (\"Não faço ideia\")",
    "data": "2026-11-12",
    "status": "agendado"
+  },
+  {
+   "url": "https://www.phillyvoice.com/sixers-raptors-76ers-news-analysis-box-score-joel-embiid-tyrese-maxey-jaylen-brown-lebron-james-vj-edgecombe/",
+   "titulo": "Embiid: não tenho sido agressivo; susto no joelho",
+   "data": "2026-11-13",
+   "status": "agendado"
   }
  ],
  "curiosidades": [
   {
    "tema": "Número do dia: Maxey 26,7 pontos por jogo",
    "data": "2026-11-12"
+  },
+  {
+   "tema": "Número do dia: Edgecombe 38,8% de três",
+   "data": "2026-11-13"
   }
  ],
  "reels": [
@@ -60,6 +81,10 @@
   {
    "tema": "Contagem 76ers x Raptors",
    "data": "2026-11-12"
+  },
+  {
+   "tema": "Raio-X 76ers x Raptors",
+   "data": "2026-11-13"
   }
  ],
  "prejogos": [
