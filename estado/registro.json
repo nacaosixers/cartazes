@@ -92,5 +92,15 @@
    "jogo": "76ers x Raptors",
    "data": "2026-11-12"
   }
- ]
+ ],
+ "posjogo": [
+  {
+   "jogo": "76ers x Pacers",
+   "data_jogo": "2026-11-15",
+   "gatilho": "trig_0129YJu5PNQ5xQDJSpzWJmcb",
+   "tentativa": 1,
+   "horario": "17h15"
+  }
+ ],
+ "tiktok": []
 }
