@@ -67,8 +67,8 @@ Nunca use shareNow. Nunca edite nem apague post que não foi você que criou na 
 ## TikTok (a rede com mais alcance agora)
 
 - Até 3 posts por dia, fora dos limites do Instagram:
-  1. O reel do dia (Raio-X, contagem ou número), às 18h.
-  2. Um carrossel de fotos às 12h: os cartazes do Raio-X, do número do dia ou de uma notícia, passados pelo `story.py`. A primeira foto é o gancho; a legenda termina com uma pergunta.
+  1. O reel do dia (Raio-X, contagem ou número). No dia seguinte a um jogo, o reel do Raio-X sai às 12h (conteúdo de jogo envelhece rápido no TikTok: nada sobre um jogo sai lá mais de 18 horas depois do fim). Nos outros dias, às 18h.
+  2. Um carrossel de fotos (às 12h, ou às 18h no dia seguinte a um jogo): os cartazes do Raio-X, do número do dia ou de uma notícia, passados pelo `story.py`. A primeira foto é o gancho; a legenda termina com uma pergunta.
   3. Nos dias de jogo, o placar em vídeo logo depois do fim (turno de pós-jogo). Nos outros dias, um formato só do TikTok às 21h30.
 - Formatos só do TikTok (reel de 3 ou 4 cenas):
   - "Adivinha quem é": 3 pistas com números de um jogador do 76ers, atual ou histórico; a resposta só na última cena. Legenda: "Acertou? Comenta antes de ver o fim."

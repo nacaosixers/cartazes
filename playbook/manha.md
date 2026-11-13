@@ -10,7 +10,8 @@
    - Carrossel de 5 cartazes: capa (`cartaz` amarelo com "Raio-X" e o placar), 3 cartazes `numero` (os 3 números que mais explicam o jogo, cada um com rótulo e uma frase de contexto) e 1 `lista` "O que fica" com 3 leituras factuais (aproveitamento de quem decidiu, tendência que se repetiu, o que observar no próximo jogo).
    - Procure no box score: diferença na linha de três, maior sequência (`most_unanswered`), parcial do último quarto, garrafão, banco, contra-ataque, segunda chance, lances livres tentados, erros que viraram pontos, aproveitamento real (TS%) dos titulares.
    - Reel "3 números" com as mesmas informações (capa, 3 cenas `numero`, CTA).
-   - Horários: carrossel às 12h no X (até 4 imagens) e no Instagram; reel às 19h30 no Instagram, no X (vídeo) e no TikTok se existir. Se houver jogo hoje antes das 19h30, publique o reel às 16h.
+   - Horários: carrossel às 12h no X (até 4 imagens) e no Instagram; reel às 19h30 no Instagram e no X (vídeo). Se houver jogo hoje antes das 19h30, publique o reel às 16h.
+   - **TikTok: o reel do Raio-X sai às 12h**, não à noite. Lá o que conta é ser recente: nada sobre um jogo sai no TikTok mais de 18 horas depois do fim.
 
 4. **Dia de jogo:**
    - Pré-jogo: confirme horário e onde assistir no Brasil. Cartaz `prejogo` às 12h (se o jogo for antes das 16h, às 9h30), no X e no Instagram, com um fato de contexto real.
@@ -29,7 +30,7 @@
    **Quarta-feira:** a curiosidade da série "2001: 25 anos" entra no lugar do número do dia.
    **Sexta-feira:** o post "From Brazil" em inglês, às 16h no X e no Instagram, marcando @sixers.
 
-   **TikTok, todo dia:** carrossel de fotos às 12h, reel às 18h e, nos dias sem jogo, um formato só do TikTok às 21h30 (veja "TikTok" no LEIA-PRIMEIRO).
+   **TikTok, todo dia (3 posts):** no dia seguinte a um jogo, reel do Raio-X às 12h e carrossel às 18h; nos outros dias, carrossel às 12h e reel às 18h. À noite, 21h30, um formato só do TikTok quando não houver jogo (veja "TikTok" no LEIA-PRIMEIRO). Registre em `tiktok` no registro para não repetir tema.
 
 7. **Notícias:** varredura das fontes locais das últimas 18 horas (veja `radar.md`, passos 2 a 4).
 
