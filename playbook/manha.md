@@ -15,6 +15,8 @@
 4. **Dia de jogo:**
    - Pré-jogo: confirme horário e onde assistir no Brasil. Cartaz `prejogo` às 12h (se o jogo for antes das 16h, às 9h30), no X e no Instagram, com um fato de contexto real.
    - Reel de contagem às 18h (ou 2 horas antes se o jogo for à tarde): cena 1 "Hoje tem / 76ers / contra o [adversário]"; cena 2 `numero` com o horário ("21h", rótulo "de Brasília, no [onde assistir]"); cena 3 `numero` com o dado mais forte do confronto (campanha, sequência, média de um destaque); CTA.
+   - **Pós-jogo rápido:** crie um turno extra com `create_trigger` para o placar sair minutos depois do fim: name "Pós-jogo [adversário] [dd/mm]", run_once_at no formato `AAAA-MM-DDTHH:MM:00[America/Sao_Paulo]` igual ao horário de início mais 2h15, initiation "human_schedule", notifications `{}`, prompt = o texto de `playbook/posjogo-prompt.txt` com os campos preenchidos (tentativa 1). Confira no resultado que `mcp_connections` inclui Buffer; se não incluir, apague com `delete_trigger` e anote na central (o turno das 0h51 cobre). Registre o id em `posjogo` no registro.
+   - Story do pré-jogo no Instagram às 12h (cartaz passado pelo `story.py`).
    - Cola do jogo na central: 4 ou 5 pontos com números (campanha, sequência, médias dos destaques, desfalques do relatório de lesões, retrospecto recente contra o adversário), fontes e o roteiro de 4 momentos para o Rodrigo comentar no X ao vivo.
 
 5. **Número do dia ou Neste dia na história** (todo dia, menos quando o Raio-X e o pré-jogo já encheram o feed do Instagram):
@@ -23,6 +25,11 @@
    - Publique às 16h no X e no Instagram. Uma vez por semana, transforme o melhor desses num reel.
 
 6. **Domingo:** agenda da semana seguinte (`agenda`, até 8 jogos), às 11h no X e no Instagram.
+
+   **Quarta-feira:** a curiosidade da série "2001: 25 anos" entra no lugar do número do dia.
+   **Sexta-feira:** o post "From Brazil" em inglês, às 16h no X e no Instagram, marcando @sixers.
+
+   **TikTok, todo dia:** carrossel de fotos às 12h, reel às 18h e, nos dias sem jogo, um formato só do TikTok às 21h30 (veja "TikTok" no LEIA-PRIMEIRO).
 
 7. **Notícias:** varredura das fontes locais das últimas 18 horas (veja `radar.md`, passos 2 a 4).
 
