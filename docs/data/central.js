@@ -1,14 +1,14 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "sexta, 13/11, às 8h10",
+ "atualizado": "sexta, 13/11, às 13h25",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: manhã, 7h51."
+  "texto": "Ligado. Última rodada: radar, 13h22."
  },
  "campanha": "10 vitórias e 3 derrotas",
  "hoje": {
   "data": "Sexta, 13/11",
-  "resumo": "Dia sem jogo depois da vitória de 123 a 112 sobre o Raptors: placar às 8h30, Embiid às 9h30 (X), Raio-X às 12h, número do dia às 16h e reel às 19h30.",
+  "resumo": "Dia sem jogo depois da vitória de 123 a 112 sobre o Raptors: placar às 8h30, Embiid às 9h30 (X), Raio-X às 12h, Tacko Fall às 13h40 (X), número do dia às 16h e reel às 19h30.",
   "itens": [
    {
     "tipo": "Placar 76ers x Raptors",
@@ -42,6 +42,17 @@ window.CENTRAL = {
     "x": "Raio-X de 76ers 123 x 112 Raptors:\n\n• 15 a 0: a sequência da virada, depois de estar 16 atrás\n• 72 a 54 no segundo e no terceiro quartos\n• 9 de 13 na bola de três do banco (Simons, KCP e Walker)\n\nMaxey fez 27 com só 13 arremessos.",
     "ig": "Raio-X de 76ers 123 x 112 Raptors: os números da virada sem LeBron. 🔎\n\n1. Uma sequência de 15 a 0 tirou o time do buraco depois de o Raptors abrir 16 pontos.\n2. 72 a 54 no segundo e no terceiro quartos, 36 a 27 em cada um.\n3. 9 de 13 na bola de três do banco: Anfernee Simons (5 de 6), Kentavious Caldwell-Pope e Jabari Walker.\n\nE mais: Maxey fez 27 com só 13 arremessos, e VJ Edgecombe teve 15 pontos, 8 rebotes e 8 assistências sem desperdiçar nenhuma bola.\n\nQual desses números mais te animou? Comenta aí.\n\nFonte: box score da NBA, PhillyVoice e Bleacher Report.\n\n#Sixers #76ers #NBABrasil #NBA",
     "obs": "Sequência de 15 a 0 confirmada por PhillyVoice e Bleacher Report."
+   },
+   {
+    "tipo": "Notícia: Tacko Fall, \"quero ser visto como jogador\"",
+    "status": "agendado",
+    "quando": "13h40, só no X",
+    "img": "img/hoje/direto-tacko-fall.png",
+    "arquivo": "direto-tacko-fall.png",
+    "x": "Tacko Fall ouviu a torcida gritar o nome dele na estreia em casa pelo 76ers e agradeceu: \"É tudo carinho.\"\n\nMas avisou: \"Sou só um bom jogador de basquete. Quero ser visto mais como o Tacko, o jogador.\"\n\nJaylen Brown: \"Seria ótimo ver o Tacko ter uma chance.\"\n\nVia PhillyVoice.",
+    "obs": "Feed do Instagram cheio hoje (4 posts), por isso só no X. Citações da matéria de Adam Aaronson.",
+    "link": "https://www.phillyvoice.com/sixers-news-76ers-analysis-tacko-fall-highlights-interview-bio-stats-jaylen-brown-nba-rumors/",
+    "linkTexto": "Matéria (PhillyVoice)"
    },
    {
     "tipo": "Número do dia: Edgecombe, 38,8% de três",
