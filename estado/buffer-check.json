@@ -1,9 +1,0 @@
-{
-  "verificado_em": "2026-11-13T14:54:00Z",
-  "status_verificacao": "falhou",
-  "motivo": "Conector do Buffer indisponível nesta execução (falha de conexão do servidor MCP, HTTP 502). Nenhum dado de canais ou posts pôde ser lido; listas vazias abaixo NÃO significam ausência de posts ou erros.",
-  "canais": [],
-  "enviados": [],
-  "agendados": [],
-  "erros": []
-}
