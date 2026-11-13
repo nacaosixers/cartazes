@@ -1,6 +1,6 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "sexta, 13/11, às 13h25",
+ "atualizado": "sexta, 13/11, às 15h45",
  "motor": {
   "ligado": true,
   "texto": "Ligado. Última rodada: radar, 13h22."
@@ -8,11 +8,11 @@ window.CENTRAL = {
  "campanha": "10 vitórias e 3 derrotas",
  "hoje": {
   "data": "Sexta, 13/11",
-  "resumo": "Dia sem jogo depois da vitória de 123 a 112 sobre o Raptors: placar às 8h30, Embiid às 9h30 (X), Raio-X às 12h, Tacko Fall às 13h40 (X), número do dia às 16h e reel às 19h30.",
+  "resumo": "Dia sem jogo depois da vitória de 123 a 112 sobre o Raptors: placar, Embiid, Raio-X e Tacko Fall já saíram. Faltam o número do dia às 16h, o Raio-X no TikTok às 16h30, o reel às 19h30 e o Adivinha quem é às 21h30 no TikTok.",
   "itens": [
    {
     "tipo": "Placar 76ers x Raptors",
-    "status": "agendado",
+    "status": "publicado",
     "quando": "8h30, no X e no Instagram",
     "img": "img/hoje/placar-76ers-x-raptors.png",
     "arquivo": "placar-76ers-x-raptors.png",
@@ -24,7 +24,7 @@ window.CENTRAL = {
    },
    {
     "tipo": "Notícia: Embiid, \"não tenho sido agressivo\"",
-    "status": "agendado",
+    "status": "publicado",
     "quando": "9h30, só no X",
     "img": "img/hoje/direto-embiid-agressivo.png",
     "arquivo": "direto-embiid-agressivo.png",
@@ -35,7 +35,7 @@ window.CENTRAL = {
    },
    {
     "tipo": "Raio-X 76ers x Raptors (carrossel)",
-    "status": "agendado",
+    "status": "publicado",
     "quando": "12h, no X (4 cartazes) e no Instagram (5)",
     "img": "img/hoje/raiox-raptors-1.png",
     "arquivo": "raiox-raptors-1.png",
@@ -45,7 +45,7 @@ window.CENTRAL = {
    },
    {
     "tipo": "Notícia: Tacko Fall, \"quero ser visto como jogador\"",
-    "status": "agendado",
+    "status": "publicado",
     "quando": "13h40, só no X",
     "img": "img/hoje/direto-tacko-fall.png",
     "arquivo": "direto-tacko-fall.png",
@@ -69,13 +69,23 @@ window.CENTRAL = {
    {
     "tipo": "Reel: Raio-X em 3 números",
     "status": "agendado",
-    "quando": "19h30, no Instagram (Reels), no X e no TikTok",
-    "img": "img/hoje/raiox-raptors-1.png",
-    "arquivo": "reel-raiox-raptors.mp4",
+    "quando": "19h30 no Instagram (Reels) e no X; 16h30 no TikTok",
+    "img": "img/hoje/reel-raiox-raptors.png",
+    "arquivo": "reel-raiox-raptors-v3.mp4",
     "x": "3 números que explicam 76ers 123 x 112 Raptors. 🔎\n\nDomingo tem 76ers x Pacers, 15h de Brasília.",
     "ig": "3 números que explicam 76ers 123 x 112 Raptors. 🔎\n\nUma sequência de 15 a 0, um meio de jogo de 72 a 54 e um banco com 9 de 13 na bola de três.\n\nDomingo tem 76ers x Pacers, 15h de Brasília. Segue a @nacaosixers para o Raio-X de todo jogo.\n\n#Sixers #76ers #NBABrasil #NBA",
-    "obs": "14 segundos, capa e 3 cenas com o fecho. A imagem aqui é a capa do carrossel.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-13/reel-raiox-raptors.mp4",
+    "obs": "Refeito às 15h30 na versão nova do kit: 33 segundos, com trilha e capa corrigida. A primeira versão saiu no TikTok com uma listra na capa e foi apagada.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-13/reel-raiox-raptors-v3.mp4",
+    "linkTexto": "Ver o vídeo"
+   },
+   {
+    "tipo": "TikTok: Adivinha quem é (Allen Iverson)",
+    "status": "agendado",
+    "quando": "21h30, só no TikTok",
+    "img": "img/hoje/tiktok-adivinha-iverson.png",
+    "arquivo": "tiktok-adivinha-iverson.mp4",
+    "obs": "Formato só do TikTok: 3 pistas (1,83 m, 31,1 pontos, 56 vitórias em 2000-01) e a resposta no fim. Números conferidos em NBA.com, Wikipedia e Stats Crew. Legenda: Adivinha quem é: 3 pistas de uma lenda do 76ers. Acertou? Comenta antes de ver o fim.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-13/tiktok-adivinha-iverson.mp4",
     "linkTexto": "Ver o vídeo"
    }
   ]
