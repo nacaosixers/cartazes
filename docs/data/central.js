@@ -1,6 +1,6 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "sábado, 14/11, às 9h05",
+ "atualizado": "sábado, 14/11, às 19h10",
  "motor": {
   "ligado": true,
   "texto": "Ligado. Última rodada: manhã, 8h10."
@@ -12,7 +12,7 @@ window.CENTRAL = {
   "itens": [
    {
     "tipo": "TikTok: carrossel 8-0 nos jogos apertados",
-    "status": "agendado",
+    "status": "publicado",
     "quando": "12h, só no TikTok (3 fotos)",
     "img": "img/hoje/direto-lebron-panico.png",
     "arquivo": "direto-lebron-panico.png",
@@ -22,7 +22,7 @@ window.CENTRAL = {
    },
    {
     "tipo": "Número do dia: 8-0 nos jogos apertados",
-    "status": "agendado",
+    "status": "publicado",
     "quando": "16h, no X e no Instagram",
     "img": "img/hoje/numero-clutch.png",
     "arquivo": "numero-clutch.png",
@@ -35,13 +35,13 @@ window.CENTRAL = {
    {
     "tipo": "Reel: o começo do 76ers em 3 números",
     "status": "agendado",
-    "quando": "18h no TikTok; 19h30 no Instagram (Reels) e no X",
+    "quando": "19h30 no Instagram (Reels) e no X; no TikTok, reenviado às 20h15",
     "img": "img/hoje/reel-comeco-3-numeros.png",
-    "arquivo": "reel-comeco-3-numeros-v4.mp4",
+    "arquivo": "reel-comeco-3-numeros-v5.mp4",
     "x": "O começo do 76ers em 3 números: 10-3, invicto nos jogos apertados (8-0) e 26,7 pontos por jogo de Tyrese Maxey. 🔎\n\nDomingo tem 76ers x Pacers, 15h de Brasília.",
     "ig": "O começo do 76ers em 3 números. 🔎\n\n10-3, a segunda melhor campanha do Leste. 8-0 nos jogos apertados. E 26,7 pontos por jogo de Tyrese Maxey.\n\nDomingo tem 76ers x Pacers, 15h de Brasília. Segue a @nacaosixers para não perder nenhum jogo.\n\nFonte: Land of Basketball, Crossing Broad e FanSided.\n\n#Sixers #76ers #NBABrasil #NBA",
-    "obs": "Refeito às 8h40 com o gancho novo: primeira cena inteira desde o início, 19 segundos em vez de 30.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/reel-comeco-3-numeros-v4.mp4",
+    "obs": "Versão final: troca de cena com corte seco, sem a faixa azul que aparecia na capa do TikTok das 18h. 19 segundos, gancho inteiro desde o primeiro quadro.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/reel-comeco-3-numeros-v5.mp4",
     "linkTexto": "Ver o vídeo"
    },
    {
@@ -49,9 +49,9 @@ window.CENTRAL = {
     "status": "agendado",
     "quando": "21h30, só no TikTok",
     "img": "img/hoje/tiktok-explicando-76ers.png",
-    "arquivo": "tiktok-explicando-76ers-v4.mp4",
-    "obs": "Refeito às 8h40 com o gancho novo: 20 segundos em vez de 33. Formato para quem está chegando: Maxey, Embiid, LeBron, Brown, Edgecombe e Simons.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/tiktok-explicando-76ers-v4.mp4",
+    "arquivo": "tiktok-explicando-76ers-v5.mp4",
+    "obs": "Versão final, com corte seco entre cenas e capa limpa. 20 segundos. Formato para quem está chegando: Maxey, Embiid, LeBron, Brown, Edgecombe e Simons.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/tiktok-explicando-76ers-v5.mp4",
     "linkTexto": "Ver o vídeo"
    },
    {
@@ -59,9 +59,9 @@ window.CENTRAL = {
     "status": "promover",
     "quando": "hoje, depois das 21h30",
     "img": "img/hoje/tiktok-explicando-76ers.png",
-    "arquivo": "tiktok-explicando-76ers-v4.mp4",
-    "obs": "Os dois vídeos já estão agendados no Buffer e saem sozinhos (18h e 21h30). Isto é só o impulso pago, que o TikTok não deixa automatizar: depois das 21h30, no app, Promover novamente > Mais seguidores > público Nação NBA > R$ 25 por 24 horas, com Explicando o 76ers e O começo em 3 números. Por quê: são os primeiros com o gancho novo, e o Explicando é feito para quem está chegando.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/tiktok-explicando-76ers-v4.mp4",
+    "arquivo": "tiktok-explicando-76ers-v5.mp4",
+    "obs": "Os dois vídeos já estão agendados no Buffer e saem sozinhos (20h15 e 21h30). Isto é só o impulso pago, que o TikTok não deixa automatizar: depois das 21h30, no app, Promover novamente > Mais seguidores > público Nação NBA > R$ 25 por 24 horas, com Explicando o 76ers e O começo em 3 números. Por quê: são os primeiros com o gancho novo, e o Explicando é feito para quem está chegando.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/tiktok-explicando-76ers-v5.mp4",
     "linkTexto": "Ver o vídeo"
    }
   ]
