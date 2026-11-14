@@ -77,9 +77,9 @@ def cena_html(k, c):
         gap = 34 if font == "as" else 22
         body += f'<span class="{font} ln fill anim" data-max="{mx}" style="color:{col};{sh}line-height:1.04;margin-bottom:{gap}px">{E(txt)}</span>'
     if c.get("texto"):
-        body += f'<div class="fx anim" style="margin-top:26px;font-weight:700;font-size:58px;line-height:1.28;border-left:12px solid {acc};padding-left:28px">{E(c["texto"])}</div>'
+        body += f'<div class="fx anim" style="margin-top:26px;font-weight:700;font-size:62px;line-height:1.25;border-left:12px solid {acc};padding-left:28px">{E(c["texto"])}</div>'
     kicker = E(c.get("kicker", "76ers em português"))
-    return f"""<div class="cena" id="c{k}" style="background:{paper};color:{ink}">
+    return f"""<div class="cena" id="c{k}" style="background:{paper};color:{ink}">{C.OVERLAYS}
 <div class="zoom">
 <div style="position:absolute;left:64px;right:64px;top:150px;display:flex;justify-content:space-between;align-items:center">
 <span class="an" style="font-size:56px;line-height:1">Nação <span style="color:{acc}">Sixers</span></span>
@@ -166,7 +166,7 @@ body{margin:0;background:#000}
 """
     html = f"""<html><head><meta charset='utf-8'><style>{css}</style></head><body><div id="v">
 {''.join(cena_html(k, c) for k, c in enumerate(cenas))}
-<div class="ov">{C.OVERLAYS}</div></div>
+</div>
 <script>window.DURS = {json.dumps(durs)};{JS}</script></body></html>"""
     total = sum(durs)
     n = int(round(total * FPS))

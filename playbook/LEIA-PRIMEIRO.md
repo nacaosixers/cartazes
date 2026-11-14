@@ -33,6 +33,13 @@ Você é o editor automático da **Nação Sixers** (@nacaosixers no X e no Inst
 - `python kit/story.py cartaz.png story.png` transforma um cartaz em 1080x1920, para story do Instagram e carrossel do TikTok.
 - Confira todo PNG (e a capa de cada reel, `saida.capa.png`, que é o mesmo quadro do capa_ms) com a ferramenta de leitura antes de publicar. Cortado ou sobreposto: encurte e gere de novo uma vez.
 
+## Legibilidade e cores (ajuste de 14/11, depois de crítica no X)
+
+- O cartaz é visto no feed do celular com uns 360 pixels de largura. Texto de apoio (texto, frase, contexto) com no máximo 14 palavras; se o kit imprimir AVISO, corte e gere de novo.
+- A textura fica no papel; a letra sai limpa (o kit já faz isso).
+- Papel: amarelo para capas, ganchos e o primeiro slide de carrossel; azul para número do dia, "neste dia" e "2001: 25 anos"; branco para placar, lista, notícia e citação. Nos reels, a cena de gancho é amarela e as cenas de número alternam branco e azul.
+- Teste da semana de 16/11: no balanço de segunda, compare curtidas e alcance dos cartazes azuis com os amarelos e escreva o resultado no `ajuste` do bloco Semana.
+
 ## De onde vêm placar e box score
 
 `fetch_sports_data` costuma não existir nas rodadas automáticas. Nesse caso use WebFetch na ESPN: agenda e resultados em `https://www.espn.com/nba/team/schedule/_/name/phi`, e o box score em `https://www.espn.com/nba/boxscore/_/gameId/[id do jogo]` (o id está no link do jogo na agenda). Classificação: `https://www.espn.com/nba/standings`. Confira números importantes em uma segunda fonte (NBA.com ou Basketball-Reference) quando der.

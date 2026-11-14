@@ -23,6 +23,8 @@ Uso:
 
 O 76ers sai sempre em vermelho, os adversários em azul. Se o texto for longo, a letra diminui sozinha;
 se mesmo assim não couber, o comando termina com erro: encurte o texto. Nunca use travessão.
+Legibilidade (feedback de 14/11): texto de apoio com até 14 palavras; a textura fica no papel, a letra sai limpa.
+Papel: amarelo para capas e ganchos; azul para número do dia e "neste dia"; branco para placar, lista e notícia.
 Requer python playwright (Chromium já instalado) e npm (baixa as fontes na primeira execução).
 """
 import argparse, base64, html, pathlib, re, subprocess, sys, tempfile
@@ -83,9 +85,9 @@ body{{background:#888}}
 DEFS = """<svg width="0" height="0" style="position:absolute"><defs>
 <filter id="ink" x="-2%" y="-2%" width="104%" height="104%" color-interpolation-filters="sRGB">
 <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="4" result="n"/>
-<feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
 <feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="2" seed="9" result="m"/>
-<feColorMatrix in="m" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .32 .8" result="dens"/>
+<feColorMatrix in="m" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .06 .97" result="dens"/>
 <feComposite in="d" in2="dens" operator="in"/>
 </filter></defs></svg>"""
 
@@ -116,7 +118,7 @@ def tag(text, bg=VERMELHO, fg=None, outline=False):
 
 
 def frame(paper, kicker, foot, main, extra="", ink=AZUL, accent=VERMELHO):
-    return f"""<div id="a" class="c" style="width:1080px;height:1350px;background:{paper};color:{ink}">{DEFS}
+    return f"""<div id="a" class="c" style="width:1080px;height:1350px;background:{paper};color:{ink}">{DEFS}{OVERLAYS}
 <div class="ink" style="position:absolute;inset:0">
 <div style="position:absolute;left:64px;right:64px;top:44px;display:flex;justify-content:space-between;align-items:center;gap:24px">
 <span class="an" style="font-size:48px;letter-spacing:.02em;line-height:1;white-space:nowrap">Nação <span style="color:{accent}">Sixers</span></span>
@@ -126,7 +128,7 @@ def frame(paper, kicker, foot, main, extra="", ink=AZUL, accent=VERMELHO):
 <div style="position:absolute;left:64px;right:64px;top:1226px;height:8px;background:{ink}"></div>
 <div class="up" style="position:absolute;left:64px;right:64px;top:1254px;display:flex;justify-content:space-between;gap:24px;font-weight:800;font-size:22px;letter-spacing:.08em;line-height:1.2">
 <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{E(foot)}</span><span style="color:{accent};white-space:nowrap">{ARROBA}</span></div>
-{extra}</div>{OVERLAYS}</div>"""
+{extra}</div></div>"""
 
 
 def main_box(inner, jc="center", gap=0):
@@ -166,7 +168,7 @@ def placar(a):
     label = "Vitória" if win else "Derrota" if s_pts is not None else "Final"
     sc = VERMELHO if win else AZUL
     stamp = f"""<div class="an" style="transform:rotate(-7deg);border:8px solid {sc};outline:3px solid {sc};outline-offset:7px;padding:8px 26px 4px;color:{sc};font-size:92px;letter-spacing:.05em;line-height:1;margin-right:14px">{label}</div>"""
-    frase = f"""<div class="fx" style="margin-top:44px;font-weight:700;font-size:40px;line-height:1.28;border-left:10px solid {VERMELHO};padding-left:26px">{E(a.frase)}</div>""" if a.frase else ""
+    frase = f"""<div class="fx" style="margin-top:44px;font-weight:700;font-size:48px;line-height:1.25;border-left:10px solid {VERMELHO};padding-left:26px">{E(a.frase)}</div>""" if a.frase else ""
     inner = f"""<div style="display:flex;justify-content:space-between;align-items:center;gap:24px;padding-bottom:34px">
 <div style="display:flex;flex-direction:column;gap:8px"><span class="an" style="font-size:96px;line-height:.9">Placar</span>
 <span class="up" style="font-weight:800;font-size:26px;letter-spacing:.1em">{E(a.liga)} · {E(a.contexto or 'Fim de jogo')}</span></div>{stamp}</div>
@@ -182,7 +184,7 @@ def direto(a):
 <div class="an grow" data-max="160" data-h="620" style="line-height:1.02">{E(q)}</div>
 <div style="margin-top:46px;display:flex;flex-direction:column;gap:10px">
 <span class="as fx" style="font-size:54px;line-height:1;color:{VERMELHO}">{E(a.autor)}</span>
-<span class="fx" style="font-weight:700;font-size:32px;line-height:1.25">{E(a.contexto)}</span></div>"""
+<span class="fx" style="font-weight:700;font-size:40px;line-height:1.25">{E(a.contexto)}</span></div>"""
     return frame(PAPEL["branco"], a.data or "Aspas", f"Fonte: {a.fonte}" if a.fonte else "76ers em português", main_box(inner, "flex-start"))
 
 
@@ -191,7 +193,7 @@ def manchete(a):
     size = 136 if len(t) <= 30 else 114 if len(t) <= 55 else 94 if len(t) <= 85 else 78
     s = a.selo.strip().lower()
     selo = tag(a.selo, AZUL) if s == "rumor" else tag(a.selo, AZUL, outline=True) if s.startswith("opini") else tag(a.selo)
-    texto = f"""<div class="fx" style="margin-top:40px;font-weight:700;font-size:40px;line-height:1.3;border-left:10px solid {VERMELHO};padding-left:26px">{E(a.texto)}</div>""" if a.texto else ""
+    texto = f"""<div class="fx" style="margin-top:40px;font-weight:700;font-size:48px;line-height:1.25;border-left:10px solid {VERMELHO};padding-left:26px">{E(a.texto)}</div>""" if a.texto else ""
     inner = f"""<div>{selo}</div><div class="an grow" data-max="190" data-h="820" style="margin-top:44px;line-height:1.02">{E(t)}</div>{texto}"""
     return frame(PAPEL["branco"], a.data or "Direto da Filadélfia", f"Fonte: {a.fonte}" if a.fonte else "76ers em português", main_box(inner, "flex-start"))
 
@@ -238,7 +240,7 @@ def cartaz(a):
         txt, font, cor, mx = p[0], p[1] or "an", p[2] or "azul", p[3] or "300"
         shadow = f"text-shadow:9px 9px 0 {AZUL};" if (font == "as" and cor == "vermelho" and a.papel != "azul") else ""
         lines += f'<span class="{font} ln fill" data-max="{mx}" style="color:{COR.get(cor, AZUL)};{shadow}margin:4px 0">{E(txt)}</span>'
-    texto = f"""<div class="fx" style="margin-top:34px;border-top:8px solid {ink};padding-top:28px;font-weight:700;font-size:42px;line-height:1.3">{E(a.texto)}</div>""" if a.texto else ""
+    texto = f"""<div class="fx" style="margin-top:34px;border-top:8px solid {ink};padding-top:28px;font-weight:700;font-size:48px;line-height:1.25">{E(a.texto)}</div>""" if a.texto else ""
     return frame(paper, a.kicker, a.rodape, main_box(lines + texto), ink=ink, accent=VERMELHO if a.papel != "azul" else "#FFD71F")
 
 
@@ -248,17 +250,17 @@ def numero(a):
     ink, acc = (CREME, "#FFD71F") if azul else (AZUL, VERMELHO)
     chip = tag(a.chip, "#FFD71F", fg=AZUL) if azul else tag(a.chip)
     shadow = "" if azul else f"text-shadow:10px 10px 0 {AZUL};"
-    texto = f"""<div class="fx" style="margin-top:34px;font-weight:700;font-size:40px;line-height:1.3;border-left:10px solid {acc};padding-left:26px">{E(a.texto)}</div>""" if a.texto else ""
+    texto = f"""<div class="fx" style="margin-top:34px;font-weight:700;font-size:48px;line-height:1.25;border-left:10px solid {acc};padding-left:26px">{E(a.texto)}</div>""" if a.texto else ""
     inner = f"""<div>{chip}</div>
 <span class="as ln fill" data-max="520" style="color:{acc};{shadow}margin:34px 0 18px">{E(a.numero)}</span>
 <div class="an grow" data-max="104" data-h="330" style="line-height:1.02">{E(a.rotulo)}</div>{texto}"""
     foot = f"Fonte: {a.fonte}" if a.fonte else "76ers em português"
-    return frame(paper, a.kicker or a.data or a.chip, foot, main_box(inner), ink=ink, accent=acc)
+    return frame(paper, a.kicker or a.data or "76ers em português", foot, main_box(inner), ink=ink, accent=acc)
 
 
 def sheet(w, h, paper, inner, ink=AZUL):
     return f"""<div id="a" class="c" style="width:{w}px;height:{h}px;background:{paper};color:{ink}">{DEFS}
-<div class="ink" style="position:absolute;inset:0">{inner}</div>{OVERLAYS}</div>"""
+{OVERLAYS}<div class="ink" style="position:absolute;inset:0">{inner}</div></div>"""
 
 
 def perfil_jobs():
@@ -343,7 +345,7 @@ def main():
     add("manchete", ("selo", "titulo", "out"), (("texto", ""), ("fonte", ""), ("data", ""), ("tag", "")))
     add("lista", ("chip", "titulo", "out"), (("fonte", ""), ("data", ""), ("tag", "")), ("item",))
     add("agenda", ("periodo", "out"), (), ("jogo",))
-    add("numero", ("numero", "rotulo", "out"), (("chip", "Número do dia"), ("texto", ""), ("fonte", ""), ("data", ""), ("papel", "branco"), ("kicker", "")))
+    add("numero", ("numero", "rotulo", "out"), (("chip", "Número do dia"), ("texto", ""), ("fonte", ""), ("data", ""), ("papel", "azul"), ("kicker", "")))
     add("cartaz", ("out",), (("papel", "amarelo"), ("texto", ""), ("kicker", "76ers em português"), ("rodape", "Perfil de fã · não oficial")), ("linha",))
     pp = sp.add_parser("perfil"); pp.add_argument("--pasta", default="img")
     a = ap.parse_args()
@@ -351,6 +353,10 @@ def main():
         for s in (v if isinstance(v, list) else [v]):
             if isinstance(s, str) and ("—" in s or " – " in s):
                 sys.exit("Texto com travessão. Troque por vírgula, dois-pontos ou ponto.")
+    for campo in ("texto", "frase", "contexto"):
+        v = getattr(a, campo, "") or ""
+        if len(v.split()) > 14:
+            print(f"AVISO: --{campo} tem {len(v.split())} palavras. No feed do celular, mais de 14 fica pequeno demais: corte.")
     ensure_fonts()
     if a.cmd == "perfil":
         pasta = pathlib.Path(a.pasta); pasta.mkdir(parents=True, exist_ok=True)
