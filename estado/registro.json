@@ -67,6 +67,12 @@
    "titulo": "Tacko Fall: quero ser visto como jogador de basquete (gritos da torcida)",
    "data": "2026-11-13",
    "status": "agendado"
+  },
+  {
+   "url": "https://www.crossingbroad.com/news/sixers/the-sixers-are-the-nbas-most-clutch-team/",
+   "titulo": "8-0 nos jogos apertados (Crossing Broad, FanSided, LeBron no Fadeaway World)",
+   "data": "2026-11-14",
+   "status": "agendado"
   }
  ],
  "curiosidades": [
@@ -77,6 +83,10 @@
   {
    "tema": "Número do dia: Edgecombe 38,8% de três",
    "data": "2026-11-13"
+  },
+  {
+   "tema": "Número do dia: 8-0 nos jogos apertados",
+   "data": "2026-11-14"
   }
  ],
  "reels": [
@@ -91,6 +101,10 @@
   {
    "tema": "Raio-X 76ers x Raptors",
    "data": "2026-11-13"
+  },
+  {
+   "tema": "O começo do 76ers em 3 números (10-3, 8-0, Maxey 26,7)",
+   "data": "2026-11-14"
   }
  ],
  "prejogos": [
@@ -113,6 +127,21 @@
    "formato": "Adivinha quem é",
    "tema": "Allen Iverson (1,83 m, 31,1 pontos, 56 vitórias em 2000-01)",
    "data": "2026-11-13"
+  },
+  {
+   "formato": "Carrossel",
+   "tema": "8-0 nos jogos apertados (número, LeBron, Maxey)",
+   "data": "2026-11-14"
+  },
+  {
+   "formato": "Reel",
+   "tema": "O começo do 76ers em 3 números",
+   "data": "2026-11-14"
+  },
+  {
+   "formato": "Explicando o 76ers",
+   "tema": "Quem é quem: Maxey, Brown, Embiid, LeBron, Edgecombe, Simons",
+   "data": "2026-11-14"
   }
  ]
 }
