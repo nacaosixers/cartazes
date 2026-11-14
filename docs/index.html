@@ -62,6 +62,7 @@ section { display: flex; flex-direction: column; gap: 14px; scroll-margin-top: 1
 .pill.agendado { border-color: var(--blue); color: var(--blue); }
 .pill.rascunho { border-color: var(--red); background: var(--red); color: var(--paper); }
 .pill.manual { border-color: var(--ink); background: var(--yellow); color: var(--ink); }
+.pill.promover { border-color: var(--red); color: var(--red); border-style: dashed; }
 
 .item { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; align-items: start; }
 .item-main { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
@@ -371,7 +372,7 @@ Perfil de fã, sem vínculo com o Philadelphia 76ers ou com a NBA.
   $('atualizado').textContent = D.atualizado || 'Sem dado';
 
   // Hoje
-  var STATUS = { publicado: 'Publicado', agendado: 'Agendado', rascunho: 'Rascunho: aprove no Buffer', manual: 'Poste à mão' };
+  var STATUS = { publicado: 'Publicado', agendado: 'Agendado', rascunho: 'Rascunho: aprove no Buffer', manual: 'Ação sua no app', promover: 'Promoção paga · opcional, no app' };
   function copyBox(titulo, texto) {
     var box = el('div', 'copy'), head = el('div', 'copy-head');
     head.appendChild(el('span', null, titulo));

@@ -81,7 +81,7 @@ Nunca use shareNow. Nunca edite nem apague post que não foi você que criou na 
 Teste de 13/11 no TikTok: R$ 24 em 12 horas, 51 seguidores, R$ 0,47 cada, curtidas acima da média. Mas só 20% assistiram 2 segundos e ninguém viu até o fim: por isso o gancho na cena 1. No Instagram o impulso quase não rodou: sem indicação de Instagram por enquanto.
 
 Na rodada da manhã, escolha **um vídeo do TikTok para promover hoje** e coloque como item da central: `list_posts` só do canal TikTok, status sent, últimos 2 dias, `includeMetrics: true`, `first: 6`. Prefira o que tiver mais visualizações e curtidas (as métricas do Buffer atrasam até 24 h). Sem números, escolha o vídeo mais novo de formato próprio do TikTok (Adivinha quem é, Você sabia?, Explicando) ou o placar em vídeo do último jogo. Nunca indique vídeo com mais de 3 dias.
-Item: `{"tipo": "Para promover no TikTok", "status": "manual", "quando": "hoje, entre 18h e 20h", "img": capa, "obs": "Promover > Mais seguidores > público Nação NBA > R$ 25 por 24 horas. Por quê: [motivo com o número]", "link": link raw do vídeo, "linkTexto": "Ver o vídeo"}`.
+Item: `{"tipo": "Promoção paga no TikTok (opcional)", "status": "promover", "quando": "hoje, entre 18h e 20h", "img": capa, "obs": "O vídeo já está agendado (ou publicado) pelo Buffer e sai sozinho. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA > R$ 25 por 24 horas. Por quê: [motivo com o número]", "link": link raw do vídeo, "linkTexto": "Ver o vídeo"}`. Nunca use status "manual" para post: todo post vai agendado no Buffer.
 
 ## Objetivo de longo prazo: ser notado pelo 76ers
 
@@ -100,7 +100,7 @@ Copie a mídia do dia para `dias/AAAA-MM-DD/[nome]` no repositório, faça commi
 ## Central (atualize no fim da rodada, quando algo mudou)
 
 1. Artifact action "read" na url da central (o resultado diz onde salvou a página) e leia também o path `data/central.js` para ver o formato.
-2. Reescreva `data/central.js` no mesmo formato: atualizado (dia e hora de Brasília), motor {ligado: true, texto: "Ligado. Última rodada: [turno], [hora]."}, campanha, hoje {data, resumo em uma frase, itens}, cola (ou null), jogos (próximos 8), e `semana` quando o turno pedir. Cada item de hoje: {tipo, status ("publicado", "agendado", "rascunho" ou "manual"), quando, img, arquivo, x, ig, obs, link}. Mantenha os itens do dia que já estavam lá.
+2. Reescreva `data/central.js` no mesmo formato: atualizado (dia e hora de Brasília), motor {ligado: true, texto: "Ligado. Última rodada: [turno], [hora]."}, campanha, hoje {data, resumo em uma frase, itens}, cola (ou null), jogos (próximos 8), e `semana` quando o turno pedir. Cada item de hoje: {tipo, status ("publicado", "agendado" ou "promover"), quando, img, arquivo, x, ig, obs, link}. Mantenha os itens do dia que já estavam lá.
 3. Publique com Artifact: url da central, file_path = página salva pelo read, files = {"data/central.js": ..., "img/hoje/[nome].png": cada imagem nova}. Não apague os outros arquivos.
 4. Cópia no GitHub Pages: grave o mesmo central.js em `docs/data/central.js` e as imagens em `docs/img/hoje/` (apague as de dias anteriores). Não mexa em `docs/index.html`. Commit e push.
 

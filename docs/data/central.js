@@ -1,6 +1,6 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "sábado, 14/11, às 8h50",
+ "atualizado": "sábado, 14/11, às 9h05",
  "motor": {
   "ligado": true,
   "texto": "Ligado. Última rodada: manhã, 8h10."
@@ -55,12 +55,12 @@ window.CENTRAL = {
     "linkTexto": "Ver o vídeo"
    },
    {
-    "tipo": "Para promover no TikTok",
-    "status": "manual",
+    "tipo": "Promoção paga no TikTok (opcional)",
+    "status": "promover",
     "quando": "hoje, depois das 21h30",
     "img": "img/hoje/tiktok-explicando-76ers.png",
     "arquivo": "tiktok-explicando-76ers-v4.mp4",
-    "obs": "Promover > Mais seguidores > público Nação NBA > R$ 25 por 24 horas, com dois vídeos: Explicando o 76ers (21h30) e O começo em 3 números (18h). Por quê: são os primeiros com o gancho novo, e o Explicando é feito para quem está chegando.",
+    "obs": "Os dois vídeos já estão agendados no Buffer e saem sozinhos (18h e 21h30). Isto é só o impulso pago, que o TikTok não deixa automatizar: depois das 21h30, no app, Promover novamente > Mais seguidores > público Nação NBA > R$ 25 por 24 horas, com Explicando o 76ers e O começo em 3 números. Por quê: são os primeiros com o gancho novo, e o Explicando é feito para quem está chegando.",
     "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/tiktok-explicando-76ers-v4.mp4",
     "linkTexto": "Ver o vídeo"
    }
