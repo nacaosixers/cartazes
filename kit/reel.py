@@ -26,8 +26,8 @@ Número só com dígitos e maior ou igual a 20 sobe contando. "cta": true fecha 
 "trilha": true (padrão) coloca uma batida original de fundo; false deixa sem som.
 O conteúdo fica na área segura do Reels/TikTok (longe do topo, do rodapé e dos botões da direita).
 Nunca use travessão nos textos.
-No fim, imprime capa_ms: é o thumbnailOffset certo (o mesmo quadro de saida.capa.png). Nunca use um número fixo:
-um quadro no fim da cena pega a transição (listra) na capa.
+Troca de cena com corte seco (sem faixa colorida: ela aparecia nas capas). No fim, imprime capa_ms (500):
+use como thumbnailOffset; é o quadro de saida.capa.png, com o gancho inteiro.
 """
 import json, pathlib, subprocess, sys, tempfile
 
@@ -89,7 +89,6 @@ def cena_html(k, c):
 <div style="position:absolute;left:64px;right:64px;top:1530px;height:10px;background:{ink}"></div>
 <div class="up" style="position:absolute;left:64px;top:1560px;font-weight:800;font-size:32px;letter-spacing:.1em;color:{acc}">@nacaosixers</div>
 </div>
-<div class="wipe" style="background:{C.VERMELHO if papel != 'amarelo' else C.AZUL}"></div>
 </div>"""
 
 
@@ -132,8 +131,6 @@ window.setT = (t) => {
     el.style.transform = `translateY(${(1 - p) * 36}px)`;
     if (el.dataset.conta) { const q = ease((lt - 0.15 - i * 0.30) / 0.9); el.textContent = String(Math.round(+el.dataset.conta * q)); }
   });
-  const w = sc.querySelector('.wipe'), rem = starts[idx] + durs[idx] - t;
-  w.style.transform = (idx < scenes.length - 1 && rem < 0.35) ? `translateX(${(rem / 0.35) * 100}%)` : 'translateX(100%)';
 };
 """
 
@@ -195,14 +192,14 @@ body{margin:0;background:#000}
         for f in range(n):
             pg.evaluate(f"window.setT({f / FPS:.4f})")
             ff.stdin.write(el.screenshot(type="jpeg", quality=90))
-        pg.evaluate(f"window.setT({max(min(durs[0] - 0.8, 1.2), 0.3):.3f})")
+        pg.evaluate("window.setT(0.5)")
         el.screenshot(path=str(pathlib.Path(out).with_suffix(".capa.png")))
         b.close()
     ff.stdin.close(); ff.wait()
     if ff.returncode != 0:
         sys.exit("ffmpeg falhou ao montar o vídeo.")
     print(out, f"{total:.1f}s", " + ".join(f"{d:.1f}" for d in durs))
-    print(f"capa_ms={int(max(min(durs[0] - 0.8, 1.2), 0.3) * 1000)}  (use este numero como thumbnailOffset no Instagram e no TikTok)")
+    print(f"capa_ms={int(0.5 * 1000)}  (use este numero como thumbnailOffset no Instagram e no TikTok)")
 
 
 if __name__ == "__main__":
