@@ -1,6 +1,6 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "sábado, 14/11, às 8h10",
+ "atualizado": "sábado, 14/11, às 8h50",
  "motor": {
   "ligado": true,
   "texto": "Ligado. Última rodada: manhã, 8h10."
@@ -37,11 +37,11 @@ window.CENTRAL = {
     "status": "agendado",
     "quando": "18h no TikTok; 19h30 no Instagram (Reels) e no X",
     "img": "img/hoje/reel-comeco-3-numeros.png",
-    "arquivo": "reel-comeco-3-numeros.mp4",
+    "arquivo": "reel-comeco-3-numeros-v4.mp4",
     "x": "O começo do 76ers em 3 números: 10-3, invicto nos jogos apertados (8-0) e 26,7 pontos por jogo de Tyrese Maxey. 🔎\n\nDomingo tem 76ers x Pacers, 15h de Brasília.",
     "ig": "O começo do 76ers em 3 números. 🔎\n\n10-3, a segunda melhor campanha do Leste. 8-0 nos jogos apertados. E 26,7 pontos por jogo de Tyrese Maxey.\n\nDomingo tem 76ers x Pacers, 15h de Brasília. Segue a @nacaosixers para não perder nenhum jogo.\n\nFonte: Land of Basketball, Crossing Broad e FanSided.\n\n#Sixers #76ers #NBABrasil #NBA",
-    "obs": "Reel semanal do número do dia. 30 segundos, capa_ms 4120. Campanha e médias do Land of Basketball.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/reel-comeco-3-numeros.mp4",
+    "obs": "Refeito às 8h40 com o gancho novo: primeira cena inteira desde o início, 19 segundos em vez de 30.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/reel-comeco-3-numeros-v4.mp4",
     "linkTexto": "Ver o vídeo"
    },
    {
@@ -49,22 +49,72 @@ window.CENTRAL = {
     "status": "agendado",
     "quando": "21h30, só no TikTok",
     "img": "img/hoje/tiktok-explicando-76ers.png",
-    "arquivo": "tiktok-explicando-76ers.mp4",
-    "obs": "Formato só do TikTok, para quem está chegando: Maxey (26,7 pontos), Brown (21,2), Embiid (17,9 e 8,8 rebotes), LeBron (6,5 assistências), Edgecombe (12,9 no segundo ano) e Simons (42,7% de três). Médias do Land of Basketball. Legenda: Explicando o 76ers: quem é quem no time. Chegou agora? Segue a Nação.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/tiktok-explicando-76ers.mp4",
+    "arquivo": "tiktok-explicando-76ers-v4.mp4",
+    "obs": "Refeito às 8h40 com o gancho novo: 20 segundos em vez de 33. Formato para quem está chegando: Maxey, Embiid, LeBron, Brown, Edgecombe e Simons.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/tiktok-explicando-76ers-v4.mp4",
+    "linkTexto": "Ver o vídeo"
+   },
+   {
+    "tipo": "Para promover no TikTok",
+    "status": "manual",
+    "quando": "hoje, depois das 21h30",
+    "img": "img/hoje/tiktok-explicando-76ers.png",
+    "arquivo": "tiktok-explicando-76ers-v4.mp4",
+    "obs": "Promover > Mais seguidores > público Nação NBA > R$ 25 por 24 horas, com dois vídeos: Explicando o 76ers (21h30) e O começo em 3 números (18h). Por quê: são os primeiros com o gancho novo, e o Explicando é feito para quem está chegando.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-14/tiktok-explicando-76ers-v4.mp4",
     "linkTexto": "Ver o vídeo"
    }
   ]
  },
  "cola": null,
  "jogos": [
-  {"d": "DOM 15/11", "j": "76ers x Pacers", "h": "15h", "o": ""},
-  {"d": "SEG 16/11", "j": "Nets x 76ers", "h": "21h30", "o": ""},
-  {"d": "QUA 18/11", "j": "Magic x 76ers", "h": "21h", "o": ""},
-  {"d": "SÁB 21/11", "j": "76ers x Bucks", "h": "15h", "o": ""},
-  {"d": "SEG 23/11", "j": "76ers x Trail Blazers", "h": "21h", "o": ""},
-  {"d": "QUA 25/11", "j": "76ers x Heat", "h": "19h", "o": ""},
-  {"d": "SEX 27/11", "j": "Pacers x 76ers", "h": "21h30", "o": ""},
-  {"d": "SÁB 28/11", "j": "Rockets x 76ers", "h": "22h30", "o": ""}
+  {
+   "d": "DOM 15/11",
+   "j": "76ers x Pacers",
+   "h": "15h",
+   "o": ""
+  },
+  {
+   "d": "SEG 16/11",
+   "j": "Nets x 76ers",
+   "h": "21h30",
+   "o": ""
+  },
+  {
+   "d": "QUA 18/11",
+   "j": "Magic x 76ers",
+   "h": "21h",
+   "o": ""
+  },
+  {
+   "d": "SÁB 21/11",
+   "j": "76ers x Bucks",
+   "h": "15h",
+   "o": ""
+  },
+  {
+   "d": "SEG 23/11",
+   "j": "76ers x Trail Blazers",
+   "h": "21h",
+   "o": ""
+  },
+  {
+   "d": "QUA 25/11",
+   "j": "76ers x Heat",
+   "h": "19h",
+   "o": ""
+  },
+  {
+   "d": "SEX 27/11",
+   "j": "Pacers x 76ers",
+   "h": "21h30",
+   "o": ""
+  },
+  {
+   "d": "SÁB 28/11",
+   "j": "Rockets x 76ers",
+   "h": "22h30",
+   "o": ""
+  }
  ]
 };
