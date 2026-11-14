@@ -18,8 +18,10 @@ roteiro.json:
 
 Cada cena tem "linhas" (lista de [texto, fonte an|as, cor azul|vermelho|creme|amarelo, tamanho máximo])
 ou "numero" + "rotulo". "texto" e "kicker" são opcionais.
-Duração: calculada sozinha pelo tamanho do texto, para dar tempo de ler (entre 3,8 e 7 segundos por cena).
-Só use "dur" para deixar uma cena mais longa que isso.
+Cena 1 é o GANCHO: aparece inteira já no primeiro quadro (sem animação) e dura 2,4 a 3,2 s. Até 9 palavras,
+uma promessa ou pergunta ("O começo do 76ers em 3 números", "Só fã raiz acerta").
+Demais cenas: 3 a 5 s, pelo tamanho do texto. Até 16 palavras por cena: menos texto, não mais tempo.
+Vídeo inteiro: 15 a 22 s. Só use "dur" para deixar uma cena mais longa.
 Número só com dígitos e maior ou igual a 20 sobe contando. "cta": true fecha com "Segue a Nação".
 "trilha": true (padrão) coloca uma batida original de fundo; false deixa sem som.
 O conteúdo fica na área segura do Reels/TikTok (longe do topo, do rodapé e dos botões da direita).
@@ -43,10 +45,14 @@ def palavras(c):
     return len(txt.split())
 
 
-def duracao(c):
+def duracao(c, k=1):
+    if c.get("fixa"):
+        return float(c["dur"])
+    if k == 0:  # gancho: aparece inteiro no primeiro quadro e dura pouco
+        return max(float(c.get("dur", 0)), min(3.2, max(2.4, 1.6 + 0.12 * palavras(c))))
     itens = len(c.get("linhas", [])) + (2 if "numero" in c else 0) + (1 if c.get("texto") else 0)
-    auto = 1.4 + 0.40 * itens + 0.29 * palavras(c)
-    return max(float(c.get("dur", 0)), min(7.0, max(3.8, auto)))
+    auto = 1.0 + 0.30 * itens + 0.25 * palavras(c)
+    return max(float(c.get("dur", 0)), min(5.0, max(3.0, auto)))
 
 
 def cena_html(k, c):
@@ -58,7 +64,7 @@ def cena_html(k, c):
     body = ""
     if "numero" in c:
         num = str(c["numero"])
-        conta = f' data-conta="{num}"' if (num.isdigit() and int(num) >= 20) else ""
+        conta = f' data-conta="{num}"' if (k > 0 and num.isdigit() and int(num) >= 20) else ""
         shadow = "" if azul else f"text-shadow:12px 12px 0 {C.AZUL};"
         body += f'<span class="as ln fill anim"{conta} data-max="600" style="color:{acc};{shadow}line-height:1;margin-bottom:40px">{E(num)}</span>'
         body += f'<div class="an grow anim" data-max="116" data-h="380" style="line-height:1.08">{E(c.get("rotulo", ""))}</div>'
@@ -121,10 +127,10 @@ window.setT = (t) => {
   const sc = scenes[idx], lt = t - starts[idx];
   sc.querySelector('.zoom').style.transform = `scale(${1 + 0.018 * Math.min(lt / durs[idx], 1)})`;
   sc.querySelectorAll('.anim').forEach((el, i) => {
-    const p = ease((lt - 0.25 - i * 0.45) / 0.5);
+    const p = idx === 0 ? 1 : ease((lt - 0.15 - i * 0.30) / 0.4);
     el.style.opacity = p;
     el.style.transform = `translateY(${(1 - p) * 36}px)`;
-    if (el.dataset.conta) { const q = ease((lt - 0.25 - i * 0.45) / 1.1); el.textContent = String(Math.round(+el.dataset.conta * q)); }
+    if (el.dataset.conta) { const q = ease((lt - 0.15 - i * 0.30) / 0.9); el.textContent = String(Math.round(+el.dataset.conta * q)); }
   });
   const w = sc.querySelector('.wipe'), rem = starts[idx] + durs[idx] - t;
   w.style.transform = (idx < scenes.length - 1 && rem < 0.35) ? `translateX(${(rem / 0.35) * 100}%)` : 'translateX(100%)';
@@ -138,12 +144,16 @@ def main():
     cenas = list(roteiro["cenas"])
     if roteiro.get("cta", True):
         cenas.append({"papel": "amarelo", "kicker": "Siga", "linhas": [["Segue a", "an", "azul", 230], ["Nação", "as", "vermelho", 360], ["@nacaosixers", "an", "azul", 140]],
-                      "texto": "O 76ers em português, todo dia.", "dur": 3.6})
+                      "texto": "O 76ers em português, todo dia.", "dur": 2.4, "fixa": True})
     for c in cenas:
         for v in [c.get("texto", ""), c.get("rotulo", ""), c.get("kicker", "")] + [str(x) for ln in c.get("linhas", []) for x in ln]:
             if "—" in str(v) or " – " in str(v):
                 sys.exit("Texto com travessão. Troque por vírgula, dois-pontos ou ponto.")
-    durs = [duracao(c) for c in cenas]
+    durs = [duracao(c, k) for k, c in enumerate(cenas)]
+    for k, c in enumerate(cenas[:-1] if roteiro.get("cta", True) else cenas):
+        lim = 9 if k == 0 else 16
+        if palavras(c) > lim:
+            print(f"AVISO: cena {k + 1} tem {palavras(c)} palavras (máximo recomendado {lim}). Corte texto: no TikTok quem lê demais desiste.")
     C.ensure_fonts()
     css = C.css() + """
 body{margin:0;background:#000}
@@ -185,14 +195,14 @@ body{margin:0;background:#000}
         for f in range(n):
             pg.evaluate(f"window.setT({f / FPS:.4f})")
             ff.stdin.write(el.screenshot(type="jpeg", quality=90))
-        pg.evaluate(f"window.setT({max(durs[0] - 0.8, 0):.3f})")
+        pg.evaluate(f"window.setT({max(min(durs[0] - 0.8, 1.2), 0.3):.3f})")
         el.screenshot(path=str(pathlib.Path(out).with_suffix(".capa.png")))
         b.close()
     ff.stdin.close(); ff.wait()
     if ff.returncode != 0:
         sys.exit("ffmpeg falhou ao montar o vídeo.")
     print(out, f"{total:.1f}s", " + ".join(f"{d:.1f}" for d in durs))
-    print(f"capa_ms={int(max(durs[0] - 0.8, 0) * 1000)}  (use este numero como thumbnailOffset no Instagram e no TikTok)")
+    print(f"capa_ms={int(max(min(durs[0] - 0.8, 1.2), 0.3) * 1000)}  (use este numero como thumbnailOffset no Instagram e no TikTok)")
 
 
 if __name__ == "__main__":
