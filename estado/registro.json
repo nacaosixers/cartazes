@@ -73,6 +73,12 @@
    "titulo": "8-0 nos jogos apertados (Crossing Broad, FanSided, LeBron no Fadeaway World)",
    "data": "2026-11-14",
    "status": "agendado"
+  },
+  {
+   "url": "https://www.espn.com/nba/story/_/id/50484216/76ers-joel-embiid-vs-pacers-due-plantar-fascia-management",
+   "titulo": "Embiid fora contra o Pacers (fascite plantar); LeBron fora do relatório (no pré-jogo)",
+   "data": "2026-11-15",
+   "status": "agendado"
   }
  ],
  "curiosidades": [
@@ -105,12 +111,20 @@
   {
    "tema": "O começo do 76ers em 3 números (10-3, 8-0, Maxey 26,7)",
    "data": "2026-11-14"
+  },
+  {
+   "tema": "Contagem 76ers x Pacers",
+   "data": "2026-11-15"
   }
  ],
  "prejogos": [
   {
    "jogo": "76ers x Raptors",
    "data": "2026-11-12"
+  },
+  {
+   "jogo": "76ers x Pacers",
+   "data": "2026-11-15"
   }
  ],
  "posjogo": [
@@ -142,6 +156,22 @@
    "formato": "Explicando o 76ers",
    "tema": "Quem é quem: Maxey, Brown, Embiid, LeBron, Edgecombe, Simons",
    "data": "2026-11-14"
+  },
+  {
+   "formato": "Carrossel",
+   "tema": "Pré-jogo Pacers + agenda 15 a 23/11",
+   "data": "2026-11-15"
+  },
+  {
+   "formato": "Reel",
+   "tema": "Contagem 76ers x Pacers",
+   "data": "2026-11-15"
+  }
+ ],
+ "agendas": [
+  {
+   "periodo": "15/11 a 23/11",
+   "data": "2026-11-15"
   }
  ]
 }
