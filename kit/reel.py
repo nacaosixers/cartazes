@@ -24,6 +24,7 @@ Demais cenas: 3 a 5 s, pelo tamanho do texto. Até 16 palavras por cena: menos t
 Vídeo inteiro: 15 a 22 s. Só use "dur" para deixar uma cena mais longa.
 Número só com dígitos e maior ou igual a 20 sobe contando. "cta": true fecha com "Segue a Nação".
 "trilha": true (padrão) coloca uma batida original de fundo; false deixa sem som.
+"estilo": pop, drumline, trap, lofi, house ou arena. Nunca repita o estilo dos 2 últimos vídeos (registro "trilhas").
 O conteúdo fica na área segura do Reels/TikTok (longe do topo, do rodapé e dos botões da direita).
 Nunca use travessão nos textos.
 Troca de cena com corte seco (sem faixa colorida: ela aparecia nas capas). No fim, imprime capa_ms (500):
@@ -170,7 +171,9 @@ body{margin:0;background:#000}
     tmp = tempfile.mkdtemp()
     if roteiro.get("trilha", True):
         wav = str(pathlib.Path(tmp) / "trilha.wav")
-        T.salvar(T.trilha(total, int(roteiro.get("semente", n))), wav)
+        estilo = roteiro.get("estilo")
+        T.salvar(T.trilha(total, int(roteiro.get("semente", n)), estilo), wav)
+        print("trilha:", estilo if estilo in T.ESTILOS else list(T.ESTILOS)[int(roteiro.get("semente", n)) % len(T.ESTILOS)])
         audio = ["-i", wav]
     else:
         audio = ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=48000"]
