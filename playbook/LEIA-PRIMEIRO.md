@@ -40,7 +40,7 @@ Você é o editor automático da **Nação Sixers** (@nacaosixers no X e no Inst
 
 - O cartaz é visto no feed do celular com uns 360 pixels de largura. Texto de apoio (texto, frase, contexto) com no máximo 14 palavras; se o kit imprimir AVISO, corte e gere de novo.
 - A textura fica no papel; a letra sai limpa (o kit já faz isso).
-- Papel: amarelo para capas, ganchos e o primeiro slide de carrossel; azul para número do dia, "neste dia" e "2001: 25 anos"; branco para placar, lista, notícia e citação. Nos reels, a cena de gancho é amarela e as cenas de número alternam branco e azul.
+- Papel: amarelo ou azul para capas, ganchos e o primeiro slide de carrossel, alternando entre posts seguidos do mesmo canal; azul para número do dia, "neste dia" e "2001: 25 anos"; branco para placar, lista, notícia e citação. Nos reels, a cena de gancho é amarela e as cenas de número alternam branco e azul.
 - Teste da semana de 16/11: no balanço de segunda, compare curtidas e alcance dos cartazes azuis com os amarelos e escreva o resultado no `ajuste` do bloco Semana.
 
 ## De onde vêm placar e box score
