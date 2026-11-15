@@ -11,7 +11,7 @@ Rodada curta, atrás de novidade. Leia antes `LEIA-PRIMEIRO.md`, `fontes.md` e `
 4. **Para cada pauta:** abra a matéria, classifique (NOTÍCIA, RUMOR ou OPINIÃO), faça o cartaz (`direto` para citação, `manchete` para o resto, `lista` para "Prancheta": 3 pontos táticos ou de treino), texto do X e legenda do Instagram. Agende direto, sem rascunho: no X, 15 minutos depois do currentTime (a segunda pauta 1 hora depois); no Instagram, no próximo horário livre respeitando 90 minutos entre posts do feed e o limite de 4 por dia (se o feed do dia estiver cheio, só no X). Siga a lista de "Nunca publique" do LEIA-PRIMEIRO.
 
 5. **Só no turno das 17h51:**
-   - Se o 76ers jogou à tarde e o jogo acabou: placar agora (agende para 15 minutos depois do currentTime) no X e no Instagram.
+   - Se o 76ers jogou à tarde, o jogo acabou e o pós-jogo ainda não saiu: faça o pacote completo dos passos 4 e 5 do `posjogo.md` (cartaz no X e no Instagram, vídeo curto no TikTok e story), agendado para 15 minutos depois do currentTime. Em 15/11 o radar só fez X e Instagram e o TikTok ficou sem placar.
    - Se há jogo hoje à noite: atualize a cola do jogo com o relatório de lesões mais recente e a provável escalação, se publicada.
 
 6. **Feche:** se nada mudou, termine sem mexer na central e sem mensagem. Se mudou, atualize registro e central. Mensagem ao Rodrigo só em caso de erro.
