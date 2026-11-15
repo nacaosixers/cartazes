@@ -1,14 +1,14 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "domingo, 15/11, às 8h20",
+ "atualizado": "domingo, 15/11, às 18h05",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: manhã, 8h20."
+  "texto": "Ligado. Última rodada: radar, 18h05."
  },
- "campanha": "10 vitórias e 3 derrotas",
+ "campanha": "11 vitórias e 3 derrotas",
  "hoje": {
   "data": "Domingo, 15/11",
-  "resumo": "Dia de jogo: 76ers x Pacers às 15h de Brasília, sem Joel Embiid. Pré-jogo às 9h30, agenda da semana às 11h, carrossel no TikTok e story às 12h, reel de contagem às 13h, e o placar sai sozinho pelo turno de pós-jogo, perto das 17h15.",
+  "resumo": "Vitória por 131 a 124 sobre o Pacers, sem Joel Embiid: Brown 31, Maxey 27 e LeBron passou Jason Kidd em assistências. Placar no X às 18h14 e no Instagram às 18h20. Segunda tem Nets x 76ers, 21h30.",
   "itens": [
    {
     "tipo": "Pré-jogo: 76ers x Pacers",
@@ -57,14 +57,16 @@ window.CENTRAL = {
     "linkTexto": "Ver o vídeo"
    },
    {
-    "tipo": "Placar do jogo (pós-jogo automático)",
+    "tipo": "Placar: 76ers 131 x 124 Pacers",
     "status": "agendado",
-    "quando": "turno de pós-jogo às 17h15 (tenta de novo se o jogo não tiver acabado)",
-    "img": "img/hoje/prejogo-76ers-x-pacers.png",
-    "arquivo": "",
-    "obs": "Turno extra já criado e conectado ao Buffer. Ele faz o placar no X, no Instagram e em vídeo no TikTok minutos depois do fim.",
-    "link": "",
-    "linkTexto": ""
+    "quando": "18h14 no X e 18h20 no Instagram (feed)",
+    "img": "img/hoje/placar-76ers-x-pacers.png",
+    "arquivo": "placar-76ers-x-pacers.png",
+    "x": "76ers 131 x 124 Pacers. Vitória sem Joel Embiid. 🏀\n\nJaylen Brown 31 e Tyrese Maxey 27. LeBron James: 15 pontos, 11 assistências e passou Jason Kidd, agora terceiro em assistências na história da NBA.\n\nO 76ers vai a 11-3. Segunda tem Nets x 76ers.",
+    "ig": "76ers 131 x 124 Pacers: vitória sem Joel Embiid. (legenda completa no Buffer)",
+    "obs": "Feito pelo radar das 17h51: o turno de pós-jogo ainda não tinha publicado o placar. Sem reel nem story do placar e sem TikTok nesta rodada; feed do Instagram fecha em 4 hoje. Fontes: AP (via ClickOnDetroit) e NBC Sports Philadelphia (Noah Levick).",
+    "link": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-vs-pacers-analysis-lebron-james-tyrese-maxey/767006/",
+    "linkTexto": "Matéria (NBC Sports Philadelphia)"
    },
    {
     "tipo": "Promoção paga no TikTok (opcional)",
@@ -120,12 +122,6 @@ window.CENTRAL = {
   ]
  },
  "jogos": [
-  {
-   "d": "DOM 15/11",
-   "j": "76ers x Pacers",
-   "h": "15h",
-   "o": "NBA League Pass"
-  },
   {
    "d": "SEG 16/11",
    "j": "Nets x 76ers",
