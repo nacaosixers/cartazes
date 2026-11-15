@@ -166,11 +166,40 @@
    "formato": "Reel",
    "tema": "Contagem 76ers x Pacers",
    "data": "2026-11-15"
+  },
+  {
+   "formato": "História do confronto",
+   "tema": "Miller x Iverson: 1999, 2000 e 2001",
+   "data": "2026-11-15"
   }
  ],
  "agendas": [
   {
    "periodo": "15/11 a 23/11",
+   "data": "2026-11-15"
+  }
+ ],
+ "trilhas": [
+  {
+   "estilo": "drumline",
+   "video": "tiktok-historia-pacers.mp4",
+   "data": "2026-11-15"
+  }
+ ],
+ "fatos": [
+  {
+   "fato": "76ers x Pacers: 4 séries de playoff (1981, 1999, 2000, 2001), 116 a 89 na temporada regular",
+   "canal": "tiktok, x, instagram story",
+   "data": "2026-11-15"
+  },
+  {
+   "fato": "Metro Philadelphia (Tim Sullivan): sem Embiid, bola precisa girar; palpite 113 x 108",
+   "canal": "x",
+   "data": "2026-11-15"
+  },
+  {
+   "fato": "Pré-jogo Pacers: Embiid fora, primeiro duelo 114 x 109",
+   "canal": "todos",
    "data": "2026-11-15"
   }
  ]

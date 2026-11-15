@@ -7,7 +7,7 @@ Roda logo depois do fim do jogo (turno extra criado pela manhã) e, como rede de
 3. **Já saiu?** Confira em `estado/registro.json` e em `list_posts` se o placar desse jogo já foi agendado. Se já, termine.
 4. **Monte o placar:** abra o box score (ESPN) e escolha o que decidiu: cestinha, parcial do último quarto, maior sequência, linha de três. Faça:
    - o cartaz `placar`;
-   - um reel curto para o TikTok: cena 1 com linhas "Fim de jogo" e o placar (mandante primeiro); cena 2 `numero` com o destaque do jogo; CTA;
+   - um reel curto para o TikTok: cena 1 com linhas "Fim de jogo" e o placar (mandante primeiro); cena 2 `numero` com o destaque do jogo; CTA. Trilha com `estilo` diferente dos 2 últimos do registro `trilhas` (pautas.md), e registre;
    - o story do placar (`story.py`).
 5. **Publique, revisado:** X em 5 minutos (texto curto com o placar na primeira linha e a imagem); Instagram feed em 10 minutos, se o limite do dia permitir, e story junto; TikTok com o reel em 15 minutos.
 6. **Feche:** registre o placar em `estado/registro.json` (a manhã não repete), faça push e termine. Não atualize a central nem mande mensagem: a manhã cuida disso.

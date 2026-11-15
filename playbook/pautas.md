@@ -1,0 +1,52 @@
+# Pautas: o que postar e como nunca repetir
+
+Leia na rodada da manhã e no radar, antes de criar qualquer mídia. Nasceu da crítica do Rodrigo em 15/11: no dia do Pacers, três posts seguidos diziam "Hoje tem 76ers contra o Pacers".
+
+## A regra de ouro
+
+Cada post traz algo novo para quem já viu os anteriores: um fato, um número, uma história, uma leitura da Filadélfia ou uma opinião que ainda não apareceu naquele canal. Post que só repete o anterior em outro formato não sai.
+
+## Plano do dia (rodada da manhã, antes de gerar mídia)
+
+Escreva em `estado/registro.json`, chave `plano`, uma linha por post: `{"canal", "hora", "formato", "gancho", "fato"}`. O gancho é a primeira linha do texto e a primeira cena ou o título do cartaz. Antes de gerar, confira:
+
+1. **Gancho:** nenhum gancho igual ou parecido no mesmo canal em 48 horas (compare com `list_posts` dos últimos 2 dias). "Hoje tem 76ers" aparece uma vez por canal no dia do jogo, só no pré-jogo.
+2. **Fato:** o fato principal não pode ter sido o fato principal de outro post no mesmo canal nos últimos 7 dias (registro `fatos`: `{"fato", "canal", "data"}`). Pode voltar como detalhe de apoio.
+3. **Formato:** pelo menos 3 formatos diferentes no dia; no máximo 2 do mesmo formato por canal em 3 dias.
+4. **Mistura:** todo dia, pelo menos um post de história ou curiosidade e um de "Na Filadélfia" ou de tática.
+5. **Visual:** posts seguidos no mesmo canal com papel ou modelo diferentes.
+
+## Cardápio
+
+**Dia de jogo** (escolha 4 a 6, cada um com gancho próprio):
+- **Pré-jogo** (`prejogo`): horário, onde assistir e desfalques. Um por canal. É o único que abre com "Hoje tem".
+- **História do confronto** (reel ou carrossel): séries de playoff, jogos marcantes, a última vez que algo aconteceu, retrospecto histórico. Duas fontes.
+- **O confronto em números** (`comparativo`): campanha, pontos marcados e sofridos, três pontos, rebotes, retrospecto recente. Barras com dados reais.
+- **O duelo da noite** (`comparativo` ou reel): o destaque do 76ers contra o do adversário, com as médias.
+- **Na Filadélfia** (`manchete` com selo Opinião ou Notícia): o que Inquirer, PhillyVoice, NBC Sports Philadelphia, Crossing Broad, Liberty Ballers e as rádios estão discutindo hoje, com o nome do jornalista.
+- **Reencontro:** ex-jogador que volta à Filadélfia, ou jogador do 76ers contra o ex-time, com números.
+- **Palpite da Nação** (X, texto, marcado como OPINIÃO): placar e o porquê em uma frase.
+- **O que observar** (`lista`): 3 pontos táticos para o jogo.
+
+**Depois do jogo:** placar (já automático), Raio-X e, no dia seguinte, a reação da Filadélfia (o que os jornais disseram, com nome).
+
+**Dia sem jogo:** Raio-X (se teve jogo ontem), Número do dia, Neste dia na história, "2001: 25 anos" (quarta), From Brazil (sexta), Na Filadélfia (treino, frase do técnico, debate da semana), Prancheta (tática em 3 pontos), ranking na liga (`comparativo` contra a média da NBA ou contra o rival da semana), Opinião da Nação (X). No TikTok: Adivinha quem é, Você sabia?, Explicando o 76ers, Top 3 histórico, Quem ganha? (duas lendas com números).
+
+## Onde achar história e números do confronto
+
+- Land of Basketball: `landofbasketball.com/head_to_head/76ers_vs_[time]_all_time.htm` (retrospecto e séries de playoff).
+- Basketball-Reference: séries de playoff e box scores antigos.
+- NBA.com, prévia oficial do jogo (`nba.com/[time]/news/preview-...`): desfalques, sequências, reencontros e curiosidades do dia.
+- Imprensa local (fontes.md) para Na Filadélfia.
+
+## Trilha dos vídeos
+
+Estilos do kit: pop, drumline, trap, lofi, house, arena. Use um diferente dos 2 últimos do registro `trilhas` (`{"estilo", "video", "data"}`) e registre. Combina: história e rivalidade com drumline ou arena; números e tática com trap ou house; curiosidade e Explicando com lofi ou pop.
+
+## Imagens
+
+Sem foto de jogador ou de qualquer pessoa, sem imagem de transmissão e sem logo de time: são direitos de imagem e de autor, e as redes derrubam e penalizam contas por isso. O visual real que usamos: os cartazes do kit e gráficos com dados reais (`comparativo`).
+
+## Revisão visual (obrigatória)
+
+Depois de gerar a mídia e antes de agendar, rode `python kit/grade.py grade.png [mídias de hoje] [mídias de ontem do mesmo canal]` e olhe a grade com a ferramenta de leitura. Duas capas que parecem o mesmo post no mesmo canal: troque uma. Texto cortado, faixa ou letra borrada: refaça.

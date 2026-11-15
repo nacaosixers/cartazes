@@ -1,6 +1,6 @@
 # Turno da manhã (7h51)
 
-É a rodada completa do dia. Leia antes `LEIA-PRIMEIRO.md` e `fontes.md`.
+É a rodada completa do dia. Leia antes `LEIA-PRIMEIRO.md`, `fontes.md` e `pautas.md`. Antes de gerar qualquer mídia, faça o plano do dia (pautas.md) e confira gancho, fato e formato de cada post.
 
 1. **Prepare:** `get_account` (hora atual), `list_channels`, `list_posts` dos últimos 2 dias e `estado/registro.json`.
 
@@ -15,9 +15,11 @@
 
 4. **Dia de jogo:**
    - Pré-jogo: confirme horário e onde assistir no Brasil. Cartaz `prejogo` às 12h (se o jogo for antes das 16h, às 9h30), no X e no Instagram, com um fato de contexto real.
-   - Reel de contagem às 18h (ou 2 horas antes se o jogo for à tarde): cena 1 "Hoje tem / 76ers / contra o [adversário]"; cena 2 `numero` com o horário ("21h", rótulo "de Brasília, no [onde assistir]"); cena 3 `numero` com o dado mais forte do confronto (campanha, sequência, média de um destaque); CTA.
+   - Reel do dia de jogo às 18h (ou 2 horas antes se o jogo for à tarde): **nunca abre com "Hoje tem"**, que é do pré-jogo. Escolha um ângulo do cardápio de pautas.md (história do confronto, o duelo da noite, o confronto em números, reencontro) e só cite o horário na legenda.
+   - Na Filadélfia: um cartaz `manchete` com a leitura da imprensa local sobre o jogo (prévia, palpite, debate), com o nome do jornalista, no X (e no Instagram se houver espaço no feed).
+   - O confronto em números: cartaz `comparativo` (campanha, ataque, defesa, três pontos, ou retrospecto), no X e no Instagram, quando houver espaço.
    - **Pós-jogo rápido:** se ainda não existe um turno de pós-jogo para esse jogo (veja `posjogo` no registro), crie um turno extra com `create_trigger` para o placar sair minutos depois do fim: name "Pós-jogo [adversário] [dd/mm]", run_once_at no formato `AAAA-MM-DDTHH:MM:00[America/Sao_Paulo]` igual ao horário de início mais 2h15, initiation "human_schedule", notifications `{}`, prompt = o texto de `playbook/posjogo-prompt.txt` com os campos preenchidos (tentativa 1). Confira no resultado que `mcp_connections` inclui Buffer; se não incluir, apague com `delete_trigger` e anote na central (o turno das 0h51 cobre). Registre o id em `posjogo` no registro.
-   - Story do pré-jogo no Instagram às 12h (cartaz passado pelo `story.py`).
+   - Story do Instagram: o reel do dia (vídeo) ou um cartaz diferente do pré-jogo do feed.
    - Cola do jogo na central: 4 ou 5 pontos com números (campanha, sequência, médias dos destaques, desfalques do relatório de lesões, retrospecto recente contra o adversário), fontes e o roteiro de 4 momentos para o Rodrigo comentar no X ao vivo.
 
 5. **Número do dia ou Neste dia na história** (todo dia, menos quando o Raio-X e o pré-jogo já encheram o feed do Instagram):
@@ -30,7 +32,7 @@
    **Quarta-feira:** a curiosidade da série "2001: 25 anos" entra no lugar do número do dia.
    **Sexta-feira:** o post "From Brazil" em inglês, às 16h no X e no Instagram, marcando @sixers.
 
-   **TikTok, todo dia (3 posts):** no dia seguinte a um jogo, reel do Raio-X às 12h e carrossel às 18h; nos outros dias, carrossel às 12h e reel às 18h. À noite, 21h30, um formato só do TikTok quando não houver jogo (veja "TikTok" no LEIA-PRIMEIRO). Registre em `tiktok` no registro para não repetir tema.
+   **TikTok, todo dia (3 posts, 3 ganchos diferentes):** no dia seguinte a um jogo, reel do Raio-X às 12h e carrossel às 18h; nos outros dias, carrossel às 12h e reel às 18h. No dia de jogo, o carrossel é o pré-jogo e o reel é outro ângulo do cardápio. À noite, 21h30, um formato só do TikTok quando não houver jogo (veja "TikTok" no LEIA-PRIMEIRO). Registre em `tiktok` no registro para não repetir tema.
 
 7. **Notícias:** varredura das fontes locais das últimas 18 horas (veja `radar.md`, passos 2 a 4).
 
@@ -38,4 +40,6 @@
 
 9. **Para promover:** escolha o vídeo do TikTok do dia para o Rodrigo promover (veja "Promoção paga" no LEIA-PRIMEIRO) e ponha o item na central.
 
-10. **Feche:** registro e central (os dois lugares). Mensagem ao Rodrigo só em caso de erro.
+10. **Revise:** rode `kit/grade.py` com as mídias de hoje e as de ontem e olhe a grade antes de agendar (pautas.md). Registre `plano`, `fatos` e `trilhas`.
+
+11. **Feche:** registro e central (os dois lugares). Mensagem ao Rodrigo só em caso de erro.

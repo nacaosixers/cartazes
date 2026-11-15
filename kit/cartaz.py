@@ -19,6 +19,9 @@ Uso:
   python cartaz.py numero --chip "Bola de três" --numero "33" --rotulo "pontos de diferença na linha de três" \
       --texto "Celtics 22 de 49. 76ers 11 de 37." --fonte "Box score da NBA" --papel branco --kicker "Raio-X · 2 de 5" --out n.png
       (número do dia, slides do Raio-X e "neste dia na história"; papel: branco, amarelo ou azul)
+  python cartaz.py comparativo --titulo "76ers x Pacers" --time1 "76ers" --time2 "Pacers" \
+      --linha "Vitórias na história|116|89" --linha "Séries de playoff|2|2" --fonte "Land of Basketball" --out c.png
+      (até 4 linhas "rótulo|valor do 76ers|valor do adversário"; números viram barras; papel branco ou azul)
   python cartaz.py perfil --pasta img        (foto de perfil, capa do X e capas de destaque)
 
 O 76ers sai sempre em vermelho, os adversários em azul. Se o texto for longo, a letra diminui sozinha;
@@ -258,6 +261,41 @@ def numero(a):
     return frame(paper, a.kicker or a.data or "76ers em português", foot, main_box(inner), ink=ink, accent=acc)
 
 
+def comparativo(a):
+    paper = PAPEL[a.papel]
+    azul = a.papel == "azul"
+    ink = CREME if azul else AZUL
+    c1, c2 = ("#FFD71F", CREME) if azul else (VERMELHO, AZUL)
+
+    def num(v):
+        try:
+            return float(re.sub(r"[^0-9,.\-]", "", v).replace(",", "."))
+        except ValueError:
+            return None
+
+    def barra(nome, v, w, cor):
+        b = f'<div style="height:34px;width:{max(w, 3):.1f}%;background:{cor}"></div>' if w is not None else ""
+        return (f'<div style="display:grid;grid-template-columns:200px minmax(0,1fr) 190px;gap:16px;align-items:center;margin-top:8px">'
+                f'<span class="an" style="font-size:38px;line-height:1;color:{cor};white-space:nowrap">{E(nome)}</span><div>{b}</div>'
+                f'<span class="as" style="font-size:46px;line-height:1;color:{cor};text-align:right;white-space:nowrap">{E(v)}</span></div>')
+
+    rows = ""
+    for ln in a.linha[:4]:
+        rot, v1, v2 = ([x.strip() for x in ln.split("|")] + ["", "", ""])[:3]
+        n1, n2 = num(v1), num(v2)
+        w1 = w2 = None
+        if n1 is not None and n2 is not None and max(abs(n1), abs(n2)) > 0:
+            m = max(abs(n1), abs(n2)); w1, w2 = 100 * abs(n1) / m, 100 * abs(n2) / m
+        rows += (f'<div style="border-top:4px solid {ink};padding:20px 0 20px">'
+                 f'<div class="up" style="font-weight:800;font-size:28px;letter-spacing:.06em">{E(rot)}</div>'
+                 f'{barra(a.time1, v1, w1, c1)}{barra(a.time2, v2, w2, c2)}</div>')
+    chip = tag(a.chip, "#FFD71F", fg=AZUL) if azul else tag(a.chip)
+    inner = (f'<div>{chip}</div><span class="an ln fill" data-max="150" style="margin:30px 0 20px">{E(a.titulo)}</span>'
+             f'<div style="border-bottom:4px solid {ink}">{rows}</div>')
+    foot = f"Fonte: {a.fonte}" if a.fonte else "76ers em português"
+    return frame(paper, a.kicker or "76ers em português", foot, main_box(inner, "flex-start"), ink=ink, accent="#FFD71F" if azul else VERMELHO)
+
+
 def sheet(w, h, paper, inner, ink=AZUL):
     return f"""<div id="a" class="c" style="width:{w}px;height:{h}px;background:{paper};color:{ink}">{DEFS}
 {OVERLAYS}<div class="ink" style="position:absolute;inset:0">{inner}</div></div>"""
@@ -346,6 +384,7 @@ def main():
     add("lista", ("chip", "titulo", "out"), (("fonte", ""), ("data", ""), ("tag", "")), ("item",))
     add("agenda", ("periodo", "out"), (), ("jogo",))
     add("numero", ("numero", "rotulo", "out"), (("chip", "Número do dia"), ("texto", ""), ("fonte", ""), ("data", ""), ("papel", "azul"), ("kicker", "")))
+    add("comparativo", ("titulo", "out"), (("chip", "O confronto"), ("time1", "76ers"), ("time2", "Adversário"), ("fonte", ""), ("papel", "branco"), ("kicker", "")), ("linha",))
     add("cartaz", ("out",), (("papel", "amarelo"), ("texto", ""), ("kicker", "76ers em português"), ("rodape", "Perfil de fã · não oficial")), ("linha",))
     pp = sp.add_parser("perfil"); pp.add_argument("--pasta", default="img")
     a = ap.parse_args()
@@ -362,7 +401,7 @@ def main():
         pasta = pathlib.Path(a.pasta); pasta.mkdir(parents=True, exist_ok=True)
         render_many([(pasta / n, m, s) for n, m, s in perfil_jobs()])
         return
-    fn = {"prejogo": prejogo, "placar": placar, "direto": direto, "manchete": manchete, "lista": lista, "agenda": agenda, "cartaz": cartaz, "numero": numero}[a.cmd]
+    fn = {"prejogo": prejogo, "placar": placar, "direto": direto, "manchete": manchete, "lista": lista, "agenda": agenda, "cartaz": cartaz, "numero": numero, "comparativo": comparativo}[a.cmd]
     render_many([(a.out, fn(a), 1)])
 
 
