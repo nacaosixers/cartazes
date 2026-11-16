@@ -2,6 +2,8 @@
 
 É a rodada completa do dia. Leia antes `LEIA-PRIMEIRO.md`, `fontes.md` e `pautas.md`. Antes de gerar qualquer mídia, faça o plano do dia (pautas.md) e confira gancho, fato e formato de cada post.
 
+0. **Já rodou hoje?** Leia `estado/registro.json`. Se `rodadas.manha` já tem a data de hoje, termine sem fazer nada: outra rodada (ou o vigia) já fez o dia. Se não tem, grave já `rodadas.manha` = "AAAA-MM-DD HH:MM em andamento", faça commit e push, e só então siga.
+
 1. **Prepare:** `get_account` (hora atual), `list_channels`, `list_posts` dos últimos 2 dias e `estado/registro.json`.
 
 2. **Placar:** se o 76ers jogou nas últimas 36 horas e o placar ainda não saiu (o turno da noite pode já ter postado), faça o cartaz `placar` com a frase do que decidiu (números reais do box score). Agende para 8h30 no X e no Instagram.
