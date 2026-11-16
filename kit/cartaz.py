@@ -15,7 +15,7 @@ Uso:
   python cartaz.py lista --chip "Pós-jogo" --titulo "3 pontos do jogo" --item "..." --item "..." --fonte "..." --out lista.png
   python cartaz.py agenda --periodo "10/11 a 23/11" --jogo "TER 10/11|76ers x Celtics|22h" --jogo "..." --out agenda.png
   python cartaz.py cartaz --papel amarelo --linha "O 76ers|as|vermelho|300" --linha "agora em|an|azul|200" \
-      --texto "Texto de apoio" --out cartaz.png   (fonte: an ou as; cor: azul, vermelho ou creme)
+      --texto "Texto de apoio" --out cartaz.png   (fonte: an ou as; cor: azul, vermelho, creme ou amarelo; no papel azul use creme e amarelo)
   python cartaz.py numero --chip "Bola de três" --numero "33" --rotulo "pontos de diferença na linha de três" \
       --texto "Celtics 22 de 49. 76ers 11 de 37." --fonte "Box score da NBA" --papel branco --kicker "Raio-X · 2 de 5" --out n.png
       (número do dia, slides do Raio-X e "neste dia na história"; papel: branco, amarelo ou azul)
@@ -37,7 +37,7 @@ FONT_DIR = HERE / "fonts"
 AZUL, VERMELHO = "#1E3DA8", "#E3232C"
 PAPEL = {"branco": "#F1F0EB", "amarelo": "#FFD71F", "azul": "#1E3DA8"}
 CREME = "#F4F1E6"
-COR = {"azul": AZUL, "vermelho": VERMELHO, "creme": CREME}
+COR = {"azul": AZUL, "vermelho": VERMELHO, "creme": CREME, "amarelo": "#FFD71F"}
 NOME, ARROBA = "Nação Sixers", "@nacaosixers"
 CASA = ("76ers", "sixers", "philadelphia", "filadélfia")
 E = html.escape
