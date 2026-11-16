@@ -1,123 +1,162 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "domingo, 15/11, às 18h05",
+ "atualizado": "segunda, 16/11, às 11h25",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: radar, 18h05."
+  "texto": "A rodada das 7h51 não rodou (ficou presa na plataforma); o dia foi feito às 10h50. A partir de amanhã, o vigia das 9h17 cobre isso sozinho."
  },
  "campanha": "11 vitórias e 3 derrotas",
  "hoje": {
-  "data": "Domingo, 15/11",
-  "resumo": "Vitória por 131 a 124 sobre o Pacers, sem Joel Embiid: Brown 31, Maxey 27 e LeBron passou Jason Kidd em assistências. Placar no X às 18h14 e no Instagram às 18h20. Segunda tem Nets x 76ers, 21h30.",
+  "data": "Segunda, 16/11",
+  "resumo": "Raio-X da vitória sobre o Pacers e dia de Nets x 76ers, 21h30. São 13 posts agendados no Buffer entre 11h10 e 20h30, e o placar sai logo depois do jogo.",
   "itens": [
    {
-    "tipo": "Pré-jogo: 76ers x Pacers",
+    "tipo": "Raio-X: 76ers 131 x 124 Pacers",
     "status": "agendado",
-    "quando": "9h30, no X e no Instagram",
-    "img": "img/hoje/prejogo-76ers-x-pacers.png",
-    "arquivo": "prejogo-76ers-x-pacers.png",
-    "x": "Hoje tem 76ers x Pacers, 15h de Brasília, na Filadélfia. 🏀\n\nJoel Embiid está fora (controle da fascite plantar no pé direito). LeBron James não está no relatório de lesões.\n\nNo primeiro duelo, em outubro, vitória por 114 a 109 em Indianápolis.\n\nVia ESPN.",
-    "ig": "Hoje tem 76ers x Pacers, 15h de Brasília. 🏀\n\nJoel Embiid está fora: o time anunciou no sábado que ele descansa para controlar a fascite plantar no pé direito. Adem Bona e Dominick Barlow também não jogam. LeBron James, que perdeu o jogo contra o Raptors, não está no relatório de lesões.\n\nNo primeiro duelo da temporada, em 28 de outubro, o 76ers venceu por 114 a 109 em Indianápolis, com 27 pontos de Tyrese Maxey.\n\nO 76ers chega com 10 vitórias e 3 derrotas. Onde assistir: NBA League Pass.\n\nQual é o seu palpite? Comenta aí.\n\nFonte: ESPN, PhillyVoice e 6abc.\n\n#Sixers #76ers #NBABrasil #NBA #Philadelphia76ers",
-    "obs": "Embiid fora confirmado pelo time (ESPN, Kris Rhim, 14/11). Horário confirmado: 13h na Costa Leste = 15h de Brasília. Sem transmissão brasileira confirmada: NBA League Pass.",
-    "link": "https://www.espn.com/nba/story/_/id/50484216/76ers-joel-embiid-vs-pacers-due-plantar-fascia-management",
-    "linkTexto": "Matéria (ESPN)"
-   },
-   {
-    "tipo": "Agenda da semana (15/11 a 23/11)",
-    "status": "agendado",
-    "quando": "11h, no X e no Instagram",
-    "img": "img/hoje/agenda-15-a-23-11.png",
-    "arquivo": "agenda-15-a-23-11.png",
-    "x": "Agenda do 76ers na semana, em horário de Brasília 🗓️\n\nDOM 15/11: 76ers x Pacers, 15h\nSEG 16/11: Nets x 76ers, 21h30\nQUA 18/11: Magic x 76ers, 21h\nSÁB 21/11: 76ers x Bucks, 15h\nSEG 23/11: 76ers x Trail Blazers, 21h\n\nQual jogo você não perde?",
-    "ig": "Agenda do 76ers na semana, em horário de Brasília 🗓️\n\nDOM 15/11: 76ers x Pacers, 15h\nSEG 16/11: Nets x 76ers, 21h30\nQUA 18/11: Magic x 76ers, 21h\nSÁB 21/11: 76ers x Bucks, 15h\nSEG 23/11: 76ers x Trail Blazers, 21h\n\nCinco jogos em nove dias, com duas viagens no meio. Salva para não esquecer.\n\n#Sixers #76ers #NBABrasil #NBA #Philadelphia76ers",
-    "obs": "Horários conferidos na tabela da BettorEdge (horário central dos EUA + 3h).",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-15/agenda-15-a-23-11.png",
-    "linkTexto": "Ver o cartaz"
-   },
-   {
-    "tipo": "TikTok: carrossel pré-jogo + agenda",
-    "status": "agendado",
-    "quando": "12h, só no TikTok (2 fotos); story do pré-jogo no Instagram às 12h",
-    "img": "img/hoje/prejogo-76ers-x-pacers.png",
-    "arquivo": "story-prejogo-76ers-x-pacers.png",
-    "obs": "Legenda: Resultado 76ers hoje? Tem 76ers x Pacers às 15h de Brasília, sem Joel Embiid. Onde assistir: NBA League Pass. E a agenda da semana inteira. Qual jogo você não perde?",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-15/story-prejogo-76ers-x-pacers.png",
-    "linkTexto": "Ver a foto"
-   },
-   {
-    "tipo": "Reel de contagem: 76ers x Pacers",
-    "status": "agendado",
-    "quando": "13h no Instagram (Reels), no X e no TikTok",
-    "img": "img/hoje/reel-contagem-pacers.png",
-    "arquivo": "reel-contagem-pacers.mp4",
-    "x": "Hoje tem 76ers x Pacers, 15h de Brasília. ⏱️\n\nSem Joel Embiid, mas com o 1-0 no confronto da temporada: Pacers 109 x 114 76ers, em Indianápolis.\n\nQuem decide hoje?",
-    "ig": "Hoje tem 76ers x Pacers, 15h de Brasília. ⏱️\n\nSem Joel Embiid, mas com o 1-0 no confronto da temporada: Pacers 109 x 114 76ers, em Indianápolis, em 28 de outubro.\n\nOnde assistir: NBA League Pass. Quem decide hoje? Comenta aí.\n\nFonte: ESPN e 6abc.\n\n#Sixers #76ers #NBABrasil #NBA",
-    "obs": "15 segundos: gancho, horário, 1-0 no confronto e Segue a Nação. No TikTok ele entra no lugar do reel das 18h, que sairia depois do jogo. Número do dia não sai hoje: o feed do Instagram fecha em 4 com o placar.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-15/reel-contagem-pacers.mp4",
+    "quando": "11h10 no TikTok (vídeo) e 11h30 no X (4 cartazes) e no Instagram (carrossel de 5)",
+    "img": "img/hoje/raiox-pacers-1.png",
+    "arquivo": "raiox-pacers-1.png",
+    "x": "Raio-X de 76ers 131 x 124 Pacers: como o 76ers venceu sem Joel Embiid. 🏀\n\n18 bolas de três contra 8.\n20 x 7 no contra-ataque, 12 de Tyrese Maxey.\n39 x 30 no terceiro quarto.\n\nO alerta: o Pacers fez 62 pontos no garrafão.\n\nQual número pesou mais?",
+    "ig": "Raio-X de 76ers 131 x 124 Pacers: como o 76ers venceu sem Joel Embiid, em 3 números. 🏀\n\n1. Bola de três: 18 x 8. Foram 54 pontos contra 24, com 42,9% de acerto.\n2. Contra-ataque: 20 x 7. Tyrese Maxey fez 12 desses pontos.\n3. Terceiro quarto: 39 x 30. O jogo saiu de 58 x 57 no intervalo para 97 x 87.\n\nO que fica: sem Embiid, o Pacers fez 62 pontos no garrafão. Dean Wade fez 12 pontos em 5 arremessos, com 3 de 4 de três. Próximo jogo: Nets x 76ers, 21h30 de Brasília.\n\nQual número pesou mais? Comenta aí.\n\nFonte: box score da NBA.\n\n#Sixers #76ers #NBABrasil #NBA #Philadelphia76ers",
+    "obs": "No TikTok o Raio-X é vídeo e sai cedo: o jogo acabou às 17h30 de domingo, e lá nada sobre um jogo sai mais de 18 horas depois. Trilha: trap. Números do box score da NBA (Sportradar).",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-16/tiktok-raiox-pacers.mp4",
     "linkTexto": "Ver o vídeo"
    },
    {
-    "tipo": "Placar: 76ers 131 x 124 Pacers",
+    "tipo": "Pré-jogo: Nets x 76ers",
     "status": "agendado",
-    "quando": "18h14 no X e 18h20 no Instagram (feed)",
-    "img": "img/hoje/placar-76ers-x-pacers.png",
-    "arquivo": "placar-76ers-x-pacers.png",
-    "x": "76ers 131 x 124 Pacers. Vitória sem Joel Embiid. 🏀\n\nJaylen Brown 31 e Tyrese Maxey 27. LeBron James: 15 pontos, 11 assistências e passou Jason Kidd, agora terceiro em assistências na história da NBA.\n\nO 76ers vai a 11-3. Segunda tem Nets x 76ers.",
-    "ig": "76ers 131 x 124 Pacers: vitória sem Joel Embiid. (legenda completa no Buffer)",
-    "obs": "Feito pelo radar das 17h51: o turno de pós-jogo ainda não tinha publicado o placar. Sem reel nem story do placar e sem TikTok nesta rodada; feed do Instagram fecha em 4 hoje. Fontes: AP (via ClickOnDetroit) e NBC Sports Philadelphia (Noah Levick).",
-    "link": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-vs-pacers-analysis-lebron-james-tyrese-maxey/767006/",
-    "linkTexto": "Matéria (NBC Sports Philadelphia)"
+    "quando": "14h, no X e no Instagram",
+    "img": "img/hoje/prejogo-nets-x-76ers.png",
+    "arquivo": "prejogo-nets-x-76ers.png",
+    "x": "Hoje tem Nets x 76ers, 21h30 de Brasília. 🏀\n\nSegundo jogo em duas noites, no Brooklyn. Joel Embiid, poupado contra o Pacers, aparece como dúvida no relatório da ESPN. Adem Bona e Dominick Barlow seguem fora.\n\nO 76ers chega com 11-3. Onde assistir: NBA League Pass.",
+    "ig": "Hoje tem Nets x 76ers, 21h30 de Brasília. 🏀\n\nÉ o segundo jogo em duas noites, agora no Brooklyn. Joel Embiid, poupado no domingo para controlar a fascite plantar no pé direito, aparece como dúvida no relatório de lesões da ESPN. Adem Bona e Dominick Barlow seguem fora.\n\nO 76ers chega com 11 vitórias e 3 derrotas, segundo do Leste. O Nets tem 3 vitórias e 9 derrotas.\n\nOnde assistir: NBA League Pass.\n\nQual é o seu palpite? Comenta aí.\n\nFonte: ESPN e NBA.\n\n#Sixers #76ers #NBABrasil #NBA #Philadelphia76ers",
+    "obs": "Único post do dia que abre com \"Hoje tem\". Embiid aparece como dúvida na ESPN; o radar das 17h51 atualiza se o time confirmar. Sem transmissão brasileira confirmada: NBA League Pass.",
+    "link": "https://www.espn.com/nba/game/_/gameId/401909997/76ers-nets",
+    "linkTexto": "Jogo na ESPN"
+   },
+   {
+    "tipo": "Na Filadélfia (opinião): falta um pivô?",
+    "status": "agendado",
+    "quando": "15h30 no X e 20h30 no story do Instagram",
+    "img": "img/hoje/manchete-filadelfia-pivo.png",
+    "arquivo": "manchete-filadelfia-pivo.png",
+    "x": "Na Filadélfia, o assunto é o garrafão. 🏀\n\nSem Joel Embiid, Adem Bona e Dominick Barlow, o 76ers jogou pequeno. Bryan Toporek, do Liberty Ballers, escreveu que o jogo contra o Pacers mostraria se falta um pivô reserva.\n\nResultado: 62 pontos do Pacers no garrafão.",
+    "obs": "Leitura de Bryan Toporek, do Liberty Ballers (SB Nation), de 15/11, somada ao número do garrafão.",
+    "link": "https://sports.yahoo.com/articles/pacers-nets-back-back-could-172636431.html",
+    "linkTexto": "Matéria (Liberty Ballers)"
+   },
+   {
+    "tipo": "O confronto em números",
+    "status": "agendado",
+    "quando": "16h30, no X e no Instagram",
+    "img": "img/hoje/comparativo-nets-x-76ers.png",
+    "arquivo": "comparativo-nets-x-76ers.png",
+    "x": "Nets x 76ers em números. 📊\n\nO 76ers marca 112,6 pontos por jogo e sofre 110,4. O Nets sofre 116,4, seis a mais.\n\nFora de casa, o 76ers tem 5-1. No Brooklyn, o Nets venceu só 1 de 4.\n\nQual desses números pesa mais hoje?",
+    "ig": "Nets x 76ers em números, antes de hoje à noite. 📊\n\nO 76ers marca 112,6 pontos por jogo e sofre 110,4. O Nets marca quase o mesmo, 110,2, mas sofre 116,4: seis pontos a mais por jogo.\n\nE tem o fator casa: fora, o 76ers venceu 5 de 6. No Brooklyn, o Nets venceu só 1 de 4.\n\nQual desses números pesa mais hoje? Comenta aí.\n\nFonte: ESPN e NBA, até 15/11.\n\n#Sixers #76ers #NBABrasil #NBA #Philadelphia76ers",
+    "obs": "Médias calculadas com os placares da temporada até 15/11 e conferidas com a ESPN.",
+    "link": "https://www.espn.com/nba/game/_/gameId/401909997/76ers-nets",
+    "linkTexto": "Fonte (ESPN)"
+   },
+   {
+    "tipo": "TikTok: carrossel do pré-jogo",
+    "status": "agendado",
+    "quando": "17h, só no TikTok (3 fotos)",
+    "img": "img/hoje/comparativo-nets-x-76ers.png",
+    "arquivo": "story-comparativo-nets-x-76ers.png",
+    "obs": "Fotos: o confronto em números, o pré-jogo e Na Filadélfia. Legenda: Hoje tem Nets x 76ers, 21h30 de Brasília. Joel Embiid é dúvida, o 76ers chega com 11-3 e o Nets com 3-9. Onde assistir 76ers: NBA League Pass. Qual é o seu palpite?",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-16/story-comparativo-nets-x-76ers.png",
+    "linkTexto": "Ver a primeira foto"
+   },
+   {
+    "tipo": "Reel: 1984, o Nets derrubou o campeão",
+    "status": "agendado",
+    "quando": "19h30 no Instagram (Reels), no X e no TikTok",
+    "img": "img/hoje/reel-historia-nets.png",
+    "arquivo": "reel-historia-nets.mp4",
+    "x": "1984: o Nets eliminou o 76ers, então campeão da NBA, e o visitante venceu os 5 jogos da série. 🏀\n\nO último foi Nets 101 x 98, na Filadélfia.\n\nDepois, deu 76ers em 2019 e em 2023. Às 21h30, mais um capítulo. Você sabia dessa?",
+    "ig": "1984: o dia em que o Nets derrubou o campeão. 🏀\n\nO 76ers de Moses Malone e Julius Erving era o campeão da NBA e caiu na primeira rodada para o New Jersey Nets, por 3 a 2. Detalhe: o time visitante venceu os 5 jogos da série, e o último foi Nets 101 x 98, na Filadélfia.\n\nDepois disso, o 76ers venceu as duas séries seguintes contra o Nets: 4 a 1 em 2019 e 4 a 0 em 2023. No total, 3 séries a 1 para o 76ers.\n\nÀs 21h30 de Brasília, mais um capítulo. Você sabia dessa? Comenta aí.\n\nFonte: NBA.com, Sports Illustrated e Land of Basketball.\n\n#Sixers #76ers #NBABrasil #NBA #Philadelphia76ers",
+    "obs": "História do confronto: em 1984 o visitante venceu os 5 jogos da série e o Nets eliminou o campeão; depois, 76ers 4-1 em 2019 e 4-0 em 2023. Duas fontes: Land of Basketball e Sports Illustrated (1984), mais NBA.com. Trilha: drumline.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-16/reel-historia-nets.mp4",
+    "linkTexto": "Ver o vídeo"
+   },
+   {
+    "tipo": "Pós-jogo: placar de Nets x 76ers",
+    "status": "agendado",
+    "quando": "logo depois do fim: rodadas às 0h00 e 0h35, e a de segurança às 0h51",
+    "obs": "Duas rodadas marcadas de antemão (em 15/11 uma travou). Quem chegar primeiro faz o placar no X, no Instagram e no TikTok (vídeo); a outra vê que já saiu e para."
    },
    {
     "tipo": "Promoção paga no TikTok (opcional)",
     "status": "promover",
     "quando": "hoje, entre 18h e 20h",
-    "img": "img/hoje/tiktok-adivinha-iverson.png",
-    "arquivo": "tiktok-adivinha-iverson.mp4",
-    "obs": "O vídeo já está publicado pelo Buffer. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA > R$ 25 por 24 horas. Por quê: o Adivinha quem é (Allen Iverson, 13/11) é de longe o melhor dos últimos dias, com 487 visualizações, 33 curtidas e 6,8% de engajamento; o segundo melhor teve 261 visualizações e 6 curtidas.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-13/tiktok-adivinha-iverson.mp4",
+    "img": "img/hoje/tiktok-posjogo-pacers.png",
+    "arquivo": "tiktok-posjogo-pacers.mp4",
+    "obs": "O vídeo já está publicado pelo Buffer. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA > R$ 25 por 24 horas. Por quê: o placar em vídeo do Pacers é o melhor dos últimos 2 dias sem impulso: 447 visualizações, 53 curtidas e 6,4 segundos assistidos em média, o maior tempo da semana.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-15/tiktok-posjogo-pacers.mp4",
     "linkTexto": "Ver o vídeo"
    }
   ]
  },
+ "semana": {
+  "titulo": "Semana de 09/11 a 15/11",
+  "itens": [
+   {
+    "rotulo": "TikTok · 10 posts",
+    "valor": "3.002 visualizações"
+   },
+   {
+    "rotulo": "Instagram · 40 posts e stories",
+    "valor": "305 pessoas alcançadas"
+   },
+   {
+    "rotulo": "X · 65 posts, com os seus ao vivo",
+    "valor": "4.483 impressões"
+   },
+   {
+    "rotulo": "Curtidas",
+    "valor": "TikTok 197 · Instagram 45 · X 16"
+   }
+  ],
+  "destaques": [
+   "TikTok, Adivinha quem é (Allen Iverson, 13/11): 819 visualizações e 87 curtidas, com o impulso pago.",
+   "TikTok, placar em vídeo do Pacers (15/11): 447 visualizações e 53 curtidas sem impulso, com o maior tempo assistido da semana (6,4 segundos em média).",
+   "TikTok, carrossel do 8-0 nos jogos apertados (14/11): 412 visualizações e 24 curtidas."
+  ],
+  "ajuste": "O TikTok é onde a Nação cresce: formato próprio (Adivinha quem é) e placar rápido em vídeo funcionam; reel de números com texto demais segura só 1,5 a 2 segundos. Nesta semana: mais Adivinha quem é e Você sabia?, placar em vídeo depois de todo jogo e ganchos mais curtos. O teste dos cartazes azuis contra os amarelos começou hoje; o resultado sai no balanço de 23/11."
+ },
  "cola": {
-  "jogo": "76ers x Pacers",
-  "quando": "Domingo, 15/11, 15h de Brasília, na Filadélfia",
+  "jogo": "Nets x 76ers",
+  "quando": "Segunda, 16/11, 21h30 de Brasília, no Brooklyn",
   "onde": "NBA League Pass",
   "pontos": [
-   "76ers com 10 vitórias e 3 derrotas, segunda melhor campanha do Leste, vindo da vitória de 123 a 112 sobre o Raptors.",
-   "Joel Embiid fora (controle da fascite plantar no pé direito). Adem Bona (pescoço) e Dominick Barlow (costas) também. Tacko Fall é o único pivô de ofício ativo: LeBron, Jabari Walker e Dean Wade devem fazer a função (ESPN).",
-   "LeBron James, que perdeu o jogo de quinta (ciático e lombar), não está no relatório de lesões.",
-   "Sem Embiid nesta temporada, o 76ers está 1-1 (ESPN). Embiid tem 17,9 pontos por jogo, a menor média da carreira (Yahoo Sports).",
-   "Pacers sem Tyrese Haliburton e Ben Sheppard; Aaron Nesmith é dúvida (PhillyVoice). No primeiro duelo, 28/10, Pacers 109 x 114 76ers com 27 pontos de Maxey.",
-   "Atenção à segunda: o 76ers joga de novo amanhã, contra o Nets, 21h30. Embiid e LeBron ainda não jogaram as duas noites seguidas nesta temporada."
+   "76ers com 11 vitórias e 3 derrotas, segundo do Leste, e 5-1 fora de casa. O Nets tem 3-9 e venceu só 1 de 4 no Brooklyn (ESPN).",
+   "Segundo jogo em duas noites. Joel Embiid, poupado no domingo (fascite plantar no pé direito), aparece como dúvida; Adem Bona e Dominick Barlow seguem fora (ESPN).",
+   "Sem Embiid, o Pacers fez 62 pontos no garrafão no domingo. O 76ers compensou com 18 bolas de três contra 8 e 20 x 7 no contra-ataque.",
+   "O Nets sofre 116,4 pontos por jogo; o 76ers marca 112,6 e sofre 110,4.",
+   "Retrospecto: 76ers 130 x 93 na temporada regular e 3 x 1 em séries de playoff (1979, 2019 e 2023; o Nets ganhou a de 1984) (Land of Basketball)."
   ],
   "roteiro": [
-   "Antes do jogo: confirme se LeBron joga e poste o quinteto sem Embiid.",
-   "Primeiro quarto: quem fica no garrafão? Tacko Fall, LeBron ou Walker. Olhe os rebotes.",
-   "Intervalo: placar e quantos pontos o Pacers fez dentro do garrafão sem Embiid do outro lado.",
-   "Fim de jogo: placar, cestinha e se o time chega a 11 vitórias antes do Nets amanhã."
+   "Antes do jogo: Embiid joga a segunda noite seguida? Poste o quinteto.",
+   "Primeiro quarto: quem segura o garrafão? Olhe os pontos do Nets dentro do garrafão.",
+   "Intervalo: placar e bolas de três; no domingo foi isso que decidiu.",
+   "Fim de jogo: placar, cestinha e se o 76ers chega a 12 vitórias."
   ],
   "fontes": [
    {
-    "t": "ESPN",
-    "u": "https://www.espn.com/nba/story/_/id/50484216/76ers-joel-embiid-vs-pacers-due-plantar-fascia-management"
+    "t": "ESPN (jogo e lesões)",
+    "u": "https://www.espn.com/nba/game/_/gameId/401909997/76ers-nets"
    },
    {
-    "t": "PhillyVoice",
-    "u": "https://www.phillyvoice.com/sixers-news-analysis-76ers-vs-pacers-injury-report-lebron-james-status-joel-embiid-update-dominick-barlow-timeline/"
+    "t": "Liberty Ballers (Bryan Toporek)",
+    "u": "https://sports.yahoo.com/articles/pacers-nets-back-back-could-172636431.html"
    },
    {
-    "t": "Yahoo Sports",
-    "u": "https://sports.yahoo.com/articles/76ers-joel-embiid-ruled-sunday-234949780.html"
+    "t": "Land of Basketball (retrospecto)",
+    "u": "https://www.landofbasketball.com/head_to_head/76ers_vs_nets_all_time.htm"
    },
    {
-    "t": "6abc (primeiro duelo)",
-    "u": "https://6abc.com/post/maxey-scores-27-points-leads-76ers-114-109-victory-pacers/19992604/"
-   },
-   {
-    "t": "Land of Basketball (campanha)",
-    "u": "https://www.landofbasketball.com/results_by_team/2026_2027_76ers.htm"
+    "t": "NBA.com (1984)",
+    "u": "https://www.nba.com/nets/news/feature/2019/09/05/nets-in-the-80s-an-upset-for-the-ages-in-1984"
    }
   ]
  },
@@ -162,6 +201,12 @@ window.CENTRAL = {
    "d": "SÁB 28/11",
    "j": "Rockets x 76ers",
    "h": "22h30",
+   "o": ""
+  },
+  {
+   "d": "TER 01/12",
+   "j": "76ers x Grizzlies",
+   "h": "21h",
    "o": ""
   }
  ]
