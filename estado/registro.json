@@ -91,6 +91,12 @@
    "titulo": "Embiid fora contra o Pacers (fascite plantar); LeBron fora do relatório (no pré-jogo)",
    "data": "2026-11-15",
    "status": "agendado"
+  },
+  {
+   "url": "https://heavy.com/sports/nba/philadelphia-76ers/lebron-james-didnt-foresee-historical-nba-moment-in-76ers-pacers-game/",
+   "titulo": "LeBron passa Jason Kidd: terceiro em assistências (12.092)",
+   "data": "2026-11-16",
+   "status": "agendado"
   }
  ],
  "curiosidades": [
@@ -305,11 +311,16 @@
    "fato": "1984: Nets 3-2 no 76ers campeão, visitante venceu os 5 jogos; 76ers 3 x 1 em séries (1979, 2019, 2023)",
    "canal": "x, instagram, tiktok",
    "data": "2026-11-16"
+  },
+  {
+   "fato": "LeBron terceiro em assistências na história (12.092, passou Kidd)",
+   "canal": "x",
+   "data": "2026-11-16"
   }
  ],
  "rodadas": {
   "manha": "2026-11-16 11h10 feito (pelo Claude na conversa; as rodadas das 7h51 e das 10h37 ficaram presas na plataforma)",
-  "radar": "2026-11-16 12:52 em andamento"
+  "radar": "2026-11-16 12:52 feito (1 post no X: LeBron 3º em assistências; feed do Instagram e TikTok cheios)"
  },
  "plano": [
   {
@@ -395,6 +406,13 @@
    "formato": "pós-jogo",
    "gancho": "placar",
    "fato": "o que decidiu"
+  },
+  {
+   "canal": "x",
+   "hora": "13h15",
+   "formato": "numero (azul)",
+   "gancho": "LeBron James agora é o terceiro em assistências na história da NBA",
+   "fato": "12.092, passou Jason Kidd"
   }
  ]
 }

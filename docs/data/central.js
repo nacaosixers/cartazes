@@ -1,14 +1,14 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "segunda, 16/11, às 11h25",
+ "atualizado": "segunda, 16/11, às 13h05",
  "motor": {
   "ligado": true,
-  "texto": "A rodada das 7h51 não rodou (ficou presa na plataforma); o dia foi feito às 10h50. A partir de amanhã, o vigia das 9h17 cobre isso sozinho."
+  "texto": "Ligado. Última rodada: radar, 12h51. (A rodada das 7h51 não rodou; o dia foi feito às 10h50.)"
  },
  "campanha": "11 vitórias e 3 derrotas",
  "hoje": {
   "data": "Segunda, 16/11",
-  "resumo": "Raio-X da vitória sobre o Pacers e dia de Nets x 76ers, 21h30. São 13 posts agendados no Buffer entre 11h10 e 20h30, e o placar sai logo depois do jogo.",
+  "resumo": "Raio-X da vitória sobre o Pacers e dia de Nets x 76ers, 21h30. São 14 posts agendados no Buffer entre 11h10 e 20h30, e o placar sai logo depois do jogo.",
   "itens": [
    {
     "tipo": "Raio-X: 76ers 131 x 124 Pacers",
@@ -44,6 +44,17 @@ window.CENTRAL = {
     "obs": "Leitura de Bryan Toporek, do Liberty Ballers (SB Nation), de 15/11, somada ao número do garrafão.",
     "link": "https://sports.yahoo.com/articles/pacers-nets-back-back-could-172636431.html",
     "linkTexto": "Matéria (Liberty Ballers)"
+   },
+   {
+    "tipo": "Notícia: LeBron, terceiro em assistências",
+    "status": "agendado",
+    "quando": "13h15, só no X (feed do Instagram e TikTok já cheios hoje)",
+    "img": "img/hoje/numero-lebron-assistencias.png",
+    "arquivo": "numero-lebron-assistencias.png",
+    "x": "LeBron James agora é o terceiro em assistências na história da NBA. 🏀\n\nCom 11 contra o Pacers, chegou a 12.092 e passou Jason Kidd. Na frente, só Chris Paul e John Stockton.\n\n\"Me deixa muito humilde\", disse LeBron, segundo a Heavy.\n\nEle passa Chris Paul nesta temporada?",
+    "obs": "Achado do radar das 12h51. Duas fontes batem: Heavy (Justin Grasso) e a nota da WXSM, ambas de 16/11. A mesma nota diz que LeBron deve descansar hoje (nunca jogou as duas noites seguidas); não postado porque o time ainda não confirmou.",
+    "link": "https://heavy.com/sports/nba/philadelphia-76ers/lebron-james-didnt-foresee-historical-nba-moment-in-76ers-pacers-game/",
+    "linkTexto": "Matéria (Heavy)"
    },
    {
     "tipo": "O confronto em números",
