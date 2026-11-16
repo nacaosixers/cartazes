@@ -1,0 +1,6 @@
+{"cenas": [
+ {"papel": "amarelo", "kicker": "Raio-X", "linhas": [["Sem Embiid", "as", "vermelho", 360], ["como o 76ers venceu", "an", "azul", 190]], "texto": "Em 3 números."},
+ {"papel": "branco", "kicker": "1 de 3", "numero": "18", "rotulo": "bolas de três", "texto": "Contra 8 do Pacers: 54 a 24 pontos."},
+ {"papel": "azul", "kicker": "2 de 3", "numero": "20 x 7", "rotulo": "pontos de contra-ataque", "texto": "Tyrese Maxey fez 12 deles."},
+ {"papel": "branco", "kicker": "3 de 3", "numero": "39 x 30", "rotulo": "no terceiro quarto", "texto": "Do 58 x 57 no intervalo para 97 x 87."}
+], "cta": true, "trilha": true, "estilo": "trap", "semente": 1611}
