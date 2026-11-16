@@ -1,14 +1,14 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "segunda, 16/11, às 13h05",
+ "atualizado": "segunda, 16/11, às 17h55",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: radar, 12h51. (A rodada das 7h51 não rodou; o dia foi feito às 10h50.)"
+  "texto": "Ligado. Última rodada: radar, 17h51. (A rodada das 7h51 não rodou; o dia foi feito às 10h50.)"
  },
  "campanha": "11 vitórias e 3 derrotas",
  "hoje": {
   "data": "Segunda, 16/11",
-  "resumo": "Raio-X da vitória sobre o Pacers e dia de Nets x 76ers, 21h30. São 14 posts agendados no Buffer entre 11h10 e 20h30, e o placar sai logo depois do jogo.",
+  "resumo": "Raio-X da vitória sobre o Pacers e dia de Nets x 76ers, 21h30, sem LeBron James. São 15 posts agendados no Buffer entre 11h10 e 20h30, e o placar sai logo depois do jogo.",
   "itens": [
    {
     "tipo": "Raio-X: 76ers 131 x 124 Pacers",
@@ -79,6 +79,17 @@ window.CENTRAL = {
     "linkTexto": "Ver a primeira foto"
    },
    {
+    "tipo": "Notícia: LeBron fora contra o Nets",
+    "status": "agendado",
+    "quando": "18h10, só no X (feed do Instagram e TikTok já cheios hoje)",
+    "img": "img/hoje/manchete-lebron-fora-nets.png",
+    "arquivo": "manchete-lebron-fora-nets.png",
+    "x": "LeBron James está fora hoje contra o Nets, no segundo jogo em duas noites. 🏀\n\nSegundo o relatório de lesões da NBA, é controle das costas. Joel Embiid segue como dúvida. Barlow e Bona também estão fora.\n\nFonte: PhillyVoice e Athlon Sports.\n\nQuem precisa aparecer hoje?",
+    "obs": "Achado do radar das 17h51. Relatório oficial das 14h (Filadélfia): LeBron fora (controle da lombar e ciático), Embiid dúvida (fascite plantar), Barlow e Bona fora; Nets sem desfalques. Duas fontes batem: PhillyVoice (Adam Aaronson) e Athlon Sports.",
+    "link": "https://www.phillyvoice.com/sixers-news-76ers-analysis-vs-nets-injury-report-lebron-james-status-joel-embiid-update-dominick-barlow-nba/",
+    "linkTexto": "Matéria (PhillyVoice)"
+   },
+   {
     "tipo": "Reel: 1984, o Nets derrubou o campeão",
     "status": "agendado",
     "quando": "19h30 no Instagram (Reels), no X e no TikTok",
@@ -141,18 +152,23 @@ window.CENTRAL = {
   "onde": "NBA League Pass",
   "pontos": [
    "76ers com 11 vitórias e 3 derrotas, segundo do Leste, e 5-1 fora de casa. O Nets tem 3-9 e venceu só 1 de 4 no Brooklyn (ESPN).",
-   "Segundo jogo em duas noites. Joel Embiid, poupado no domingo (fascite plantar no pé direito), aparece como dúvida; Adem Bona e Dominick Barlow seguem fora (ESPN).",
+   "Segundo jogo em duas noites. LeBron James está FORA (controle das costas). Joel Embiid é dúvida (fascite plantar no pé direito). Adem Bona e Dominick Barlow fora. O Nets não tem desfalques e Michael Porter Jr. volta (relatório da NBA via PhillyVoice e Athlon).",
+   "Sem pivô reserva, Nick Nurse disse que Barlow teria de jogar mais de pivô; com Barlow fora, Jabari Walker também é opção (PhillyVoice).",
    "Sem Embiid, o Pacers fez 62 pontos no garrafão no domingo. O 76ers compensou com 18 bolas de três contra 8 e 20 x 7 no contra-ataque.",
    "O Nets sofre 116,4 pontos por jogo; o 76ers marca 112,6 e sofre 110,4.",
    "Retrospecto: 76ers 130 x 93 na temporada regular e 3 x 1 em séries de playoff (1979, 2019 e 2023; o Nets ganhou a de 1984) (Land of Basketball)."
   ],
   "roteiro": [
-   "Antes do jogo: Embiid joga a segunda noite seguida? Poste o quinteto.",
+   "Antes do jogo: Embiid joga a segunda noite seguida? Sem LeBron, quem entra no quinteto? Poste o quinteto.",
    "Primeiro quarto: quem segura o garrafão? Olhe os pontos do Nets dentro do garrafão.",
    "Intervalo: placar e bolas de três; no domingo foi isso que decidiu.",
    "Fim de jogo: placar, cestinha e se o 76ers chega a 12 vitórias."
   ],
   "fontes": [
+   {
+    "t": "PhillyVoice (relatório de lesões)",
+    "u": "https://www.phillyvoice.com/sixers-news-76ers-analysis-vs-nets-injury-report-lebron-james-status-joel-embiid-update-dominick-barlow-nba/"
+   },
    {
     "t": "ESPN (jogo e lesões)",
     "u": "https://www.espn.com/nba/game/_/gameId/401909997/76ers-nets"

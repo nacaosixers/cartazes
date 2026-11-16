@@ -97,6 +97,12 @@
    "titulo": "LeBron passa Jason Kidd: terceiro em assistências (12.092)",
    "data": "2026-11-16",
    "status": "agendado"
+  },
+  {
+   "url": "https://www.phillyvoice.com/sixers-news-76ers-analysis-vs-nets-injury-report-lebron-james-status-joel-embiid-update-dominick-barlow-nba/",
+   "titulo": "LeBron fora contra o Nets (controle das costas); Embiid dúvida",
+   "data": "2026-11-16",
+   "status": "agendado"
   }
  ],
  "curiosidades": [
@@ -316,11 +322,16 @@
    "fato": "LeBron terceiro em assistências na história (12.092, passou Kidd)",
    "canal": "x",
    "data": "2026-11-16"
+  },
+  {
+   "fato": "LeBron fora contra o Nets (controle das costas, segundo jogo em duas noites); Embiid dúvida",
+   "canal": "x",
+   "data": "2026-11-16"
   }
  ],
  "rodadas": {
   "manha": "2026-11-16 11h10 feito (pelo Claude na conversa; as rodadas das 7h51 e das 10h37 ficaram presas na plataforma)",
-  "radar": "2026-11-16 17:52 em andamento"
+  "radar": "2026-11-16 17:58 feito (1 post no X: LeBron fora contra o Nets; cola atualizada; feed do Instagram e TikTok cheios)"
  },
  "plano": [
   {
@@ -413,6 +424,13 @@
    "formato": "numero (azul)",
    "gancho": "LeBron James agora é o terceiro em assistências na história da NBA",
    "fato": "12.092, passou Jason Kidd"
+  },
+  {
+   "canal": "x",
+   "hora": "18h10",
+   "formato": "manchete (branco)",
+   "gancho": "LeBron James está fora hoje contra o Nets",
+   "fato": "relatório de lesões: LeBron fora, Embiid dúvida"
   }
  ]
 }
