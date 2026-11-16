@@ -29,6 +29,12 @@
    "data_jogo": "2026-11-12",
    "carrossel": "2026-11-13 12h",
    "reel": "2026-11-13 19h30"
+  },
+  {
+   "jogo": "76ers 131 x 124 Pacers",
+   "data_jogo": "2026-11-15",
+   "tiktok": "2026-11-16 11h10",
+   "carrossel": "2026-11-16 11h30"
   }
  ],
  "noticias": [
@@ -121,6 +127,10 @@
   {
    "tema": "Contagem 76ers x Pacers",
    "data": "2026-11-15"
+  },
+  {
+   "tema": "História Nets x 76ers: 1984, o Nets derrubou o campeão",
+   "data": "2026-11-16"
   }
  ],
  "prejogos": [
@@ -131,6 +141,10 @@
   {
    "jogo": "76ers x Pacers",
    "data": "2026-11-15"
+  },
+  {
+   "jogo": "Nets x 76ers",
+   "data": "2026-11-16"
   }
  ],
  "posjogo": [
@@ -140,6 +154,20 @@
    "gatilho": "trig_0129YJu5PNQ5xQDJSpzWJmcb",
    "tentativa": 1,
    "horario": "17h15"
+  },
+  {
+   "jogo": "Nets x 76ers",
+   "data_jogo": "2026-11-16",
+   "gatilho": "trig_01DXEemwPkj66HzXaGaf5V3W",
+   "tentativa": 1,
+   "horario": "00h00 de 17/11"
+  },
+  {
+   "jogo": "Nets x 76ers",
+   "data_jogo": "2026-11-16",
+   "gatilho": "trig_011VwUqLP6KgDtCBb9hWxXxL",
+   "tentativa": 2,
+   "horario": "00h35 de 17/11"
   }
  ],
  "tiktok": [
@@ -182,6 +210,21 @@
    "formato": "Pós-jogo",
    "tema": "76ers 131 x 124 Pacers, LeBron passa Jason Kidd",
    "data": "2026-11-15"
+  },
+  {
+   "formato": "Reel",
+   "tema": "Raio-X Pacers: 18 x 8 de três, 20 x 7 contra-ataque, 39 x 30 no terceiro quarto",
+   "data": "2026-11-16"
+  },
+  {
+   "formato": "Carrossel",
+   "tema": "Pré-jogo Nets x 76ers: comparativo, pré-jogo, Na Filadélfia",
+   "data": "2026-11-16"
+  },
+  {
+   "formato": "História do confronto",
+   "tema": "1984: Nets 3-2 no 76ers campeão, visitante venceu os 5 jogos",
+   "data": "2026-11-16"
   }
  ],
  "agendas": [
@@ -200,6 +243,16 @@
    "estilo": "arena",
    "video": "tiktok-posjogo-pacers.mp4",
    "data": "2026-11-15"
+  },
+  {
+   "estilo": "trap",
+   "video": "tiktok-raiox-pacers.mp4",
+   "data": "2026-11-16"
+  },
+  {
+   "estilo": "drumline",
+   "video": "reel-historia-nets.mp4",
+   "data": "2026-11-16"
   }
  ],
  "fatos": [
@@ -227,9 +280,120 @@
    "fato": "LeBron passa Jason Kidd: 12.092 assistências, terceiro da história",
    "canal": "todos",
    "data": "2026-11-15"
+  },
+  {
+   "fato": "Raio-X Pacers: 18 x 8 bolas de três, 20 x 7 contra-ataque (12 de Maxey), 39 x 30 no terceiro quarto, 62 pontos do Pacers no garrafão",
+   "canal": "todos",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "Pré-jogo Nets x 76ers: Embiid dúvida (ESPN), segundo jogo em duas noites, 11-3 x 3-9",
+   "canal": "todos",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "Na Filadélfia: Bryan Toporek (Liberty Ballers) e a falta de pivô reserva",
+   "canal": "x, instagram story, tiktok",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "Comparativo Nets x 76ers: 112,6 x 110,2 pontos, 110,4 x 116,4 sofridos, 76ers 5-1 fora, Nets 1-3 em casa",
+   "canal": "x, instagram, tiktok",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "1984: Nets 3-2 no 76ers campeão, visitante venceu os 5 jogos; 76ers 3 x 1 em séries (1979, 2019, 2023)",
+   "canal": "x, instagram, tiktok",
+   "data": "2026-11-16"
   }
  ],
  "rodadas": {
-  "manha": "2026-11-16 10:45 em andamento (feita pelo Claude na conversa, depois que as rodadas das 7h51 e das 10h37 ficaram presas)"
- }
+  "manha": "2026-11-16 11h40 feita pelo Claude na conversa (as rodadas das 7h51 e das 10h37 ficaram presas na plataforma)"
+ },
+ "plano": [
+  {
+   "canal": "tiktok",
+   "hora": "11h10",
+   "formato": "reel Raio-X",
+   "gancho": "Sem Embiid, como o 76ers venceu",
+   "fato": "18 x 8 de três, 20 x 7 contra-ataque, 39 x 30 no terceiro quarto"
+  },
+  {
+   "canal": "x",
+   "hora": "11h30",
+   "formato": "carrossel Raio-X (4)",
+   "gancho": "Raio-X de 76ers 131 x 124 Pacers",
+   "fato": "os 3 números e o alerta do garrafão"
+  },
+  {
+   "canal": "instagram",
+   "hora": "11h30",
+   "formato": "carrossel Raio-X (5)",
+   "gancho": "Raio-X de 76ers 131 x 124 Pacers",
+   "fato": "os 3 números e o que fica"
+  },
+  {
+   "canal": "x",
+   "hora": "14h",
+   "formato": "prejogo",
+   "gancho": "Hoje tem Nets x 76ers",
+   "fato": "Embiid dúvida, segundo jogo em duas noites"
+  },
+  {
+   "canal": "instagram",
+   "hora": "14h",
+   "formato": "prejogo",
+   "gancho": "Hoje tem Nets x 76ers",
+   "fato": "Embiid dúvida, 11-3 x 3-9"
+  },
+  {
+   "canal": "x",
+   "hora": "15h30",
+   "formato": "manchete Na Filadélfia",
+   "gancho": "Na Filadélfia, o assunto é o garrafão",
+   "fato": "Toporek e o pivô reserva"
+  },
+  {
+   "canal": "x",
+   "hora": "16h30",
+   "formato": "comparativo",
+   "gancho": "Nets x 76ers em números",
+   "fato": "pontos marcados e sofridos, fora e em casa"
+  },
+  {
+   "canal": "instagram",
+   "hora": "16h30",
+   "formato": "comparativo",
+   "gancho": "Nets x 76ers em números",
+   "fato": "pontos marcados e sofridos, fora e em casa"
+  },
+  {
+   "canal": "tiktok",
+   "hora": "17h",
+   "formato": "carrossel pré-jogo",
+   "gancho": "Hoje tem Nets x 76ers",
+   "fato": "comparativo, pré-jogo e Na Filadélfia"
+  },
+  {
+   "canal": "x, instagram, tiktok",
+   "hora": "19h30",
+   "formato": "reel história",
+   "gancho": "1984: o Nets derrubou o campeão",
+   "fato": "série de 1984 e 3 x 1 em séries"
+  },
+  {
+   "canal": "instagram story",
+   "hora": "20h30",
+   "formato": "story",
+   "gancho": "Falta um pivô ao 76ers?",
+   "fato": "Na Filadélfia"
+  },
+  {
+   "canal": "todos",
+   "hora": "00h00 e 00h35 (17/11)",
+   "formato": "pós-jogo",
+   "gancho": "placar",
+   "fato": "o que decidiu"
+  }
+ ]
 }
