@@ -1,6 +1,6 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "segunda, 16/11, às 17h55",
+ "atualizado": "segunda, 16/11, às 22h10",
  "motor": {
   "ligado": true,
   "texto": "Ligado. Última rodada: radar, 17h51. (A rodada das 7h51 não rodou; o dia foi feito às 10h50.)"
@@ -108,14 +108,10 @@ window.CENTRAL = {
     "obs": "Duas rodadas marcadas de antemão (em 15/11 uma travou). Quem chegar primeiro faz o placar no X, no Instagram e no TikTok (vídeo); a outra vê que já saiu e para."
    },
    {
-    "tipo": "Promoção paga no TikTok (opcional)",
+    "tipo": "Promoção paga no TikTok",
     "status": "promover",
-    "quando": "hoje, entre 18h e 20h",
-    "img": "img/hoje/tiktok-posjogo-pacers.png",
-    "arquivo": "tiktok-posjogo-pacers.mp4",
-    "obs": "O vídeo já está publicado pelo Buffer. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA > R$ 25 por 24 horas. Por quê: o placar em vídeo do Pacers é o melhor dos últimos 2 dias sem impulso: 447 visualizações, 53 curtidas e 6,4 segundos assistidos em média, o maior tempo da semana.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-15/tiktok-posjogo-pacers.mp4",
-    "linkTexto": "Ver o vídeo"
+    "quando": "hoje não",
+    "obs": "Correção: o placar do Pacers, que eu indiquei de manhã, você já tinha promovido em 15/11. Erro meu: o Buffer soma as visualizações pagas e eu não via o histórico de promoções; agora o motor guarda a lista dos vídeos já promovidos. Próximo pedido: quarta, com o vídeo vitrine de terça e o melhor vídeo do jogo de hoje. O plano está em Impulsionar."
    }
   ]
  },
@@ -140,11 +136,11 @@ window.CENTRAL = {
    }
   ],
   "destaques": [
-   "TikTok, Adivinha quem é (Allen Iverson, 13/11): 819 visualizações e 87 curtidas, com o impulso pago.",
-   "TikTok, placar em vídeo do Pacers (15/11): 447 visualizações e 53 curtidas sem impulso, com o maior tempo assistido da semana (6,4 segundos em média).",
+   "TikTok, Adivinha quem é (Allen Iverson, 13/11): 819 visualizações e 87 curtidas, com impulso pago.",
+   "TikTok, placar em vídeo do Pacers (15/11): 447 visualizações e 53 curtidas, com impulso pago, e o maior tempo assistido da semana (6,4 segundos em média).",
    "TikTok, carrossel do 8-0 nos jogos apertados (14/11): 412 visualizações e 24 curtidas."
   ],
-  "ajuste": "O TikTok é onde a Nação cresce: formato próprio (Adivinha quem é) e placar rápido em vídeo funcionam; reel de números com texto demais segura só 1,5 a 2 segundos. Nesta semana: mais Adivinha quem é e Você sabia?, placar em vídeo depois de todo jogo e ganchos mais curtos. O teste dos cartazes azuis contra os amarelos começou hoje; o resultado sai no balanço de 23/11."
+  "ajuste": "Quase todo o crescimento da semana veio da promoção paga: 343 seguidores no TikTok e 17 no Instagram (detalhes em Impulsionar). O TikTok é onde a Nação cresce: formato próprio (Adivinha quem é) e vídeo que apresenta o time funcionam melhor; reel de números com texto demais segura só 1,5 a 2 segundos. Nesta semana: um vídeo vitrine toda terça, placar em vídeo depois de todo jogo e ganchos mais curtos. O teste dos cartazes azuis contra os amarelos começou em 16/11; o resultado sai no balanço de 23/11."
  },
  "cola": {
   "jogo": "Nets x 76ers",

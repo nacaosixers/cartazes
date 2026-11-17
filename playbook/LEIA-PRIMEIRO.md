@@ -88,10 +88,14 @@ Nunca use shareNow. Nunca edite nem apague post que não foi você que criou na 
 
 ## Promoção paga (o Rodrigo paga no app; o motor só indica)
 
-Teste de 13/11 no TikTok: R$ 24 em 12 horas, 51 seguidores, R$ 0,47 cada, curtidas acima da média. Mas só 20% assistiram 2 segundos e ninguém viu até o fim: por isso o gancho na cena 1. No Instagram o impulso quase não rodou: sem indicação de Instagram por enquanto.
+**Valores em reais nunca entram aqui:** nada de gasto, orçamento ou custo por seguidor no repositório, no `central.js` ou na cópia do GitHub, que são públicos. Esses números ficam só na seção Impulsionar da página da central no Claude (privada), que o Claude atualiza na conversa com o Rodrigo. No item da central, escreva "no valor da seção Impulsionar".
 
-Na rodada da manhã, escolha **um vídeo do TikTok para promover hoje** e coloque como item da central: `list_posts` só do canal TikTok, status sent, últimos 2 dias, `includeMetrics: true`, `first: 6`. Prefira o que tiver mais visualizações e curtidas (as métricas do Buffer atrasam até 24 h). Sem números, escolha o vídeo mais novo de formato próprio do TikTok (Adivinha quem é, Você sabia?, Explicando) ou o placar em vídeo do último jogo. Nunca indique vídeo com mais de 3 dias.
-Item: `{"tipo": "Promoção paga no TikTok (opcional)", "status": "promover", "quando": "hoje, entre 18h e 20h", "img": capa, "obs": "O vídeo já está agendado (ou publicado) pelo Buffer e sai sozinho. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA > R$ 25 por 24 horas. Por quê: [motivo com o número]", "link": link raw do vídeo, "linkTexto": "Ver o vídeo"}`. Nunca use status "manual" para post: todo post vai agendado no Buffer.
+O que os pedidos de 13 a 16/11 mostraram: no TikTok (Mais seguidores, público Nação NBA) o seguidor sai oito vezes mais barato que no Instagram; o melhor pedido foi o com vários vídeos que apresentam o time a quem está chegando; vídeo de jogo só rende no primeiro dia. Instagram: sem promoção por enquanto.
+
+**Vídeo vitrine (toda terça):** um vídeo que não envelhece, feito para quem não conhece a Nação: Quem é quem, Adivinha quem é (uma lenda por vez, duas fontes), O 76ers em 3 números da temporada, Por que torcer pelo 76ers. Gancho forte na primeira cena e "Segue a Nação" no fim. Ele é o primeiro da lista de promoção da semana.
+
+Na rodada da manhã, coloque na central o item **o que promover**: 2 a 4 vídeos do TikTok, primeiro o vitrine mais novo e depois o melhor vídeo de jogo das últimas 24 horas (`list_posts` do TikTok com `includeMetrics: true`; as métricas do Buffer atrasam até 24 horas e somam as visualizações pagas). Nunca indique vídeo que esteja em `promovidos` no registro (`{"canal", "video", "data"}`, sem valores; o Claude preenche com os prints do Rodrigo no balanço de segunda), nem vídeo de jogo com mais de 24 horas. O pedido é a cada 2 dias: no dia seguinte a um item de promoção, não ponha outro.
+Item: `{"tipo": "Promoção paga no TikTok (opcional)", "status": "promover", "quando": "hoje, entre 18h e 20h", "img": capa do primeiro vídeo, "obs": "Os vídeos já estão publicados pelo Buffer. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA, no valor da seção Impulsionar. Vídeos: [lista]. Por quê: [motivo com número]", "link": link raw do primeiro vídeo, "linkTexto": "Ver o vídeo"}`. Nunca use status "manual" para post: todo post vai agendado no Buffer.
 
 ## Objetivo de longo prazo: ser notado pelo 76ers
 
@@ -101,7 +105,7 @@ Item: `{"tipo": "Promoção paga no TikTok (opcional)", "status": "promover", "q
 
 ## Registro (evita repetir)
 
-`estado/registro.json` guarda o que já foi feito: `{"placares": [...], "raiox": [...], "noticias": [{"url", "titulo", "data", "status"}], "curiosidades": [{"tema", "data"}], "reels": [...], "tiktok": [{"formato", "tema", "data"}], "posjogo": [{"jogo", "gatilho", "tentativa"}], "plano": [...], "fatos": [{"fato", "canal", "data"}], "trilhas": [{"estilo", "video", "data"}], "rodadas": {"manha", "vigia", "radar", "posjogo"}, "fios": [{"fio", "valor", "ate", "fonte", "ultimo_post"}], "fila_pautas": [{"pauta", "quando", "fonte", "sugerida_por"}]}`. Leia no começo, acrescente o que fizer, mantenha só os últimos 30 dias, faça commit e push no fim da rodada.
+`estado/registro.json` guarda o que já foi feito: `{"placares": [...], "raiox": [...], "noticias": [{"url", "titulo", "data", "status"}], "curiosidades": [{"tema", "data"}], "reels": [...], "tiktok": [{"formato", "tema", "data"}], "posjogo": [{"jogo", "gatilho", "tentativa"}], "plano": [...], "fatos": [{"fato", "canal", "data"}], "trilhas": [{"estilo", "video", "data"}], "rodadas": {"manha", "vigia", "radar", "posjogo"}, "fios": [{"fio", "valor", "ate", "fonte", "ultimo_post"}], "fila_pautas": [{"pauta", "quando", "fonte", "sugerida_por"}], "promovidos": [{"canal", "video", "data"}]}`. Leia no começo, acrescente o que fizer, mantenha só os últimos 30 dias, faça commit e push no fim da rodada.
 
 ## Sinal de vida e vigia (desde 16/11)
 

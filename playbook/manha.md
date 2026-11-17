@@ -46,6 +46,7 @@ Domingo: a agenda da semana entra às 11h no X e no Instagram (ocupa um dos 4 do
 
 6. **Domingo:** agenda da semana seguinte (`agenda`, até 8 jogos), às 11h no X e no Instagram.
 
+   **Terça-feira:** o vídeo vitrine da semana (LEIA-PRIMEIRO, Promoção paga), um vídeo que não envelhece, para quem não conhece a Nação. Sai no reel das 19h30 no X e no Instagram e no formato próprio do TikTok, e é o primeiro da lista de promoção.
    **Quarta-feira:** a curiosidade da série "2001: 25 anos" entra no lugar do número do dia.
    **Sexta-feira:** o post "From Brazil" em inglês, às 16h no X e no Instagram, marcando @sixers.
 
