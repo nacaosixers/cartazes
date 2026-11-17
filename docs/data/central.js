@@ -47,21 +47,21 @@ window.CENTRAL = {
     "tipo": "Vídeo vitrine: Adivinha quem é",
     "status": "agendado",
     "quando": "19h30 no X e no Instagram (Reels); 21h30 no TikTok",
-    "img": "img/hoje/reel-vitrine-adivinha-iverson.png",
-    "arquivo": "reel-vitrine-adivinha-iverson.png",
+    "img": "img/hoje/reel-vitrine-adivinha-erving.png",
+    "arquivo": "reel-vitrine-adivinha-erving.png",
     "x": "Adivinha quem é: só fã raiz do 76ers acerta. 🏀\n\nDuas pistas de uma lenda da Filadélfia. Comenta o nome antes de ver o fim.",
     "ig": "Adivinha quem é: só fã raiz do 76ers acerta.",
-    "obs": "Resposta: Allen Iverson (calouro do ano 1996-97, 4 vezes cestinha, MVP 2000-01, 26,7 pontos por jogo, Hall da Fama 2016). Fontes: NBA.com e Land of Basketball. Trilha: pop.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-17/reel-vitrine-adivinha-iverson.mp4"
+    "obs": "Resposta: Julius Erving, o Dr. J (mais de 30 mil pontos somando ABA e NBA, MVP 1980-81, Hall da Fama 1993). Fontes: Britannica e Stats Crew. Iverson já tinha saído no Adivinha quem é de 13/11. Trilha: pop.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-17/reel-vitrine-adivinha-erving.mp4"
    },
    {
     "tipo": "Promoção paga no TikTok (opcional)",
     "status": "promover",
     "quando": "hoje, depois das 21h30 (quando o vitrine sair)",
-    "img": "img/hoje/reel-vitrine-adivinha-iverson.png",
-    "arquivo": "reel-vitrine-adivinha-iverson.png",
+    "img": "img/hoje/reel-vitrine-adivinha-erving.png",
+    "arquivo": "reel-vitrine-adivinha-erving.png",
     "obs": "Os vídeos já estão publicados pelo Buffer. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA, no valor da seção Impulsionar. Vídeos: 1) Adivinha quem é (vitrine, 21h30); 2) placar Nets 123 x 135 76ers (saiu 0h59, vale até a 0h59 de quarta); 3) Raio-X do Nets (12h). Por quê: o vitrine não envelhece e o seguidor no TikTok saiu oito vezes mais barato que no Instagram; vídeo de jogo só rende no primeiro dia.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-17/reel-vitrine-adivinha-iverson.mp4",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-17/reel-vitrine-adivinha-erving.mp4",
     "linkTexto": "Ver o vídeo"
    }
   ]
