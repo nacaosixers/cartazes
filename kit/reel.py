@@ -169,6 +169,9 @@ body{margin:0;background:#000}
     total = sum(durs)
     n = int(round(total * FPS))
     tmp = tempfile.mkdtemp()
+    # O vídeo é montado fora do lugar final e só vai para `out` depois de conferido:
+    # assim nunca existe um arquivo pela metade (em 17/11 um vídeo subiu corrompido, só com fundo azul).
+    tmp_out = str(pathlib.Path(tmp) / "saida.mp4")
     if roteiro.get("trilha", True):
         wav = str(pathlib.Path(tmp) / "trilha.wav")
         estilo = roteiro.get("estilo")
@@ -180,7 +183,7 @@ body{margin:0;background:#000}
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS), "-vcodec", "mjpeg", "-i", "-",
                            *audio, "-shortest",
                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-profile:v", "high", "-r", str(FPS),
-                           "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
+                           "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-movflags", "+faststart", tmp_out], stdin=subprocess.PIPE)
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         b = p.chromium.launch()
@@ -201,6 +204,11 @@ body{margin:0;background:#000}
     ff.stdin.close(); ff.wait()
     if ff.returncode != 0:
         sys.exit("ffmpeg falhou ao montar o vídeo.")
+    erros = subprocess.run(["ffmpeg", "-v", "error", "-i", tmp_out, "-f", "null", "-"], capture_output=True, text=True).stderr.strip()
+    if erros:
+        sys.exit("O vídeo saiu corrompido (erros ao decodificar). Gere de novo; nada foi gravado em " + out)
+    import shutil
+    shutil.move(tmp_out, out)
     print(out, f"{total:.1f}s", " + ".join(f"{d:.1f}" for d in durs))
     print(f"capa_ms={int(0.5 * 1000)}  (use este numero como thumbnailOffset no Instagram e no TikTok)")
 
