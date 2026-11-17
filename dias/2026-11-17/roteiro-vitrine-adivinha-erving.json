@@ -1,0 +1,6 @@
+{"cenas": [
+ {"papel": "amarelo", "kicker": "Adivinha quem é", "linhas": [["Só fã raiz", "as", "vermelho", 300], ["acerta", "an", "azul", 240]], "texto": "Quem é essa lenda?"},
+ {"papel": "branco", "kicker": "Pista 1", "numero": "30", "rotulo": "mil pontos na carreira", "texto": "Mais de 30 mil, somando os anos de ABA e de NBA."},
+ {"papel": "azul", "kicker": "Pista 2", "numero": "1981", "rotulo": "MVP da NBA", "texto": "Prêmio da temporada 1980-81, com a camisa do 76ers. Comenta o nome."},
+ {"papel": "branco", "kicker": "Resposta", "linhas": [["Julius Erving", "as", "vermelho", 300], ["o Dr. J", "as", "azul", 300]], "texto": "Hall da Fama em 1993."}
+], "cta": true, "trilha": true, "estilo": "pop", "semente": 1719}
