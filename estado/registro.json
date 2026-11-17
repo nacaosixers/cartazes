@@ -41,6 +41,12 @@
    "data_jogo": "2026-11-15",
    "tiktok": "2026-11-16 11h10",
    "carrossel": "2026-11-16 11h30"
+  },
+  {
+   "jogo": "Nets 123 x 135 76ers",
+   "data_jogo": "2026-11-16",
+   "tiktok": "2026-11-17 12h",
+   "carrossel": "2026-11-17 12h"
   }
  ],
  "noticias": [
@@ -123,6 +129,10 @@
   {
    "tema": "Número do dia: 8-0 nos jogos apertados",
    "data": "2026-11-14"
+  },
+  {
+   "tema": "Número do dia: 10-0 no clutch",
+   "data": "2026-11-17"
   }
  ],
  "reels": [
@@ -149,6 +159,10 @@
   {
    "tema": "História Nets x 76ers: 1984, o Nets derrubou o campeão",
    "data": "2026-11-16"
+  },
+  {
+   "tema": "Vitrine: Adivinha quem é (Allen Iverson: calouro do ano 1997, 4 vezes cestinha, MVP 2000-01)",
+   "data": "2026-11-17"
   }
  ],
  "prejogos": [
@@ -248,6 +262,21 @@
    "formato": "Placar em vídeo",
    "tema": "Nets 123 x 135 76ers: Embiid 37 na volta, Maxey 24 e 9 assistências, 12-3",
    "data": "2026-11-17"
+  },
+  {
+   "formato": "Reel",
+   "tema": "Raio-X Nets: +10 no lance livre (32/38 x 22/34), 45 no segundo quarto, 47 x 38 rebotes",
+   "data": "2026-11-17"
+  },
+  {
+   "formato": "Carrossel",
+   "tema": "10-0 no clutch, 4-0 sem LeBron, frase de Embiid (força)",
+   "data": "2026-11-17"
+  },
+  {
+   "formato": "Adivinha quem é (vitrine)",
+   "tema": "Allen Iverson",
+   "data": "2026-11-17"
   }
  ],
  "agendas": [
@@ -280,6 +309,16 @@
   {
    "estilo": "arena",
    "video": "tiktok-posjogo-nets.mp4",
+   "data": "2026-11-17"
+  },
+  {
+   "estilo": "trap",
+   "video": "tiktok-raiox-nets.mp4",
+   "data": "2026-11-17"
+  },
+  {
+   "estilo": "pop",
+   "video": "reel-vitrine-adivinha-iverson.mp4",
    "data": "2026-11-17"
   }
  ],
@@ -348,121 +387,97 @@
    "fato": "Placar Nets 123 x 135 76ers: Embiid 37 na volta (13 de 22, 9 de 10 nos lances livres), Maxey 24 e 9 assistências, Edgecombe 14 e 9 rebotes, sem LeBron, maior vantagem 24, 12-3",
    "canal": "todos",
    "data": "2026-11-17"
+  },
+  {
+   "fato": "Embiid: 'Tudo o que eu faço tem que ser com força' (ESPN, Kris Rhim)",
+   "canal": "x, instagram story, tiktok",
+   "data": "2026-11-17"
+  },
+  {
+   "fato": "Raio-X Nets: 32/38 x 22/34 no lance livre, 45 x 33 no segundo quarto (78 x 59 no intervalo), 47 x 38 rebotes (Brown 13, Wade 11); Brown faz exames",
+   "canal": "todos",
+   "data": "2026-11-17"
+  },
+  {
+   "fato": "76ers 10-0 no clutch (Nets chegou a 4 com 1min14, Embiid fechou de três)",
+   "canal": "todos",
+   "data": "2026-11-17"
+  },
+  {
+   "fato": "76ers 4-0 sem LeBron",
+   "canal": "tiktok (apoio no Raio-X)",
+   "data": "2026-11-17"
+  },
+  {
+   "fato": "Adivinha quem é: Allen Iverson (calouro do ano 1996-97, 4 vezes cestinha, MVP 2000-01, 26,7 pontos, Hall da Fama 2016)",
+   "canal": "todos",
+   "data": "2026-11-17"
   }
  ],
  "rodadas": {
-  "manha": "2026-11-17 07:54 em andamento",
+  "manha": "2026-11-17 08:25 feito (11 posts agendados: X 10h, 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e story 19h30; TikTok 12h, 18h, 21h30)",
   "radar": "2026-11-16 17:58 feito (1 post no X: LeBron fora contra o Nets; cola atualizada; feed do Instagram e TikTok cheios)",
   "posjogo": "2026-11-17 00:59 feito pelo Claude na conversa (placar no X, Instagram, story e TikTok)"
  },
  "plano": [
   {
-   "canal": "tiktok",
-   "hora": "11h10",
-   "formato": "reel Raio-X",
-   "gancho": "Sem Embiid, como o 76ers venceu",
-   "fato": "18 x 8 de três, 20 x 7 contra-ataque, 39 x 30 no terceiro quarto"
-  },
-  {
    "canal": "x",
-   "hora": "11h30",
-   "formato": "carrossel Raio-X (4)",
-   "gancho": "Raio-X de 76ers 131 x 124 Pacers",
-   "fato": "os 3 números e o alerta do garrafão"
+   "hora": "10h",
+   "formato": "direto (branco)",
+   "gancho": "Joel Embiid explicou a noite de 37 pontos",
+   "fato": "frase sobre jogar com força (ESPN)"
   },
   {
-   "canal": "instagram",
-   "hora": "11h30",
-   "formato": "carrossel Raio-X (5)",
-   "gancho": "Raio-X de 76ers 131 x 124 Pacers",
-   "fato": "os 3 números e o que fica"
-  },
-  {
-   "canal": "x",
-   "hora": "14h",
-   "formato": "prejogo",
-   "gancho": "Hoje tem Nets x 76ers",
-   "fato": "Embiid dúvida, segundo jogo em duas noites"
-  },
-  {
-   "canal": "instagram",
-   "hora": "14h",
-   "formato": "prejogo",
-   "gancho": "Hoje tem Nets x 76ers",
-   "fato": "Embiid dúvida, 11-3 x 3-9"
-  },
-  {
-   "canal": "x",
-   "hora": "15h30",
-   "formato": "manchete Na Filadélfia",
-   "gancho": "Na Filadélfia, o assunto é o garrafão",
-   "fato": "Toporek e o pivô reserva"
-  },
-  {
-   "canal": "x",
-   "hora": "16h30",
-   "formato": "comparativo",
-   "gancho": "Nets x 76ers em números",
-   "fato": "pontos marcados e sofridos, fora e em casa"
-  },
-  {
-   "canal": "instagram",
-   "hora": "16h30",
-   "formato": "comparativo",
-   "gancho": "Nets x 76ers em números",
-   "fato": "pontos marcados e sofridos, fora e em casa"
+   "canal": "x, instagram (5)",
+   "hora": "12h",
+   "formato": "carrossel Raio-X (capa azul, outro modelo)",
+   "gancho": "Raio-X de Nets 123 x 135 76ers",
+   "fato": "lance livre, segundo quarto, rebotes"
   },
   {
    "canal": "tiktok",
-   "hora": "17h",
-   "formato": "carrossel pré-jogo",
-   "gancho": "Hoje tem Nets x 76ers",
-   "fato": "comparativo, pré-jogo e Na Filadélfia"
+   "hora": "12h",
+   "formato": "reel Raio-X (gancho amarelo, trap)",
+   "gancho": "Raio-X: vitória sem LeBron",
+   "fato": "mesmos 3 números"
   },
   {
-   "canal": "x, instagram, tiktok",
+   "canal": "x, instagram",
+   "hora": "16h",
+   "formato": "numero (azul)",
+   "gancho": "76ers 10-0 nos jogos apertados",
+   "fato": "10-0 no clutch"
+  },
+  {
+   "canal": "tiktok",
+   "hora": "18h",
+   "formato": "carrossel 3 fotos (azul primeiro)",
+   "gancho": "76ers 10-0 nos jogos apertados",
+   "fato": "10-0, 4-0 sem LeBron, frase de Embiid"
+  },
+  {
+   "canal": "x, instagram reel, tiktok 21h30",
    "hora": "19h30",
-   "formato": "reel história",
-   "gancho": "1984: o Nets derrubou o campeão",
-   "fato": "série de 1984 e 3 x 1 em séries"
+   "formato": "reel vitrine (gancho amarelo, pop)",
+   "gancho": "Adivinha quem é: só fã raiz acerta",
+   "fato": "Allen Iverson"
   },
   {
    "canal": "instagram story",
-   "hora": "20h30",
-   "formato": "story",
-   "gancho": "Falta um pivô ao 76ers?",
-   "fato": "Na Filadélfia"
-  },
-  {
-   "canal": "todos",
-   "hora": "00h00 e 00h35 (17/11)",
-   "formato": "pós-jogo",
-   "gancho": "placar",
-   "fato": "o que decidiu"
-  },
-  {
-   "canal": "x",
-   "hora": "13h15",
-   "formato": "numero (azul)",
-   "gancho": "LeBron James agora é o terceiro em assistências na história da NBA",
-   "fato": "12.092, passou Jason Kidd"
-  },
-  {
-   "canal": "x",
-   "hora": "18h10",
-   "formato": "manchete (branco)",
-   "gancho": "LeBron James está fora hoje contra o Nets",
-   "fato": "relatório de lesões: LeBron fora, Embiid dúvida"
+   "hora": "19h30",
+   "formato": "direto (story)",
+   "gancho": "frase de Embiid",
+   "fato": "força"
   }
  ],
  "fios": [
   {
    "fio": "Campanha no clutch (diferença de até 5 pontos nos 5 minutos finais)",
-   "valor": "9-0, único time invicto da NBA nesses jogos; 50% de quadra e 50% de três nesses momentos",
-   "ate": "jogo de 15/11 (Pacers)",
-   "fonte": "perfil oficial do 76ers no X, 16/11 (76 By The Numbers, dados da NBA), print enviado pelo Rodrigo",
-   "ultimo_post": "8-0, em 14/11 (TikTok: carrossel do 8-0 e reel O começo em 3 números)",
-   "proximo_marco": "10-0 (ou 15-0, 20-0, recorde); 9-0 não sai, já demos o 8-0 em 14/11"
+   "valor": "10-0",
+   "ate": "jogo de 16/11 (Nets: chegou a 125 x 121 com 1min14, Embiid fechou de três)",
+   "fonte": "Philly Sports Reports (Braydin Adams) e Cole Weintraub no X; 9-0 até 15/11 segundo o 76ers",
+   "ultimo_post": "10-0, em 17/11 (número do dia no X e no Instagram, carrossel do TikTok)",
+   "proximo_marco": "15-0 ou recorde; 11-0 não sai"
   },
   {
    "fio": "LeBron James em assistências na carreira",
@@ -471,16 +486,17 @@
    "fonte": "radar de 16/11",
    "ultimo_post": "16/11 no X (radar das 12h51)",
    "proximo_marco": "passar Chris Paul e virar o segundo da história"
-  }
- ],
- "fila_pautas": [
+  },
   {
-   "pauta": "Número do dia: o 76ers invicto no clutch, SÓ SE o jogo contra o Nets de 16/11 foi decidido no clutch e virou 10-0. Se ficou 9-0 ou virou 9-1, não sai: tire esta pauta da fila.",
-   "quando": "17/11: 16h no X e no Instagram (número do dia); no TikTok, primeira foto do carrossel das 18h",
-   "fonte": "perfil oficial do 76ers no X, 16/11 (9-0 até 15/11); confirme o 10-0 em nba.com/sixers/news, NBA.com/stats ou na imprensa local; sem segunda fonte, cite 'segundo o 76ers'",
-   "sugerida_por": "Rodrigo, 16/11 (com a regra: número que já saiu só volta quando cresce de verdade)"
+   "fio": "Campanha sem LeBron James",
+   "valor": "4-0",
+   "ate": "jogo de 16/11 (Nets)",
+   "fonte": "ESPN (Kris Rhim) e NBC Sports Philadelphia",
+   "ultimo_post": "17/11 (TikTok, carrossel; apoio no Raio-X)",
+   "proximo_marco": "só volta se for marca notável"
   }
  ],
+ "fila_pautas": [],
  "promovidos": [
   {
    "canal": "tiktok",
