@@ -1,0 +1,5 @@
+{"cenas": [
+ {"papel": "azul", "kicker": "Fim de jogo", "linhas": [["Nets 123", "an", "creme", 200], ["x 135 76ers", "an", "amarelo", 200]], "texto": "Embiid voltou e decidiu."},
+ {"papel": "branco", "kicker": "Joel Embiid", "numero": "37", "rotulo": "pontos na volta", "texto": "13 de 22 nos arremessos e 9 de 10 nos lances livres."},
+ {"papel": "azul", "kicker": "Sem LeBron", "numero": "12-3", "rotulo": "campanha do 76ers", "texto": "Maxey fez 24 e 9 assistências. Quarta tem Magic."}
+], "cta": true, "trilha": true, "estilo": "arena", "semente": 1617}
