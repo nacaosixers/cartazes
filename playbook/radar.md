@@ -6,7 +6,7 @@ Rodada curta, atrás de novidade. Leia antes `LEIA-PRIMEIRO.md`, `fontes.md` e `
 
 1. **Prepare:** `get_account`, `list_posts` de hoje (X, Instagram e TikTok) e `estado/registro.json`.
 
-2. **Varra as fontes locais** (Inquirer, PhillyVoice, NBC Sports Philadelphia, Liberty Ballers, Sixers Wire, Crossing Broad) e as nacionais, só o que saiu desde a última rodada. Descarte o que já está no registro.
+2. **Varra as fontes locais** (Inquirer, PhillyVoice, NBC Sports Philadelphia, Liberty Ballers, Sixers Wire, Crossing Broad, nba.com/sixers/news) e as nacionais, só o que saiu desde a última rodada. Número novo de um fio da temporada (pautas.md): atualize `fios` e, se não couber post hoje, ponha em `fila_pautas`. Descarte o que já está no registro.
 
 3. **Escolha no máximo 2 pautas** que valem post: frase forte, bastidor, lesão, troca, novidade de treino, detalhe tático contado por quem acompanha o time (o que o técnico mudou, quem treinou, quem ganhou minutos), ou a leitura da imprensa local sobre o próximo jogo (Na Filadélfia, com o nome do jornalista). Se nada vale, pule para o passo 6.
 

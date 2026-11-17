@@ -18,11 +18,12 @@ Instagram: até 4 posts no feed, com 90 minutos ou mais entre eles; story não c
 
 Domingo: a agenda da semana entra às 11h no X e no Instagram (ocupa um dos 4 do feed). Sexta: o "From Brazil" às 16h no lugar do número do dia.
 
-1. **Prepare:** `get_account` (hora atual), `list_channels`, `list_posts` dos últimos 2 dias e `estado/registro.json`.
+1. **Prepare:** `get_account` (hora atual), `list_channels`, `list_posts` dos últimos 2 dias e `estado/registro.json`, inclusive `fios` e `fila_pautas` (pautas.md): o que estiver na fila para hoje entra no plano antes do resto.
 
 2. **Placar:** se o 76ers jogou nas últimas 36 horas e o placar ainda não saiu (o turno da noite pode já ter postado), faça o cartaz `placar` com a frase do que decidiu (números reais do box score). Agende para 8h30 no X e no Instagram. Se o TikTok também ficou sem o placar e o jogo acabou há menos de 18 horas, faça o vídeo curto do pós-jogo (`posjogo.md`, passo 4) e agende no TikTok às 8h45; se já passou das 18 horas, o Raio-X do passo 3 fica no lugar dele.
 
 3. **Raio-X do último jogo** (se ainda não foi feito para esse jogo):
+   - Antes de olhar o box score, veja os fios da temporada (pautas.md): se o jogo mexeu num deles (mais uma vitória no clutch, sequência, marca histórica), esse é o primeiro número e o gancho. Atualize o fio no registro.
    - Carrossel de 5 cartazes: capa (`cartaz` amarelo ou azul, alternando com o post anterior do canal, com "Raio-X" e o placar), 3 cartazes `numero` (os 3 números que mais explicam o jogo, cada um com rótulo e uma frase de contexto) e 1 `lista` "O que fica" com 3 leituras factuais (aproveitamento de quem decidiu, tendência que se repetiu, o que observar no próximo jogo).
    - Procure no box score: diferença na linha de três, maior sequência (`most_unanswered`), parcial do último quarto, garrafão, banco, contra-ataque, segunda chance, lances livres tentados, erros que viraram pontos, aproveitamento real (TS%) dos titulares.
    - Reel "3 números" com as mesmas informações (gancho, 3 cenas `numero`, CTA), **só para o TikTok**. No X e no Instagram o Raio-X é o carrossel: o mesmo conteúdo em outro formato no mesmo canal é repetição (pautas.md). O reel da noite no X e no Instagram é outro ângulo.
@@ -39,7 +40,7 @@ Domingo: a agenda da semana entra às 11h no X e no Instagram (ocupa um dos 4 do
    - Cola do jogo na central: 4 ou 5 pontos com números (campanha, sequência, médias dos destaques, desfalques do relatório de lesões, retrospecto recente contra o adversário), fontes e o roteiro de 4 momentos para o Rodrigo comentar no X ao vivo.
 
 5. **Número do dia ou Neste dia na história** (todo dia, menos quando o Raio-X e o pré-jogo já encheram o feed do Instagram):
-   - Número do dia: um dado da temporada do 76ers que surpreende (ranking na liga, sequência, marca individual, comparação com temporadas passadas). Cartaz `numero` em papel azul (o padrão do kit), com texto de apoio de até 14 palavras.
+   - Número do dia: um dado da temporada do 76ers que surpreende (ranking na liga, sequência, marca individual, comparação com temporadas passadas). Primeiro a `fila_pautas`, depois os fios que mudaram e ainda não tiveram post; só então procure um número novo. Cartaz `numero` em papel azul (o padrão do kit), com texto de apoio de até 14 palavras.
    - Neste dia na história: um jogo ou fato marcante do 76ers nesta data (títulos de 1967 e 1983, Wilt Chamberlain, Julius Erving, Moses Malone, Charles Barkley, Allen Iverson, o Processo, recordes). Só com duas fontes. Cartaz `numero` com o ano gigante, papel azul.
    - Publique às 16h no X e no Instagram. Uma vez por semana, transforme o melhor desses num reel.
 

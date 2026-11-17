@@ -101,7 +101,7 @@ Item: `{"tipo": "Promoção paga no TikTok (opcional)", "status": "promover", "q
 
 ## Registro (evita repetir)
 
-`estado/registro.json` guarda o que já foi feito: `{"placares": [...], "raiox": [...], "noticias": [{"url", "titulo", "data", "status"}], "curiosidades": [{"tema", "data"}], "reels": [...], "tiktok": [{"formato", "tema", "data"}], "posjogo": [{"jogo", "gatilho", "tentativa"}], "plano": [...], "fatos": [{"fato", "canal", "data"}], "trilhas": [{"estilo", "video", "data"}], "rodadas": {"manha", "vigia", "radar", "posjogo"}}`. Leia no começo, acrescente o que fizer, mantenha só os últimos 30 dias, faça commit e push no fim da rodada.
+`estado/registro.json` guarda o que já foi feito: `{"placares": [...], "raiox": [...], "noticias": [{"url", "titulo", "data", "status"}], "curiosidades": [{"tema", "data"}], "reels": [...], "tiktok": [{"formato", "tema", "data"}], "posjogo": [{"jogo", "gatilho", "tentativa"}], "plano": [...], "fatos": [{"fato", "canal", "data"}], "trilhas": [{"estilo", "video", "data"}], "rodadas": {"manha", "vigia", "radar", "posjogo"}, "fios": [{"fio", "valor", "ate", "fonte", "ultimo_post"}], "fila_pautas": [{"pauta", "quando", "fonte", "sugerida_por"}]}`. Leia no começo, acrescente o que fizer, mantenha só os últimos 30 dias, faça commit e push no fim da rodada.
 
 ## Sinal de vida e vigia (desde 16/11)
 

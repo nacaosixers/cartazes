@@ -32,6 +32,19 @@ Escreva em `estado/registro.json`, chave `plano`, uma linha por post: `{"canal",
 
 **Dia sem jogo:** Raio-X (se teve jogo ontem), Número do dia, Neste dia na história, "2001: 25 anos" (quarta), From Brazil (sexta), Na Filadélfia (treino, frase do técnico, debate da semana), Prancheta (tática em 3 pontos), ranking na liga (`comparativo` contra a média da NBA ou contra o rival da semana), Opinião da Nação (X). No TikTok: Adivinha quem é, Você sabia?, Explicando o 76ers, Top 3 histórico, Quem ganha? (duas lendas com números).
 
+## Fios da temporada (números que andam a cada jogo)
+
+Nasceu em 16/11: o próprio 76ers postou "9-0 no clutch, único invicto da NBA, com 50% de quadra e de três nesses momentos". A Nação tinha dado o 8-0 em 14/11, mas deixou passar a atualização e no Raio-X do Pacers tratou o jogo como decidido no terceiro quarto.
+
+- O registro guarda em `fios` os números da temporada que mudam a cada jogo: `{"fio", "valor", "ate", "fonte", "ultimo_post"}`. Exemplos: campanha no clutch (diferença de até 5 pontos nos 5 minutos finais), sequências, marcas de carreira que estão perto (LeBron e as assistências), recordes da temporada, campanha sem Joel Embiid.
+- Depois de cada jogo (pós-jogo e Raio-X), confira se o jogo mexeu num fio. Se mexeu, o número novo é o gancho e vem antes dos números do box score.
+- Fio que mudou e ainda não teve post vira o Número do dia seguinte.
+- Onde achar: nba.com/sixers/news (notas e números do próprio time), NBA.com/stats (página Clutch, quando abrir) e as notas da imprensa local, que repetem esses números. O perfil do 76ers no X (série "76 By The Numbers") é a melhor vitrine, mas não abre sem login: quando o Rodrigo mandar um print, ele entra em `fila_pautas`. Traduza, confira e dê o crédito ("segundo o 76ers", "dados da NBA"). A arte deles nunca: foto, logo e patrocinador ficam de fora; o número vira cartaz do kit.
+
+## Fila de pautas
+
+`fila_pautas` no registro guarda pautas para os próximos dias, inclusive as que o Rodrigo sugerir: `{"pauta", "quando", "fonte", "sugerida_por"}`. A rodada da manhã lê a fila ao fazer o plano: pauta dentro do prazo entra antes das outras e, depois de usada, sai da fila (registre em `fatos`).
+
 ## Onde achar história e números do confronto
 
 - Land of Basketball: `landofbasketball.com/head_to_head/76ers_vs_[time]_all_time.htm` (retrospecto e séries de playoff).

@@ -432,5 +432,29 @@
    "gancho": "LeBron James está fora hoje contra o Nets",
    "fato": "relatório de lesões: LeBron fora, Embiid dúvida"
   }
+ ],
+ "fios": [
+  {
+   "fio": "Campanha no clutch (diferença de até 5 pontos nos 5 minutos finais)",
+   "valor": "9-0, único time invicto da NBA nesses jogos; 50% de quadra e 50% de três nesses momentos",
+   "ate": "jogo de 15/11 (Pacers)",
+   "fonte": "perfil oficial do 76ers no X, 16/11 (76 By The Numbers, dados da NBA), print enviado pelo Rodrigo",
+   "ultimo_post": "8-0, em 14/11 (TikTok: carrossel do 8-0 e reel O começo em 3 números)"
+  },
+  {
+   "fio": "LeBron James em assistências na carreira",
+   "valor": "12.092, terceiro da história; o próximo é Chris Paul",
+   "ate": "jogo de 15/11 (Pacers)",
+   "fonte": "radar de 16/11",
+   "ultimo_post": "16/11 no X (radar das 12h51)"
+  }
+ ],
+ "fila_pautas": [
+  {
+   "pauta": "Número do dia: o 76ers invicto no clutch. Era 9-0 até 15/11, único invicto da NBA, com 50% de quadra e de três nesses momentos. Atualize com o jogo contra o Nets de 16/11 (se foi apertado, vira 10-0 ou 9-1) e use o número novo.",
+   "quando": "17/11: 16h no X e no Instagram (número do dia); no TikTok, primeira foto do carrossel das 18h",
+   "fonte": "perfil oficial do 76ers no X, 16/11; confirme o número atualizado em nba.com/sixers/news, NBA.com/stats ou na imprensa local; sem segunda fonte, cite 'segundo o 76ers'",
+   "sugerida_por": "Rodrigo, 16/11"
+  }
  ]
 }
