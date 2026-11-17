@@ -1,500 +1,505 @@
 {
-  "placares": [
-    {
-      "jogo": "76ers 101 x 123 Celtics",
-      "data_jogo": "2026-11-10",
-      "publicado": "2026-11-11"
-    },
-    {
-      "jogo": "76ers 123 x 112 Raptors",
-      "data_jogo": "2026-11-12",
-      "publicado": "2026-11-13"
-    },
-    {
-      "jogo": "76ers 131 x 124 Pacers",
-      "data_jogo": "2026-11-15",
-      "publicado": "2026-11-15",
-      "obs": "radar 17h51: X 18h14 e Instagram feed 18h20; TikTok (vídeo) e story completados às 19h25 pelo Claude"
-    }
-  ],
-  "raiox": [
-    {
-      "jogo": "76ers 101 x 123 Celtics",
-      "data_jogo": "2026-11-10",
-      "carrossel": "2026-11-11 16h",
-      "reel": "2026-11-11 20h30"
-    },
-    {
-      "jogo": "76ers 123 x 112 Raptors",
-      "data_jogo": "2026-11-12",
-      "carrossel": "2026-11-13 12h",
-      "reel": "2026-11-13 19h30"
-    },
-    {
-      "jogo": "76ers 131 x 124 Pacers",
-      "data_jogo": "2026-11-15",
-      "tiktok": "2026-11-16 11h10",
-      "carrossel": "2026-11-16 11h30"
-    }
-  ],
-  "noticias": [
-    {
-      "url": "https://nesn.com/boston-celtics/news/celtics-familiar-tune-not-so-subtle-message-76ers/ff711c4f6b0de7b91fd5d5a4",
-      "titulo": "Why Can't We Be Friends? no treino do Celtics",
-      "data": "2026-11-10",
-      "status": "publicado"
-    },
-    {
-      "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-paul-george-middle-finger-36-points-celtics/766206/",
-      "titulo": "Paul George: gesto para torcedor e frase de Maxey",
-      "data": "2026-11-11",
-      "status": "publicado"
-    },
-    {
-      "url": "https://sports.yahoo.com/articles/joel-embiid-addresses-injury-shooting-174030268.html",
-      "titulo": "Embiid: torção no tornozelo, estou bem; arremesso é trabalho em andamento",
-      "data": "2026-11-11",
-      "status": "publicado"
-    },
-    {
-      "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-injury-report-lebron-james-joel-embiid-sixers-vs-raptors/766323/",
-      "titulo": "Embiid e LeBron dúvida contra o Raptors (relatório de lesões)",
-      "data": "2026-11-12",
-      "status": "agendado"
-    },
-    {
-      "url": "https://ca.sports.yahoo.com/news/joel-embiid-questionable-for-76ers-matchup-vs-raptors-with-foot-condition-lebron-james-sitting-out-due-to-back-management-193648795.html",
-      "titulo": "LeBron fora contra o Raptors; Embiid segue dúvida (\"Não faço ideia\")",
-      "data": "2026-11-12",
-      "status": "agendado"
-    },
-    {
-      "url": "https://www.phillyvoice.com/sixers-raptors-76ers-news-analysis-box-score-joel-embiid-tyrese-maxey-jaylen-brown-lebron-james-vj-edgecombe/",
-      "titulo": "Embiid: não tenho sido agressivo; susto no joelho",
-      "data": "2026-11-13",
-      "status": "agendado"
-    },
-    {
-      "url": "https://www.phillyvoice.com/sixers-news-76ers-analysis-tacko-fall-highlights-interview-bio-stats-jaylen-brown-nba-rumors/",
-      "titulo": "Tacko Fall: quero ser visto como jogador de basquete (gritos da torcida)",
-      "data": "2026-11-13",
-      "status": "agendado"
-    },
-    {
-      "url": "https://www.crossingbroad.com/news/sixers/the-sixers-are-the-nbas-most-clutch-team/",
-      "titulo": "8-0 nos jogos apertados (Crossing Broad, FanSided, LeBron no Fadeaway World)",
-      "data": "2026-11-14",
-      "status": "agendado"
-    },
-    {
-      "url": "https://www.espn.com/nba/story/_/id/50484216/76ers-joel-embiid-vs-pacers-due-plantar-fascia-management",
-      "titulo": "Embiid fora contra o Pacers (fascite plantar); LeBron fora do relatório (no pré-jogo)",
-      "data": "2026-11-15",
-      "status": "agendado"
-    },
-    {
-      "url": "https://heavy.com/sports/nba/philadelphia-76ers/lebron-james-didnt-foresee-historical-nba-moment-in-76ers-pacers-game/",
-      "titulo": "LeBron passa Jason Kidd: terceiro em assistências (12.092)",
-      "data": "2026-11-16",
-      "status": "agendado"
-    },
-    {
-      "url": "https://www.phillyvoice.com/sixers-news-76ers-analysis-vs-nets-injury-report-lebron-james-status-joel-embiid-update-dominick-barlow-nba/",
-      "titulo": "LeBron fora contra o Nets (controle das costas); Embiid dúvida",
-      "data": "2026-11-16",
-      "status": "agendado"
-    }
-  ],
-  "curiosidades": [
-    {
-      "tema": "Número do dia: Maxey 26,7 pontos por jogo",
-      "data": "2026-11-12"
-    },
-    {
-      "tema": "Número do dia: Edgecombe 38,8% de três",
-      "data": "2026-11-13"
-    },
-    {
-      "tema": "Número do dia: 8-0 nos jogos apertados",
-      "data": "2026-11-14"
-    }
-  ],
-  "reels": [
-    {
-      "tema": "Raio-X 76ers x Celtics",
-      "data": "2026-11-11"
-    },
-    {
-      "tema": "Contagem 76ers x Raptors",
-      "data": "2026-11-12"
-    },
-    {
-      "tema": "Raio-X 76ers x Raptors",
-      "data": "2026-11-13"
-    },
-    {
-      "tema": "O começo do 76ers em 3 números (10-3, 8-0, Maxey 26,7)",
-      "data": "2026-11-14"
-    },
-    {
-      "tema": "Contagem 76ers x Pacers",
-      "data": "2026-11-15"
-    },
-    {
-      "tema": "História Nets x 76ers: 1984, o Nets derrubou o campeão",
-      "data": "2026-11-16"
-    }
-  ],
-  "prejogos": [
-    {
-      "jogo": "76ers x Raptors",
-      "data": "2026-11-12"
-    },
-    {
-      "jogo": "76ers x Pacers",
-      "data": "2026-11-15"
-    },
-    {
-      "jogo": "Nets x 76ers",
-      "data": "2026-11-16"
-    }
-  ],
-  "posjogo": [
-    {
-      "jogo": "76ers x Pacers",
-      "data_jogo": "2026-11-15",
-      "gatilho": "trig_0129YJu5PNQ5xQDJSpzWJmcb",
-      "tentativa": 1,
-      "horario": "17h15"
-    },
-    {
-      "jogo": "Nets x 76ers",
-      "data_jogo": "2026-11-16",
-      "gatilho": "trig_01DXEemwPkj66HzXaGaf5V3W",
-      "tentativa": 1,
-      "horario": "00h00 de 17/11"
-    },
-    {
-      "jogo": "Nets x 76ers",
-      "data_jogo": "2026-11-16",
-      "gatilho": "trig_011VwUqLP6KgDtCBb9hWxXxL",
-      "tentativa": 2,
-      "horario": "00h35 de 17/11"
-    }
-  ],
-  "tiktok": [
-    {
-      "formato": "Adivinha quem é",
-      "tema": "Allen Iverson (1,83 m, 31,1 pontos, 56 vitórias em 2000-01)",
-      "data": "2026-11-13"
-    },
-    {
-      "formato": "Carrossel",
-      "tema": "8-0 nos jogos apertados (número, LeBron, Maxey)",
-      "data": "2026-11-14"
-    },
-    {
-      "formato": "Reel",
-      "tema": "O começo do 76ers em 3 números",
-      "data": "2026-11-14"
-    },
-    {
-      "formato": "Explicando o 76ers",
-      "tema": "Quem é quem: Maxey, Brown, Embiid, LeBron, Edgecombe, Simons",
-      "data": "2026-11-14"
-    },
-    {
-      "formato": "Carrossel",
-      "tema": "Pré-jogo Pacers + agenda 15 a 23/11",
-      "data": "2026-11-15"
-    },
-    {
-      "formato": "Reel",
-      "tema": "Contagem 76ers x Pacers",
-      "data": "2026-11-15"
-    },
-    {
-      "formato": "História do confronto",
-      "tema": "Miller x Iverson: 1999, 2000 e 2001",
-      "data": "2026-11-15"
-    },
-    {
-      "formato": "Pós-jogo",
-      "tema": "76ers 131 x 124 Pacers, LeBron passa Jason Kidd",
-      "data": "2026-11-15"
-    },
-    {
-      "formato": "Reel",
-      "tema": "Raio-X Pacers: 18 x 8 de três, 20 x 7 contra-ataque, 39 x 30 no terceiro quarto",
-      "data": "2026-11-16"
-    },
-    {
-      "formato": "Carrossel",
-      "tema": "Pré-jogo Nets x 76ers: comparativo, pré-jogo, Na Filadélfia",
-      "data": "2026-11-16"
-    },
-    {
-      "formato": "História do confronto",
-      "tema": "1984: Nets 3-2 no 76ers campeão, visitante venceu os 5 jogos",
-      "data": "2026-11-16"
-    }
-  ],
-  "agendas": [
-    {
-      "periodo": "15/11 a 23/11",
-      "data": "2026-11-15"
-    }
-  ],
-  "trilhas": [
-    {
-      "estilo": "drumline",
-      "video": "tiktok-historia-pacers.mp4",
-      "data": "2026-11-15"
-    },
-    {
-      "estilo": "arena",
-      "video": "tiktok-posjogo-pacers.mp4",
-      "data": "2026-11-15"
-    },
-    {
-      "estilo": "trap",
-      "video": "tiktok-raiox-pacers.mp4",
-      "data": "2026-11-16"
-    },
-    {
-      "estilo": "drumline",
-      "video": "reel-historia-nets.mp4",
-      "data": "2026-11-16"
-    }
-  ],
-  "fatos": [
-    {
-      "fato": "76ers x Pacers: 4 séries de playoff (1981, 1999, 2000, 2001), 116 a 89 na temporada regular",
-      "canal": "tiktok, x, instagram story",
-      "data": "2026-11-15"
-    },
-    {
-      "fato": "Metro Philadelphia (Tim Sullivan): sem Embiid, bola precisa girar; palpite 113 x 108",
-      "canal": "x",
-      "data": "2026-11-15"
-    },
-    {
-      "fato": "Pré-jogo Pacers: Embiid fora, primeiro duelo 114 x 109",
-      "canal": "todos",
-      "data": "2026-11-15"
-    },
-    {
-      "fato": "Placar 76ers 131 x 124 Pacers; Brown 31, Maxey 27; LeBron passa Jason Kidd (terceiro em assistências, 12.092)",
-      "canal": "x, instagram",
-      "data": "2026-11-15"
-    },
-    {
-      "fato": "LeBron passa Jason Kidd: 12.092 assistências, terceiro da história",
-      "canal": "todos",
-      "data": "2026-11-15"
-    },
-    {
-      "fato": "Raio-X Pacers: 18 x 8 bolas de três, 20 x 7 contra-ataque (12 de Maxey), 39 x 30 no terceiro quarto, 62 pontos do Pacers no garrafão",
-      "canal": "todos",
-      "data": "2026-11-16"
-    },
-    {
-      "fato": "Pré-jogo Nets x 76ers: Embiid dúvida (ESPN), segundo jogo em duas noites, 11-3 x 3-9",
-      "canal": "todos",
-      "data": "2026-11-16"
-    },
-    {
-      "fato": "Na Filadélfia: Bryan Toporek (Liberty Ballers) e a falta de pivô reserva",
-      "canal": "x, instagram story, tiktok",
-      "data": "2026-11-16"
-    },
-    {
-      "fato": "Comparativo Nets x 76ers: 112,6 x 110,2 pontos, 110,4 x 116,4 sofridos, 76ers 5-1 fora, Nets 1-3 em casa",
-      "canal": "x, instagram, tiktok",
-      "data": "2026-11-16"
-    },
-    {
-      "fato": "1984: Nets 3-2 no 76ers campeão, visitante venceu os 5 jogos; 76ers 3 x 1 em séries (1979, 2019, 2023)",
-      "canal": "x, instagram, tiktok",
-      "data": "2026-11-16"
-    },
-    {
-      "fato": "LeBron terceiro em assistências na história (12.092, passou Kidd)",
-      "canal": "x",
-      "data": "2026-11-16"
-    },
-    {
-      "fato": "LeBron fora contra o Nets (controle das costas, segundo jogo em duas noites); Embiid dúvida",
-      "canal": "x",
-      "data": "2026-11-16"
-    }
-  ],
-  "rodadas": {
-    "manha": "2026-11-16 11h10 feito (pelo Claude na conversa; as rodadas das 7h51 e das 10h37 ficaram presas na plataforma)",
-    "radar": "2026-11-16 17:58 feito (1 post no X: LeBron fora contra o Nets; cola atualizada; feed do Instagram e TikTok cheios)",
-    "posjogo": "2026-11-17 00:02 tentativa 1: sem publicar; a consulta à agenda da ESPN falhou (permissão de acesso não respondida). Tentativa 2 já marcada."
+ "placares": [
+  {
+   "jogo": "76ers 101 x 123 Celtics",
+   "data_jogo": "2026-11-10",
+   "publicado": "2026-11-11"
   },
-  "plano": [
-    {
-      "canal": "tiktok",
-      "hora": "11h10",
-      "formato": "reel Raio-X",
-      "gancho": "Sem Embiid, como o 76ers venceu",
-      "fato": "18 x 8 de três, 20 x 7 contra-ataque, 39 x 30 no terceiro quarto"
-    },
-    {
-      "canal": "x",
-      "hora": "11h30",
-      "formato": "carrossel Raio-X (4)",
-      "gancho": "Raio-X de 76ers 131 x 124 Pacers",
-      "fato": "os 3 números e o alerta do garrafão"
-    },
-    {
-      "canal": "instagram",
-      "hora": "11h30",
-      "formato": "carrossel Raio-X (5)",
-      "gancho": "Raio-X de 76ers 131 x 124 Pacers",
-      "fato": "os 3 números e o que fica"
-    },
-    {
-      "canal": "x",
-      "hora": "14h",
-      "formato": "prejogo",
-      "gancho": "Hoje tem Nets x 76ers",
-      "fato": "Embiid dúvida, segundo jogo em duas noites"
-    },
-    {
-      "canal": "instagram",
-      "hora": "14h",
-      "formato": "prejogo",
-      "gancho": "Hoje tem Nets x 76ers",
-      "fato": "Embiid dúvida, 11-3 x 3-9"
-    },
-    {
-      "canal": "x",
-      "hora": "15h30",
-      "formato": "manchete Na Filadélfia",
-      "gancho": "Na Filadélfia, o assunto é o garrafão",
-      "fato": "Toporek e o pivô reserva"
-    },
-    {
-      "canal": "x",
-      "hora": "16h30",
-      "formato": "comparativo",
-      "gancho": "Nets x 76ers em números",
-      "fato": "pontos marcados e sofridos, fora e em casa"
-    },
-    {
-      "canal": "instagram",
-      "hora": "16h30",
-      "formato": "comparativo",
-      "gancho": "Nets x 76ers em números",
-      "fato": "pontos marcados e sofridos, fora e em casa"
-    },
-    {
-      "canal": "tiktok",
-      "hora": "17h",
-      "formato": "carrossel pré-jogo",
-      "gancho": "Hoje tem Nets x 76ers",
-      "fato": "comparativo, pré-jogo e Na Filadélfia"
-    },
-    {
-      "canal": "x, instagram, tiktok",
-      "hora": "19h30",
-      "formato": "reel história",
-      "gancho": "1984: o Nets derrubou o campeão",
-      "fato": "série de 1984 e 3 x 1 em séries"
-    },
-    {
-      "canal": "instagram story",
-      "hora": "20h30",
-      "formato": "story",
-      "gancho": "Falta um pivô ao 76ers?",
-      "fato": "Na Filadélfia"
-    },
-    {
-      "canal": "todos",
-      "hora": "00h00 e 00h35 (17/11)",
-      "formato": "pós-jogo",
-      "gancho": "placar",
-      "fato": "o que decidiu"
-    },
-    {
-      "canal": "x",
-      "hora": "13h15",
-      "formato": "numero (azul)",
-      "gancho": "LeBron James agora é o terceiro em assistências na história da NBA",
-      "fato": "12.092, passou Jason Kidd"
-    },
-    {
-      "canal": "x",
-      "hora": "18h10",
-      "formato": "manchete (branco)",
-      "gancho": "LeBron James está fora hoje contra o Nets",
-      "fato": "relatório de lesões: LeBron fora, Embiid dúvida"
-    }
-  ],
-  "fios": [
-    {
-      "fio": "Campanha no clutch (diferença de até 5 pontos nos 5 minutos finais)",
-      "valor": "9-0, único time invicto da NBA nesses jogos; 50% de quadra e 50% de três nesses momentos",
-      "ate": "jogo de 15/11 (Pacers)",
-      "fonte": "perfil oficial do 76ers no X, 16/11 (76 By The Numbers, dados da NBA), print enviado pelo Rodrigo",
-      "ultimo_post": "8-0, em 14/11 (TikTok: carrossel do 8-0 e reel O começo em 3 números)",
-      "proximo_marco": "10-0 (ou 15-0, 20-0, recorde); 9-0 não sai, já demos o 8-0 em 14/11"
-    },
-    {
-      "fio": "LeBron James em assistências na carreira",
-      "valor": "12.092, terceiro da história; o próximo é Chris Paul",
-      "ate": "jogo de 15/11 (Pacers)",
-      "fonte": "radar de 16/11",
-      "ultimo_post": "16/11 no X (radar das 12h51)",
-      "proximo_marco": "passar Chris Paul e virar o segundo da história"
-    }
-  ],
-  "fila_pautas": [
-    {
-      "pauta": "Número do dia: o 76ers invicto no clutch, SÓ SE o jogo contra o Nets de 16/11 foi decidido no clutch e virou 10-0. Se ficou 9-0 ou virou 9-1, não sai: tire esta pauta da fila.",
-      "quando": "17/11: 16h no X e no Instagram (número do dia); no TikTok, primeira foto do carrossel das 18h",
-      "fonte": "perfil oficial do 76ers no X, 16/11 (9-0 até 15/11); confirme o 10-0 em nba.com/sixers/news, NBA.com/stats ou na imprensa local; sem segunda fonte, cite 'segundo o 76ers'",
-      "sugerida_por": "Rodrigo, 16/11 (com a regra: número que já saiu só volta quando cresce de verdade)"
-    }
-  ],
-  "promovidos": [
-    {
-      "canal": "tiktok",
-      "video": "tiktok-adivinha-iverson.mp4",
-      "data": "2026-11-13"
-    },
-    {
-      "canal": "tiktok",
-      "video": "reel-raiox-raptors-v3.mp4",
-      "data": "2026-11-13"
-    },
-    {
-      "canal": "tiktok",
-      "video": "tiktok-explicando-76ers (Quem é quem no 76ers)",
-      "data": "2026-11-14"
-    },
-    {
-      "canal": "tiktok",
-      "video": "reel-comeco-3-numeros (O começo do 76ers em 3 números)",
-      "data": "2026-11-14"
-    },
-    {
-      "canal": "tiktok",
-      "video": "mais 2 vídeos no mesmo pedido, não identificados no print",
-      "data": "2026-11-14"
-    },
-    {
-      "canal": "tiktok",
-      "video": "tiktok-posjogo-pacers.mp4",
-      "data": "2026-11-15"
-    },
-    {
-      "canal": "instagram",
-      "video": "Raio-X 76ers 123 x 112 Raptors (capa)",
-      "data": "2026-11-13"
-    }
-  ]
+  {
+   "jogo": "76ers 123 x 112 Raptors",
+   "data_jogo": "2026-11-12",
+   "publicado": "2026-11-13"
+  },
+  {
+   "jogo": "76ers 131 x 124 Pacers",
+   "data_jogo": "2026-11-15",
+   "publicado": "2026-11-15",
+   "obs": "radar 17h51: X 18h14 e Instagram feed 18h20; TikTok (vídeo) e story completados às 19h25 pelo Claude"
+  },
+  {
+   "jogo": "Nets 123 x 135 76ers",
+   "data_jogo": "2026-11-16",
+   "publicado": "em andamento pelo Claude na conversa desde 00h42 de 17/11: não publique"
+  }
+ ],
+ "raiox": [
+  {
+   "jogo": "76ers 101 x 123 Celtics",
+   "data_jogo": "2026-11-10",
+   "carrossel": "2026-11-11 16h",
+   "reel": "2026-11-11 20h30"
+  },
+  {
+   "jogo": "76ers 123 x 112 Raptors",
+   "data_jogo": "2026-11-12",
+   "carrossel": "2026-11-13 12h",
+   "reel": "2026-11-13 19h30"
+  },
+  {
+   "jogo": "76ers 131 x 124 Pacers",
+   "data_jogo": "2026-11-15",
+   "tiktok": "2026-11-16 11h10",
+   "carrossel": "2026-11-16 11h30"
+  }
+ ],
+ "noticias": [
+  {
+   "url": "https://nesn.com/boston-celtics/news/celtics-familiar-tune-not-so-subtle-message-76ers/ff711c4f6b0de7b91fd5d5a4",
+   "titulo": "Why Can't We Be Friends? no treino do Celtics",
+   "data": "2026-11-10",
+   "status": "publicado"
+  },
+  {
+   "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-paul-george-middle-finger-36-points-celtics/766206/",
+   "titulo": "Paul George: gesto para torcedor e frase de Maxey",
+   "data": "2026-11-11",
+   "status": "publicado"
+  },
+  {
+   "url": "https://sports.yahoo.com/articles/joel-embiid-addresses-injury-shooting-174030268.html",
+   "titulo": "Embiid: torção no tornozelo, estou bem; arremesso é trabalho em andamento",
+   "data": "2026-11-11",
+   "status": "publicado"
+  },
+  {
+   "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-injury-report-lebron-james-joel-embiid-sixers-vs-raptors/766323/",
+   "titulo": "Embiid e LeBron dúvida contra o Raptors (relatório de lesões)",
+   "data": "2026-11-12",
+   "status": "agendado"
+  },
+  {
+   "url": "https://ca.sports.yahoo.com/news/joel-embiid-questionable-for-76ers-matchup-vs-raptors-with-foot-condition-lebron-james-sitting-out-due-to-back-management-193648795.html",
+   "titulo": "LeBron fora contra o Raptors; Embiid segue dúvida (\"Não faço ideia\")",
+   "data": "2026-11-12",
+   "status": "agendado"
+  },
+  {
+   "url": "https://www.phillyvoice.com/sixers-raptors-76ers-news-analysis-box-score-joel-embiid-tyrese-maxey-jaylen-brown-lebron-james-vj-edgecombe/",
+   "titulo": "Embiid: não tenho sido agressivo; susto no joelho",
+   "data": "2026-11-13",
+   "status": "agendado"
+  },
+  {
+   "url": "https://www.phillyvoice.com/sixers-news-76ers-analysis-tacko-fall-highlights-interview-bio-stats-jaylen-brown-nba-rumors/",
+   "titulo": "Tacko Fall: quero ser visto como jogador de basquete (gritos da torcida)",
+   "data": "2026-11-13",
+   "status": "agendado"
+  },
+  {
+   "url": "https://www.crossingbroad.com/news/sixers/the-sixers-are-the-nbas-most-clutch-team/",
+   "titulo": "8-0 nos jogos apertados (Crossing Broad, FanSided, LeBron no Fadeaway World)",
+   "data": "2026-11-14",
+   "status": "agendado"
+  },
+  {
+   "url": "https://www.espn.com/nba/story/_/id/50484216/76ers-joel-embiid-vs-pacers-due-plantar-fascia-management",
+   "titulo": "Embiid fora contra o Pacers (fascite plantar); LeBron fora do relatório (no pré-jogo)",
+   "data": "2026-11-15",
+   "status": "agendado"
+  },
+  {
+   "url": "https://heavy.com/sports/nba/philadelphia-76ers/lebron-james-didnt-foresee-historical-nba-moment-in-76ers-pacers-game/",
+   "titulo": "LeBron passa Jason Kidd: terceiro em assistências (12.092)",
+   "data": "2026-11-16",
+   "status": "agendado"
+  },
+  {
+   "url": "https://www.phillyvoice.com/sixers-news-76ers-analysis-vs-nets-injury-report-lebron-james-status-joel-embiid-update-dominick-barlow-nba/",
+   "titulo": "LeBron fora contra o Nets (controle das costas); Embiid dúvida",
+   "data": "2026-11-16",
+   "status": "agendado"
+  }
+ ],
+ "curiosidades": [
+  {
+   "tema": "Número do dia: Maxey 26,7 pontos por jogo",
+   "data": "2026-11-12"
+  },
+  {
+   "tema": "Número do dia: Edgecombe 38,8% de três",
+   "data": "2026-11-13"
+  },
+  {
+   "tema": "Número do dia: 8-0 nos jogos apertados",
+   "data": "2026-11-14"
+  }
+ ],
+ "reels": [
+  {
+   "tema": "Raio-X 76ers x Celtics",
+   "data": "2026-11-11"
+  },
+  {
+   "tema": "Contagem 76ers x Raptors",
+   "data": "2026-11-12"
+  },
+  {
+   "tema": "Raio-X 76ers x Raptors",
+   "data": "2026-11-13"
+  },
+  {
+   "tema": "O começo do 76ers em 3 números (10-3, 8-0, Maxey 26,7)",
+   "data": "2026-11-14"
+  },
+  {
+   "tema": "Contagem 76ers x Pacers",
+   "data": "2026-11-15"
+  },
+  {
+   "tema": "História Nets x 76ers: 1984, o Nets derrubou o campeão",
+   "data": "2026-11-16"
+  }
+ ],
+ "prejogos": [
+  {
+   "jogo": "76ers x Raptors",
+   "data": "2026-11-12"
+  },
+  {
+   "jogo": "76ers x Pacers",
+   "data": "2026-11-15"
+  },
+  {
+   "jogo": "Nets x 76ers",
+   "data": "2026-11-16"
+  }
+ ],
+ "posjogo": [
+  {
+   "jogo": "76ers x Pacers",
+   "data_jogo": "2026-11-15",
+   "gatilho": "trig_0129YJu5PNQ5xQDJSpzWJmcb",
+   "tentativa": 1,
+   "horario": "17h15"
+  },
+  {
+   "jogo": "Nets x 76ers",
+   "data_jogo": "2026-11-16",
+   "gatilho": "trig_01DXEemwPkj66HzXaGaf5V3W",
+   "tentativa": 1,
+   "horario": "00h00 de 17/11"
+  },
+  {
+   "jogo": "Nets x 76ers",
+   "data_jogo": "2026-11-16",
+   "gatilho": "trig_011VwUqLP6KgDtCBb9hWxXxL",
+   "tentativa": 2,
+   "horario": "00h35 de 17/11"
+  }
+ ],
+ "tiktok": [
+  {
+   "formato": "Adivinha quem é",
+   "tema": "Allen Iverson (1,83 m, 31,1 pontos, 56 vitórias em 2000-01)",
+   "data": "2026-11-13"
+  },
+  {
+   "formato": "Carrossel",
+   "tema": "8-0 nos jogos apertados (número, LeBron, Maxey)",
+   "data": "2026-11-14"
+  },
+  {
+   "formato": "Reel",
+   "tema": "O começo do 76ers em 3 números",
+   "data": "2026-11-14"
+  },
+  {
+   "formato": "Explicando o 76ers",
+   "tema": "Quem é quem: Maxey, Brown, Embiid, LeBron, Edgecombe, Simons",
+   "data": "2026-11-14"
+  },
+  {
+   "formato": "Carrossel",
+   "tema": "Pré-jogo Pacers + agenda 15 a 23/11",
+   "data": "2026-11-15"
+  },
+  {
+   "formato": "Reel",
+   "tema": "Contagem 76ers x Pacers",
+   "data": "2026-11-15"
+  },
+  {
+   "formato": "História do confronto",
+   "tema": "Miller x Iverson: 1999, 2000 e 2001",
+   "data": "2026-11-15"
+  },
+  {
+   "formato": "Pós-jogo",
+   "tema": "76ers 131 x 124 Pacers, LeBron passa Jason Kidd",
+   "data": "2026-11-15"
+  },
+  {
+   "formato": "Reel",
+   "tema": "Raio-X Pacers: 18 x 8 de três, 20 x 7 contra-ataque, 39 x 30 no terceiro quarto",
+   "data": "2026-11-16"
+  },
+  {
+   "formato": "Carrossel",
+   "tema": "Pré-jogo Nets x 76ers: comparativo, pré-jogo, Na Filadélfia",
+   "data": "2026-11-16"
+  },
+  {
+   "formato": "História do confronto",
+   "tema": "1984: Nets 3-2 no 76ers campeão, visitante venceu os 5 jogos",
+   "data": "2026-11-16"
+  }
+ ],
+ "agendas": [
+  {
+   "periodo": "15/11 a 23/11",
+   "data": "2026-11-15"
+  }
+ ],
+ "trilhas": [
+  {
+   "estilo": "drumline",
+   "video": "tiktok-historia-pacers.mp4",
+   "data": "2026-11-15"
+  },
+  {
+   "estilo": "arena",
+   "video": "tiktok-posjogo-pacers.mp4",
+   "data": "2026-11-15"
+  },
+  {
+   "estilo": "trap",
+   "video": "tiktok-raiox-pacers.mp4",
+   "data": "2026-11-16"
+  },
+  {
+   "estilo": "drumline",
+   "video": "reel-historia-nets.mp4",
+   "data": "2026-11-16"
+  }
+ ],
+ "fatos": [
+  {
+   "fato": "76ers x Pacers: 4 séries de playoff (1981, 1999, 2000, 2001), 116 a 89 na temporada regular",
+   "canal": "tiktok, x, instagram story",
+   "data": "2026-11-15"
+  },
+  {
+   "fato": "Metro Philadelphia (Tim Sullivan): sem Embiid, bola precisa girar; palpite 113 x 108",
+   "canal": "x",
+   "data": "2026-11-15"
+  },
+  {
+   "fato": "Pré-jogo Pacers: Embiid fora, primeiro duelo 114 x 109",
+   "canal": "todos",
+   "data": "2026-11-15"
+  },
+  {
+   "fato": "Placar 76ers 131 x 124 Pacers; Brown 31, Maxey 27; LeBron passa Jason Kidd (terceiro em assistências, 12.092)",
+   "canal": "x, instagram",
+   "data": "2026-11-15"
+  },
+  {
+   "fato": "LeBron passa Jason Kidd: 12.092 assistências, terceiro da história",
+   "canal": "todos",
+   "data": "2026-11-15"
+  },
+  {
+   "fato": "Raio-X Pacers: 18 x 8 bolas de três, 20 x 7 contra-ataque (12 de Maxey), 39 x 30 no terceiro quarto, 62 pontos do Pacers no garrafão",
+   "canal": "todos",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "Pré-jogo Nets x 76ers: Embiid dúvida (ESPN), segundo jogo em duas noites, 11-3 x 3-9",
+   "canal": "todos",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "Na Filadélfia: Bryan Toporek (Liberty Ballers) e a falta de pivô reserva",
+   "canal": "x, instagram story, tiktok",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "Comparativo Nets x 76ers: 112,6 x 110,2 pontos, 110,4 x 116,4 sofridos, 76ers 5-1 fora, Nets 1-3 em casa",
+   "canal": "x, instagram, tiktok",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "1984: Nets 3-2 no 76ers campeão, visitante venceu os 5 jogos; 76ers 3 x 1 em séries (1979, 2019, 2023)",
+   "canal": "x, instagram, tiktok",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "LeBron terceiro em assistências na história (12.092, passou Kidd)",
+   "canal": "x",
+   "data": "2026-11-16"
+  },
+  {
+   "fato": "LeBron fora contra o Nets (controle das costas, segundo jogo em duas noites); Embiid dúvida",
+   "canal": "x",
+   "data": "2026-11-16"
+  }
+ ],
+ "rodadas": {
+  "manha": "2026-11-16 11h10 feito (pelo Claude na conversa; as rodadas das 7h51 e das 10h37 ficaram presas na plataforma)",
+  "radar": "2026-11-16 17:58 feito (1 post no X: LeBron fora contra o Nets; cola atualizada; feed do Instagram e TikTok cheios)",
+  "posjogo": "2026-11-17 00:42 em andamento: o Claude está fazendo o placar de Nets 123 x 135 76ers na conversa. Qualquer rodada de pós-jogo que ler isto termina sem publicar."
+ },
+ "plano": [
+  {
+   "canal": "tiktok",
+   "hora": "11h10",
+   "formato": "reel Raio-X",
+   "gancho": "Sem Embiid, como o 76ers venceu",
+   "fato": "18 x 8 de três, 20 x 7 contra-ataque, 39 x 30 no terceiro quarto"
+  },
+  {
+   "canal": "x",
+   "hora": "11h30",
+   "formato": "carrossel Raio-X (4)",
+   "gancho": "Raio-X de 76ers 131 x 124 Pacers",
+   "fato": "os 3 números e o alerta do garrafão"
+  },
+  {
+   "canal": "instagram",
+   "hora": "11h30",
+   "formato": "carrossel Raio-X (5)",
+   "gancho": "Raio-X de 76ers 131 x 124 Pacers",
+   "fato": "os 3 números e o que fica"
+  },
+  {
+   "canal": "x",
+   "hora": "14h",
+   "formato": "prejogo",
+   "gancho": "Hoje tem Nets x 76ers",
+   "fato": "Embiid dúvida, segundo jogo em duas noites"
+  },
+  {
+   "canal": "instagram",
+   "hora": "14h",
+   "formato": "prejogo",
+   "gancho": "Hoje tem Nets x 76ers",
+   "fato": "Embiid dúvida, 11-3 x 3-9"
+  },
+  {
+   "canal": "x",
+   "hora": "15h30",
+   "formato": "manchete Na Filadélfia",
+   "gancho": "Na Filadélfia, o assunto é o garrafão",
+   "fato": "Toporek e o pivô reserva"
+  },
+  {
+   "canal": "x",
+   "hora": "16h30",
+   "formato": "comparativo",
+   "gancho": "Nets x 76ers em números",
+   "fato": "pontos marcados e sofridos, fora e em casa"
+  },
+  {
+   "canal": "instagram",
+   "hora": "16h30",
+   "formato": "comparativo",
+   "gancho": "Nets x 76ers em números",
+   "fato": "pontos marcados e sofridos, fora e em casa"
+  },
+  {
+   "canal": "tiktok",
+   "hora": "17h",
+   "formato": "carrossel pré-jogo",
+   "gancho": "Hoje tem Nets x 76ers",
+   "fato": "comparativo, pré-jogo e Na Filadélfia"
+  },
+  {
+   "canal": "x, instagram, tiktok",
+   "hora": "19h30",
+   "formato": "reel história",
+   "gancho": "1984: o Nets derrubou o campeão",
+   "fato": "série de 1984 e 3 x 1 em séries"
+  },
+  {
+   "canal": "instagram story",
+   "hora": "20h30",
+   "formato": "story",
+   "gancho": "Falta um pivô ao 76ers?",
+   "fato": "Na Filadélfia"
+  },
+  {
+   "canal": "todos",
+   "hora": "00h00 e 00h35 (17/11)",
+   "formato": "pós-jogo",
+   "gancho": "placar",
+   "fato": "o que decidiu"
+  },
+  {
+   "canal": "x",
+   "hora": "13h15",
+   "formato": "numero (azul)",
+   "gancho": "LeBron James agora é o terceiro em assistências na história da NBA",
+   "fato": "12.092, passou Jason Kidd"
+  },
+  {
+   "canal": "x",
+   "hora": "18h10",
+   "formato": "manchete (branco)",
+   "gancho": "LeBron James está fora hoje contra o Nets",
+   "fato": "relatório de lesões: LeBron fora, Embiid dúvida"
+  }
+ ],
+ "fios": [
+  {
+   "fio": "Campanha no clutch (diferença de até 5 pontos nos 5 minutos finais)",
+   "valor": "9-0, único time invicto da NBA nesses jogos; 50% de quadra e 50% de três nesses momentos",
+   "ate": "jogo de 15/11 (Pacers)",
+   "fonte": "perfil oficial do 76ers no X, 16/11 (76 By The Numbers, dados da NBA), print enviado pelo Rodrigo",
+   "ultimo_post": "8-0, em 14/11 (TikTok: carrossel do 8-0 e reel O começo em 3 números)",
+   "proximo_marco": "10-0 (ou 15-0, 20-0, recorde); 9-0 não sai, já demos o 8-0 em 14/11"
+  },
+  {
+   "fio": "LeBron James em assistências na carreira",
+   "valor": "12.092, terceiro da história; o próximo é Chris Paul",
+   "ate": "jogo de 15/11 (Pacers)",
+   "fonte": "radar de 16/11",
+   "ultimo_post": "16/11 no X (radar das 12h51)",
+   "proximo_marco": "passar Chris Paul e virar o segundo da história"
+  }
+ ],
+ "fila_pautas": [
+  {
+   "pauta": "Número do dia: o 76ers invicto no clutch, SÓ SE o jogo contra o Nets de 16/11 foi decidido no clutch e virou 10-0. Se ficou 9-0 ou virou 9-1, não sai: tire esta pauta da fila.",
+   "quando": "17/11: 16h no X e no Instagram (número do dia); no TikTok, primeira foto do carrossel das 18h",
+   "fonte": "perfil oficial do 76ers no X, 16/11 (9-0 até 15/11); confirme o 10-0 em nba.com/sixers/news, NBA.com/stats ou na imprensa local; sem segunda fonte, cite 'segundo o 76ers'",
+   "sugerida_por": "Rodrigo, 16/11 (com a regra: número que já saiu só volta quando cresce de verdade)"
+  }
+ ],
+ "promovidos": [
+  {
+   "canal": "tiktok",
+   "video": "tiktok-adivinha-iverson.mp4",
+   "data": "2026-11-13"
+  },
+  {
+   "canal": "tiktok",
+   "video": "reel-raiox-raptors-v3.mp4",
+   "data": "2026-11-13"
+  },
+  {
+   "canal": "tiktok",
+   "video": "tiktok-explicando-76ers (Quem é quem no 76ers)",
+   "data": "2026-11-14"
+  },
+  {
+   "canal": "tiktok",
+   "video": "reel-comeco-3-numeros (O começo do 76ers em 3 números)",
+   "data": "2026-11-14"
+  },
+  {
+   "canal": "tiktok",
+   "video": "mais 2 vídeos no mesmo pedido, não identificados no print",
+   "data": "2026-11-14"
+  },
+  {
+   "canal": "tiktok",
+   "video": "tiktok-posjogo-pacers.mp4",
+   "data": "2026-11-15"
+  },
+  {
+   "canal": "instagram",
+   "video": "Raio-X 76ers 123 x 112 Raptors (capa)",
+   "data": "2026-11-13"
+  }
+ ]
 }
