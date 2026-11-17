@@ -1,0 +1,48 @@
+{
+ "cenas": [
+  {
+   "papel": "amarelo",
+   "kicker": "Raio-X",
+   "linhas": [
+    [
+     "Raio-X",
+     "as",
+     "vermelho",
+     380
+    ],
+    [
+     "Vitória sem LeBron",
+     "an",
+     "azul",
+     190
+    ]
+   ],
+   "texto": "3 números que explicam."
+  },
+  {
+   "papel": "branco",
+   "kicker": "1 de 3",
+   "numero": "+10",
+   "rotulo": "pontos de vantagem no lance livre",
+   "texto": "76ers 32 de 38. Nets 22 de 34."
+  },
+  {
+   "papel": "azul",
+   "kicker": "2 de 3",
+   "numero": "45",
+   "rotulo": "pontos no segundo quarto",
+   "texto": "Parcial de 45 x 33 e intervalo com 78 x 59."
+  },
+  {
+   "papel": "branco",
+   "kicker": "3 de 3",
+   "numero": "47",
+   "rotulo": "rebotes, contra 38 do Nets",
+   "texto": "Jaylen Brown pegou 13, recorde dele na temporada."
+  }
+ ],
+ "cta": true,
+ "trilha": true,
+ "estilo": "trap",
+ "semente": 1717
+}

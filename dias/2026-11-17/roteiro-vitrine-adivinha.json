@@ -1,0 +1,60 @@
+{
+ "cenas": [
+  {
+   "papel": "amarelo",
+   "kicker": "Adivinha quem é",
+   "linhas": [
+    [
+     "Só fã raiz",
+     "as",
+     "vermelho",
+     300
+    ],
+    [
+     "acerta",
+     "an",
+     "azul",
+     240
+    ]
+   ],
+   "texto": "Quem é essa lenda?"
+  },
+  {
+   "papel": "branco",
+   "kicker": "Pista 1",
+   "numero": "1997",
+   "rotulo": "calouro do ano da NBA",
+   "texto": "Prêmio da temporada 1996-97, logo no primeiro ano."
+  },
+  {
+   "papel": "azul",
+   "kicker": "Pista 2",
+   "numero": "4",
+   "rotulo": "vezes cestinha da NBA",
+   "texto": "E MVP da temporada 2000-01. Comenta o nome."
+  },
+  {
+   "papel": "branco",
+   "kicker": "Resposta",
+   "linhas": [
+    [
+     "Allen",
+     "as",
+     "vermelho",
+     320
+    ],
+    [
+     "Iverson",
+     "as",
+     "azul",
+     320
+    ]
+   ],
+   "texto": "26,7 pontos por jogo na carreira. Hall da Fama em 2016."
+  }
+ ],
+ "cta": true,
+ "trilha": true,
+ "estilo": "pop",
+ "semente": 1718
+}
