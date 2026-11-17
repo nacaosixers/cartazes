@@ -19,7 +19,8 @@
   {
    "jogo": "Nets 123 x 135 76ers",
    "data_jogo": "2026-11-16",
-   "publicado": "em andamento pelo Claude na conversa desde 00h42 de 17/11: não publique"
+   "publicado": "2026-11-17: X 00h45, Instagram feed 00h47 e story 00h48, TikTok (vídeo) 00h59, feitos pelo Claude na conversa",
+   "obs": "Tentativa 1 (00h00) não conseguiu abrir a ESPN (pediu permissão); tentativa 2 (00h35) travou na plataforma."
   }
  ],
  "raiox": [
@@ -242,6 +243,11 @@
    "formato": "História do confronto",
    "tema": "1984: Nets 3-2 no 76ers campeão, visitante venceu os 5 jogos",
    "data": "2026-11-16"
+  },
+  {
+   "formato": "Placar em vídeo",
+   "tema": "Nets 123 x 135 76ers: Embiid 37 na volta, Maxey 24 e 9 assistências, 12-3",
+   "data": "2026-11-17"
   }
  ],
  "agendas": [
@@ -270,6 +276,11 @@
    "estilo": "drumline",
    "video": "reel-historia-nets.mp4",
    "data": "2026-11-16"
+  },
+  {
+   "estilo": "arena",
+   "video": "tiktok-posjogo-nets.mp4",
+   "data": "2026-11-17"
   }
  ],
  "fatos": [
@@ -332,12 +343,17 @@
    "fato": "LeBron fora contra o Nets (controle das costas, segundo jogo em duas noites); Embiid dúvida",
    "canal": "x",
    "data": "2026-11-16"
+  },
+  {
+   "fato": "Placar Nets 123 x 135 76ers: Embiid 37 na volta (13 de 22, 9 de 10 nos lances livres), Maxey 24 e 9 assistências, Edgecombe 14 e 9 rebotes, sem LeBron, maior vantagem 24, 12-3",
+   "canal": "todos",
+   "data": "2026-11-17"
   }
  ],
  "rodadas": {
   "manha": "2026-11-16 11h10 feito (pelo Claude na conversa; as rodadas das 7h51 e das 10h37 ficaram presas na plataforma)",
   "radar": "2026-11-16 17:58 feito (1 post no X: LeBron fora contra o Nets; cola atualizada; feed do Instagram e TikTok cheios)",
-  "posjogo": "2026-11-17 00:42 em andamento: o Claude está fazendo o placar de Nets 123 x 135 76ers na conversa. Qualquer rodada de pós-jogo que ler isto termina sem publicar."
+  "posjogo": "2026-11-17 00:59 feito pelo Claude na conversa (placar no X, Instagram, story e TikTok)"
  },
  "plano": [
   {
