@@ -37,8 +37,8 @@ Escreva em `estado/registro.json`, chave `plano`, uma linha por post: `{"canal",
 Nasceu em 16/11: o próprio 76ers postou "9-0 no clutch, único invicto da NBA, com 50% de quadra e de três nesses momentos". A Nação tinha dado o 8-0 em 14/11, mas deixou passar a atualização e no Raio-X do Pacers tratou o jogo como decidido no terceiro quarto.
 
 - O registro guarda em `fios` os números da temporada que mudam a cada jogo: `{"fio", "valor", "ate", "fonte", "ultimo_post"}`. Exemplos: campanha no clutch (diferença de até 5 pontos nos 5 minutos finais), sequências, marcas de carreira que estão perto (LeBron e as assistências), recordes da temporada, campanha sem Joel Embiid.
-- Depois de cada jogo (pós-jogo e Raio-X), confira se o jogo mexeu num fio. Se mexeu, o número novo é o gancho e vem antes dos números do box score.
-- Fio que mudou e ainda não teve post vira o Número do dia seguinte.
+- Depois de cada jogo (pós-jogo e Raio-X), atualize os fios no registro.
+- **Fio que já teve post só volta quando cresce de verdade:** número redondo (10-0, 15-0, 20-0) ou recorde do time ou da liga. Um a mais (8-0 para 9-0) não vira post nem gancho (regra do Rodrigo, 16/11). Fio que chegou a um marco vira o gancho do pós-jogo ou do Raio-X, ou o Número do dia seguinte.
 - Onde achar: nba.com/sixers/news (notas e números do próprio time), NBA.com/stats (página Clutch, quando abrir) e as notas da imprensa local, que repetem esses números. O perfil do 76ers no X (série "76 By The Numbers") é a melhor vitrine, mas não abre sem login: quando o Rodrigo mandar um print, ele entra em `fila_pautas`. Traduza, confira e dê o crédito ("segundo o 76ers", "dados da NBA"). A arte deles nunca: foto, logo e patrocinador ficam de fora; o número vira cartaz do kit.
 
 ## Fila de pautas

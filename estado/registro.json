@@ -439,22 +439,24 @@
    "valor": "9-0, único time invicto da NBA nesses jogos; 50% de quadra e 50% de três nesses momentos",
    "ate": "jogo de 15/11 (Pacers)",
    "fonte": "perfil oficial do 76ers no X, 16/11 (76 By The Numbers, dados da NBA), print enviado pelo Rodrigo",
-   "ultimo_post": "8-0, em 14/11 (TikTok: carrossel do 8-0 e reel O começo em 3 números)"
+   "ultimo_post": "8-0, em 14/11 (TikTok: carrossel do 8-0 e reel O começo em 3 números)",
+   "proximo_marco": "10-0 (ou 15-0, 20-0, recorde); 9-0 não sai, já demos o 8-0 em 14/11"
   },
   {
    "fio": "LeBron James em assistências na carreira",
    "valor": "12.092, terceiro da história; o próximo é Chris Paul",
    "ate": "jogo de 15/11 (Pacers)",
    "fonte": "radar de 16/11",
-   "ultimo_post": "16/11 no X (radar das 12h51)"
+   "ultimo_post": "16/11 no X (radar das 12h51)",
+   "proximo_marco": "passar Chris Paul e virar o segundo da história"
   }
  ],
  "fila_pautas": [
   {
-   "pauta": "Número do dia: o 76ers invicto no clutch. Era 9-0 até 15/11, único invicto da NBA, com 50% de quadra e de três nesses momentos. Atualize com o jogo contra o Nets de 16/11 (se foi apertado, vira 10-0 ou 9-1) e use o número novo.",
+   "pauta": "Número do dia: o 76ers invicto no clutch, SÓ SE o jogo contra o Nets de 16/11 foi decidido no clutch e virou 10-0. Se ficou 9-0 ou virou 9-1, não sai: tire esta pauta da fila.",
    "quando": "17/11: 16h no X e no Instagram (número do dia); no TikTok, primeira foto do carrossel das 18h",
-   "fonte": "perfil oficial do 76ers no X, 16/11; confirme o número atualizado em nba.com/sixers/news, NBA.com/stats ou na imprensa local; sem segunda fonte, cite 'segundo o 76ers'",
-   "sugerida_por": "Rodrigo, 16/11"
+   "fonte": "perfil oficial do 76ers no X, 16/11 (9-0 até 15/11); confirme o 10-0 em nba.com/sixers/news, NBA.com/stats ou na imprensa local; sem segunda fonte, cite 'segundo o 76ers'",
+   "sugerida_por": "Rodrigo, 16/11 (com a regra: número que já saiu só volta quando cresce de verdade)"
   }
  ]
 }
