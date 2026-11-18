@@ -1,0 +1,6 @@
+{"cenas": [
+ {"papel": "amarelo", "kicker": "Magic x 76ers", "linhas": [["1 a 1", "as", "vermelho", 420], ["76ers x Magic nos playoffs", "an", "azul", 150]]},
+ {"papel": "branco", "kicker": "1999", "numero": "3-1", "rotulo": "76ers, na primeira rodada", "texto": "O primeiro duelo nos playoffs ficou com a Filadélfia."},
+ {"papel": "azul", "kicker": "2009", "numero": "4-2", "rotulo": "Magic, na primeira rodada", "texto": "Naquele ano, o Magic chegou à final da NBA."},
+ {"papel": "branco", "kicker": "Abril de 2026", "numero": "109", "rotulo": "a 97 no play-in, na Filadélfia", "texto": "Maxey fez 31 e levou o 76ers aos playoffs."}
+], "cta": true, "trilha": true, "estilo": "drumline", "semente": 1999}
