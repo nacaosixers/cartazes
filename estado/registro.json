@@ -115,6 +115,12 @@
       "titulo": "LeBron fora contra o Nets (controle das costas); Embiid dúvida",
       "data": "2026-11-16",
       "status": "agendado"
+    },
+    {
+      "url": "https://www.inquirer.com/sixers/jaylen-brown-injury-status-orlando-magic-20261117.html",
+      "titulo": "Jaylen Brown fora contra o Magic (posterior da coxa esquerda)",
+      "data": "2026-11-18",
+      "status": "agendado"
     }
   ],
   "curiosidades": [
@@ -133,6 +139,10 @@
     {
       "tema": "Número do dia: 10-0 no clutch",
       "data": "2026-11-17"
+    },
+    {
+      "tema": "2001: 25 anos: 4 prêmios em 2000-01 (MVP Iverson, Defensor Mutombo, Sexto Homem McKie, Técnico Larry Brown)",
+      "data": "2026-11-18"
     }
   ],
   "reels": [
@@ -163,6 +173,10 @@
     {
       "tema": "Vitrine: Adivinha quem é (Julius Erving: mais de 30 mil pontos ABA+NBA, MVP 1980-81, Hall da Fama 1993)",
       "data": "2026-11-17"
+    },
+    {
+      "tema": "História Magic x 76ers nos playoffs: 1999 (76ers 3-1), 2009 (Magic 4-2), play-in 2026 (109 x 97)",
+      "data": "2026-11-18"
     }
   ],
   "prejogos": [
@@ -177,6 +191,10 @@
     {
       "jogo": "Nets x 76ers",
       "data": "2026-11-16"
+    },
+    {
+      "jogo": "Magic x 76ers",
+      "data": "2026-11-18"
     }
   ],
   "posjogo": [
@@ -200,6 +218,12 @@
       "gatilho": "trig_011VwUqLP6KgDtCBb9hWxXxL",
       "tentativa": 2,
       "horario": "00h35 de 17/11"
+    },
+    {
+      "jogo": "Magic x 76ers",
+      "data_jogo": "2026-11-18",
+      "gatilho": "não criado: create_trigger pede aprovação do Rodrigo em rodada automática; o turno da 0h51 cobre",
+      "tentativa": 0
     }
   ],
   "tiktok": [
@@ -277,6 +301,16 @@
       "formato": "Adivinha quem é (vitrine)",
       "tema": "Julius Erving (Dr. J)",
       "data": "2026-11-17"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "Pré-jogo Magic x 76ers: comparativo (azul), pré-jogo, Brown fora",
+      "data": "2026-11-18"
+    },
+    {
+      "formato": "História do confronto",
+      "tema": "76ers x Magic nos playoffs: 1999, 2009 e play-in 2026",
+      "data": "2026-11-18"
     }
   ],
   "agendas": [
@@ -320,6 +354,11 @@
       "estilo": "pop",
       "video": "reel-vitrine-adivinha-erving.mp4",
       "data": "2026-11-17"
+    },
+    {
+      "estilo": "drumline",
+      "video": "reel-historia-magic.mp4",
+      "data": "2026-11-18"
     }
   ],
   "fatos": [
@@ -412,62 +451,68 @@
       "fato": "Adivinha quem é: Julius Erving (mais de 30 mil pontos ABA+NBA, MVP 1980-81, Hall da Fama 1993); Iverson já saiu em 13/11",
       "canal": "todos",
       "data": "2026-11-17"
+    },
+    {
+      "fato": "Pré-jogo Magic x 76ers: 12-3 e 6-1 fora x 6-7 e 1-4 em casa, Magic com 4 seguidas; LeBron e Embiid fora do relatório",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-18"
+    },
+    {
+      "fato": "Jaylen Brown fora contra o Magic (posterior da coxa esquerda), 31 pontos nos 2 últimos jogos (Inquirer, Gina Mizell)",
+      "canal": "x, instagram story, tiktok",
+      "data": "2026-11-18"
+    },
+    {
+      "fato": "2001: 4 prêmios em 2000-01 (Iverson MVP, Mutombo Defensor, McKie Sexto Homem, Larry Brown Técnico), 56 vitórias",
+      "canal": "x, instagram",
+      "data": "2026-11-18"
+    },
+    {
+      "fato": "76ers x Magic nos playoffs: 1-1 em séries (1999 76ers 3-1, 2009 Magic 4-2); play-in 15/04/2026 76ers 109 x 97, Maxey 31",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-18"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-18 07:52 em andamento",
+    "manha": "2026-11-18 08:32 feito (10 posts agendados: X 12h, 15h30, 16h, 18h; Instagram 12h, 16h, 18h e story 20h; TikTok 12h e 18h). Turnos extras de pós-jogo não criados (pedem aprovação); o da 0h51 cobre.",
     "radar": "2026-11-17 17:58 feito (nada novo: Jaylen Brown ainda sem resultado da ressonância do posterior da coxa; relatório de lesões do Magic ainda não saiu)",
     "posjogo": "2026-11-17 00:59 feito pelo Claude na conversa (placar no X, Instagram, story e TikTok)"
   },
   "plano": [
     {
+      "canal": "x, instagram (2), tiktok (3)",
+      "hora": "12h",
+      "formato": "carrossel: comparativo azul + prejogo amarelo (+ manchete no TikTok)",
+      "gancho": "Hoje tem Magic x 76ers, 21h de Brasília",
+      "fato": "campanha, 6-1 fora x 1-4 em casa, desfalques"
+    },
+    {
       "canal": "x",
-      "hora": "10h",
-      "formato": "direto (branco)",
-      "gancho": "Joel Embiid explicou a noite de 37 pontos",
-      "fato": "frase sobre jogar com força (ESPN)"
-    },
-    {
-      "canal": "x, instagram (5)",
-      "hora": "12h",
-      "formato": "carrossel Raio-X (capa azul, outro modelo)",
-      "gancho": "Raio-X de Nets 123 x 135 76ers",
-      "fato": "lance livre, segundo quarto, rebotes"
-    },
-    {
-      "canal": "tiktok",
-      "hora": "12h",
-      "formato": "reel Raio-X (gancho amarelo, trap)",
-      "gancho": "Raio-X: vitória sem LeBron",
-      "fato": "mesmos 3 números"
+      "hora": "15h30",
+      "formato": "manchete (branco), Na Filadélfia",
+      "gancho": "Jaylen Brown está fora hoje contra o Magic",
+      "fato": "lesão no posterior da coxa (Inquirer)"
     },
     {
       "canal": "x, instagram",
       "hora": "16h",
-      "formato": "numero (azul)",
-      "gancho": "76ers 10-0 nos jogos apertados",
-      "fato": "10-0 no clutch"
+      "formato": "numero (azul), 2001: 25 anos",
+      "gancho": "2001: 25 anos. 4 prêmios numa só temporada",
+      "fato": "MVP, Defensor, Sexto Homem, Técnico"
     },
     {
-      "canal": "tiktok",
+      "canal": "x, instagram reel, tiktok",
       "hora": "18h",
-      "formato": "carrossel 3 fotos (azul primeiro)",
-      "gancho": "76ers 10-0 nos jogos apertados",
-      "fato": "10-0, 4-0 sem LeBron, frase de Embiid"
-    },
-    {
-      "canal": "x, instagram reel, tiktok 21h30",
-      "hora": "19h30",
-      "formato": "reel vitrine (gancho amarelo, pop)",
-      "gancho": "Adivinha quem é: só fã raiz acerta",
-      "fato": "Julius Erving"
+      "formato": "reel história (gancho amarelo, drumline)",
+      "gancho": "1 a 1: 76ers x Magic nos playoffs",
+      "fato": "1999, 2009, play-in 2026"
     },
     {
       "canal": "instagram story",
-      "hora": "19h30",
-      "formato": "direto (story)",
-      "gancho": "frase de Embiid",
-      "fato": "força"
+      "hora": "20h",
+      "formato": "manchete (story)",
+      "gancho": "Jaylen Brown fora",
+      "fato": "lesão"
     }
   ],
   "fios": [
