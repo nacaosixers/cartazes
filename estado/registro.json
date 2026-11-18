@@ -127,6 +127,12 @@
       "titulo": "Liberty Ballers: Wade e Caldwell-Pope devem marcar Franz Wagner (24,2/6,8/8,3)",
       "data": "2026-11-18",
       "status": "agendado"
+    },
+    {
+      "url": "https://www.cbssports.com/fantasy/basketball/news/76ers-dean-wade-downgraded-to-questionable-wednesday/",
+      "titulo": "Dean Wade dúvida contra o Magic (dor no posterior da coxa esquerda)",
+      "data": "2026-11-18",
+      "status": "agendado"
     }
   ],
   "curiosidades": [
@@ -482,11 +488,16 @@
       "fato": "Franz Wagner, o desafio: 24,2 pontos, 6,8 rebotes e 8,3 assistências; 4 jogos seguidos de 30+ até os 21 de segunda; Wade e Caldwell-Pope na marcação (Liberty Ballers, Harrison Grimm)",
       "canal": "x, instagram",
       "data": "2026-11-18"
+    },
+    {
+      "fato": "Dean Wade dúvida contra o Magic, dor no posterior da coxa esquerda (relatório da NBA, CBS Sports, Sixer Sense)",
+      "canal": "x",
+      "data": "2026-11-18"
     }
   ],
   "rodadas": {
     "manha": "2026-11-18 08:32 feito (10 posts agendados: X 12h, 15h30, 16h, 18h; Instagram 12h, 16h, 18h e story 20h; TikTok 12h e 18h). Turnos extras de pós-jogo não criados (pedem aprovação); o da 0h51 cobre.",
-    "radar": "2026-11-18 17:52 em andamento",
+    "radar": "2026-11-18 18:00 feito (Dean Wade dúvida: X 18h15; Instagram com feed cheio; cola atualizada)",
     "posjogo": "2026-11-17 00:59 feito pelo Claude na conversa (placar no X, Instagram, story e TikTok)"
   },
   "plano": [
@@ -531,6 +542,13 @@
       "formato": "lista (branco), Prancheta",
       "gancho": "Franz Wagner é o desafio do 76ers hoje em Orlando",
       "fato": "números de Wagner e quem marca"
+    },
+    {
+      "canal": "x 18h15",
+      "hora": "radar 17h51",
+      "formato": "manchete (branco), notícia",
+      "gancho": "Dean Wade é dúvida para hoje contra o Magic",
+      "fato": "Wade dúvida, posterior da coxa esquerda"
     }
   ],
   "fios": [

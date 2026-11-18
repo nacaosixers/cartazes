@@ -1,9 +1,9 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "quarta, 18/11, às 12h55",
+ "atualizado": "quarta, 18/11, às 18h00",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: radar, 12h55."
+  "texto": "Ligado. Última rodada: radar, 18h00."
  },
  "campanha": "12 vitórias e 3 derrotas",
  "hoje": {
@@ -67,6 +67,16 @@ window.CENTRAL = {
     "linkTexto": "Ver o vídeo"
    },
    {
+    "tipo": "Notícia: Dean Wade é dúvida",
+    "status": "agendado",
+    "quando": "18h15 no X (feed do Instagram já cheio hoje)",
+    "img": "img/hoje/manchete-wade-duvida.png",
+    "arquivo": "manchete-wade-duvida.png",
+    "x": "Dean Wade é dúvida para hoje contra o Magic. 🏀\n\nEle entrou no relatório de lesões da NBA nesta quarta, com dor no posterior da coxa esquerda, segundo a CBS Sports. Wade era um dos nomes para marcar Franz Wagner.\n\nSem ele e sem Jaylen Brown, quem marca o alemão?",
+    "obs": "Radar das 17h51. NOTÍCIA: relatório oficial de lesões da NBA, via CBS Sports e The Sixer Sense (Justin Grasso).",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-18/manchete-wade-duvida.png"
+   },
+   {
     "tipo": "Pós-jogo rápido",
     "status": "agendado",
     "quando": "turno da 0h51",
@@ -107,14 +117,14 @@ window.CENTRAL = {
   "onde": "NBA League Pass",
   "pontos": [
    "76ers 12-3, primeiro do Leste, e 6-1 fora de casa. Magic 6-7, só 1-4 em casa, mas com 4 vitórias seguidas (ESPN).",
-   "Desfalques: Jaylen Brown (posterior da coxa esquerda), Adem Bona, Dominick Barlow e Ariel Hukporti fora. LeBron James e Joel Embiid não estão no relatório. O Magic não tem Paolo Banchero, Jonathan Isaac, Noah Penda e Izaiyah Nelson.",
+   "Desfalques: Jaylen Brown (posterior da coxa esquerda), Adem Bona, Dominick Barlow e Ariel Hukporti fora. Dean Wade virou dúvida (dor no posterior da coxa esquerda, CBS Sports). LeBron James e Joel Embiid não estão no relatório. O Magic não tem Paolo Banchero, Jonathan Isaac, Noah Penda e Izaiyah Nelson.",
    "Destaques: Tyrese Maxey com 26,5 pontos e 5,8 assistências; Franz Wagner com 25,1 pontos nos últimos 10 jogos do Magic (ESPN).",
    "Fios: 76ers 10-0 nos jogos decididos no fim; LeBron tem 12.092 assistências, terceiro da história, e o próximo é Chris Paul.",
    "Retrospecto: o 76ers venceu os 2 últimos, incluindo o play-in de abril (109 x 97, 31 de Maxey). Nos playoffs, 1 série para cada lado (1999 e 2009)."
   ],
   "roteiro": [
    "Início: LeBron e Embiid de volta juntos, sem Jaylen Brown. Quem entra no quinteto?",
-   "Intervalo: como o 76ers está marcando Franz Wagner, o cestinha do Magic sem Banchero.",
+   "Intervalo: como o 76ers está marcando Franz Wagner, o cestinha do Magic sem Banchero, ainda mais se Dean Wade não jogar.",
    "Se ficar apertado no fim: 10-0 nos jogos decididos nos 5 minutos finais.",
    "Fim: placar e o próximo jogo, 76ers x Bucks no sábado, 15h de Brasília."
   ],
@@ -130,6 +140,10 @@ window.CENTRAL = {
    {
     "t": "Inquirer, Jaylen Brown",
     "u": "https://www.inquirer.com/sixers/jaylen-brown-injury-status-orlando-magic-20261117.html"
+   },
+   {
+    "t": "CBS Sports, Dean Wade",
+    "u": "https://www.cbssports.com/fantasy/basketball/news/76ers-dean-wade-downgraded-to-questionable-wednesday/"
    }
   ]
  },
