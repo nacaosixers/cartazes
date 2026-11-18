@@ -121,6 +121,12 @@
       "titulo": "Jaylen Brown fora contra o Magic (posterior da coxa esquerda)",
       "data": "2026-11-18",
       "status": "agendado"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/sixers-head-orlando-showdown-franz-120000890.html",
+      "titulo": "Liberty Ballers: Wade e Caldwell-Pope devem marcar Franz Wagner (24,2/6,8/8,3)",
+      "data": "2026-11-18",
+      "status": "agendado"
     }
   ],
   "curiosidades": [
@@ -471,11 +477,16 @@
       "fato": "76ers x Magic nos playoffs: 1-1 em séries (1999 76ers 3-1, 2009 Magic 4-2); play-in 15/04/2026 76ers 109 x 97, Maxey 31",
       "canal": "x, instagram, tiktok",
       "data": "2026-11-18"
+    },
+    {
+      "fato": "Franz Wagner, o desafio: 24,2 pontos, 6,8 rebotes e 8,3 assistências; 4 jogos seguidos de 30+ até os 21 de segunda; Wade e Caldwell-Pope na marcação (Liberty Ballers, Harrison Grimm)",
+      "canal": "x, instagram",
+      "data": "2026-11-18"
     }
   ],
   "rodadas": {
     "manha": "2026-11-18 08:32 feito (10 posts agendados: X 12h, 15h30, 16h, 18h; Instagram 12h, 16h, 18h e story 20h; TikTok 12h e 18h). Turnos extras de pós-jogo não criados (pedem aprovação); o da 0h51 cobre.",
-    "radar": "2026-11-18 12:52 em andamento",
+    "radar": "2026-11-18 12:58 feito (Prancheta Franz Wagner: X 13h10 e Instagram 19h30; Liberty Ballers e NBA.com)",
     "posjogo": "2026-11-17 00:59 feito pelo Claude na conversa (placar no X, Instagram, story e TikTok)"
   },
   "plano": [
@@ -513,6 +524,13 @@
       "formato": "manchete (story)",
       "gancho": "Jaylen Brown fora",
       "fato": "lesão"
+    },
+    {
+      "canal": "x 13h10, instagram 19h30",
+      "hora": "radar",
+      "formato": "lista (branco), Prancheta",
+      "gancho": "Franz Wagner é o desafio do 76ers hoje em Orlando",
+      "fato": "números de Wagner e quem marca"
     }
   ],
   "fios": [

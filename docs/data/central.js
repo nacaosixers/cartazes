@@ -1,9 +1,9 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "quarta, 18/11, às 8h30",
+ "atualizado": "quarta, 18/11, às 12h55",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: manhã, 8h30."
+  "texto": "Ligado. Última rodada: radar, 12h55."
  },
  "campanha": "12 vitórias e 3 derrotas",
  "hoje": {
@@ -42,6 +42,17 @@ window.CENTRAL = {
     "ig": "Os 4 prêmios, com os 31,1 pontos de Iverson, 56 vitórias e a ligação com o uniforme Hardwood Classic.",
     "obs": "Fontes: NBA.com (resumo da temporada 2000-01) e a página da temporada 2000-01 do 76ers na Wikipédia.",
     "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-18/numero-2001-quatro-premios.png"
+   },
+   {
+    "tipo": "Prancheta: o desafio Franz Wagner",
+    "status": "agendado",
+    "quando": "13h10 no X e 19h30 no Instagram",
+    "img": "img/hoje/lista-wagner-desafio2.png",
+    "arquivo": "lista-wagner-desafio2.png",
+    "x": "Franz Wagner é o desafio do 76ers hoje em Orlando. 🏀\n\nSão 24,2 pontos, 6,8 rebotes e 8,3 assistências por jogo. Segundo Harrison Grimm, do Liberty Ballers, Dean Wade e Kentavious Caldwell-Pope devem marcar o alemão.\n\nQuem segura ele?",
+    "ig": "Mesmo cartaz, com a sequência de 4 jogos de 30 pontos que acabou na segunda (NBA.com).",
+    "obs": "Radar das 12h51. Fontes: Liberty Ballers (Harrison Grimm, via Yahoo Sports) e prévia do NBA.com (Matt Murphy). Instagram fecha o feed do dia (4 posts).",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-18/lista-wagner-desafio2.png"
    },
    {
     "tipo": "Reel: 76ers x Magic nos playoffs",
