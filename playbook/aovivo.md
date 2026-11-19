@@ -11,12 +11,14 @@ Despertadores, contando do horário marcado do jogo (21h00 vira 21h12, 21h45...)
 | Momento | Quando |
 |---|---|
 | Bola ao alto | início + 12 min |
-| Fim do 1º quarto | início + 45 min |
-| Intervalo | início + 1h17 |
-| Fim do 3º quarto | início + 1h58 |
-| Reta final | início + 2h17 |
-| Fim de jogo | início + 2h32 |
+| Fim do 1º quarto | início + 38 min |
+| Intervalo | início + 1h13 |
+| Fim do 3º quarto | início + 1h56 |
+| Reta final | início + 2h10 |
+| Fim de jogo | início + 2h30 |
 | Rede de segurança do fim | início + 3h05 |
+
+Os horários vêm do jogo de 18/11 (bola ao alto às 21h11, fim do 1º às 21h37, intervalo às 22h12, fim do 3º às 22h56, fim às 23h36). Cada jogo tem seu ritmo: quando o momento ainda não chegou, a reconferida de 3 a 5 minutos resolve; quando o jogo anda mais rápido, antecipe os despertadores seguintes.
 
 Em cada despertador:
 
