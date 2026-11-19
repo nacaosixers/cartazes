@@ -35,6 +35,7 @@ Em cada despertador:
 - Cada comentário com abertura e destaque diferentes do anterior. Se o mesmo jogador está dominando, diga isso de outro jeito.
 - No máximo 1 emoji. Sem hashtag, sem link, sem travessão.
 - Pergunta curta para a torcida responder em alguns comentários, não em todos.
+- A lista de jogadores do `game_stats` pode vir cortada (em 18/11 vinham só 5 por time, sem Maxey). Só chame alguém de cestinha se a soma dos pontos dos listados bater com o total do time; senão, cite o número do jogador sem dizer que é o maior.
 - Nunca invente: só número que veio da ferramenta. Lesão durante o jogo não entra (ninguém confirmou). Dado que parece velho ou não bate (placar parado, quarto errado): não poste.
 
 ## Os momentos
