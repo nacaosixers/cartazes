@@ -53,6 +53,12 @@
       "data_jogo": "2026-11-16",
       "tiktok": "2026-11-17 12h",
       "carrossel": "2026-11-17 12h"
+    },
+    {
+      "jogo": "Magic 116 x 121 76ers",
+      "data_jogo": "2026-11-18",
+      "tiktok": "2026-11-19 12h",
+      "carrossel": "2026-11-19 12h"
     }
   ],
   "noticias": [
@@ -139,6 +145,12 @@
       "titulo": "Dean Wade dúvida contra o Magic (dor no posterior da coxa esquerda)",
       "data": "2026-11-18",
       "status": "agendado"
+    },
+    {
+      "url": "https://www.tsn.ca/nba/article/sixers-maxey-foot-a-late-scratch-vs-magic-n1-50525193/",
+      "titulo": "Maxey fora contra o Magic (dor no pé direito, saiu do aquecimento)",
+      "data": "2026-11-19",
+      "status": "agendado"
     }
   ],
   "curiosidades": [
@@ -161,6 +173,14 @@
     {
       "tema": "2001: 25 anos: 4 prêmios em 2000-01 (MVP Iverson, Defensor Mutombo, Sexto Homem McKie, Técnico Larry Brown)",
       "data": "2026-11-18"
+    },
+    {
+      "tema": "Número do dia: 7-1 fora de casa",
+      "data": "2026-11-19"
+    },
+    {
+      "tema": "Você sabia? Fo, fo, fo: Moses Malone e o 12-1 de 1983",
+      "data": "2026-11-19"
     }
   ],
   "reels": [
@@ -195,6 +215,14 @@
     {
       "tema": "História Magic x 76ers nos playoffs: 1999 (76ers 3-1), 2009 (Magic 4-2), play-in 2026 (109 x 97)",
       "data": "2026-11-18"
+    },
+    {
+      "tema": "Raio-X Magic x 76ers (TikTok): Embiid 12 de 14 no lance livre, Simons 18, Tacko Fall +7",
+      "data": "2026-11-19"
+    },
+    {
+      "tema": "Você sabia? Fo, fo, fo (1983: 12-1 nos playoffs, 65-17)",
+      "data": "2026-11-19"
     }
   ],
   "prejogos": [
@@ -335,6 +363,21 @@
       "formato": "Placar em vídeo",
       "tema": "Magic 116 x 121 76ers: virada depois de perder por 17",
       "data": "2026-11-18"
+    },
+    {
+      "formato": "Reel",
+      "tema": "Raio-X Magic: sem Maxey, Embiid 12 de 14 no lance livre, Simons 18, Tacko Fall +7",
+      "data": "2026-11-19"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "7-1 fora de casa + Maxey com dor no pé direito",
+      "data": "2026-11-19"
+    },
+    {
+      "formato": "Você sabia?",
+      "tema": "Fo, fo, fo: Moses Malone e o 12-1 de 1983",
+      "data": "2026-11-19"
     }
   ],
   "agendas": [
@@ -388,6 +431,16 @@
       "estilo": "house",
       "video": "tiktok-posjogo-magic.mp4",
       "data": "2026-11-18"
+    },
+    {
+      "estilo": "trap",
+      "video": "tiktok-raiox-magic.mp4",
+      "data": "2026-11-19"
+    },
+    {
+      "estilo": "lofi",
+      "video": "reel-vocesabia-1983.mp4",
+      "data": "2026-11-19"
     }
   ],
   "fatos": [
@@ -515,69 +568,89 @@
       "fato": "Virada sobre o Magic, 116 x 121: perdia por 17 no 1º tempo, 4º quarto de 29 x 19, Edgecombe 13 no quarto (24 no jogo), Embiid 26, LeBron 22",
       "canal": "x, instagram, tiktok",
       "data": "2026-11-18"
+    },
+    {
+      "fato": "Raio-X Magic: vitória sem Maxey (dor no pé direito) e Brown; Embiid 12 de 14 no lance livre x Magic 9 de 17; Simons 18 como titular pela primeira vez na temporada e a bola de três final; Tacko Fall +7 em 10 minutos com 3 tocos; Edgecombe 24, recorde dele na temporada; Philon Jr. 10 em 17 min",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-19"
+    },
+    {
+      "fato": "76ers 7-1 fora de casa, 6-2 em casa (ESPN e Yardbarker)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-19"
+    },
+    {
+      "fato": "Maxey fora contra o Magic, dor no pé direito, saiu do aquecimento; tinha jogado os 15 jogos (TSN, RotoWire/Inquirer)",
+      "canal": "instagram story, tiktok",
+      "data": "2026-11-19"
+    },
+    {
+      "fato": "Você sabia? Moses Malone, fo fo fo: 1983, 4-0 Knicks, 4-1 Bucks, 4-0 Lakers, 12-1; 65-17; Malone MVP e MVP das finais",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-19"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-19 07:52 em andamento",
+    "manha": "2026-11-19 08:20 feito (10 posts agendados: X 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e story 19h30; TikTok 12h, 18h e 21h30). Sem jogo hoje; promoção indicada na central.",
     "radar": "2026-11-18 18:00 feito (Dean Wade dúvida: X 18h15; Instagram com feed cheio; cola atualizada)",
     "posjogo": "2026-11-18 23:41 feito pelo Claude na conversa (placar no X, story, TikTok; feed do Instagram às 0h01)",
     "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37"
   },
   "plano": [
     {
-      "canal": "x, instagram (2), tiktok (3)",
+      "canal": "x (4), instagram (5)",
       "hora": "12h",
-      "formato": "carrossel: comparativo azul + prejogo amarelo (+ manchete no TikTok)",
-      "gancho": "Hoje tem Magic x 76ers, 21h de Brasília",
-      "fato": "campanha, 6-1 fora x 1-4 em casa, desfalques"
+      "formato": "carrossel Raio-X (capa amarela + 3 numero + lista)",
+      "gancho": "Raio-X de Magic 116 x 121 76ers: a virada veio sem Tyrese Maxey e sem Jaylen Brown",
+      "fato": "lance livre de Embiid, Simons titular, Tacko Fall +7"
     },
     {
-      "canal": "x",
-      "hora": "15h30",
-      "formato": "manchete (branco), Na Filadélfia",
-      "gancho": "Jaylen Brown está fora hoje contra o Magic",
-      "fato": "lesão no posterior da coxa (Inquirer)"
+      "canal": "tiktok",
+      "hora": "12h",
+      "formato": "reel Raio-X (gancho amarelo, trap)",
+      "gancho": "Raio-X: sem Maxey",
+      "fato": "mesmos 3 números"
     },
     {
       "canal": "x, instagram",
       "hora": "16h",
-      "formato": "numero (azul), 2001: 25 anos",
-      "gancho": "2001: 25 anos. 4 prêmios numa só temporada",
-      "fato": "MVP, Defensor, Sexto Homem, Técnico"
+      "formato": "numero (azul), número do dia",
+      "gancho": "76ers 7-1 fora de casa",
+      "fato": "7 de 8 fora, 6-2 em casa"
     },
     {
-      "canal": "x, instagram reel, tiktok",
+      "canal": "tiktok",
       "hora": "18h",
-      "formato": "reel história (gancho amarelo, drumline)",
-      "gancho": "1 a 1: 76ers x Magic nos playoffs",
-      "fato": "1999, 2009, play-in 2026"
+      "formato": "carrossel (7-1 azul + manchete Maxey)",
+      "gancho": "76ers 7-1 fora de casa",
+      "fato": "7-1 e Maxey com dor no pé"
+    },
+    {
+      "canal": "x, instagram reel",
+      "hora": "19h30",
+      "formato": "reel Você sabia? (gancho amarelo, lofi)",
+      "gancho": "Fo, fo, fo: a previsão de Moses Malone",
+      "fato": "1983, 12-1"
     },
     {
       "canal": "instagram story",
-      "hora": "20h",
+      "hora": "19h30",
       "formato": "manchete (story)",
-      "gancho": "Jaylen Brown fora",
-      "fato": "lesão"
+      "gancho": "Maxey ficou fora com dor no pé direito",
+      "fato": "Maxey"
     },
     {
-      "canal": "x 13h10, instagram 19h30",
-      "hora": "radar",
-      "formato": "lista (branco), Prancheta",
-      "gancho": "Franz Wagner é o desafio do 76ers hoje em Orlando",
-      "fato": "números de Wagner e quem marca"
-    },
-    {
-      "canal": "x 18h15",
-      "hora": "radar 17h51",
-      "formato": "manchete (branco), notícia",
-      "gancho": "Dean Wade é dúvida para hoje contra o Magic",
-      "fato": "Wade dúvida, posterior da coxa esquerda"
+      "canal": "tiktok",
+      "hora": "21h30",
+      "formato": "Você sabia? (formato próprio)",
+      "gancho": "Você sabia? A previsão de Moses Malone",
+      "fato": "1983, 12-1"
     }
   ],
   "fios": [
     {
       "fio": "Campanha no clutch (diferença de até 5 pontos nos 5 minutos finais)",
-      "valor": "11-0 (a confirmar)",
+      "valor": "11-0 (a confirmar; nenhuma fonte aberta em 19/11 deu o número)",
       "ate": "jogo de 18/11 (Magic: 104 x 102 com 6min06 e 111 x 107 com 3min19, vitória por 5)",
       "fonte": "placar ao vivo; falta o time, a NBA ou a imprensa confirmar",
       "ultimo_post": "10-0, em 17/11 (número do dia no X e no Instagram, carrossel do TikTok)",
@@ -598,18 +671,26 @@
       "fonte": "ESPN (Kris Rhim) e NBC Sports Philadelphia",
       "ultimo_post": "17/11 (TikTok, carrossel; apoio no Raio-X)",
       "proximo_marco": "só volta se for marca notável"
+    },
+    {
+      "fio": "Campanha fora de casa",
+      "valor": "7-1 (6-2 em casa)",
+      "ate": "jogo de 18/11 (Magic)",
+      "fonte": "ESPN e Yardbarker",
+      "ultimo_post": "19/11 (número do dia no X, Instagram e TikTok)",
+      "proximo_marco": "só volta se virar a melhor da liga, com fonte"
     }
   ],
   "fila_pautas": [
     {
-      "pauta": "Conferir se o 76ers chegou a 11-0 no clutch com a vitória sobre o Magic e atualizar o fio (11-0 não vira post)",
-      "quando": "2026-11-19",
-      "fonte": "placar ao vivo de 18/11",
-      "sugerida_por": "Claude (ao vivo)"
+      "pauta": "Maxey (dor no pé direito): conferir status para 76ers x Bucks de sábado no relatório de lesões",
+      "quando": "2026-11-20",
+      "fonte": "TSN e RotoWire (19/11)",
+      "sugerida_por": "Claude (manhã)"
     },
     {
-      "pauta": "Raio-X da virada em Orlando: perdia por 17; conferir se é a maior virada do 76ers na temporada antes de dizer isso",
-      "quando": "2026-11-19",
+      "pauta": "Conferir se o 76ers chegou a 11-0 no clutch (Magic: 107-106 com 5min09); 11-0 não vira post",
+      "quando": "2026-11-20",
       "fonte": "placar ao vivo de 18/11",
       "sugerida_por": "Claude (ao vivo)"
     }

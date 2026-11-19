@@ -1,86 +1,67 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "quarta, 18/11, às 18h00",
+ "atualizado": "quinta, 19/11, às 8h20",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: radar, 18h00."
+  "texto": "Ligado. Última rodada: manhã, 8h20."
  },
- "campanha": "12 vitórias e 3 derrotas",
+ "campanha": "13 vitórias e 3 derrotas",
  "hoje": {
-  "data": "Quarta, 18/11",
-  "resumo": "Dia de jogo em Orlando, 21h de Brasília: pré-jogo, Jaylen Brown fora, os 4 prêmios do time de 2001 e a história do confronto nos playoffs. Os dois turnos rápidos de pós-jogo não puderam ser criados nesta rodada; o placar sai no turno da 0h51.",
+  "data": "Quinta, 19/11",
+  "resumo": "Dia seguinte à virada em Orlando: Raio-X da vitória sem Maxey e Brown, 7-1 fora de casa e a previsão de Moses Malone em 1983. Maxey saiu com dor no pé direito; fica de olho para sábado.",
   "itens": [
    {
-    "tipo": "Pré-jogo: Magic x 76ers",
+    "tipo": "Raio-X: Magic 116 x 121 76ers",
     "status": "agendado",
-    "quando": "12h no X (2 cartazes), no Instagram (carrossel de 2) e no TikTok (carrossel de 3 fotos, com o cartaz do Brown)",
-    "img": "img/hoje/comparativo-magic-x-76ers.png",
-    "arquivo": "comparativo-magic-x-76ers.png",
-    "x": "Hoje tem Magic x 76ers, 21h de Brasília. 🏀\n\nLeBron James e Joel Embiid não aparecem no relatório de lesões, segundo a PhillyVoice. O 76ers chega com 12-3 e 6-1 fora de casa. O Magic tem 1-4 em Orlando, mas vem de 4 vitórias seguidas.\n\nQual o seu palpite?",
-    "ig": "Pré-jogo com campanha, desfalques (Brown fora; Magic sem Banchero) e onde assistir: NBA League Pass.",
-    "obs": "Abre com o confronto em números (azul), porque o último post de cada canal teve capa amarela; o cartaz prejogo vem em segundo. Fontes: ESPN (prévia), PhillyVoice (Adam Aaronson) e Metro Philadelphia.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-18/prejogo-magic-x-76ers.png"
+    "quando": "12h no X (4 cartazes), no Instagram (carrossel de 5) e no TikTok (vídeo)",
+    "img": "img/hoje/raiox-magic-1.png",
+    "arquivo": "raiox-magic-1.png",
+    "x": "Raio-X de Magic 116 x 121 76ers: a virada veio sem Tyrese Maxey e sem Jaylen Brown. 🏀\n\nEmbiid: 12 de 14 no lance livre. O Magic todo: 9 de 17.\nAnfernee Simons, titular pela 1ª vez no ano: 18 e a bola que fechou.\nTacko Fall: +7 em 10 minutos.\n\nQuem mais te surpreendeu?",
+    "ig": "Carrossel de 5: capa, Embiid 12 de 14 nos lances livres, Simons 18 como titular, Tacko Fall +7 e O que fica (com a leitura de Adam Aaronson, do PhillyVoice).",
+    "obs": "Gancho novo: a vitória sem Maxey (o placar de ontem já tinha a virada de 17 e os 13 de Edgecombe, que ficaram como apoio). Fontes: AP (via GMA), Bleacher Report, Sports Illustrated, PhillyVoice (Adam Aaronson) e TSN. TikTok: reel com trilha trap.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-19/tiktok-raiox-magic.mp4",
+    "linkTexto": "Ver o vídeo do TikTok"
    },
    {
-    "tipo": "Na Filadélfia: Jaylen Brown fora",
+    "tipo": "Número do dia: 7-1 fora de casa",
     "status": "agendado",
-    "quando": "15h30 no X e 20h no story do Instagram",
-    "img": "img/hoje/manchete-brown-fora-magic.png",
-    "arquivo": "manchete-brown-fora-magic.png",
-    "x": "Jaylen Brown está fora hoje contra o Magic. 🏀\n\nSegundo Gina Mizell, do Philadelphia Inquirer, é uma lesão no posterior da coxa esquerda, sentida na vitória sobre o Nets. Brown vinha de 31 pontos nos dois últimos jogos. Não há prazo de volta.\n\nQuem ganha os minutos dele?",
-    "ig": "Story com o mesmo cartaz.",
-    "obs": "NOTÍCIA: relatório oficial de lesões, Inquirer (Gina Mizell) e PhillyVoice.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-18/manchete-brown-fora-magic.png"
+    "quando": "16h no X e no Instagram; 18h no TikTok (carrossel com o cartaz do Maxey)",
+    "img": "img/hoje/numero-7-1-fora.png",
+    "arquivo": "numero-7-1-fora.png",
+    "x": "76ers 7-1 fora de casa. ✈️\n\nCom a virada em Orlando, o time ganhou 7 dos 8 jogos longe da Filadélfia. Em casa, a campanha é 6-2.\n\nSábado o 76ers volta para casa contra o Bucks, 15h de Brasília. Por que o time rende mais fora?",
+    "ig": "Mesmo número, com 6-2 em casa e o Bucks no sábado.",
+    "obs": "Fontes: ESPN (6-1 fora antes do jogo) e Yardbarker (7-1 depois). Não dissemos que é a melhor campanha fora da liga: Spurs estavam 7-0 e Lakers 7-1 na última tabela aberta.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-19/numero-7-1-fora.png"
    },
    {
-    "tipo": "2001: 25 anos: os 4 prêmios",
+    "tipo": "Você sabia? Fo, fo, fo (1983)",
     "status": "agendado",
-    "quando": "16h no X e no Instagram",
-    "img": "img/hoje/numero-2001-quatro-premios.png",
-    "arquivo": "numero-2001-quatro-premios.png",
-    "x": "2001: 25 anos. O 76ers de Allen Iverson levou 4 prêmios da NBA numa só temporada. 🏆\n\nMVP: Iverson. Defensor do Ano: Dikembe Mutombo. Sexto Homem: Aaron McKie. Técnico do Ano: Larry Brown. Foram 56 vitórias e uma final contra o Lakers.\n\nQual foi o mais marcante?",
-    "ig": "Os 4 prêmios, com os 31,1 pontos de Iverson, 56 vitórias e a ligação com o uniforme Hardwood Classic.",
-    "obs": "Fontes: NBA.com (resumo da temporada 2000-01) e a página da temporada 2000-01 do 76ers na Wikipédia.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-18/numero-2001-quatro-premios.png"
-   },
-   {
-    "tipo": "Prancheta: o desafio Franz Wagner",
-    "status": "agendado",
-    "quando": "13h10 no X e 19h30 no Instagram",
-    "img": "img/hoje/lista-wagner-desafio2.png",
-    "arquivo": "lista-wagner-desafio2.png",
-    "x": "Franz Wagner é o desafio do 76ers hoje em Orlando. 🏀\n\nSão 24,2 pontos, 6,8 rebotes e 8,3 assistências por jogo. Segundo Harrison Grimm, do Liberty Ballers, Dean Wade e Kentavious Caldwell-Pope devem marcar o alemão.\n\nQuem segura ele?",
-    "ig": "Mesmo cartaz, com a sequência de 4 jogos de 30 pontos que acabou na segunda (NBA.com).",
-    "obs": "Radar das 12h51. Fontes: Liberty Ballers (Harrison Grimm, via Yahoo Sports) e prévia do NBA.com (Matt Murphy). Instagram fecha o feed do dia (4 posts).",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-18/lista-wagner-desafio2.png"
-   },
-   {
-    "tipo": "Reel: 76ers x Magic nos playoffs",
-    "status": "agendado",
-    "quando": "18h no X, no Instagram (Reels) e no TikTok",
-    "img": "img/hoje/reel-historia-magic.png",
-    "arquivo": "reel-historia-magic.png",
-    "x": "76ers x Magic nos playoffs: 1 a 1 em séries. 🏀\n\n1999: 76ers 3 a 1. 2009: Magic 4 a 2, e depois a final da NBA. Em abril, no play-in, deu 76ers 109 x 97, com 31 de Tyrese Maxey.\n\nÀs 21h de Brasília, mais um capítulo em Orlando. Comenta: você lembrava?",
-    "ig": "1999, 2009 e o play-in de abril, cena a cena.",
-    "obs": "Fontes: Land of Basketball e Champs or Chumps (séries); FOX 29 e News4JAX (play-in 109 x 97, Maxey 31). Trilha: drumline. Sem promoção hoje: o pedido é a cada 2 dias e ontem teve.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-18/reel-historia-magic.mp4",
+    "quando": "19h30 no X e no Instagram (Reels); 21h30 no TikTok",
+    "img": "img/hoje/reel-vocesabia-1983.png",
+    "arquivo": "reel-vocesabia-1983.png",
+    "x": "Você sabia? Em 1983, Moses Malone previu \"fo, fo, fo\": três varreduras nos playoffs. 🏆\n\nQuase acertou. O 76ers fez 4-0 no Knicks, 4-1 no Bucks e 4-0 no Lakers: 12-1 e o título.\n\nQual time do 76ers é o maior da história?",
+    "ig": "A previsão de Moses Malone, o 12-1 nos playoffs e o 65-17 na temporada.",
+    "obs": "Fontes: Wikipédia (Final de 1983) e Paris Basketball (temporada 1982-83). Trilha: lofi.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-19/reel-vocesabia-1983.mp4",
     "linkTexto": "Ver o vídeo"
    },
    {
-    "tipo": "Notícia: Dean Wade é dúvida",
+    "tipo": "Story: Maxey ficou fora",
     "status": "agendado",
-    "quando": "18h15 no X (feed do Instagram já cheio hoje)",
-    "img": "img/hoje/manchete-wade-duvida.png",
-    "arquivo": "manchete-wade-duvida.png",
-    "x": "Dean Wade é dúvida para hoje contra o Magic. 🏀\n\nEle entrou no relatório de lesões da NBA nesta quarta, com dor no posterior da coxa esquerda, segundo a CBS Sports. Wade era um dos nomes para marcar Franz Wagner.\n\nSem ele e sem Jaylen Brown, quem marca o alemão?",
-    "obs": "Radar das 17h51. NOTÍCIA: relatório oficial de lesões da NBA, via CBS Sports e The Sixer Sense (Justin Grasso).",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-18/manchete-wade-duvida.png"
+    "quando": "19h30 no story do Instagram",
+    "img": "img/hoje/manchete-maxey-pe.png",
+    "arquivo": "manchete-maxey-pe.png",
+    "obs": "NOTÍCIA: dor no pé direito, saiu do aquecimento (TSN; RotoWire citando Gina Mizell, do Inquirer). Ainda sem atualização para o jogo de sábado.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-19/story-manchete-maxey-pe.png"
    },
    {
-    "tipo": "Pós-jogo rápido",
-    "status": "agendado",
-    "quando": "turno da 0h51",
-    "obs": "Os dois turnos extras (23h30 e 0h05) não foram criados: nesta rodada automática, criar tarefa agendada pede a sua aprovação. O turno fixo da 0h51 faz o placar. Se quiser o placar mais cedo nos próximos jogos, peça no chat para eu criar esses turnos com antecedência."
+    "tipo": "Promoção paga no TikTok (opcional)",
+    "status": "promover",
+    "quando": "hoje, entre 18h e 20h",
+    "img": "img/hoje/reel-vitrine-adivinha-erving.png",
+    "obs": "Os vídeos já estão publicados pelo Buffer. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA, no valor da seção Impulsionar. Vídeos: 1) o vitrine Adivinha quem é (Julius Erving), de 17/11; 2) o placar em vídeo da virada sobre o Magic, de ontem à noite. Por quê: o vitrine já tem 434 visualizações e 50 curtidas sem impulso (11,5% de interação, o melhor do TikTok nos últimos 2 dias); o placar do Magic tem só 53 visualizações e é o jogo mais recente (vale até a noite de hoje).",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-17/reel-vitrine-adivinha-erving.mp4",
+    "linkTexto": "Ver o vídeo"
    }
   ]
  },
@@ -111,49 +92,8 @@ window.CENTRAL = {
   ],
   "ajuste": "Quase todo o crescimento da semana veio da promoção paga: 343 seguidores no TikTok e 17 no Instagram (detalhes em Impulsionar). O TikTok é onde a Nação cresce: formato próprio (Adivinha quem é) e vídeo que apresenta o time funcionam melhor; reel de números com texto demais segura só 1,5 a 2 segundos. Nesta semana: um vídeo vitrine toda terça, placar em vídeo depois de todo jogo e ganchos mais curtos. O teste dos cartazes azuis contra os amarelos começou em 16/11; o resultado sai no balanço de 23/11."
  },
- "cola": {
-  "jogo": "Magic x 76ers",
-  "quando": "Quarta, 18/11, 21h de Brasília, no Kia Center, em Orlando",
-  "onde": "NBA League Pass",
-  "pontos": [
-   "76ers 12-3, primeiro do Leste, e 6-1 fora de casa. Magic 6-7, só 1-4 em casa, mas com 4 vitórias seguidas (ESPN).",
-   "Desfalques: Jaylen Brown (posterior da coxa esquerda), Adem Bona, Dominick Barlow e Ariel Hukporti fora. Dean Wade virou dúvida (dor no posterior da coxa esquerda, CBS Sports). LeBron James e Joel Embiid não estão no relatório. O Magic não tem Paolo Banchero, Jonathan Isaac, Noah Penda e Izaiyah Nelson.",
-   "Destaques: Tyrese Maxey com 26,5 pontos e 5,8 assistências; Franz Wagner com 25,1 pontos nos últimos 10 jogos do Magic (ESPN).",
-   "Fios: 76ers 10-0 nos jogos decididos no fim; LeBron tem 12.092 assistências, terceiro da história, e o próximo é Chris Paul.",
-   "Retrospecto: o 76ers venceu os 2 últimos, incluindo o play-in de abril (109 x 97, 31 de Maxey). Nos playoffs, 1 série para cada lado (1999 e 2009)."
-  ],
-  "roteiro": [
-   "Início: LeBron e Embiid de volta juntos, sem Jaylen Brown. Quem entra no quinteto?",
-   "Intervalo: como o 76ers está marcando Franz Wagner, o cestinha do Magic sem Banchero, ainda mais se Dean Wade não jogar.",
-   "Se ficar apertado no fim: 10-0 nos jogos decididos nos 5 minutos finais.",
-   "Fim: placar e o próximo jogo, 76ers x Bucks no sábado, 15h de Brasília."
-  ],
-  "fontes": [
-   {
-    "t": "ESPN, prévia",
-    "u": "https://www.espn.com/nba/preview?gameId=401910010"
-   },
-   {
-    "t": "PhillyVoice, relatório de lesões",
-    "u": "https://www.phillyvoice.com/sixers-magic-76ers-injury-report-news-analysis-lebron-james-update-jaylen-brown-status-joel-embiid-dominick-barlow/"
-   },
-   {
-    "t": "Inquirer, Jaylen Brown",
-    "u": "https://www.inquirer.com/sixers/jaylen-brown-injury-status-orlando-magic-20261117.html"
-   },
-   {
-    "t": "CBS Sports, Dean Wade",
-    "u": "https://www.cbssports.com/fantasy/basketball/news/76ers-dean-wade-downgraded-to-questionable-wednesday/"
-   }
-  ]
- },
+ "cola": null,
  "jogos": [
-  {
-   "d": "QUA 18/11",
-   "j": "Magic x 76ers",
-   "h": "21h",
-   "o": ""
-  },
   {
    "d": "SÁB 21/11",
    "j": "76ers x Bucks",
