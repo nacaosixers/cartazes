@@ -592,7 +592,7 @@
   ],
   "rodadas": {
     "manha": "2026-11-19 08:20 feito (10 posts agendados: X 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e story 19h30; TikTok 12h, 18h e 21h30). Sem jogo hoje; promoção indicada na central.",
-    "radar": "2026-11-19 12:51 em andamento",
+    "radar": "2026-11-19 12:51 feito (sem pauta nova: Maxey já saiu hoje; clutch 11-0 confirmado, não é marco)",
     "posjogo": "2026-11-18 23:41 feito pelo Claude na conversa (placar no X, story, TikTok; feed do Instagram às 0h01)",
     "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
@@ -651,9 +651,9 @@
   "fios": [
     {
       "fio": "Campanha no clutch (diferença de até 5 pontos nos 5 minutos finais)",
-      "valor": "11-0 (a confirmar; nenhuma fonte aberta em 19/11 deu o número)",
+      "valor": "11-0 (confirmado)",
       "ate": "jogo de 18/11 (Magic: 104 x 102 com 6min06 e 111 x 107 com 3min19, vitória por 5)",
-      "fonte": "placar ao vivo; falta o time, a NBA ou a imprensa confirmar",
+      "fonte": "Crossing Broad (Kevin Kinkead, 19/11): 11-0, 52,5% de três no clutch (segundo da liga), net rating 46,1 (segundo)",
       "ultimo_post": "10-0, em 17/11 (número do dia no X e no Instagram, carrossel do TikTok)",
       "proximo_marco": "15-0 ou recorde; 11-0 não sai"
     },
