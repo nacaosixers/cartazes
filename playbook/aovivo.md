@@ -1,32 +1,41 @@
 # Comentários ao vivo no X
 
-Nasceu em 18/11: o Rodrigo ia estar num voo na hora de Magic x 76ers e pediu um motor de comentários durante o jogo, só no X. Roda quando ele pedir.
+Nasceu em 18/11: o Rodrigo ia estar num voo na hora de Magic x 76ers e pediu um motor de comentários durante o jogo, só no X. Em 19/11 ele aprovou o resultado e pediu que ficasse programado, com conferência automática do início do jogo e do tempo de cada quarto: roda em **todo jogo**, a não ser que ele peça para pular um (aí apague os despertadores desse jogo com `delete_trigger`).
 
 ## Como roda
 
-Quem roda é o Claude na conversa, acordado por mensagens agendadas (`send_later`) nos momentos do jogo. Rodada automática nova (`create_trigger`) não serve aqui: pode travar em PENDING e pedir aprovação que ninguém responde.
+Quem roda é o Claude na conversa, acordado por mensagens agendadas (`send_later`). Rodada automática nova (`create_trigger`) não serve aqui: pode travar em PENDING e pedir aprovação que ninguém responde.
 
-Despertadores, contando do horário marcado do jogo (21h00 vira 21h12, 21h45...):
+Por jogo, só 4 despertadores fixos, contando do horário marcado:
 
-| Momento | Quando |
-|---|---|
-| Bola ao alto | início + 12 min |
-| Fim do 1º quarto | início + 38 min |
-| Intervalo | início + 1h13 |
-| Fim do 3º quarto | início + 1h56 |
-| Reta final | início + 2h10 |
-| Fim de jogo | início + 2h30 |
-| Rede de segurança do fim | início + 3h05 |
+| Despertador | Quando | O que faz |
+|---|---|---|
+| Início | início + 8 min | confere se a bola subiu, posta a bola ao alto e começa a corrente |
+| Rede 1 | início + 1h25 | se a corrente parou, retoma |
+| Rede 2 | início + 2h10 | idem |
+| Rede 3 | início + 2h55 | idem, e garante o pós-jogo |
 
-Os horários vêm do jogo de 18/11 (bola ao alto às 21h11, fim do 1º às 21h37, intervalo às 22h12, fim do 3º às 22h56, fim às 23h36). Cada jogo tem seu ritmo: quando o momento ainda não chegou, a reconferida de 3 a 5 minutos resolve; quando o jogo anda mais rápido, antecipe os despertadores seguintes.
+O resto é a **corrente**: cada despertador, depois de conferir o jogo, marca o próximo pelo relógio do jogo, com `kit/relogio.py`. Ele diz se o momento chegou ("agora"), quanto esperar ("esperar N") ou se o momento já passou ("passou"). Os fatores de ritmo vêm de 18/11 (bola ao alto às 21h11, fim do 1º às 21h37, intervalo às 22h12, fim do 3º às 22h56, fim às 23h36); refeito sobre aquele jogo, ele acerta cada momento com 1 ou 2 minutos de folga. Se os jogos mostrarem outro ritmo, ajuste `FATOR` no script.
 
-Em cada despertador:
+Em cada despertador da corrente:
 
 1. Se `/home/claude/cartazes` não existe (o computador da sessão foi trocado), chame `add_repo` (nacaosixers/cartazes, push) e clone de novo.
-2. `fetch_sports_data`: `scores` (nba, time 76ers) e `game_stats` com o id do jogo.
-3. **O momento chegou?** Se ainda não: marque outro despertador para daqui a 4 a 6 minutos (no máximo 4 vezes para o mesmo momento) e termine. Se já passou faz tempo (ex.: o 2º quarto já está na metade), não poste o comentário atrasado: espere o próximo momento.
-4. **Já saiu?** Confira no X (`list_posts`, últimas 3 horas). Esse momento já tem post: termine.
-5. **Escreva e publique:** Buffer `create_post` no X (canal 6af3664262b70b94b0e6d5e9), `mode` shareNow, `schedulingType` automatic, só texto. Deu erro: tente uma vez de novo; falhou de novo, pule esse momento.
+2. Leia o log do jogo (`aovivo-AAAA-MM-DD.txt` no scratchpad da conversa): o que já saiu e qual é o próximo momento. Sem log, o X (`list_posts`, últimas 3 horas) diz o que já saiu.
+3. **Conferência do relógio:** `fetch_sports_data` `scores` (nba, time 76ers), que é leve e traz status, quarto e relógio do jogo. Rode `python3 kit/relogio.py --momento [próximo] --status [status] --quarto [q] --relogio [MM:SS]`.
+   - "esperar N": `send_later` em N minutos, anote no log e termine.
+   - "passou": anote e repita o passo 3 com o momento seguinte.
+   - "agora": siga.
+   - Relógio parado igual ao da conferência anterior (pausa, revisão, dado atrasado): `send_later` em 3 minutos.
+4. **Já saiu?** O log ou o X (`list_posts`) mostram esse momento: pule para o seguinte.
+5. **Escreva e publique:** só agora busque o `game_stats` (pesado) e escreva. Buffer `create_post` no X (canal 6af3664262b70b94b0e6d5e9), `mode` shareNow, `schedulingType` automatic, só texto. Deu erro: tente uma vez de novo; falhou de novo, pule esse momento.
+6. **Marque o próximo:** rode o relógio para o momento seguinte, `send_later` no tempo que ele der e anote no log a hora, o momento e o post.
+
+Rede 1, 2 e 3: se o log mostra uma conferência nos últimos 20 minutos, a corrente está viva: termine. Se não, retome pelo passo 3 com o primeiro momento que ainda não saiu.
+
+## Agenda
+
+- `aovivo_agenda` no registro lista os jogos com despertadores marcados: `{"jogo", "data", "inicio", "game_id"}`. A rodada da manhã confere: dia de jogo sem o jogo na agenda, avise o Rodrigo (os despertadores só podem ser marcados pela conversa).
+- A cada 2 semanas, um despertador de renovação marca os jogos seguintes (início e 3 redes de cada um), atualiza a agenda e marca a próxima renovação.
 
 ## O texto
 
@@ -42,7 +51,7 @@ Em cada despertador:
 
 ## Os momentos
 
-- **Bola ao alto:** o quinteto do 76ers, se o `game_stats` trouxer os titulares; senão, uma linha com o que está em jogo (campanha, desfalque já noticiado no dia). Se o jogo começou há mais de 6 minutos, já dê o primeiro placar ("Começou em Orlando: ...").
+- **Bola ao alto:** o quinteto do 76ers, se o `game_stats` trouxer os titulares; senão, uma linha com o que está em jogo (campanha, desfalque já noticiado no dia). Se o jogo começou há mais de 6 minutos, já dê o primeiro placar ("Começou em Orlando: ..."). Não começou 25 minutos depois do horário: anote "atrasado" e confira a cada 5 minutos; adiado: anote e termine (as redes leem o log e não fazem nada).
 - **Fim do 1º quarto:** placar e o destaque do quarto.
 - **Intervalo:** placar, cestinha de cada time e o que decidiu o 1º tempo.
 - **Fim do 3º quarto:** placar e o que o 3º quarto mudou (parcial do quarto, se o placar por quarto vier).

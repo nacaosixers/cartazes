@@ -594,7 +594,8 @@
     "manha": "2026-11-19 08:20 feito (10 posts agendados: X 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e story 19h30; TikTok 12h, 18h e 21h30). Sem jogo hoje; promoção indicada na central.",
     "radar": "2026-11-18 18:00 feito (Dean Wade dúvida: X 18h15; Instagram com feed cheio; cola atualizada)",
     "posjogo": "2026-11-18 23:41 feito pelo Claude na conversa (placar no X, story, TikTok; feed do Instagram às 0h01)",
-    "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37"
+    "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37",
+    "aovivo_renovacao": "2026-12-03 10:00 (despertador na conversa marca os jogos seguintes)"
   },
   "plano": [
     {
@@ -730,6 +731,50 @@
       "canal": "instagram",
       "video": "Raio-X 76ers 123 x 112 Raptors (capa)",
       "data": "2026-11-13"
+    }
+  ],
+  "aovivo_agenda": [
+    {
+      "jogo": "76ers x Bucks",
+      "data": "2026-11-21",
+      "inicio": "15:00",
+      "game_id": "377196f0-d137-45cc-8e14-3848e3d51fb4"
+    },
+    {
+      "jogo": "76ers x Trail Blazers",
+      "data": "2026-11-23",
+      "inicio": "21:00",
+      "game_id": "1b21d790-bdd8-423a-aba2-d2d18930c129"
+    },
+    {
+      "jogo": "76ers x Heat",
+      "data": "2026-11-25",
+      "inicio": "19:00",
+      "game_id": "e2aee412-86a9-4b7f-be61-e88af45f5b8a"
+    },
+    {
+      "jogo": "Pacers x 76ers",
+      "data": "2026-11-27",
+      "inicio": "21:30",
+      "game_id": "09cee659-3d67-45f7-b644-cee1ea6e372a"
+    },
+    {
+      "jogo": "Rockets x 76ers",
+      "data": "2026-11-28",
+      "inicio": "22:30",
+      "game_id": "c171ec75-10ea-493d-89d6-1581f12d4a40"
+    },
+    {
+      "jogo": "76ers x Grizzlies",
+      "data": "2026-12-01",
+      "inicio": "21:00",
+      "game_id": "a8d2552a-58d2-4c67-9aa2-e598cfc51eb7"
+    },
+    {
+      "jogo": "76ers x Nuggets",
+      "data": "2026-12-02",
+      "inicio": "21:00",
+      "game_id": "6dfc2cc9-79cc-4202-b934-5811e0b8100e"
     }
   ]
 }
