@@ -1,0 +1,5 @@
+{"cenas": [
+ {"papel": "azul", "kicker": "Fim de jogo", "linhas": [["Magic 116", "an", "creme", 200], ["x 121 76ers", "an", "amarelo", 200]], "texto": "Perdia por 17. Virou."},
+ {"papel": "branco", "kicker": "4º quarto", "numero": "29", "rotulo": "pontos do 76ers", "texto": "Contra 19 do Magic. Edgecombe fez 13 deles."},
+ {"papel": "azul", "kicker": "Campanha", "numero": "13-3", "rotulo": "do 76ers", "texto": "Embiid fez 26 e LeBron, 22. Sábado tem Bucks, às 15h."}
+], "cta": true, "trilha": true, "estilo": "house", "semente": 1118}
