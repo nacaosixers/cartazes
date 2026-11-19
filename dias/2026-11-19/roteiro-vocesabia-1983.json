@@ -1,0 +1,6 @@
+{"cenas": [
+ {"papel": "amarelo", "kicker": "Você sabia?", "linhas": [["Fo, fo, fo", "as", "vermelho", 330], ["a previsão de Moses Malone", "an", "azul", 140]]},
+ {"papel": "branco", "kicker": "Playoffs de 1983", "numero": "12-1", "rotulo": "campanha do 76ers", "texto": "Malone prometeu ganhar as três séries em 4 jogos."},
+ {"papel": "azul", "kicker": "A única derrota", "numero": "4-1", "rotulo": "no Bucks, na final do Leste", "texto": "Antes, 4-0 no Knicks. Na final, 4-0 no Lakers."},
+ {"papel": "branco", "kicker": "Fo, fi, fo", "linhas": [["Campeão", "as", "vermelho", 300], ["65-17 na temporada", "an", "azul", 160]], "texto": "Malone foi MVP da temporada e das finais."}
+], "cta": true, "trilha": true, "estilo": "lofi", "semente": 1983}

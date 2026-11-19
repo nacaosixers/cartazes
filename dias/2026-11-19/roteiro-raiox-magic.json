@@ -1,0 +1,6 @@
+{"cenas": [
+ {"papel": "amarelo", "kicker": "Raio-X", "linhas": [["Raio-X", "as", "vermelho", 380], ["Sem Maxey", "an", "azul", 220]], "texto": "3 números da virada em Orlando."},
+ {"papel": "branco", "kicker": "1 de 3", "numero": "12 de 14", "rotulo": "de Embiid nos lances livres", "texto": "O Magic inteiro acertou 9 de 17."},
+ {"papel": "azul", "kicker": "2 de 3", "numero": "18", "rotulo": "pontos de Anfernee Simons", "texto": "Titular pela primeira vez, fechou o jogo de três."},
+ {"papel": "branco", "kicker": "3 de 3", "numero": "+7", "rotulo": "com Tacko Fall em quadra", "texto": "Em 10 minutos, 3 tocos."}
+], "cta": true, "trilha": true, "estilo": "trap", "semente": 1119}
