@@ -35,7 +35,7 @@ Rede 1, 2 e 3: se o log mostra uma conferência nos últimos 20 minutos, a corre
 ## Agenda
 
 - `aovivo_agenda` no registro lista os jogos com despertadores marcados: `{"jogo", "data", "inicio", "game_id"}`. A rodada da manhã confere: dia de jogo sem o jogo na agenda, avise o Rodrigo (os despertadores só podem ser marcados pela conversa).
-- A cada 2 semanas, um despertador de renovação marca os jogos seguintes (início e 3 redes de cada um), atualiza a agenda e marca a próxima renovação.
+- A cada 2 semanas, um despertador de renovação marca os jogos seguintes (início e 3 redes de cada um), atualiza a agenda e marca a próxima renovação. A plataforma aceita uns 10 despertadores por minuto: marque em lotes.
 
 ## O texto
 
