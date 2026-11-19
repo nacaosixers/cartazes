@@ -21,6 +21,12 @@
       "data_jogo": "2026-11-16",
       "publicado": "2026-11-17: X 00h45, Instagram feed 00h47 e story 00h48, TikTok (vídeo) 00h59, feitos pelo Claude na conversa",
       "obs": "Tentativa 1 (00h00) não conseguiu abrir a ESPN (pediu permissão); tentativa 2 (00h35) travou na plataforma."
+    },
+    {
+      "jogo": "Magic 116 x 121 76ers",
+      "data_jogo": "2026-11-18",
+      "publicado": "2026-11-18: X 23h37 (cartaz), story Instagram 23h37, TikTok (vídeo) 23h41, feitos pelo Claude na conversa; feed Instagram agendado para 0h01 de 19/11 (feed de 18/11 cheio)",
+      "obs": "Rodrigo em voo; comentários ao vivo no X pela conversa (aovivo.md)."
     }
   ],
   "raiox": [
@@ -234,8 +240,9 @@
     {
       "jogo": "Magic x 76ers",
       "data_jogo": "2026-11-18",
-      "gatilho": "Claude na conversa: despertador das 23h32 (fim de jogo) e das 0h05 (segurança); o turno da 0h51 confere",
-      "tentativa": 1
+      "gatilho": "Claude na conversa (ao vivo)",
+      "tentativa": 1,
+      "horario": "23h37"
     }
   ],
   "tiktok": [
@@ -323,6 +330,11 @@
       "formato": "História do confronto",
       "tema": "76ers x Magic nos playoffs: 1999, 2009 e play-in 2026",
       "data": "2026-11-18"
+    },
+    {
+      "formato": "Placar em vídeo",
+      "tema": "Magic 116 x 121 76ers: virada depois de perder por 17",
+      "data": "2026-11-18"
     }
   ],
   "agendas": [
@@ -370,6 +382,11 @@
     {
       "estilo": "drumline",
       "video": "reel-historia-magic.mp4",
+      "data": "2026-11-18"
+    },
+    {
+      "estilo": "house",
+      "video": "tiktok-posjogo-magic.mp4",
       "data": "2026-11-18"
     }
   ],
@@ -493,13 +510,18 @@
       "fato": "Dean Wade dúvida contra o Magic, dor no posterior da coxa esquerda (relatório da NBA, CBS Sports, Sixer Sense)",
       "canal": "x",
       "data": "2026-11-18"
+    },
+    {
+      "fato": "Virada sobre o Magic, 116 x 121: perdia por 17 no 1º tempo, 4º quarto de 29 x 19, Edgecombe 13 no quarto (24 no jogo), Embiid 26, LeBron 22",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-18"
     }
   ],
   "rodadas": {
     "manha": "2026-11-18 08:32 feito (10 posts agendados: X 12h, 15h30, 16h, 18h; Instagram 12h, 16h, 18h e story 20h; TikTok 12h e 18h). Turnos extras de pós-jogo não criados (pedem aprovação); o da 0h51 cobre.",
     "radar": "2026-11-18 18:00 feito (Dean Wade dúvida: X 18h15; Instagram com feed cheio; cola atualizada)",
-    "posjogo": "2026-11-18 23:32 em andamento (Claude na conversa, Magic x 76ers)",
-    "aovivo": "2026-11-18 19:49 marcado pelo Claude na conversa: comentários ao vivo no X de Magic x 76ers (despertadores 21h12, 21h45, 22h17, 22h58, 23h17, 23h32 com o pós-jogo, 0h05 de segurança)"
+    "posjogo": "2026-11-18 23:41 feito pelo Claude na conversa (placar no X, story, TikTok; feed do Instagram às 0h01)",
+    "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37"
   },
   "plano": [
     {
@@ -555,9 +577,9 @@
   "fios": [
     {
       "fio": "Campanha no clutch (diferença de até 5 pontos nos 5 minutos finais)",
-      "valor": "10-0",
-      "ate": "jogo de 16/11 (Nets: chegou a 125 x 121 com 1min14, Embiid fechou de três)",
-      "fonte": "Philly Sports Reports (Braydin Adams) e Cole Weintraub no X; 9-0 até 15/11 segundo o 76ers",
+      "valor": "11-0 (a confirmar)",
+      "ate": "jogo de 18/11 (Magic: 104 x 102 com 6min06 e 111 x 107 com 3min19, vitória por 5)",
+      "fonte": "placar ao vivo; falta o time, a NBA ou a imprensa confirmar",
       "ultimo_post": "10-0, em 17/11 (número do dia no X e no Instagram, carrossel do TikTok)",
       "proximo_marco": "15-0 ou recorde; 11-0 não sai"
     },
@@ -578,7 +600,20 @@
       "proximo_marco": "só volta se for marca notável"
     }
   ],
-  "fila_pautas": [],
+  "fila_pautas": [
+    {
+      "pauta": "Conferir se o 76ers chegou a 11-0 no clutch com a vitória sobre o Magic e atualizar o fio (11-0 não vira post)",
+      "quando": "2026-11-19",
+      "fonte": "placar ao vivo de 18/11",
+      "sugerida_por": "Claude (ao vivo)"
+    },
+    {
+      "pauta": "Raio-X da virada em Orlando: perdia por 17; conferir se é a maior virada do 76ers na temporada antes de dizer isso",
+      "quando": "2026-11-19",
+      "fonte": "placar ao vivo de 18/11",
+      "sugerida_por": "Claude (ao vivo)"
+    }
+  ],
   "promovidos": [
     {
       "canal": "tiktok",
