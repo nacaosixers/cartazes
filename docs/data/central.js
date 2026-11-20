@@ -1,14 +1,14 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "sexta, 20/11, às 8h20",
+ "atualizado": "sexta, 20/11, às 17h58",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: manhã, 8h20."
+  "texto": "Ligado. Última rodada: radar, 17h58."
  },
  "campanha": "13 vitórias e 3 derrotas",
  "hoje": {
   "data": "Sexta, 20/11",
-  "resumo": "Dia livre antes do Bucks: o 13-3, melhor começo em 26 anos, o From Brazil da virada em Orlando e VJ Edgecombe pelos olhos de Nick Nurse. Maxey, Brown e Wade seguem sem previsão para sábado.",
+  "resumo": "Dia livre antes do Bucks: o 13-3, melhor começo em 26 anos, o From Brazil da virada em Orlando e VJ Edgecombe pelos olhos de Nick Nurse. No radar das 17h51: Maxey treinou sem restrição na véspera do jogo.",
   "itens": [
    {
     "tipo": "Número do dia: 13-3, o melhor começo em 26 anos",
@@ -61,6 +61,17 @@ window.CENTRAL = {
     "arquivo": "manchete-cautela.png",
     "obs": "NOTÍCIA: Kris Rhim, da ESPN, via The Sixer Sense (19/11). Ainda sem status oficial para o Bucks; o radar e a manhã de sábado conferem o relatório de lesões. Sem post no X e no Instagram: o radar de ontem já tinha descartado como pauta sozinha. Sem formato próprio no TikTok às 21h30 hoje: o Adivinha quem é (Charles Barkley) ficou para outro dia porque as fontes não abriram nesta rodada. Sem promoção hoje (pedido a cada 2 dias).",
     "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-20/story-manchete-cautela.png"
+   },
+   {
+    "tipo": "Radar: Maxey treinou sem restrição",
+    "status": "agendado",
+    "quando": "18h10 no X; 21h no Instagram (carrossel com 3 fotos)",
+    "img": "img/hoje/cartaz-maxey-treino.png",
+    "arquivo": "cartaz-maxey-treino.png",
+    "x": "Tyrese Maxey treinou sem restrição nesta sexta, véspera de 76ers x Bucks (sábado, 15h de Brasília). 🏀\n\nDean Wade e Dominick Barlow também. Jaylen Brown só fez trabalho individual.\n\nAinda sem status oficial. Maxey joga?\n\nFontes: PhillyVoice e Heavy.",
+    "ig": "Carrossel: cartaz amarelo, a manchete e a pergunta (Maxey joga sábado?). Legenda pede a resposta nos comentários.",
+    "obs": "NOTÍCIA: PhillyVoice (Adam Aaronson) e Heavy (Alder Almo), 20/11. Ainda sem status oficial no relatório de lesões; a manhã de sábado confere. Sem TikTok: não é lesão nem troca confirmada.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-20/manchete-maxey-treino.png"
    }
   ]
  },
