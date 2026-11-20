@@ -1,0 +1,6 @@
+{"cenas": [
+ {"papel": "azul", "kicker": "Na Filadélfia", "linhas": [["VJ Edgecombe", "as", "amarelo", 300], ["o que Nick Nurse viu", "an", "creme", 150]]},
+ {"papel": "branco", "kicker": "Contra o Magic", "numero": "24", "rotulo": "pontos, recorde dele na temporada", "texto": "8 de 15 nos arremessos, 4 de 9 de três."},
+ {"papel": "azul", "kicker": "A virada", "numero": "13", "rotulo": "pontos no último quarto", "texto": "E mais 8 rebotes, 6 assistências e 2 roubos."},
+ {"papel": "branco", "kicker": "Nick Nurse", "linhas": [["Ele sente onde", "an", "vermelho", 200], ["a bola vai estar", "an", "azul", 200]], "texto": "O técnico do 76ers, antes do jogo em Orlando."}
+], "cta": true, "trilha": true, "estilo": "house", "semente": 2011}
