@@ -113,7 +113,7 @@ Em 16/11 as rodadas automáticas das 7h51 e das 10h37 ficaram presas na platafor
 - Toda rodada grava em `estado/registro.json`, chave `rodadas`, quando começou e quando terminou: `"manha": "AAAA-MM-DD HH:MM em andamento"` no começo e `"... feito"` no fim (o mesmo para `vigia`, `radar` e `posjogo`). Commit e push logo no começo, para as outras rodadas verem.
 - O vigia (9h17, `vigia.md`) confere `rodadas.manha`. Se a manhã não rodou, ele faz o dia.
 - O radar das 12h51 confere de novo (passo 0 do `radar.md`).
-- Comentários ao vivo no X e placar logo depois do fim: `aovivo.md`, em todo jogo (combinado em 19/11). Quem roda é o Claude na conversa; os jogos marcados ficam em `aovivo_agenda` no registro.
+- Placar logo depois do fim, em todo jogo, e comentários ao vivo no X quando o Rodrigo avisar que não vai assistir: `aovivo.md` (combinado em 19/11). Quem roda é o Claude na conversa; os jogos marcados ficam em `aovivo_agenda` no registro.
 - Uma rodada atrasada que encontra o dia já feito termina sem fazer nada, mesmo que a mensagem que a disparou peça o contrário. Assim nunca sai post duplicado.
 - Quem refizer a manhã escreve na central `motor.texto` = "A rodada das 7h51 não rodou; o [vigia ou radar] fez o dia às HH:MM." e avisa o Rodrigo em uma linha.
 

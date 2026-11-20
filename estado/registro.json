@@ -637,7 +637,7 @@
     "manha": "2026-11-20 08:20 feito (9 posts agendados: X 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e story 19h30; TikTok 12h e 18h; sem formato próprio às 21h30, fontes de Barkley não abriram). Sem jogo hoje; sem promoção (pedido a cada 2 dias).",
     "radar": "2026-11-19 17:51 feito (sem pauta nova: Nurse chamou as ausências de Maxey, Brown e Wade de cautela, sem status para sábado; Maxey já saiu hoje)",
     "posjogo": "2026-11-18 23:41 feito pelo Claude na conversa (placar no X, story, TikTok; feed do Instagram às 0h01)",
-    "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37",
+    "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37 | 2026-11-20: combinado final de 19/11: placar logo depois do fim em todo jogo; comentários durante o jogo só quando o Rodrigo avisar (início e rede 1 desligados até lá)",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
   },
   "plano": [
@@ -782,43 +782,92 @@
       "jogo": "76ers x Bucks",
       "data": "2026-11-21",
       "inicio": "15:00",
-      "game_id": "377196f0-d137-45cc-8e14-3848e3d51fb4"
+      "game_id": "377196f0-d137-45cc-8e14-3848e3d51fb4",
+      "comentarios": false,
+      "ids": {
+        "inicio": "trig_01Tkgu3tsHqZ86WonMzCpM9w",
+        "rede1": "trig_019xmLCTd5pUMCvgiQWMEeW9",
+        "rede2": "trig_01AVn9tD7xDpXsT6aAKU7qCv",
+        "rede3": "trig_01GSfRwJcsowsxanUmrdLcJs"
+      }
     },
     {
       "jogo": "76ers x Trail Blazers",
       "data": "2026-11-23",
       "inicio": "21:00",
-      "game_id": "1b21d790-bdd8-423a-aba2-d2d18930c129"
+      "game_id": "1b21d790-bdd8-423a-aba2-d2d18930c129",
+      "comentarios": false,
+      "ids": {
+        "inicio": "trig_01F6ocKtUc28fb3rdP6s1xFn",
+        "rede1": "trig_017fA9XE8oK7G9xu2RD13bNq",
+        "rede2": "trig_01KHEG1SMoGs4EU4C2tdGGwi",
+        "rede3": "trig_01LWL5ai4gPL6XUQKVVqc2Q9"
+      }
     },
     {
       "jogo": "76ers x Heat",
       "data": "2026-11-25",
       "inicio": "19:00",
-      "game_id": "e2aee412-86a9-4b7f-be61-e88af45f5b8a"
+      "game_id": "e2aee412-86a9-4b7f-be61-e88af45f5b8a",
+      "comentarios": false,
+      "ids": {
+        "inicio": "trig_01RhnqvAhhNmtUwU6oLFa3YP",
+        "rede1": "trig_01PQkdjoPPpZUBa3w6WW3HG7",
+        "rede2": "trig_011f9K67SLeLU64jKKiF3rgU",
+        "rede3": "trig_013HzAoKosnkgHYcGmVVDJnf"
+      }
     },
     {
       "jogo": "Pacers x 76ers",
       "data": "2026-11-27",
       "inicio": "21:30",
-      "game_id": "09cee659-3d67-45f7-b644-cee1ea6e372a"
+      "game_id": "09cee659-3d67-45f7-b644-cee1ea6e372a",
+      "comentarios": false,
+      "ids": {
+        "inicio": "trig_01NtYRzB7kQ3fFFqAx3gpHZX",
+        "rede1": "trig_013rtxVR2MxNCCGywDqFwYUU",
+        "rede2": "trig_01UnuZfyTfgGivt5H28p374a",
+        "rede3": "trig_01Vn8dvsKq68W7BbicAhRNTu"
+      }
     },
     {
       "jogo": "Rockets x 76ers",
       "data": "2026-11-28",
       "inicio": "22:30",
-      "game_id": "c171ec75-10ea-493d-89d6-1581f12d4a40"
+      "game_id": "c171ec75-10ea-493d-89d6-1581f12d4a40",
+      "comentarios": false,
+      "ids": {
+        "inicio": "trig_017cEamEFtHRXorvEnkTivXE",
+        "rede1": "trig_01Pzddu5Y2dWpt8KxEoG4qoy",
+        "rede2": "trig_017UToH32aZp3hvTniFB1GZ2",
+        "rede3": "trig_01SheSB1ESCgKWRQvdsiXqX3"
+      }
     },
     {
       "jogo": "76ers x Grizzlies",
       "data": "2026-12-01",
       "inicio": "21:00",
-      "game_id": "a8d2552a-58d2-4c67-9aa2-e598cfc51eb7"
+      "game_id": "a8d2552a-58d2-4c67-9aa2-e598cfc51eb7",
+      "comentarios": false,
+      "ids": {
+        "inicio": "trig_0197n6HgsTUC9TrTgW5xZotn",
+        "rede1": "trig_01Q6XRH4hztmGyZm7GM3sGUy",
+        "rede2": "trig_01JRkmikGVcRwGxEx7uXGoZP",
+        "rede3": "trig_01K68q2jbz49e6nDm2ih1MCq"
+      }
     },
     {
       "jogo": "76ers x Nuggets",
       "data": "2026-12-02",
       "inicio": "21:00",
-      "game_id": "6dfc2cc9-79cc-4202-b934-5811e0b8100e"
+      "game_id": "6dfc2cc9-79cc-4202-b934-5811e0b8100e",
+      "comentarios": false,
+      "ids": {
+        "inicio": "trig_01CG8TB8bESskY7zBs38KEJB",
+        "rede1": "trig_013PZjJU65RMtefrYAPeWirz",
+        "rede2": "trig_01JCZhzUrZYYdUFTPYD2n88C",
+        "rede3": "trig_01737J1twTBdyrmbHZ7kHPuh"
+      }
     }
   ],
   "from_brazil": [

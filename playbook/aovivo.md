@@ -1,6 +1,9 @@
 # Comentários ao vivo no X
 
-Nasceu em 18/11: o Rodrigo ia estar num voo na hora de Magic x 76ers e pediu um motor de comentários durante o jogo, só no X. Em 19/11 ele aprovou o resultado e pediu que ficasse programado, com conferência automática do início do jogo e do tempo de cada quarto: roda em **todo jogo**, a não ser que ele peça para pular um (aí apague os despertadores desse jogo com `delete_trigger`).
+Nasceu em 18/11: o Rodrigo ia estar num voo na hora de Magic x 76ers e pediu um motor de comentários durante o jogo, só no X. Em 19/11 ele aprovou o resultado e pediu conferência automática do início do jogo e do tempo de cada quarto. Combinado final de 19/11:
+
+- **Placar logo depois do fim: em todo jogo**, automático.
+- **Comentários durante o jogo: só quando o Rodrigo avisar** que não vai conseguir assistir. Ele avisa nesta conversa, a qualquer hora, antes ou durante o jogo. Aí: ligue o início e a rede 1 desse jogo (`update_trigger` com `enabled` true, ids na agenda), marque `comentarios` true na agenda e responda numa linha. Se o jogo já começou, comece a corrente na hora, pelo momento em que o jogo estiver.
 
 ## Como roda
 
@@ -10,10 +13,12 @@ Por jogo, só 4 despertadores fixos, contando do horário marcado:
 
 | Despertador | Quando | O que faz |
 |---|---|---|
-| Início | início + 8 min | confere se a bola subiu, posta a bola ao alto e começa a corrente |
-| Rede 1 | início + 1h25 | se a corrente parou, retoma |
-| Rede 2 | início + 2h10 | idem |
-| Rede 3 | início + 2h55 | idem, e garante o pós-jogo |
+| Início | início + 8 min | só com comentários: confere se a bola subiu, posta a bola ao alto e começa a corrente. Fica desligado até o Rodrigo avisar |
+| Rede 1 | início + 1h25 | só com comentários: se a corrente parou, retoma. Fica desligada até o Rodrigo avisar |
+| Rede 2 | início + 2h10 | sempre: sem comentários, começa a corrente do placar (o único momento é o fim); com comentários, retoma se parou |
+| Rede 3 | início + 2h55 | sempre: garante o placar nos três canais |
+
+Sem comentários (o padrão), a corrente só tem o momento `fim`: o relógio diz quando o jogo acaba e o placar sai na hora.
 
 O resto é a **corrente**: cada despertador, depois de conferir o jogo, marca o próximo pelo relógio do jogo, com `kit/relogio.py`. Ele diz se o momento chegou ("agora"), quanto esperar ("esperar N") ou se o momento já passou ("passou"). Os fatores de ritmo vêm de 18/11 (bola ao alto às 21h11, fim do 1º às 21h37, intervalo às 22h12, fim do 3º às 22h56, fim às 23h36); refeito sobre aquele jogo, ele acerta cada momento com 1 ou 2 minutos de folga. Se os jogos mostrarem outro ritmo, ajuste `FATOR` no script.
 
@@ -30,12 +35,13 @@ Em cada despertador da corrente:
 5. **Escreva e publique:** só agora busque o `game_stats` (pesado) e escreva. Buffer `create_post` no X (canal 6af3664262b70b94b0e6d5e9), `mode` shareNow, `schedulingType` automatic, só texto. Deu erro: tente uma vez de novo; falhou de novo, pule esse momento.
 6. **Marque o próximo:** rode o relógio para o momento seguinte, `send_later` no tempo que ele der e anote no log a hora, o momento e o post.
 
-Rede 1, 2 e 3: se o log mostra uma conferência nos últimos 20 minutos, a corrente está viva: termine. Se não, retome pelo passo 3 com o primeiro momento que ainda não saiu.
+Redes: se o log mostra uma conferência nos últimos 20 minutos, a corrente está viva: termine. Se não, retome pelo passo 3 com o primeiro momento que ainda não saiu; sem comentários nesse jogo (`comentarios` false na agenda), esse momento é sempre o `fim`.
 
 ## Agenda
 
-- `aovivo_agenda` no registro lista os jogos com despertadores marcados: `{"jogo", "data", "inicio", "game_id"}`. A rodada da manhã confere: dia de jogo sem o jogo na agenda, avise o Rodrigo (os despertadores só podem ser marcados pela conversa).
-- A cada 2 semanas, um despertador de renovação marca os jogos seguintes (início e 3 redes de cada um), atualiza a agenda e marca a próxima renovação. A plataforma aceita uns 10 despertadores por minuto: marque em lotes.
+- `aovivo_agenda` no registro lista os jogos com despertadores marcados: `{"jogo", "data", "inicio", "game_id", "comentarios", "ids"}`, com os ids do início e das 3 redes. A rodada da manhã confere: dia de jogo sem o jogo na agenda, avise o Rodrigo (os despertadores só podem ser marcados pela conversa).
+- A cada 2 semanas, um despertador de renovação marca os jogos seguintes (início e 3 redes de cada um), desliga o início e a rede 1 (`update_trigger` com `enabled` false; só mexa no `enabled`, nunca no texto), atualiza a agenda e marca a próxima renovação. A plataforma aceita uns 10 despertadores por minuto: marque em lotes.
+- Os despertadores marcados em 19/11 ainda dizem "comentários ao vivo em todo jogo" no texto: vale o combinado final acima (o texto de um despertador não pode ser trocado sem aprovação no computador do Rodrigo).
 
 ## O texto
 
