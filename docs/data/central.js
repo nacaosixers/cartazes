@@ -1,67 +1,66 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "quinta, 19/11, às 8h20",
+ "atualizado": "sexta, 20/11, às 8h20",
  "motor": {
   "ligado": true,
   "texto": "Ligado. Última rodada: manhã, 8h20."
  },
  "campanha": "13 vitórias e 3 derrotas",
  "hoje": {
-  "data": "Quinta, 19/11",
-  "resumo": "Dia seguinte à virada em Orlando: Raio-X da vitória sem Maxey e Brown, 7-1 fora de casa e a previsão de Moses Malone em 1983. Maxey saiu com dor no pé direito; fica de olho para sábado.",
+  "data": "Sexta, 20/11",
+  "resumo": "Dia livre antes do Bucks: o 13-3, melhor começo em 26 anos, o From Brazil da virada em Orlando e VJ Edgecombe pelos olhos de Nick Nurse. Maxey, Brown e Wade seguem sem previsão para sábado.",
   "itens": [
    {
-    "tipo": "Raio-X: Magic 116 x 121 76ers",
+    "tipo": "Número do dia: 13-3, o melhor começo em 26 anos",
     "status": "agendado",
-    "quando": "12h no X (4 cartazes), no Instagram (carrossel de 5) e no TikTok (vídeo)",
-    "img": "img/hoje/raiox-magic-1.png",
-    "arquivo": "raiox-magic-1.png",
-    "x": "Raio-X de Magic 116 x 121 76ers: a virada veio sem Tyrese Maxey e sem Jaylen Brown. 🏀\n\nEmbiid: 12 de 14 no lance livre. O Magic todo: 9 de 17.\nAnfernee Simons, titular pela 1ª vez no ano: 18 e a bola que fechou.\nTacko Fall: +7 em 10 minutos.\n\nQuem mais te surpreendeu?",
-    "ig": "Carrossel de 5: capa, Embiid 12 de 14 nos lances livres, Simons 18 como titular, Tacko Fall +7 e O que fica (com a leitura de Adam Aaronson, do PhillyVoice).",
-    "obs": "Gancho novo: a vitória sem Maxey (o placar de ontem já tinha a virada de 17 e os 13 de Edgecombe, que ficaram como apoio). Fontes: AP (via GMA), Bleacher Report, Sports Illustrated, PhillyVoice (Adam Aaronson) e TSN. TikTok: reel com trilha trap.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-19/tiktok-raiox-magic.mp4",
-    "linkTexto": "Ver o vídeo do TikTok"
+    "quando": "12h no X e no Instagram; 12h no TikTok (carrossel com 2000-01 e a cautela de Nurse)",
+    "img": "img/hoje/numero-13-3.png",
+    "arquivo": "numero-13-3.png",
+    "x": "76ers 13-3: o melhor começo do time em 26 anos. 🔥\n\nA última vez foi em 2000-01, quando o 76ers de Allen Iverson abriu 14-2 e chegou à final da NBA.\n\nO time de agora é o líder do Leste. Dá para sonhar com junho?\n\nDados da AP e da SB Nation.",
+    "ig": "Mesmo número, com a virada em Orlando e o 76ers sozinho no topo do Leste.",
+    "obs": "Duas fontes: AP (via CBS Philadelphia) e SB Nation (Paul Hudrick, via Yahoo). O time de 2000-01 abriu 14-2. Papel branco para não repetir a capa azul do 7-1 de ontem.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-20/numero-13-3.png"
    },
    {
-    "tipo": "Número do dia: 7-1 fora de casa",
+    "tipo": "From Brazil (em inglês, marcando @sixers)",
     "status": "agendado",
-    "quando": "16h no X e no Instagram; 18h no TikTok (carrossel com o cartaz do Maxey)",
-    "img": "img/hoje/numero-7-1-fora.png",
-    "arquivo": "numero-7-1-fora.png",
-    "x": "76ers 7-1 fora de casa. ✈️\n\nCom a virada em Orlando, o time ganhou 7 dos 8 jogos longe da Filadélfia. Em casa, a campanha é 6-2.\n\nSábado o 76ers volta para casa contra o Bucks, 15h de Brasília. Por que o time rende mais fora?",
-    "ig": "Mesmo número, com 6-2 em casa e o Bucks no sábado.",
-    "obs": "Fontes: ESPN (6-1 fora antes do jogo) e Yardbarker (7-1 depois). Não dissemos que é a melhor campanha fora da liga: Spurs estavam 7-0 e Lakers 7-1 na última tabela aberta.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-19/numero-7-1-fora.png"
+    "quando": "16h no X e no Instagram",
+    "img": "img/hoje/frombrazil-orlando.png",
+    "arquivo": "frombrazil-orlando.png",
+    "x": "From Brazil: down 17 in Orlando, no Maxey, no Brown, and the Sixers still won. 🇧🇷🏀\n\nVJ Edgecombe had 13 in the fourth. Now 13-3, the best start since 2000-01.\n\nWatching every game from Brazil. Trust the comeback, @sixers.",
+    "ig": "Down 17, no Maxey, no Brown: Edgecombe com 13 no último quarto e a bola de três final de Simons.",
+    "obs": "O melhor momento da semana: a virada em Orlando. Único post do dia marcando o @sixers.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-20/frombrazil-orlando.png"
    },
    {
-    "tipo": "Você sabia? Fo, fo, fo (1983)",
+    "tipo": "Reel: VJ Edgecombe, o que Nick Nurse viu",
     "status": "agendado",
-    "quando": "19h30 no X e no Instagram (Reels); 21h30 no TikTok",
-    "img": "img/hoje/reel-vocesabia-1983.png",
-    "arquivo": "reel-vocesabia-1983.png",
-    "x": "Você sabia? Em 1983, Moses Malone previu \"fo, fo, fo\": três varreduras nos playoffs. 🏆\n\nQuase acertou. O 76ers fez 4-0 no Knicks, 4-1 no Bucks e 4-0 no Lakers: 12-1 e o título.\n\nQual time do 76ers é o maior da história?",
-    "ig": "A previsão de Moses Malone, o 12-1 nos playoffs e o 65-17 na temporada.",
-    "obs": "Fontes: Wikipédia (Final de 1983) e Paris Basketball (temporada 1982-83). Trilha: lofi.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-19/reel-vocesabia-1983.mp4",
+    "quando": "18h no TikTok; 19h30 no X e no Instagram (Reels)",
+    "img": "img/hoje/reel-edgecombe.png",
+    "arquivo": "reel-edgecombe.png",
+    "x": "VJ Edgecombe, segundo Nick Nurse: \"ele sente onde a bola vai estar\". 🏀\n\nContra o Magic foram 24 pontos, recorde dele na temporada, 13 no último quarto, 8 rebotes, 6 assistências e 2 roubos.\n\nEle já é o mais importante do 76ers depois de Maxey?",
+    "ig": "A frase de Nurse antes do jogo (ele sente onde a bola vai estar) e os 24 pontos, 13 no último quarto.",
+    "obs": "Na Filadélfia: frase de Nurse num vídeo da NBC Sports Philadelphia (via ClutchPoints, Paolo Mariano); números da AP e da SB Nation. Trilha: house.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-20/reel-edgecombe.mp4",
     "linkTexto": "Ver o vídeo"
    },
    {
-    "tipo": "Story: Maxey ficou fora",
+    "tipo": "Story: 2000-01 abriu 14-2",
     "status": "agendado",
     "quando": "19h30 no story do Instagram",
-    "img": "img/hoje/manchete-maxey-pe.png",
-    "arquivo": "manchete-maxey-pe.png",
-    "obs": "NOTÍCIA: dor no pé direito, saiu do aquecimento (TSN; RotoWire citando Gina Mizell, do Inquirer). Ainda sem atualização para o jogo de sábado.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-19/story-manchete-maxey-pe.png"
+    "img": "img/hoje/cartaz-2000-01.png",
+    "arquivo": "cartaz-2000-01.png",
+    "obs": "Apoio ao número do dia, num cartaz diferente do feed. Também é a segunda foto do carrossel do TikTok.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-20/story-cartaz-2000-01.png"
    },
    {
-    "tipo": "Promoção paga no TikTok (opcional)",
-    "status": "promover",
-    "quando": "hoje, entre 18h e 20h",
-    "img": "img/hoje/reel-vitrine-adivinha-erving.png",
-    "obs": "Os vídeos já estão publicados pelo Buffer. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA, no valor da seção Impulsionar. Vídeos: 1) o vitrine Adivinha quem é (Julius Erving), de 17/11; 2) o placar em vídeo da virada sobre o Magic, de ontem à noite. Por quê: o vitrine já tem 434 visualizações e 50 curtidas sem impulso (11,5% de interação, o melhor do TikTok nos últimos 2 dias); o placar do Magic tem só 53 visualizações e é o jogo mais recente (vale até a noite de hoje).",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-17/reel-vitrine-adivinha-erving.mp4",
-    "linkTexto": "Ver o vídeo"
+    "tipo": "Maxey, Brown e Wade: cautela, diz Nurse",
+    "status": "agendado",
+    "quando": "12h no TikTok (terceira foto do carrossel)",
+    "img": "img/hoje/manchete-cautela.png",
+    "arquivo": "manchete-cautela.png",
+    "obs": "NOTÍCIA: Kris Rhim, da ESPN, via The Sixer Sense (19/11). Ainda sem status oficial para o Bucks; o radar e a manhã de sábado conferem o relatório de lesões. Sem post no X e no Instagram: o radar de ontem já tinha descartado como pauta sozinha. Sem formato próprio no TikTok às 21h30 hoje: o Adivinha quem é (Charles Barkley) ficou para outro dia porque as fontes não abriram nesta rodada. Sem promoção hoje (pedido a cada 2 dias).",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-20/story-manchete-cautela.png"
    }
   ]
  },
@@ -127,6 +126,12 @@ window.CENTRAL = {
   {
    "d": "TER 01/12",
    "j": "76ers x Grizzlies",
+   "h": "21h",
+   "o": ""
+  },
+  {
+   "d": "QUA 02/12",
+   "j": "76ers x Nuggets",
    "h": "21h",
    "o": ""
   }

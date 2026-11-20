@@ -181,6 +181,10 @@
     {
       "tema": "Você sabia? Fo, fo, fo: Moses Malone e o 12-1 de 1983",
       "data": "2026-11-19"
+    },
+    {
+      "tema": "Número do dia: 13-3, melhor começo em 26 anos",
+      "data": "2026-11-20"
     }
   ],
   "reels": [
@@ -223,6 +227,10 @@
     {
       "tema": "Você sabia? Fo, fo, fo (1983: 12-1 nos playoffs, 65-17)",
       "data": "2026-11-19"
+    },
+    {
+      "tema": "Na Filadélfia: VJ Edgecombe, o que Nick Nurse viu (24, 13 no último quarto)",
+      "data": "2026-11-20"
     }
   ],
   "prejogos": [
@@ -378,6 +386,16 @@
       "formato": "Você sabia?",
       "tema": "Fo, fo, fo: Moses Malone e o 12-1 de 1983",
       "data": "2026-11-19"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "13-3 melhor começo em 26 anos + 2000-01 + cautela de Nurse",
+      "data": "2026-11-20"
+    },
+    {
+      "formato": "Reel",
+      "tema": "VJ Edgecombe, o que Nick Nurse viu",
+      "data": "2026-11-20"
     }
   ],
   "agendas": [
@@ -441,6 +459,11 @@
       "estilo": "lofi",
       "video": "reel-vocesabia-1983.mp4",
       "data": "2026-11-19"
+    },
+    {
+      "estilo": "house",
+      "video": "reel-edgecombe.mp4",
+      "data": "2026-11-20"
     }
   ],
   "fatos": [
@@ -588,10 +611,30 @@
       "fato": "Você sabia? Moses Malone, fo fo fo: 1983, 4-0 Knicks, 4-1 Bucks, 4-0 Lakers, 12-1; 65-17; Malone MVP e MVP das finais",
       "canal": "x, instagram, tiktok",
       "data": "2026-11-19"
+    },
+    {
+      "fato": "76ers 13-3, melhor começo em 26 anos; 2000-01 abriu 14-2 e foi à final (AP via CBS Philadelphia; SB Nation, Paul Hudrick)",
+      "canal": "x, instagram, tiktok, instagram story",
+      "data": "2026-11-20"
+    },
+    {
+      "fato": "From Brazil: virada em Orlando, down 17, sem Maxey e Brown; Edgecombe 13 no último quarto, Simons a bola de três final",
+      "canal": "x, instagram",
+      "data": "2026-11-20"
+    },
+    {
+      "fato": "Nurse sobre Edgecombe: 'ele sente onde a bola vai estar, e é bem atlético' (NBC Sports Philadelphia via ClutchPoints); 24 pontos (recorde na temporada), 13 no último quarto, 8 rebotes, 6 assistências, 2 roubos",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-20"
+    },
+    {
+      "fato": "Maxey, Brown e Wade: cautela, segundo Nurse (Kris Rhim, ESPN, via The Sixer Sense); sem status para o Bucks",
+      "canal": "tiktok",
+      "data": "2026-11-20"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-20 07:53 em andamento",
+    "manha": "2026-11-20 08:20 feito (9 posts agendados: X 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e story 19h30; TikTok 12h e 18h; sem formato próprio às 21h30, fontes de Barkley não abriram). Sem jogo hoje; sem promoção (pedido a cada 2 dias).",
     "radar": "2026-11-19 17:51 feito (sem pauta nova: Nurse chamou as ausências de Maxey, Brown e Wade de cautela, sem status para sábado; Maxey já saiu hoje)",
     "posjogo": "2026-11-18 23:41 feito pelo Claude na conversa (placar no X, story, TikTok; feed do Instagram às 0h01)",
     "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37",
@@ -599,53 +642,46 @@
   },
   "plano": [
     {
-      "canal": "x (4), instagram (5)",
+      "canal": "x, instagram",
       "hora": "12h",
-      "formato": "carrossel Raio-X (capa amarela + 3 numero + lista)",
-      "gancho": "Raio-X de Magic 116 x 121 76ers: a virada veio sem Tyrese Maxey e sem Jaylen Brown",
-      "fato": "lance livre de Embiid, Simons titular, Tacko Fall +7"
+      "formato": "numero (branco), número do dia",
+      "gancho": "76ers 13-3: o melhor começo do time em 26 anos",
+      "fato": "13-3, melhor desde 2000-01 (14-2)"
     },
     {
       "canal": "tiktok",
       "hora": "12h",
-      "formato": "reel Raio-X (gancho amarelo, trap)",
-      "gancho": "Raio-X: sem Maxey",
-      "fato": "mesmos 3 números"
+      "formato": "carrossel (13-3 branco, 2000-01, manchete cautela)",
+      "gancho": "76ers 13-3, o melhor começo em 26 anos",
+      "fato": "13-3 e cautela com Maxey, Brown e Wade"
     },
     {
       "canal": "x, instagram",
       "hora": "16h",
-      "formato": "numero (azul), número do dia",
-      "gancho": "76ers 7-1 fora de casa",
-      "fato": "7 de 8 fora, 6-2 em casa"
+      "formato": "cartaz From Brazil (amarelo), inglês, @sixers",
+      "gancho": "From Brazil: down 17 in Orlando, no Maxey, no Brown, and the Sixers still won",
+      "fato": "virada em Orlando (From Brazil da semana)"
     },
     {
       "canal": "tiktok",
       "hora": "18h",
-      "formato": "carrossel (7-1 azul + manchete Maxey)",
-      "gancho": "76ers 7-1 fora de casa",
-      "fato": "7-1 e Maxey com dor no pé"
+      "formato": "reel Na Filadélfia (gancho azul, house)",
+      "gancho": "VJ Edgecombe, o que Nick Nurse viu",
+      "fato": "frase de Nurse + 24 e 13 no último quarto"
     },
     {
       "canal": "x, instagram reel",
       "hora": "19h30",
-      "formato": "reel Você sabia? (gancho amarelo, lofi)",
-      "gancho": "Fo, fo, fo: a previsão de Moses Malone",
-      "fato": "1983, 12-1"
+      "formato": "reel Na Filadélfia (gancho azul, house)",
+      "gancho": "VJ Edgecombe, segundo Nick Nurse",
+      "fato": "frase de Nurse + 24 e 13 no último quarto"
     },
     {
       "canal": "instagram story",
       "hora": "19h30",
-      "formato": "manchete (story)",
-      "gancho": "Maxey ficou fora com dor no pé direito",
-      "fato": "Maxey"
-    },
-    {
-      "canal": "tiktok",
-      "hora": "21h30",
-      "formato": "Você sabia? (formato próprio)",
-      "gancho": "Você sabia? A previsão de Moses Malone",
-      "fato": "1983, 12-1"
+      "formato": "cartaz (story)",
+      "gancho": "2000-01 abriu 14-2 e foi à final",
+      "fato": "apoio ao 13-3"
     }
   ],
   "fios": [
@@ -680,20 +716,28 @@
       "fonte": "ESPN e Yardbarker",
       "ultimo_post": "19/11 (número do dia no X, Instagram e TikTok)",
       "proximo_marco": "só volta se virar a melhor da liga, com fonte"
+    },
+    {
+      "fio": "Melhor começo desde 2000-01",
+      "valor": "13-3 (2000-01 abriu 14-2)",
+      "ate": "jogo de 18/11 (Magic)",
+      "fonte": "AP e SB Nation",
+      "ultimo_post": "20/11 (número do dia em todos os canais)",
+      "proximo_marco": "igualar ou passar o 14-2 de 2000-01 (exige 14-2 ou 15-2 nos próximos jogos)"
     }
   ],
   "fila_pautas": [
     {
-      "pauta": "Maxey (dor no pé direito): conferir status para 76ers x Bucks de sábado no relatório de lesões",
-      "quando": "2026-11-20",
-      "fonte": "TSN e RotoWire (19/11)",
+      "pauta": "Maxey (dor no pé direito), Brown e Wade (posterior da coxa): conferir status para 76ers x Bucks de sábado no relatório de lesões",
+      "quando": "2026-11-21",
+      "fonte": "The Sixer Sense (Kris Rhim, ESPN), 19/11",
       "sugerida_por": "Claude (manhã)"
     },
     {
-      "pauta": "Conferir se o 76ers chegou a 11-0 no clutch (Magic: 107-106 com 5min09); 11-0 não vira post",
-      "quando": "2026-11-20",
-      "fonte": "placar ao vivo de 18/11",
-      "sugerida_por": "Claude (ao vivo)"
+      "pauta": "Adivinha quem é: Charles Barkley (TikTok/vitrine), só com duas fontes (Basketball-Reference e Wikipédia não abriram em 20/11)",
+      "quando": "2026-11-24",
+      "fonte": "a conferir",
+      "sugerida_por": "Claude (manhã)"
     }
   ],
   "promovidos": [
@@ -775,6 +819,12 @@
       "data": "2026-12-02",
       "inicio": "21:00",
       "game_id": "6dfc2cc9-79cc-4202-b934-5811e0b8100e"
+    }
+  ],
+  "from_brazil": [
+    {
+      "tema": "virada em Orlando (Magic 116 x 121)",
+      "data": "2026-11-20"
     }
   ]
 }
