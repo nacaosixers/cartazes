@@ -18,10 +18,10 @@ roteiro.json:
 
 Cada cena tem "linhas" (lista de [texto, fonte an|as, cor azul|vermelho|creme|amarelo, tamanho máximo])
 ou "numero" + "rotulo". "texto" e "kicker" são opcionais.
-Cena 1 é o GANCHO: aparece inteira já no primeiro quadro (sem animação) e dura 2,4 a 3,2 s. Até 9 palavras,
+Cena 1 é o GANCHO: aparece inteira já no primeiro quadro (sem animação) e dura 2,4 a 3,2 s. Até 8 palavras,
 uma promessa ou pergunta ("O começo do 76ers em 3 números", "Só fã raiz acerta").
-Demais cenas: 3 a 5 s, pelo tamanho do texto. Até 16 palavras por cena: menos texto, não mais tempo.
-Vídeo inteiro: 15 a 22 s. Só use "dur" para deixar uma cena mais longa.
+Demais cenas: 3 a 5 s, pelo tamanho do texto. Até 12 palavras por cena: menos texto, não mais tempo.
+Vídeo inteiro: 9 a 13 s (2 ou 3 cenas mais o Segue a Nação): no TikTok, de 10 a 19/11, a média assistida ficou perto de 2 s. Só use "dur" para deixar uma cena mais longa.
 Número só com dígitos e maior ou igual a 20 sobe contando. "cta": true fecha com "Segue a Nação".
 "trilha": true (padrão) coloca uma batida original de fundo; false deixa sem som.
 "estilo": pop, drumline, trap, lofi, house ou arena. Nunca repita o estilo dos 2 últimos vídeos (registro "trilhas").
@@ -149,7 +149,7 @@ def main():
                 sys.exit("Texto com travessão. Troque por vírgula, dois-pontos ou ponto.")
     durs = [duracao(c, k) for k, c in enumerate(cenas)]
     for k, c in enumerate(cenas[:-1] if roteiro.get("cta", True) else cenas):
-        lim = 9 if k == 0 else 16
+        lim = 8 if k == 0 else 12
         if palavras(c) > lim:
             print(f"AVISO: cena {k + 1} tem {palavras(c)} palavras (máximo recomendado {lim}). Corte texto: no TikTok quem lê demais desiste.")
     C.ensure_fonts()
@@ -167,6 +167,8 @@ body{margin:0;background:#000}
 </div>
 <script>window.DURS = {json.dumps(durs)};{JS}</script></body></html>"""
     total = sum(durs)
+    if total > 14:
+        print(f"AVISO: o vídeo tem {total:.1f} s. No TikTok, até 13 s segura mais gente: tire uma cena.")
     n = int(round(total * FPS))
     tmp = tempfile.mkdtemp()
     # O vídeo é montado fora do lugar final e só vai para `out` depois de conferido:

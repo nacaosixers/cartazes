@@ -6,17 +6,17 @@
 
 ## Grade do dia (siga a linha do tipo de dia; ela já resolve os choques de horário)
 
-Instagram: até 4 posts no feed, com 90 minutos ou mais entre eles; story não conta. TikTok: até 3 posts por dia, mais o pós-jogo. X: até 8. Se a rodada atrasou, cada horário que já passou vai para o próximo horário livre depois do currentTime + 15 minutos.
+Instagram: até 2 posts no feed (o reel e um carrossel), mais o placar logo depois do jogo, com 90 minutos ou mais entre eles; story não conta e sai só em dia de jogo (nova rota de 20/11). TikTok: até 3 posts por dia, mais o pós-jogo. X: até 8. Se a rodada atrasou, cada horário que já passou vai para o próximo horário livre depois do currentTime + 15 minutos.
 
 | Tipo de dia | X | Instagram feed | Instagram story | TikTok |
 |---|---|---|---|---|
-| Dia seguinte a jogo, sem jogo hoje | 8h30 placar (se não saiu), 12h Raio-X (4 imagens), 16h número do dia ou história, 19h30 reel de outro ângulo | 8h30 placar (se não saiu), 12h Raio-X (5), 16h número do dia ou história, 19h30 reel | 19h30, um cartaz diferente do feed | 12h reel do Raio-X (11h se o jogo acabou antes das 18h), 18h carrossel (número ou notícia), 21h30 formato próprio |
-| Dia de jogo à noite, sem jogo ontem | 12h pré-jogo, 15h30 Na Filadélfia, 16h30 comparativo, 18h reel do dia de jogo | 12h pré-jogo, 16h comparativo ou número do dia, 18h reel do dia de jogo | 1 hora antes do jogo, cartaz diferente do feed | 12h carrossel (comparativo, pré-jogo, Na Filadélfia), 18h reel do dia de jogo, pós-jogo |
-| Dia seguinte a jogo e dia de jogo à noite (ex.: 16/11) | 8h30 placar (se não saiu), 11h30 Raio-X, 14h pré-jogo, 15h30 Na Filadélfia, 16h30 comparativo, 19h30 reel do dia de jogo | 8h30 placar (se não saiu), 11h30 Raio-X, 14h pré-jogo, 16h30 comparativo, 19h30 reel do dia de jogo | 1 hora antes do jogo, Na Filadélfia ou outro cartaz | 11h ou 12h reel do Raio-X (dentro das 18 horas), 17h carrossel do pré-jogo, 19h30 reel do dia de jogo, pós-jogo |
-| Jogo à tarde (começa até 16h) | 9h30 pré-jogo, 10h30 Na Filadélfia, 11h comparativo, 2 horas antes do jogo o reel | 9h30 pré-jogo, 11h comparativo, 2 horas antes o reel | 1 hora antes do jogo | 9h45 carrossel do pré-jogo, 2 horas antes o reel, pós-jogo |
-| Dia livre (sem jogo ontem nem hoje) | 12h número do dia ou notícia, 16h história ou "2001: 25 anos", 19h30 reel | 12h número do dia, 16h história, 19h30 reel | 19h30, cartaz diferente | 12h carrossel, 18h reel, 21h30 formato próprio |
+| Dia seguinte a jogo, sem jogo hoje | 8h30 placar (se não saiu), 12h Raio-X (4 imagens), 16h número do dia ou história, 19h30 reel de outro ângulo | 8h30 placar (se não saiu), 12h Raio-X (carrossel), 19h30 reel | sem story | 12h reel do Raio-X (11h se o jogo acabou antes das 18h), 18h carrossel (número ou notícia), 21h30 formato próprio |
+| Dia de jogo à noite, sem jogo ontem | 12h pré-jogo, 15h30 Na Filadélfia, 16h30 comparativo, 18h reel do dia de jogo | 12h pré-jogo (carrossel), 18h reel do dia de jogo | 1 hora antes do jogo, cartaz diferente do feed | 12h carrossel (comparativo, pré-jogo, Na Filadélfia), 18h reel do dia de jogo, pós-jogo |
+| Dia seguinte a jogo e dia de jogo à noite (ex.: 16/11) | 8h30 placar (se não saiu), 11h30 Raio-X, 14h pré-jogo, 15h30 Na Filadélfia, 16h30 comparativo, 19h30 reel do dia de jogo | 8h30 placar (se não saiu), 14h pré-jogo (carrossel, com o Raio-X na última foto), 19h30 reel do dia de jogo | 1 hora antes do jogo, Na Filadélfia ou outro cartaz | 11h ou 12h reel do Raio-X (dentro das 18 horas), 17h carrossel do pré-jogo, 19h30 reel do dia de jogo, pós-jogo |
+| Jogo à tarde (começa até 16h) | 9h30 pré-jogo, 10h30 Na Filadélfia, 11h comparativo, 2 horas antes do jogo o reel | 9h30 pré-jogo (carrossel), 2 horas antes o reel | 1 hora antes do jogo | 9h45 carrossel do pré-jogo, 2 horas antes o reel, pós-jogo |
+| Dia livre (sem jogo ontem nem hoje) | 12h número do dia ou notícia, 16h história ou "2001: 25 anos", 19h30 reel | 12h carrossel (número do dia ou história), 19h30 reel | sem story | 12h carrossel, 18h reel, 21h30 formato próprio |
 
-Domingo: a agenda da semana entra às 11h no X e no Instagram (ocupa um dos 4 do feed). Sexta: o "From Brazil" às 16h no lugar do número do dia.
+Domingo: a agenda da semana entra às 11h no X e no Instagram (é o carrossel do dia no feed). O reel do Instagram é o vídeo do TikTok que foi melhor na véspera (mais tempo assistido), se ainda não saiu no Instagram; senão, o reel do dia. Sexta: o "From Brazil" às 16h no lugar do número do dia.
 
 1. **Prepare:** `get_account` (hora atual), `list_channels`, `list_posts` dos últimos 2 dias e `estado/registro.json`, inclusive `fios` e `fila_pautas` (pautas.md): o que estiver na fila para hoje entra no plano antes do resto.
 
@@ -33,8 +33,8 @@ Domingo: a agenda da semana entra às 11h no X e no Instagram (ocupa um dos 4 do
 4. **Dia de jogo:**
    - Pré-jogo: confirme horário e onde assistir no Brasil. Cartaz `prejogo` no horário da grade, no X e no Instagram, com um fato de contexto real.
    - Reel do dia de jogo no horário da grade: **nunca abre com "Hoje tem"**, que é do pré-jogo. Escolha um ângulo do cardápio de pautas.md (história do confronto, o duelo da noite, o confronto em números, reencontro) e só cite o horário na legenda.
-   - Na Filadélfia: um cartaz `manchete` com a leitura da imprensa local sobre o jogo (prévia, palpite, debate), com o nome do jornalista, no X (e no Instagram se houver espaço no feed).
-   - O confronto em números: cartaz `comparativo` (campanha, ataque, defesa, três pontos, ou retrospecto), no X e no Instagram, quando houver espaço.
+   - Na Filadélfia: um cartaz `manchete` com a leitura da imprensa local sobre o jogo (prévia, palpite, debate), com o nome do jornalista, no X (no Instagram, só como foto dentro do carrossel do pré-jogo).
+   - O confronto em números: cartaz `comparativo` (campanha, ataque, defesa, três pontos, ou retrospecto), no X (no Instagram, dentro do carrossel do pré-jogo).
    - **Ao vivo e pós-jogo rápido:** desde 19/11 quem faz o placar logo depois do fim (e os comentários ao vivo no X, quando o Rodrigo avisa que não vai assistir) é a corrente do ao vivo (`aovivo.md`), na conversa do Claude. Confira se o jogo de hoje está em `aovivo_agenda` no registro; se não estiver, anote na central e mande uma mensagem curta ao Rodrigo ("o ao vivo de hoje não está marcado; peça na conversa"). Não crie turnos de pós-jogo com `create_trigger`: numa rodada automática eles pedem aprovação. As redes de segurança seguem: a rodada da 0h51 para jogo à noite, o radar das 17h51 para jogo à tarde, a manhã seguinte às 8h30.
    - Story do Instagram: o reel do dia (vídeo) ou um cartaz diferente do pré-jogo do feed.
    - Cola do jogo na central: 4 ou 5 pontos com números (campanha, sequência, médias dos destaques, desfalques do relatório de lesões, retrospecto recente contra o adversário), fontes e o roteiro de 4 momentos, que o ao vivo usa como apoio.
@@ -42,13 +42,13 @@ Domingo: a agenda da semana entra às 11h no X e no Instagram (ocupa um dos 4 do
 5. **Número do dia ou Neste dia na história** (todo dia, menos quando o Raio-X e o pré-jogo já encheram o feed do Instagram):
    - Número do dia: um dado da temporada do 76ers que surpreende (ranking na liga, sequência, marca individual, comparação com temporadas passadas). Primeiro a `fila_pautas`, depois os fios que chegaram a um marco sem post; só então procure um número novo. Cartaz `numero` em papel azul (o padrão do kit), com texto de apoio de até 14 palavras.
    - Neste dia na história: um jogo ou fato marcante do 76ers nesta data (títulos de 1967 e 1983, Wilt Chamberlain, Julius Erving, Moses Malone, Charles Barkley, Allen Iverson, o Processo, recordes). Só com duas fontes. Cartaz `numero` com o ano gigante, papel azul.
-   - Publique às 16h no X e no Instagram. Uma vez por semana, transforme o melhor desses num reel.
+   - Publique às 16h no X. No Instagram, ele entra no carrossel do dia (12h) quando não há Raio-X nem pré-jogo; senão fica só no X. Uma vez por semana, transforme o melhor desses num reel.
 
 6. **Domingo:** agenda da semana seguinte (`agenda`, até 8 jogos), às 11h no X e no Instagram.
 
    **Terça-feira:** o vídeo vitrine da semana (LEIA-PRIMEIRO, Promoção paga), um vídeo que não envelhece, para quem não conhece a Nação. Sai no reel das 19h30 no X e no Instagram e no formato próprio do TikTok, e é o primeiro da lista de promoção.
    **Quarta-feira:** a curiosidade da série "2001: 25 anos" entra no lugar do número do dia.
-   **Sexta-feira:** o post "From Brazil" em inglês, às 16h no X e no Instagram, marcando @sixers.
+   **Sexta-feira:** o post "From Brazil" em inglês, às 16h no X marcando @sixers; no Instagram ele é o carrossel do dia, no lugar do das 12h.
 
    **TikTok, todo dia (3 posts, 3 ganchos diferentes, nos horários da grade):** no dia de jogo, o carrossel é o pré-jogo e o reel é outro ângulo do cardápio; sem jogo, às 21h30, um formato só do TikTok (veja "TikTok" no LEIA-PRIMEIRO). A primeira foto do carrossel alterna amarelo e azul com o post anterior do TikTok. Registre em `tiktok` no registro para não repetir tema.
 
