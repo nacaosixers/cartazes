@@ -151,6 +151,12 @@
       "titulo": "Maxey fora contra o Magic (dor no pé direito, saiu do aquecimento)",
       "data": "2026-11-19",
       "status": "agendado"
+    },
+    {
+      "url": "https://www.phillyvoice.com/sixers-news-76ers-analysis-injury-update-report-tyrese-maxey-jaylen-brown-dean-wade-dominick-barlow-adem-bona/",
+      "titulo": "Maxey, Wade e Barlow treinaram sem restrição na sexta; Brown só individual (PhillyVoice, Heavy)",
+      "data": "2026-11-20",
+      "status": "agendado"
     }
   ],
   "curiosidades": [
@@ -631,11 +637,21 @@
       "fato": "Maxey, Brown e Wade: cautela, segundo Nurse (Kris Rhim, ESPN, via The Sixer Sense); sem status para o Bucks",
       "canal": "tiktok",
       "data": "2026-11-20"
+    },
+    {
+      "fato": "Maxey treinou sem restrição na véspera do Bucks (Wade e Barlow também; Brown individual)",
+      "canal": "x",
+      "data": "2026-11-20"
+    },
+    {
+      "fato": "Maxey treinou sem restrição na véspera do Bucks (Wade e Barlow também; Brown individual)",
+      "canal": "instagram",
+      "data": "2026-11-20"
     }
   ],
   "rodadas": {
     "manha": "2026-11-20 08:20 feito (9 posts agendados: X 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e story 19h30; TikTok 12h e 18h; sem formato próprio às 21h30, fontes de Barkley não abriram). Sem jogo hoje; sem promoção (pedido a cada 2 dias).",
-    "radar": "2026-11-20 17:52 em andamento",
+    "radar": "2026-11-20 17:58 feito (Maxey treinou sem restrição: X 18h10 e carrossel no Instagram às 21h; sem jogo hoje)",
     "posjogo": "2026-11-18 23:41 feito pelo Claude na conversa (placar no X, story, TikTok; feed do Instagram às 0h01)",
     "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37 | 2026-11-20: combinado final de 19/11: placar logo depois do fim em todo jogo; comentários durante o jogo só quando o Rodrigo avisar (início e rede 1 desligados até lá)",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
@@ -682,6 +698,20 @@
       "formato": "cartaz (story)",
       "gancho": "2000-01 abriu 14-2 e foi à final",
       "fato": "apoio ao 13-3"
+    },
+    {
+      "canal": "x",
+      "hora": "18h10",
+      "formato": "manchete (branco), radar",
+      "gancho": "Tyrese Maxey treinou sem restrição",
+      "fato": "treino de sexta, véspera do Bucks"
+    },
+    {
+      "canal": "instagram",
+      "hora": "21h",
+      "formato": "carrossel (cartaz amarelo, manchete, pergunta azul), radar",
+      "gancho": "Tyrese Maxey treinou sem restrição",
+      "fato": "treino de sexta, véspera do Bucks"
     }
   ],
   "fios": [
@@ -728,7 +758,7 @@
   ],
   "fila_pautas": [
     {
-      "pauta": "Maxey (dor no pé direito), Brown e Wade (posterior da coxa): conferir status para 76ers x Bucks de sábado no relatório de lesões",
+      "pauta": "Maxey (dor no pé direito), Brown e Wade (posterior da coxa): conferir status para 76ers x Bucks de sábado no relatório de lesões | 20/11 17h51: Maxey, Wade e Barlow treinaram sem restrição, Brown só individual (já postado); falta o status oficial",
       "quando": "2026-11-21",
       "fonte": "The Sixer Sense (Kris Rhim, ESPN), 19/11",
       "sugerida_por": "Claude (manhã)"
