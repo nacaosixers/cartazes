@@ -763,11 +763,6 @@
     },
     {
       "canal": "tiktok",
-      "video": "mais 2 vídeos no mesmo pedido, não identificados no print",
-      "data": "2026-11-14"
-    },
-    {
-      "canal": "tiktok",
       "video": "tiktok-posjogo-pacers.mp4",
       "data": "2026-11-15"
     },
@@ -775,6 +770,51 @@
       "canal": "instagram",
       "video": "Raio-X 76ers 123 x 112 Raptors (capa)",
       "data": "2026-11-13"
+    },
+    {
+      "canal": "tiktok",
+      "video": "mais 1 post no pedido de 14/11, não identificado no print",
+      "data": "2026-11-14"
+    },
+    {
+      "canal": "tiktok",
+      "video": "carrossel 8-0 nos jogos apertados",
+      "data": "2026-11-14"
+    },
+    {
+      "canal": "tiktok",
+      "video": "tiktok-posjogo-nets (placar em vídeo Nets 123 x 135 76ers)",
+      "data": "2026-11-17"
+    },
+    {
+      "canal": "tiktok",
+      "video": "Raio-X de Nets 123 x 135 76ers",
+      "data": "2026-11-17"
+    },
+    {
+      "canal": "tiktok",
+      "video": "carrossel 10-0 nos jogos apertados",
+      "data": "2026-11-17"
+    },
+    {
+      "canal": "tiktok",
+      "video": "Adivinha quem é: só fã raiz acerta (vitrine)",
+      "data": "2026-11-17"
+    },
+    {
+      "canal": "tiktok",
+      "video": "carrossel 7-1 fora de casa",
+      "data": "2026-11-19"
+    },
+    {
+      "canal": "tiktok",
+      "video": "Você sabia? A previsão de Moses Malone (fo, fo, fo)",
+      "data": "2026-11-19"
+    },
+    {
+      "canal": "tiktok",
+      "video": "mais 3 posts no pedido de 19/11, ainda ativo em 20/11, não identificados no print",
+      "data": "2026-11-19"
     }
   ],
   "aovivo_agenda": [
@@ -783,7 +823,7 @@
       "data": "2026-11-21",
       "inicio": "15:00",
       "game_id": "377196f0-d137-45cc-8e14-3848e3d51fb4",
-      "comentarios": false,
+      "comentarios": true,
       "ids": {
         "inicio": "trig_01Tkgu3tsHqZ86WonMzCpM9w",
         "rede1": "trig_019xmLCTd5pUMCvgiQWMEeW9",
@@ -796,7 +836,7 @@
       "data": "2026-11-23",
       "inicio": "21:00",
       "game_id": "1b21d790-bdd8-423a-aba2-d2d18930c129",
-      "comentarios": false,
+      "comentarios": true,
       "ids": {
         "inicio": "trig_01F6ocKtUc28fb3rdP6s1xFn",
         "rede1": "trig_017fA9XE8oK7G9xu2RD13bNq",
@@ -809,7 +849,7 @@
       "data": "2026-11-25",
       "inicio": "19:00",
       "game_id": "e2aee412-86a9-4b7f-be61-e88af45f5b8a",
-      "comentarios": false,
+      "comentarios": true,
       "ids": {
         "inicio": "trig_01RhnqvAhhNmtUwU6oLFa3YP",
         "rede1": "trig_01PQkdjoPPpZUBa3w6WW3HG7",
@@ -822,7 +862,7 @@
       "data": "2026-11-27",
       "inicio": "21:30",
       "game_id": "09cee659-3d67-45f7-b644-cee1ea6e372a",
-      "comentarios": false,
+      "comentarios": true,
       "ids": {
         "inicio": "trig_01NtYRzB7kQ3fFFqAx3gpHZX",
         "rede1": "trig_013rtxVR2MxNCCGywDqFwYUU",
@@ -835,7 +875,7 @@
       "data": "2026-11-28",
       "inicio": "22:30",
       "game_id": "c171ec75-10ea-493d-89d6-1581f12d4a40",
-      "comentarios": false,
+      "comentarios": true,
       "ids": {
         "inicio": "trig_017cEamEFtHRXorvEnkTivXE",
         "rede1": "trig_01Pzddu5Y2dWpt8KxEoG4qoy",
@@ -848,7 +888,7 @@
       "data": "2026-12-01",
       "inicio": "21:00",
       "game_id": "a8d2552a-58d2-4c67-9aa2-e598cfc51eb7",
-      "comentarios": false,
+      "comentarios": true,
       "ids": {
         "inicio": "trig_0197n6HgsTUC9TrTgW5xZotn",
         "rede1": "trig_01Q6XRH4hztmGyZm7GM3sGUy",
@@ -861,7 +901,7 @@
       "data": "2026-12-02",
       "inicio": "21:00",
       "game_id": "6dfc2cc9-79cc-4202-b934-5811e0b8100e",
-      "comentarios": false,
+      "comentarios": true,
       "ids": {
         "inicio": "trig_01CG8TB8bESskY7zBs38KEJB",
         "rede1": "trig_013PZjJU65RMtefrYAPeWirz",
@@ -874,6 +914,15 @@
     {
       "tema": "virada em Orlando (Magic 116 x 121)",
       "data": "2026-11-20"
+    }
+  ],
+  "seguidores": [
+    {
+      "data": "2026-11-20",
+      "tiktok": 511,
+      "x": 134,
+      "instagram": 32,
+      "fonte": "prints dos perfis enviados pelo Rodrigo"
     }
   ]
 }

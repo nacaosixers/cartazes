@@ -70,9 +70,22 @@ Nunca use shareNow. Nunca edite nem apague post que não foi você que criou na 
 - X: texto + até 4 imagens, ou texto + 1 vídeo (o mesmo MP4 do reel).
 - TikTok: vídeo (mesmo MP4 do reel, com o mesmo `thumbnailOffset` = capa_ms) ou carrossel de fotos (até 10 imagens 1080x1920 feitas com `story.py`). Legenda curta. Detalhes em "TikTok" abaixo.
 - Instagram story: imagem 1080x1920 (`story.py`) com metadata `{"instagram": {"type": "story", "shouldShareToFeed": false}}`. Não conta no limite do feed.
-- Limites de volume por dia: Instagram até 2 posts no feed (o reel e um carrossel), mais o placar logo depois do jogo, com pelo menos 90 minutos entre eles; X até 8 posts. Nova rota de 20/11: no Instagram, cartaz parado no feed teve em média 14 visualizações, o reel 21; menos posts e mais reel. O plano gratuito aceita 10 agendados por canal: se não houver espaço, não agende e anote na central.
+- Limites de volume por dia: Instagram até 4 posts no feed, mais o placar logo depois do jogo, com pelo menos 90 minutos entre eles, e 2 stories; X até 8 posts. O plano gratuito aceita 10 agendados por canal: se não houver espaço, não agende e anote na central.
 - Antes de agendar, rode `list_posts` (status scheduled, sent e draft, últimos 2 dias) e consulte `estado/registro.json` para não repetir pauta.
 - Melhores horários: 8h30 (placar da manhã), 12h, 16h, 18h a 21h (reels e conteúdo forte) e logo depois do fim do jogo. A grade de cada tipo de dia (com jogo, sem jogo, dia seguinte a jogo e os dois juntos) está em `manha.md`: siga a grade, ela já resolve os choques de horário.
+
+## Instagram (mais conversa, mesma quantidade)
+
+Pedido do Rodrigo em 20/11: aumentar o engajamento no Instagram sem diminuir os posts. De 10 a 19/11 foram 65 posts e stories, 13 visualizações em média e nenhum comentário; o Reel (21) e o carrossel (20) chegaram a mais gente que o cartaz parado (14) e o story (10). A quantidade fica; muda o formato e o convite à conversa.
+
+- Reel e carrossel no lugar de cartaz solto sempre que der. Cartaz solto no feed só para notícia urgente e citação. Todo dia tem o reel extra da grade (`manha.md`): o vídeo do TikTok da véspera que ainda não saiu no Instagram.
+- Carrossel fecha com uma foto de pergunta: cartaz `cartaz` com a pergunta e 2 ou 3 opções ("Quem decide hoje? Maxey, Embiid ou Edgecombe").
+- Legenda: a primeira linha é o gancho; a última é uma pergunta concreta, com opções, ligada ao post. Nunca "comenta SIM se..." nem pedido de curtida: o Instagram rebaixa isca de engajamento.
+- Uma vez por dia, no post mais forte, um convite para mandar o post a alguém, ligado ao conteúdo ("Manda para o amigo que ainda duvida do Maxey"). O envio por direct é um dos sinais que o Instagram mais usa para mostrar o post a quem não segue.
+- Dia de jogo: o carrossel do pré-jogo fecha com "Seu palpite: quanto termina?" e a legenda pede o placar nos comentários. O placar do pós-jogo pergunta, na legenda, quem chegou mais perto.
+- Stories: 2 por dia, todo dia, cartazes diferentes do feed, cada um com uma pergunta escrita na arte e "Responde aqui" (a API não põe enquete nem caixa de pergunta; a resposta chega por direct).
+- @sixers no From Brazil de sexta também no Instagram, além da regra de marcação de "Ser notado pelo 76ers".
+- Sem anúncio pago no Instagram: o seguidor saiu oito vezes mais caro que no TikTok.
 
 ## TikTok (a rede com mais alcance agora)
 
@@ -93,13 +106,13 @@ Nunca use shareNow. Nunca edite nem apague post que não foi você que criou na 
 
 **Valores em reais nunca entram aqui:** nada de gasto, orçamento ou custo por seguidor no repositório, no `central.js` ou na cópia do GitHub, que são públicos. Esses números ficam só na seção Impulsionar da página da central no Claude (privada), que o Claude atualiza na conversa com o Rodrigo. No item da central, escreva "no valor da seção Impulsionar".
 
-O que os pedidos de 13 a 16/11 mostraram: no TikTok (Mais seguidores, público Nação NBA) o seguidor sai oito vezes mais barato que no Instagram; o melhor pedido foi o com vários vídeos que apresentam o time a quem está chegando; vídeo de jogo só rende no primeiro dia. Instagram: sem promoção por enquanto.
+O que os pedidos de 13 a 19/11 mostraram (prints de 16 e 20/11): no TikTok (Mais seguidores, público Nação NBA) o seguidor sai oito vezes mais barato que no Instagram; o melhor pedido foi o com vários vídeos que apresentam o time a quem está chegando; vídeo de jogo só rende no primeiro dia; e, por enquanto, é o impulso que traz seguidor no TikTok: os posts sem impulso quase não trouxeram nenhum. Instagram: sem promoção por enquanto.
 
 **Vídeo vitrine (toda terça):** um vídeo que não envelhece, feito para quem não conhece a Nação: Quem é quem, Adivinha quem é (uma lenda por vez, duas fontes), O 76ers em 3 números da temporada, Por que torcer pelo 76ers. Gancho forte na primeira cena e "Segue a Nação" no fim. Ele é o primeiro da lista de promoção da semana.
 
-O que os números de 10 a 19/11 mostraram: o impulso triplicou as visualizações dos vídeos impulsionados, mas os posts seguintes voltaram para perto de 120 visualizações e 1 curtida, porque quem chega pelo impulso quase não assiste o resto. Então só vale impulsionar vídeo que já segura gente sozinho.
+O que os números de 10 a 19/11 mostraram: o impulso triplicou as visualizações dos vídeos impulsionados, mas os posts seguintes voltaram para perto de 120 visualizações e 1 curtida, porque quem chega pelo impulso segue direto do vídeo e quase não volta a assistir. O custo de cada seguidor não acompanhou o tempo assistido (o pedido mais barato, de 14/11, foi com vídeos de menos de 2,5 segundos): o tempo assistido escolhe quais vídeos indicar, mas não barra o pedido.
 
-Na rodada da manhã, coloque na central o item **o que promover**: 2 a 4 vídeos do TikTok com tempo médio assistido de 3 segundos ou mais (`averageTimeWatched` no `list_posts` com `includeMetrics: true`), primeiro o vitrine mais novo e depois o melhor vídeo de jogo das últimas 24 horas; se nenhum chegar a 3 segundos, não ponha o item e anote na central que esperamos um vídeo melhor (`list_posts` do TikTok com `includeMetrics: true`; as métricas do Buffer atrasam até 24 horas e somam as visualizações pagas). Nunca indique vídeo que esteja em `promovidos` no registro (`{"canal", "video", "data"}`, sem valores; o Claude preenche com os prints do Rodrigo no balanço de segunda), nem vídeo de jogo com mais de 24 horas. O pedido é a cada 2 dias: no dia seguinte a um item de promoção, não ponha outro.
+Na rodada da manhã, coloque na central o item **o que promover**: 2 a 4 posts do TikTok das últimas 48 horas, os de maior tempo médio assistido (`averageTimeWatched` no `list_posts` com `includeMetrics: true`; as métricas do Buffer atrasam até 24 horas e somam as visualizações pagas), primeiro o vitrine mais novo e depois o melhor vídeo de jogo das últimas 24 horas. Carrossel também pode entrar: o Promover aceitou carrosséis em 14, 17 e 19/11. O pedido mais barato (14/11) foi com 4 posts. Nunca indique vídeo que esteja em `promovidos` no registro (`{"canal", "video", "data"}`, sem valores; o Claude preenche com os prints do Rodrigo no balanço de segunda), nem vídeo de jogo com mais de 24 horas. O pedido é a cada 2 dias: no dia seguinte a um item de promoção, não ponha outro.
 Item: `{"tipo": "Promoção paga no TikTok (opcional)", "status": "promover", "quando": "hoje, entre 18h e 20h", "img": capa do primeiro vídeo, "obs": "Os vídeos já estão publicados pelo Buffer. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA, no valor da seção Impulsionar. Vídeos: [lista]. Por quê: [motivo com número]", "link": link raw do primeiro vídeo, "linkTexto": "Ver o vídeo"}`. Nunca use status "manual" para post: todo post vai agendado no Buffer.
 
 ## Objetivo de longo prazo: ser notado pelo 76ers
@@ -110,7 +123,7 @@ Item: `{"tipo": "Promoção paga no TikTok (opcional)", "status": "promover", "q
 
 ## Registro (evita repetir)
 
-`estado/registro.json` guarda o que já foi feito: `{"placares": [...], "raiox": [...], "noticias": [{"url", "titulo", "data", "status"}], "curiosidades": [{"tema", "data"}], "reels": [...], "tiktok": [{"formato", "tema", "data"}], "posjogo": [{"jogo", "gatilho", "tentativa"}], "plano": [...], "fatos": [{"fato", "canal", "data"}], "trilhas": [{"estilo", "video", "data"}], "rodadas": {"manha", "vigia", "radar", "posjogo"}, "fios": [{"fio", "valor", "ate", "fonte", "ultimo_post"}], "fila_pautas": [{"pauta", "quando", "fonte", "sugerida_por"}], "promovidos": [{"canal", "video", "data"}]}`. Leia no começo, acrescente o que fizer, mantenha só os últimos 30 dias, faça commit e push no fim da rodada.
+`estado/registro.json` guarda o que já foi feito: `{"placares": [...], "raiox": [...], "noticias": [{"url", "titulo", "data", "status"}], "curiosidades": [{"tema", "data"}], "reels": [...], "tiktok": [{"formato", "tema", "data"}], "posjogo": [{"jogo", "gatilho", "tentativa"}], "plano": [...], "fatos": [{"fato", "canal", "data"}], "trilhas": [{"estilo", "video", "data"}], "rodadas": {"manha", "vigia", "radar", "posjogo"}, "fios": [{"fio", "valor", "ate", "fonte", "ultimo_post"}], "fila_pautas": [{"pauta", "quando", "fonte", "sugerida_por"}], "promovidos": [{"canal", "video", "data"}], "aovivo_agenda": [...], "seguidores": [{"data", "tiktok", "x", "instagram"}]}`. Leia no começo, acrescente o que fizer, mantenha só os últimos 30 dias, faça commit e push no fim da rodada.
 
 ## Sinal de vida e vigia (desde 16/11)
 
@@ -118,7 +131,7 @@ Em 16/11 as rodadas automáticas das 7h51 e das 10h37 ficaram presas na platafor
 - Toda rodada grava em `estado/registro.json`, chave `rodadas`, quando começou e quando terminou: `"manha": "AAAA-MM-DD HH:MM em andamento"` no começo e `"... feito"` no fim (o mesmo para `vigia`, `radar` e `posjogo`). Commit e push logo no começo, para as outras rodadas verem.
 - O vigia (9h17, `vigia.md`) confere `rodadas.manha`. Se a manhã não rodou, ele faz o dia.
 - O radar das 12h51 confere de novo (passo 0 do `radar.md`).
-- Placar logo depois do fim, em todo jogo, e comentários ao vivo no X quando o Rodrigo avisar que não vai assistir: `aovivo.md` (combinado em 19/11). Quem roda é o Claude na conversa; os jogos marcados ficam em `aovivo_agenda` no registro.
+- Placar logo depois do fim e comentários ao vivo no X, em todo jogo: `aovivo.md` (combinado em 19/11, comentários em todo jogo desde 20/11). Quem roda é o Claude na conversa; os jogos marcados ficam em `aovivo_agenda` no registro.
 - Uma rodada atrasada que encontra o dia já feito termina sem fazer nada, mesmo que a mensagem que a disparou peça o contrário. Assim nunca sai post duplicado.
 - Quem refizer a manhã escreve na central `motor.texto` = "A rodada das 7h51 não rodou; o [vigia ou radar] fez o dia às HH:MM." e avisa o Rodrigo em uma linha.
 
