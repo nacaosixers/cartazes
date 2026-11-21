@@ -157,6 +157,12 @@
       "titulo": "Maxey, Wade e Barlow treinaram sem restrição na sexta; Brown só individual (PhillyVoice, Heavy)",
       "data": "2026-11-20",
       "status": "agendado"
+    },
+    {
+      "url": "https://www.phillyvoice.com/sixers-news-76ers-analysis-injury-report-vs-bucks-jaylen-brown-tyrese-maxey-dominick-barlow-dean-wade-adem-bona/",
+      "titulo": "Relatório 76ers x Bucks: Maxey dúvida, Brown e Wade fora, Barlow provável",
+      "data": "2026-11-21",
+      "status": "agendado"
     }
   ],
   "curiosidades": [
@@ -191,6 +197,10 @@
     {
       "tema": "Número do dia: 13-3, melhor começo em 26 anos",
       "data": "2026-11-20"
+    },
+    {
+      "tema": "2001: Iverson 44 no jogo 7 da final do Leste contra o Bucks",
+      "data": "2026-11-21"
     }
   ],
   "reels": [
@@ -237,6 +247,10 @@
     {
       "tema": "Na Filadélfia: VJ Edgecombe, o que Nick Nurse viu (24, 13 no último quarto)",
       "data": "2026-11-20"
+    },
+    {
+      "tema": "História 76ers x Bucks: 2001, Iverson 44 no jogo 7 (108 x 91)",
+      "data": "2026-11-21"
     }
   ],
   "prejogos": [
@@ -402,6 +416,16 @@
       "formato": "Reel",
       "tema": "VJ Edgecombe, o que Nick Nurse viu",
       "data": "2026-11-20"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "Pré-jogo 76ers x Bucks: prejogo, comparativo, relatório",
+      "data": "2026-11-21"
+    },
+    {
+      "formato": "História do confronto",
+      "tema": "2001: Iverson 44 no jogo 7 contra o Bucks",
+      "data": "2026-11-21"
     }
   ],
   "agendas": [
@@ -470,6 +494,11 @@
       "estilo": "house",
       "video": "reel-edgecombe.mp4",
       "data": "2026-11-20"
+    },
+    {
+      "estilo": "drumline",
+      "video": "reel-historia-bucks.mp4",
+      "data": "2026-11-21"
     }
   ],
   "fatos": [
@@ -647,10 +676,35 @@
       "fato": "Maxey treinou sem restrição na véspera do Bucks (Wade e Barlow também; Brown individual)",
       "canal": "instagram",
       "data": "2026-11-20"
+    },
+    {
+      "fato": "Relatório 76ers x Bucks (20/11): Maxey dúvida (pé direito), Brown e Wade fora, Barlow provável (pode estrear), Bona fora (PhillyVoice, Heavy)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-21"
+    },
+    {
+      "fato": "Barlow pode estrear: perdeu os 16 primeiros jogos (costas); Nurse: deve jogar mais de pivô (PhillyVoice)",
+      "canal": "x",
+      "data": "2026-11-21"
+    },
+    {
+      "fato": "Comparativo 76ers x Bucks: 13-3 x 1-15; 114,5/111,6 x 108,1/121,1; Bucks 15 bolas de três por jogo (Fox Sports)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-21"
+    },
+    {
+      "fato": "Último duelo 24/10: 76ers 127 x 116 Bucks, Embiid 28/11/10 (10º triplo-duplo na carreira), Brown 27, Maxey 26 (NBC Philadelphia)",
+      "canal": "instagram",
+      "data": "2026-11-21"
+    },
+    {
+      "fato": "2001, final do Leste, jogo 7 (3/6/2001): 76ers 108 x 91 Bucks, Iverson 44 (17 de 33), Mutombo 23 e 19 (NBA.com, UPI, KYW)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-21"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-21 07:53 em andamento",
+    "manha": "2026-11-21 08:20 feito (11 posts agendados: X 9h30, 10h30, 11h, 13h; Instagram 9h30, 11h, 13h e stories 10h30 e 14h; TikTok 9h45 e 13h). Jogo às 15h: placar pelo ao vivo (aovivo_agenda). Promoção: carrossel 13-3 e reel Edgecombe.",
     "radar": "2026-11-20 17:58 feito (Maxey treinou sem restrição: X 18h10 e carrossel no Instagram às 21h; sem jogo hoje)",
     "posjogo": "2026-11-18 23:41 feito pelo Claude na conversa (placar no X, story, TikTok; feed do Instagram às 0h01)",
     "aovivo": "2026-11-18 feito pelo Claude na conversa: 5 comentários ao vivo no X (21h14 bola ao alto, 21h38 fim do 1º, 22h14 intervalo, 22h57 fim do 3º, 23h11 reta final) e o placar com cartaz às 23h37 | 2026-11-20: combinado final de 19/11: placar logo depois do fim em todo jogo; comentários durante o jogo só quando o Rodrigo avisar (início e rede 1 desligados até lá)",
@@ -658,60 +712,67 @@
   },
   "plano": [
     {
-      "canal": "x, instagram",
-      "hora": "12h",
-      "formato": "numero (branco), número do dia",
-      "gancho": "76ers 13-3: o melhor começo do time em 26 anos",
-      "fato": "13-3, melhor desde 2000-01 (14-2)"
-    },
-    {
-      "canal": "tiktok",
-      "hora": "12h",
-      "formato": "carrossel (13-3 branco, 2000-01, manchete cautela)",
-      "gancho": "76ers 13-3, o melhor começo em 26 anos",
-      "fato": "13-3 e cautela com Maxey, Brown e Wade"
-    },
-    {
-      "canal": "x, instagram",
-      "hora": "16h",
-      "formato": "cartaz From Brazil (amarelo), inglês, @sixers",
-      "gancho": "From Brazil: down 17 in Orlando, no Maxey, no Brown, and the Sixers still won",
-      "fato": "virada em Orlando (From Brazil da semana)"
-    },
-    {
-      "canal": "tiktok",
-      "hora": "18h",
-      "formato": "reel Na Filadélfia (gancho azul, house)",
-      "gancho": "VJ Edgecombe, o que Nick Nurse viu",
-      "fato": "frase de Nurse + 24 e 13 no último quarto"
-    },
-    {
-      "canal": "x, instagram reel",
-      "hora": "19h30",
-      "formato": "reel Na Filadélfia (gancho azul, house)",
-      "gancho": "VJ Edgecombe, segundo Nick Nurse",
-      "fato": "frase de Nurse + 24 e 13 no último quarto"
-    },
-    {
-      "canal": "instagram story",
-      "hora": "19h30",
-      "formato": "cartaz (story)",
-      "gancho": "2000-01 abriu 14-2 e foi à final",
-      "fato": "apoio ao 13-3"
-    },
-    {
       "canal": "x",
-      "hora": "18h10",
-      "formato": "manchete (branco), radar",
-      "gancho": "Tyrese Maxey treinou sem restrição",
-      "fato": "treino de sexta, véspera do Bucks"
+      "hora": "9h30",
+      "formato": "prejogo (amarelo)",
+      "gancho": "Hoje tem 76ers x Bucks",
+      "fato": "pré-jogo: Maxey dúvida, Brown e Wade fora"
     },
     {
       "canal": "instagram",
-      "hora": "21h",
-      "formato": "carrossel (cartaz amarelo, manchete, pergunta azul), radar",
-      "gancho": "Tyrese Maxey treinou sem restrição",
-      "fato": "treino de sexta, véspera do Bucks"
+      "hora": "9h30",
+      "formato": "carrossel (comparativo azul, prejogo, manchete, palpite)",
+      "gancho": "Hoje tem 76ers x Bucks",
+      "fato": "pré-jogo e relatório de lesões"
+    },
+    {
+      "canal": "tiktok",
+      "hora": "9h45",
+      "formato": "carrossel (prejogo amarelo, comparativo, manchete)",
+      "gancho": "76ers x Bucks hoje, 15h",
+      "fato": "pré-jogo e relatório"
+    },
+    {
+      "canal": "x",
+      "hora": "10h30",
+      "formato": "manchete (branco), Na Filadélfia",
+      "gancho": "Dominick Barlow pode estrear hoje",
+      "fato": "Barlow provável depois de 16 jogos fora"
+    },
+    {
+      "canal": "instagram story",
+      "hora": "10h30",
+      "formato": "numero (azul)",
+      "gancho": "Bucks 1-15",
+      "fato": "campanha do Bucks"
+    },
+    {
+      "canal": "x",
+      "hora": "11h",
+      "formato": "comparativo (azul)",
+      "gancho": "76ers x Bucks em números: 13-3 contra 1-15",
+      "fato": "números da temporada"
+    },
+    {
+      "canal": "instagram",
+      "hora": "11h",
+      "formato": "carrossel (cartaz amarelo, numero branco, pergunta azul)",
+      "gancho": "O último 76ers x Bucks terminou 127 x 116",
+      "fato": "24/10, triplo-duplo de Embiid"
+    },
+    {
+      "canal": "x, instagram reel, tiktok",
+      "hora": "13h",
+      "formato": "reel história do confronto (gancho azul, drumline)",
+      "gancho": "2001: Iverson contra o Bucks no jogo 7",
+      "fato": "Iverson 44, 76ers 108 x 91 (2001)"
+    },
+    {
+      "canal": "instagram story",
+      "hora": "14h",
+      "formato": "cartaz (amarelo)",
+      "gancho": "Quem é o cestinha hoje?",
+      "fato": "pergunta"
     }
   ],
   "fios": [
@@ -757,12 +818,6 @@
     }
   ],
   "fila_pautas": [
-    {
-      "pauta": "Maxey (dor no pé direito), Brown e Wade (posterior da coxa): conferir status para 76ers x Bucks de sábado no relatório de lesões | 20/11 17h51: Maxey, Wade e Barlow treinaram sem restrição, Brown só individual (já postado); falta o status oficial",
-      "quando": "2026-11-21",
-      "fonte": "The Sixer Sense (Kris Rhim, ESPN), 19/11",
-      "sugerida_por": "Claude (manhã)"
-    },
     {
       "pauta": "Adivinha quem é: Charles Barkley (TikTok/vitrine), só com duas fontes (Basketball-Reference e Wikipédia não abriram em 20/11)",
       "quando": "2026-11-24",
