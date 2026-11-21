@@ -1,0 +1,5 @@
+{"cenas": [
+ {"papel": "azul", "kicker": "Fim de jogo", "linhas": [["76ers 132", "an", "creme", 200], ["x 129 Bucks", "an", "amarelo", 200]], "texto": "Herro fez 50."},
+ {"papel": "branco", "kicker": "Não bastou", "numero": "26", "rotulo": "pontos de Embiid", "texto": "Com 17 rebotes e 9 assistências."},
+ {"papel": "azul", "kicker": "Campanha", "numero": "14-3", "rotulo": "do 76ers", "texto": "Segunda tem Trail Blazers, às 21h."}
+], "cta": true, "trilha": true, "estilo": "arena", "semente": 1121}
