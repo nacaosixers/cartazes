@@ -28,7 +28,7 @@ Em cada despertador da corrente:
 
 1. Se `/home/claude/cartazes` não existe (o computador da sessão foi trocado), chame `add_repo` (nacaosixers/cartazes, push) e clone de novo.
 2. Leia o log do jogo (`aovivo-AAAA-MM-DD.txt` no scratchpad da conversa): o que já saiu e qual é o próximo momento. Sem log, o X (`list_posts`, últimas 3 horas) diz o que já saiu.
-3. **Conferência do relógio:** `fetch_sports_data` `scores` (nba, time 76ers), que é leve e traz status, quarto e relógio do jogo. Rode `python3 kit/relogio.py --momento [próximo] --status [status] --quarto [q] --relogio [MM:SS]`.
+3. **Conferência do relógio:** `fetch_sports_data` `scores` (nba, time 76ers), que é leve e traz status, quarto e relógio do jogo. Se o `scores` ainda disser `created` ou `scheduled` depois do horário de início, confira no `game_stats`: em 21/11 o `scores` ficou em `created` com o jogo no 1º quarto, e o relógio do jogo todo saiu do `game_stats`. Rode `python3 kit/relogio.py --momento [próximo] --status [status] --quarto [q] --relogio [MM:SS]`.
    - "esperar N": `send_later` em N minutos, anote no log e termine.
    - "passou": anote e repita o passo 3 com o momento seguinte.
    - "agora": siga.
@@ -54,7 +54,7 @@ Redes: se o log mostra uma conferência nos últimos 20 minutos, a corrente est�
 - Cada comentário com abertura e destaque diferentes do anterior. Se o mesmo jogador está dominando, diga isso de outro jeito.
 - No máximo 1 emoji. Sem hashtag, sem link, sem travessão.
 - Pergunta curta para a torcida responder em alguns comentários, não em todos.
-- A lista de jogadores do `game_stats` pode vir cortada (em 18/11 vinham só 5 por time, sem Maxey). Só chame alguém de cestinha se a soma dos pontos dos listados bater com o total do time; senão, cite o número do jogador sem dizer que é o maior.
+- A lista de jogadores do `game_stats` pode vir cortada (em 18/11 vinham só 5 por time, sem Maxey). Só chame alguém de cestinha se a soma dos pontos dos listados bater com o total do time, ou se os pontos dele forem maiores que os que faltam na lista (total do time menos a soma dos listados): aí ninguém de fora passa dele. Senão, cite o número do jogador sem dizer que é o maior.
 - Nunca invente: só número que veio da ferramenta. Lesão durante o jogo não entra (ninguém confirmou). Dado que parece velho ou não bate (placar parado, quarto errado): não poste.
 
 ## Os momentos
@@ -65,6 +65,7 @@ Redes: se o log mostra uma conferência nos últimos 20 minutos, a corrente est�
 - **Fim do 3º quarto:** placar e o que o 3º quarto mudou (parcial do quarto, se o placar por quarto vier).
 - **Reta final** (4º quarto entre 6 e 2min30 para o fim): diferença de até 5 pontos é jogo de clutch; a campanha no clutch (registro `fios`) entra como apoio. Jogo resolvido: um comentário curto e honesto. Faltando menos de 2min30, pule e espere o fim.
 - **Prorrogação:** um comentário no fim do tempo normal e o fim de jogo depois.
+- **Segundos finais** (4º quarto com menos de 1 minuto): já faça o cartaz, o story e o vídeo com o placar do momento, sem push, e confira de novo em 1 ou 2 minutos. Se o placar final for o mesmo, é só publicar; se mudar, refaça. Em 21/11 isso pôs o placar no ar 3 minutos depois do fim.
 - **Fim de jogo** (status complete ou closed): é o pós-jogo, feito na hora por esta rodada. Antes de começar, grave `rodadas.posjogo` = "AAAA-MM-DD HH:MM em andamento (Claude na conversa)" e faça push, para a rodada da 0h51 não repetir. No X, o placar sai com o cartaz, num post só. Instagram, story e TikTok seguem `posjogo.md` e o limite de feed do dia (feed cheio: o post do feed vai para 0h01, e o story sai na hora). No fim, registre em `rodadas.aovivo` o que saiu.
 
 ## Limite
