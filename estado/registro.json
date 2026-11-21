@@ -716,7 +716,7 @@
   ],
   "rodadas": {
     "manha": "2026-11-21 08:20 feito (11 posts agendados: X 9h30, 10h30, 11h, 13h; Instagram 9h30, 11h, 13h e stories 10h30 e 14h; TikTok 9h45 e 13h). Jogo às 15h: placar pelo ao vivo (aovivo_agenda). Promoção: carrossel 13-3 e reel Edgecombe.",
-    "radar": "2026-11-21 17:53 em andamento",
+    "radar": "2026-11-21 17:58 feito (sem pauta nova: jogo já coberto pelo pós-jogo; fio do melhor começo atualizado para 14-3; clutch 12-0 segue a conferir)",
     "posjogo": "2026-11-21 17:39 feito pelo Claude na conversa (76ers x Bucks: X com cartaz, feed e story do Instagram, TikTok)",
     "aovivo": "2026-11-21 feito pelo Claude na conversa: 5 comentários ao vivo no X (15h14 começo, 15h35 fim do 1º, 16h11 intervalo, 16h50 fim do 3º, 17h08 reta final) e o placar com cartaz às 17h39. O scores ficou em 'created' com o jogo rolando: o relógio saiu do game_stats.",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
@@ -821,11 +821,11 @@
     },
     {
       "fio": "Melhor começo desde 2000-01",
-      "valor": "13-3 (2000-01 abriu 14-2)",
-      "ate": "jogo de 18/11 (Magic)",
-      "fonte": "AP e SB Nation",
+      "valor": "14-3 (2000-01 abriu 14-2; marca de 2000-01 não é mais igualável)",
+      "ate": "jogo de 21/11 (Bucks, 132 x 129)",
+      "fonte": "PhillyVoice (Adam Aaronson, 21/11): 14-3",
       "ultimo_post": "20/11 (número do dia em todos os canais)",
-      "proximo_marco": "igualar ou passar o 14-2 de 2000-01 (exige 14-2 ou 15-2 nos próximos jogos)"
+      "proximo_marco": "a definir; 14-2 de 2000-01 ficou para trás"
     }
   ],
   "fila_pautas": [
