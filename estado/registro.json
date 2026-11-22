@@ -65,6 +65,12 @@
       "data_jogo": "2026-11-18",
       "tiktok": "2026-11-19 12h",
       "carrossel": "2026-11-19 12h"
+    },
+    {
+      "jogo": "76ers 132 x 129 Bucks",
+      "data_jogo": "2026-11-21",
+      "tiktok": "2026-11-22 11h",
+      "carrossel": "2026-11-22 12h (X), 12h30 (Instagram)"
     }
   ],
   "noticias": [
@@ -207,6 +213,14 @@
     {
       "tema": "2001: Iverson 44 no jogo 7 da final do Leste contra o Bucks",
       "data": "2026-11-21"
+    },
+    {
+      "tema": "Número do dia: LeBron 24 temporadas",
+      "data": "2026-11-22"
+    },
+    {
+      "tema": "Você sabia? 46-4 do 76ers de 1966-67",
+      "data": "2026-11-22"
     }
   ],
   "reels": [
@@ -257,6 +271,18 @@
     {
       "tema": "História 76ers x Bucks: 2001, Iverson 44 no jogo 7 (108 x 91)",
       "data": "2026-11-21"
+    },
+    {
+      "tema": "Raio-X Bucks (TikTok): Herro 50, 38 no terceiro quarto",
+      "data": "2026-11-22"
+    },
+    {
+      "tema": "Na Filadélfia: 14-3 e o 76ers saiu cobrando (Nurse e Maxey)",
+      "data": "2026-11-22"
+    },
+    {
+      "tema": "Você sabia? 46-4 em 1966-67",
+      "data": "2026-11-22"
     }
   ],
   "prejogos": [
@@ -432,6 +458,21 @@
       "formato": "História do confronto",
       "tema": "2001: Iverson 44 no jogo 7 contra o Bucks",
       "data": "2026-11-21"
+    },
+    {
+      "formato": "Reel",
+      "tema": "Raio-X Bucks: Herro 50, 38 no terceiro quarto, pergunta quem decidiu",
+      "data": "2026-11-22"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "LeBron 24 temporadas, 21 pontos aos 41",
+      "data": "2026-11-22"
+    },
+    {
+      "formato": "Você sabia?",
+      "tema": "1966-67: 46-4, 68-13 e o fim dos 8 títulos do Celtics",
+      "data": "2026-11-22"
     }
   ],
   "agendas": [
@@ -510,6 +551,21 @@
       "estilo": "arena",
       "video": "tiktok-posjogo-bucks.mp4",
       "data": "2026-11-21"
+    },
+    {
+      "estilo": "trap",
+      "video": "tiktok-raiox-bucks.mp4",
+      "data": "2026-11-22"
+    },
+    {
+      "estilo": "house",
+      "video": "reel-nurse-cobra.mp4",
+      "data": "2026-11-22"
+    },
+    {
+      "estilo": "lofi",
+      "video": "reel-vocesabia-1967.mp4",
+      "data": "2026-11-22"
     }
   ],
   "fatos": [
@@ -712,10 +768,35 @@
       "fato": "2001, final do Leste, jogo 7 (3/6/2001): 76ers 108 x 91 Bucks, Iverson 44 (17 de 33), Mutombo 23 e 19 (NBA.com, UPI, KYW)",
       "canal": "x, instagram, tiktok",
       "data": "2026-11-21"
+    },
+    {
+      "fato": "Agenda 23 a 28/11: Blazers 21h, Heat 19h, Pacers x 76ers 21h30, Rockets x 76ers 22h30 (ESPN)",
+      "canal": "x, instagram",
+      "data": "2026-11-22"
+    },
+    {
+      "fato": "Raio-X Bucks: 38 no terceiro quarto (60-59 para 98-92), 30 de Simons 18 e Barlow 12, 37 do Bucks no último quarto; vencia por 10 a 2 min do fim; 12-0 no clutch (ESPN Kris Rhim, SB Nation, B/R)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-22"
+    },
+    {
+      "fato": "LeBron 24 temporadas, primeiro da história; 41 anos; 21/6/6/3 contra o Bucks (NBA.com, Reuters, B/R)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-22"
+    },
+    {
+      "fato": "Nurse 'temos que fechar um pouco melhor', LeBron 'queríamos fechar muito melhor', Maxey 'temos que jogar 48 minutos' (ESPN, Kris Rhim)",
+      "canal": "x, instagram",
+      "data": "2026-11-22"
+    },
+    {
+      "fato": "1966-67: começo 46-4, 68-13, campeão (4-1 no Celtics octacampeão, 4-2 no Warriors), Chamberlain MVP (NBA.com, Inquirer)",
+      "canal": "tiktok, instagram story",
+      "data": "2026-11-22"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-22 07:53 em andamento",
+    "manha": "2026-11-22 08:22 feito (15 posts agendados: X 11h, 12h, 16h, 19h30; Instagram 11h, 12h30, 16h, 19h30 e stories 11h e 20h30; TikTok 11h, 18h e 21h30). ESPN agenda/box score não abriram (permissão); Raio-X com ESPN (matéria), SB Nation e B/R. Sem promoção hoje (pedido de ontem).",
     "radar": "2026-11-21 17:58 feito (sem pauta nova: jogo já coberto pelo pós-jogo; fio do melhor começo atualizado para 14-3; clutch 12-0 segue a conferir)",
     "posjogo": "2026-11-21 17:39 feito pelo Claude na conversa (76ers x Bucks: X com cartaz, feed e story do Instagram, TikTok)",
     "aovivo": "2026-11-21 feito pelo Claude na conversa: 5 comentários ao vivo no X (15h14 começo, 15h35 fim do 1º, 16h11 intervalo, 16h50 fim do 3º, 17h08 reta final) e o placar com cartaz às 17h39. O scores ficou em 'created' com o jogo rolando: o relógio saiu do game_stats.",
@@ -724,74 +805,88 @@
   "plano": [
     {
       "canal": "x",
-      "hora": "9h30",
-      "formato": "prejogo (amarelo)",
-      "gancho": "Hoje tem 76ers x Bucks",
-      "fato": "pré-jogo: Maxey dúvida, Brown e Wade fora"
+      "hora": "11h",
+      "formato": "agenda (azul)",
+      "gancho": "Agenda do 76ers na semana",
+      "fato": "4 jogos de 23 a 28/11"
     },
     {
       "canal": "instagram",
-      "hora": "9h30",
-      "formato": "carrossel (comparativo azul, prejogo, manchete, palpite)",
-      "gancho": "Hoje tem 76ers x Bucks",
-      "fato": "pré-jogo e relatório de lesões"
+      "hora": "11h",
+      "formato": "carrossel (agenda azul, pergunta amarela)",
+      "gancho": "A semana do 76ers: quatro jogos",
+      "fato": "agenda 23 a 28/11"
     },
     {
       "canal": "tiktok",
-      "hora": "9h45",
-      "formato": "carrossel (prejogo amarelo, comparativo, manchete)",
-      "gancho": "76ers x Bucks hoje, 15h",
-      "fato": "pré-jogo e relatório"
-    },
-    {
-      "canal": "x",
-      "hora": "10h30",
-      "formato": "manchete (branco), Na Filadélfia",
-      "gancho": "Dominick Barlow pode estrear hoje",
-      "fato": "Barlow provável depois de 16 jogos fora"
+      "hora": "11h",
+      "formato": "reel Raio-X (gancho amarelo, trap)",
+      "gancho": "Herro fez 50 e o 76ers venceu",
+      "fato": "38 no terceiro quarto, 30 do banco"
     },
     {
       "canal": "instagram story",
-      "hora": "10h30",
-      "formato": "numero (azul)",
-      "gancho": "Bucks 1-15",
-      "fato": "campanha do Bucks"
+      "hora": "11h",
+      "formato": "cartaz (branco)",
+      "gancho": "Segunda tem Trail Blazers",
+      "fato": "pergunta do placar"
     },
     {
       "canal": "x",
-      "hora": "11h",
-      "formato": "comparativo (azul)",
-      "gancho": "76ers x Bucks em números: 13-3 contra 1-15",
-      "fato": "números da temporada"
+      "hora": "12h",
+      "formato": "Raio-X 4 imagens (capa amarela)",
+      "gancho": "Raio-X de 76ers 132 x 129 Bucks",
+      "fato": "38, 30, 37"
     },
     {
       "canal": "instagram",
-      "hora": "11h",
-      "formato": "carrossel (cartaz amarelo, numero branco, pergunta azul)",
-      "gancho": "O último 76ers x Bucks terminou 127 x 116",
-      "fato": "24/10, triplo-duplo de Embiid"
+      "hora": "12h30",
+      "formato": "carrossel Raio-X (6)",
+      "gancho": "Raio-X de 76ers 132 x 129 Bucks",
+      "fato": "38, 30, 37 e o que fica"
     },
     {
-      "canal": "x, instagram reel, tiktok",
-      "hora": "13h",
-      "formato": "reel história do confronto (gancho azul, drumline)",
-      "gancho": "2001: Iverson contra o Bucks no jogo 7",
-      "fato": "Iverson 44, 76ers 108 x 91 (2001)"
+      "canal": "x, instagram",
+      "hora": "16h",
+      "formato": "número do dia (azul); carrossel no Instagram",
+      "gancho": "LeBron James está na 24ª temporada",
+      "fato": "24 temporadas, recorde; 21/6/6/3 contra o Bucks"
+    },
+    {
+      "canal": "tiktok",
+      "hora": "18h",
+      "formato": "carrossel (azul)",
+      "gancho": "LeBron James, 24 temporadas",
+      "fato": "24 temporadas"
+    },
+    {
+      "canal": "x, instagram reel",
+      "hora": "19h30",
+      "formato": "reel Na Filadélfia (gancho amarelo, house)",
+      "gancho": "14-3 e o 76ers saiu cobrando",
+      "fato": "Nurse, LeBron e Maxey cobram o fim de jogo (ESPN)"
     },
     {
       "canal": "instagram story",
-      "hora": "14h",
-      "formato": "cartaz (amarelo)",
-      "gancho": "Quem é o cestinha hoje?",
-      "fato": "pergunta"
+      "hora": "20h30",
+      "formato": "numero (azul)",
+      "gancho": "46-4",
+      "fato": "1966-67"
+    },
+    {
+      "canal": "tiktok",
+      "hora": "21h30",
+      "formato": "Você sabia? (gancho amarelo, lofi)",
+      "gancho": "46-4, o começo mais louco do 76ers",
+      "fato": "1966-67: 46-4, 68-13, campeão"
     }
   ],
   "fios": [
     {
       "fio": "Campanha no clutch (diferença de até 5 pontos nos 5 minutos finais)",
-      "valor": "11-0 (confirmado)",
-      "ate": "jogo de 18/11 (Magic: 104 x 102 com 6min06 e 111 x 107 com 3min19, vitória por 5)",
-      "fonte": "Crossing Broad (Kevin Kinkead, 19/11): 11-0, 52,5% de três no clutch (segundo da liga), net rating 46,1 (segundo)",
+      "valor": "12-0 (confirmado)",
+      "ate": "jogo de 21/11 (Bucks, 132 x 129)",
+      "fonte": "ESPN (Kris Rhim, 21/11): 12-0 no clutch, melhor da liga",
       "ultimo_post": "10-0, em 17/11 (número do dia no X e no Instagram, carrossel do TikTok)",
       "proximo_marco": "15-0 ou recorde; 11-0 não sai"
     },
@@ -823,7 +918,7 @@
       "fio": "Melhor começo desde 2000-01",
       "valor": "14-3 (2000-01 abriu 14-2; marca de 2000-01 não é mais igualável)",
       "ate": "jogo de 21/11 (Bucks, 132 x 129)",
-      "fonte": "PhillyVoice (Adam Aaronson, 21/11): 14-3",
+      "fonte": "PhillyVoice (Adam Aaronson, 21/11): 14-3; ESPN (Kris Rhim): melhor começo em 17 jogos desde 2000-01, empatado na melhor campanha da NBA",
       "ultimo_post": "20/11 (número do dia em todos os canais)",
       "proximo_marco": "a definir; 14-2 de 2000-01 ficou para trás"
     }
@@ -834,12 +929,6 @@
       "quando": "2026-11-24",
       "fonte": "a conferir",
       "sugerida_por": "Claude (manhã)"
-    },
-    {
-      "pauta": "Fio do clutch: o jogo de 21/11 (76ers 132 x 129 Bucks, 130 x 129 com 4 segundos) deve levar a campanha no clutch a 12-0. Conferir numa fonte antes de atualizar o fio; 12-0 não é marco, não sai como post",
-      "quando": "2026-11-22",
-      "fonte": "a conferir",
-      "sugerida_por": "Claude (ao vivo)"
     }
   ],
   "promovidos": [
