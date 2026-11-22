@@ -1,5 +1,1 @@
-{"cenas": [
- {"papel": "amarelo", "kicker": "Você sabia?", "linhas": [["46-4", "as", "vermelho", 380], ["o começo mais louco do 76ers", "an", "azul", 130]]},
- {"papel": "branco", "kicker": "1966-67", "numero": "68-13", "rotulo": "campanha do time de Wilt Chamberlain", "texto": "Chamberlain foi o MVP."},
- {"papel": "azul", "kicker": "Comenta a letra", "linhas": [["Campeão", "as", "amarelo", 300], ["e fim dos 8 títulos do Celtics", "an", "creme", 120]], "texto": "Hoje é 14-3. Chega lá? A) Sim B) Não"}
-], "cta": true, "trilha": true, "estilo": "lofi", "semente": 1967}
+{"cenas": [{"papel": "amarelo", "kicker": "Você sabia?", "linhas": [["46-4", "as", "vermelho", 380], ["o começo mais louco do 76ers", "an", "azul", 130]]}, {"papel": "branco", "kicker": "1966-67", "numero": "68-13", "rotulo": "campanha na temporada", "texto": "Wilt Chamberlain foi o MVP."}, {"papel": "azul", "kicker": "Comenta a letra", "linhas": [["Campeão", "as", "amarelo", 300], ["O de hoje chega lá?", "an", "creme", 150]], "texto": "A) Sim B) Não"}], "cta": true, "trilha": true, "estilo": "lofi", "semente": 1967}
