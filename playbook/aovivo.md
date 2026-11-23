@@ -4,6 +4,7 @@ Nasceu em 18/11: o Rodrigo ia estar num voo na hora de Magic x 76ers e pediu um 
 
 - **Placar logo depois do fim: em todo jogo**, automático.
 - **Comentários durante o jogo: em todo jogo**, automático. Nas palavras dele: "melhor garantir seus comentários que atraiam mais pessoas".
+- **Mais comentários por jogo (23/11):** o Rodrigo pediu comentários também no meio dos quartos, não só no fim. Os números de 18 e 21/11 sustentam: cada comentário ao vivo teve 146 impressões em média, quase o dobro da média do X (84), e nenhum momento ficou abaixo de 94. Por isso a corrente tem agora até 10 momentos (abaixo).
 - **Os posts do Rodrigo durante o jogo são extras.** Quando ele consegue assistir, posta os dele direto no app. A corrente não para, não responde e não apaga nada por causa deles. Se um post dele (no `list_posts`, os que não saíram pelo Buffer) deu o placar do mesmo momento há menos de 5 minutos, mude o destaque do seu para não repetir a mesma informação.
 - **Se ele pedir um jogo sem comentários:** desligue o início e a rede 1 desse jogo (`update_trigger` com `enabled` false, ids na agenda), marque `comentarios` false e responda numa linha. A rede 2 cuida do placar.
 
@@ -22,7 +23,7 @@ Por jogo, só 4 despertadores fixos, contando do horário marcado:
 
 Num jogo sem comentários, a corrente só tem o momento `fim`: o relógio diz quando o jogo acaba e o placar sai na hora.
 
-O resto é a **corrente**: cada despertador, depois de conferir o jogo, marca o próximo pelo relógio do jogo, com `kit/relogio.py`. Ele diz se o momento chegou ("agora"), quanto esperar ("esperar N") ou se o momento já passou ("passou"). Os fatores de ritmo vêm de 18/11 (bola ao alto às 21h11, fim do 1º às 21h37, intervalo às 22h12, fim do 3º às 22h56, fim às 23h36); refeito sobre aquele jogo, ele acerta cada momento com 1 ou 2 minutos de folga. Se os jogos mostrarem outro ritmo, ajuste `FATOR` no script.
+O resto é a **corrente**: cada despertador, depois de conferir o jogo, marca o próximo pelo relógio do jogo, com `kit/relogio.py`. Momentos, na ordem: `bola`, `meio1`, `q1`, `meio2`, `intervalo`, `meio3`, `q3`, `reta`, `clutch`, `fim`. Ele diz se o momento chegou ("agora"), quanto esperar ("esperar N") ou se o momento já passou ("passou"). Os fatores de ritmo vêm de 18/11 (bola ao alto às 21h11, fim do 1º às 21h37, intervalo às 22h12, fim do 3º às 22h56, fim às 23h36); refeito sobre aquele jogo, ele acerta cada momento com 1 ou 2 minutos de folga. Se os jogos mostrarem outro ritmo, ajuste `FATOR` no script.
 
 Em cada despertador da corrente:
 
@@ -60,14 +61,17 @@ Redes: se o log mostra uma conferência nos últimos 20 minutos, a corrente est�
 ## Os momentos
 
 - **Bola ao alto:** o quinteto do 76ers, se o `game_stats` trouxer os titulares; senão, uma linha com o que está em jogo (campanha, desfalque já noticiado no dia). Se o jogo começou há mais de 6 minutos, já dê o primeiro placar ("Começou em Orlando: ..."). Não começou 25 minutos depois do horário: anote "atrasado" e confira a cada 5 minutos; adiado: anote e termine (as redes leem o log e não fazem nada).
+- **Meio do 1º, do 2º e do 3º quarto** (`meio1`, `meio2`, `meio3`: uns 6 minutos no relógio, janela de 7 a 4): primeira linha com o relógio real e o placar ("6min no 2º quarto: 76ers 41 x 38 Bucks."). Depois, uma coisa que está acontecendo agora: a sequência em curso (compare com o placar da conferência anterior), quem está quente (pontos e acertos), um número de time que explica o momento (rebotes de ataque, erros, bola de três). Se nada mudou, 2 linhas curtas bastam.
 - **Fim do 1º quarto:** placar e o destaque do quarto.
-- **Intervalo:** placar, cestinha de cada time e o que decidiu o 1º tempo.
+- **Intervalo:** placar, cestinha de cada time e o que decidiu o 1º tempo, com o cartaz `placar` do intervalo num post só (`cartaz.py placar ... --contexto "Intervalo" --frase "..."`, push e a URL raw do GitHub). No X, post com imagem tem ido melhor que só texto.
 - **Fim do 3º quarto:** placar e o que o 3º quarto mudou (parcial do quarto, se o placar por quarto vier).
-- **Reta final** (4º quarto entre 6 e 2min30 para o fim): diferença de até 5 pontos é jogo de clutch; a campanha no clutch (registro `fios`) entra como apoio. Jogo resolvido: um comentário curto e honesto. Faltando menos de 2min30, pule e espere o fim.
+- **Reta final** (4º quarto entre 6 e 2min30 para o fim): diferença de até 5 pontos é jogo de clutch; a campanha no clutch (registro `fios`) entra como apoio. Jogo resolvido: um comentário curto e honesto. Faltando menos de 2min30, pule para o `clutch`.
+- **Clutch** (`clutch`: 4º quarto com 1min30 ou menos): só se a diferença for de até 5 pontos. Placar, o tempo que falta e quem está decidindo ("Faltam 48 segundos: 76ers 130 x 129 Bucks. Herro tem 50, Embiid tem 24."). Diferença maior com mais de 30 segundos: confira de novo em 2 minutos, porque o jogo pode apertar; senão, pule para o fim. Em 21/11 o jogo estava 130 x 129 com 4 segundos e não teve comentário: é o momento que mais prende quem está acompanhando.
+- **Em qualquer momento, puxe o assunto do dia** se ele aconteceu desde o último comentário: jogador do 76ers chegando a 30, 40 ou 50 pontos, triplo-duplo, sequência de 10 a 0 ou mais, virada no 4º quarto, estreia (Barlow em 21/11).
 - **Prorrogação:** um comentário no fim do tempo normal e o fim de jogo depois.
-- **Segundos finais** (4º quarto com menos de 1 minuto): já faça o cartaz, o story e o vídeo com o placar do momento, sem push, e confira de novo em 1 ou 2 minutos. Se o placar final for o mesmo, é só publicar; se mudar, refaça. Em 21/11 isso pôs o placar no ar 3 minutos depois do fim.
+- **Segundos finais** (4º quarto com menos de 1 minuto): já faça o cartaz, o story e o carrossel do TikTok com o placar do momento, sem push, e confira de novo em 1 ou 2 minutos. Se o placar final for o mesmo, é só publicar; se mudar, refaça. Em 21/11 isso pôs o placar no ar 3 minutos depois do fim.
 - **Fim de jogo** (status complete ou closed): é o pós-jogo, feito na hora por esta rodada. Antes de começar, grave `rodadas.posjogo` = "AAAA-MM-DD HH:MM em andamento (Claude na conversa)" e faça push, para a rodada da 0h51 não repetir. No X, o placar sai com o cartaz, num post só. Instagram, story e TikTok seguem `posjogo.md` e o limite de feed do dia (feed cheio: o post do feed vai para 0h01, e o story sai na hora). No fim, registre em `rodadas.aovivo` o que saiu.
 
 ## Limite
 
-No máximo 7 comentários por jogo, fora o placar final. Eles não contam no limite de posts do X do dia.
+No máximo 10 comentários por jogo, fora o placar final (os 9 momentos e 1 de prorrogação). Eles não contam no limite de posts do X do dia. Com tantos, varie: alguns de 2 linhas, um ou dois com pergunta curta e opções ("Quem decide hoje: Embiid ou Maxey?"), nunca a mesma abertura duas vezes seguidas.

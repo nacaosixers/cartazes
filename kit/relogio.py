@@ -4,14 +4,15 @@
 Uso (com o que o fetch_sports_data devolveu):
   python3 kit/relogio.py --momento q1 --status inprogress --quarto 1 --relogio 5:12
 
-Momentos, na ordem: bola, q1, intervalo, q3, reta, fim.
+Momentos, na ordem: bola, meio1, q1, meio2, intervalo, meio3, q3, reta, clutch, fim.
+(meio = metade do quarto, com uns 6 minutos no relógio; clutch = último minuto e meio do 4º quarto.)
 Saída, uma linha:
   agora       poste o comentário desse momento
   esperar N   marque send_later para daqui a N minutos e termine
   passou      o momento já passou: não poste, siga para o próximo
 
-Fatores (minutos reais por minuto de jogo) medidos em Magic x 76ers, 18/11:
-1º quarto 2,2; 2º 2,8; 3º 2,3; 4º 2,6, e os 2 últimos minutos levam uns 9 minutos.
+Fatores (minutos reais por minuto de jogo) medidos em Magic x 76ers, 18/11, e conferidos em 76ers x Bucks, 21/11:
+1º quarto 2,2; 2º 2,8; 3º 2,3; 4º 2,6, e os 2 últimos minutos levam de 9 a 15 minutos (jogo apertado demora mais).
 Intervalo de 15 minutos; troca de quarto, 2. Ajuste FATOR se os jogos mostrarem outro ritmo.
 """
 import argparse
@@ -43,6 +44,21 @@ def esperar(n):
     return f"esperar {max(MIN_ESPERA, round(n - FOLGA))}"
 
 
+MEIO_MAX, MEIO_MIN = 7, 4   # janela do "meio do quarto": entre 7 e 4 minutos no relógio
+
+
+def meio(qalvo, q, c):
+    """Metade do quarto qalvo (uns 6 minutos no relógio)."""
+    if q == qalvo:
+        if c > MEIO_MAX:
+            return esperar((c - 6) * FATOR[qalvo])
+        return "agora" if c >= MEIO_MIN else "passou"
+    if q == qalvo - 1:
+        pausa = INTERVALO if qalvo == 3 else TROCA
+        return esperar(ate_fim_do_quarto(q, c) + pausa + 6 * FATOR[qalvo])
+    return "passou" if q > qalvo else esperar(10)
+
+
 def decide(momento, status, q, c):
     if status in ("scheduled", "created"):
         return "esperar 3" if momento == "bola" else "esperar 10"
@@ -53,8 +69,10 @@ def decide(momento, status, q, c):
     if status == "halftime":
         if momento == "intervalo":
             return "agora"
-        if momento in ("bola", "q1"):
+        if momento in ("bola", "meio1", "q1", "meio2"):
             return "passou"
+        if momento == "meio3":
+            return "esperar 14"  # não se sabe quanto do intervalo já passou: reconfira com o relógio do 3º quarto
         if momento == "q3":
             return "esperar 25"  # não se sabe quanto do intervalo já passou: reconfira com o relógio do 3º quarto
         return "esperar 40"
@@ -62,6 +80,24 @@ def decide(momento, status, q, c):
     # jogo rolando
     if momento == "bola":
         return "agora" if q == 1 else "passou"
+
+    if momento == "meio1":
+        return meio(1, q, c)
+    if momento == "meio2":
+        return meio(2, q, c)
+    if momento == "meio3":
+        return meio(3, q, c)
+
+    if momento == "clutch":  # último minuto e meio do 4º quarto (o texto só sai se a diferença for de até 5)
+        if q <= 3:
+            return esperar(ate_fim_do_quarto(q, c) + TROCA + 10 * FATOR[4])
+        if q == 4:
+            if c > 2.5:
+                return esperar((c - 2.5) * FATOR[4] + 4)
+            if c > 1.5:
+                return esperar((c - 1.5) * 4)
+            return "agora" if c > 0 else "passou"
+        return "passou"
 
     if momento == "q1":
         if q == 1:
@@ -109,7 +145,7 @@ def decide(momento, status, q, c):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--momento", required=True, choices=["bola", "q1", "intervalo", "q3", "reta", "fim"])
+    ap.add_argument("--momento", required=True, choices=["bola", "meio1", "q1", "meio2", "intervalo", "meio3", "q3", "reta", "clutch", "fim"])
     ap.add_argument("--status", required=True)
     ap.add_argument("--quarto", type=int, default=0)
     ap.add_argument("--relogio", default="12:00")

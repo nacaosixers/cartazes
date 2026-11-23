@@ -1159,5 +1159,35 @@
       "instagram": 32,
       "fonte": "prints dos perfis enviados pelo Rodrigo"
     }
+  ],
+  "testes": [
+    {
+      "desde": "2026-11-23",
+      "ate": "2026-11-29",
+      "teste": "TikTok: Raio-X e placar do pós-jogo em carrossel, 1 vídeo por dia",
+      "base": "21 e 22/11 sem impulso: carrossel 104 visualizações e 3,1 s; vídeo 70 e 1,5 s",
+      "medir": "visualizações e averageTimeWatched dos carrosséis e vídeos de 23 a 29/11"
+    },
+    {
+      "desde": "2026-11-23",
+      "ate": "2026-11-29",
+      "teste": "Ao vivo com até 10 comentários por jogo (meio dos quartos e clutch) e cartaz no intervalo",
+      "base": "18 e 21/11: 146 impressões por comentário, média do X 84; X com 134 seguidores em 20/11",
+      "medir": "impressões por comentário e seguidores do X no print de segunda"
+    },
+    {
+      "desde": "2026-11-23",
+      "ate": "2026-11-29",
+      "teste": "Aquecimento no X 1 hora antes de cada jogo",
+      "base": "pré-jogo no X: 212 impressões em média até 22/11",
+      "medir": "impressões do aquecimento e dos comentários ao vivo do mesmo jogo"
+    },
+    {
+      "desde": "2026-11-23",
+      "ate": "2026-11-29",
+      "teste": "Instagram: pelo menos 2 Reels por dia quando houver 2 vídeos, mantendo 4 posts no feed",
+      "base": "20 a 22/11: Reel alcançou 20 a 43 contas; carrossel e foto, 2 a 6",
+      "medir": "alcance (reach) por formato e seguidores no print de segunda"
+    }
   ]
 }

@@ -78,6 +78,7 @@ Nunca use shareNow. Nunca edite nem apague post que não foi você que criou na 
 
 Pedido do Rodrigo em 20/11: aumentar o engajamento no Instagram sem diminuir os posts. De 10 a 19/11 foram 65 posts e stories, 13 visualizações em média e nenhum comentário; o Reel (21) e o carrossel (20) chegaram a mais gente que o cartaz parado (14) e o story (10). A quantidade fica; muda o formato e o convite à conversa.
 
+- O Reel é o único formato que chega a quem não segue: de 20 a 22/11, os Reels alcançaram de 20 a 43 contas; carrossel e foto, de 2 a 6 (o perfil tem 32 seguidores). Sempre que houver vídeo pronto, ele entra como Reel; dos 4 posts do feed, pelo menos 2 são Reels quando o dia tiver 2 vídeos.
 - Reel e carrossel no lugar de cartaz solto sempre que der. Cartaz solto no feed só para notícia urgente e citação. Todo dia tem o reel extra da grade (`manha.md`): o vídeo do TikTok da véspera que ainda não saiu no Instagram.
 - Carrossel fecha com uma foto de pergunta: cartaz `cartaz` com a pergunta e 2 ou 3 opções ("Quem decide hoje? Maxey, Embiid ou Edgecombe").
 - Legenda: a primeira linha é o gancho; a última é uma pergunta concreta, com opções, ligada ao post. Nunca "comenta SIM se..." nem pedido de curtida: o Instagram rebaixa isca de engajamento.
@@ -92,10 +93,11 @@ Pedido do Rodrigo em 20/11: aumentar o engajamento no Instagram sem diminuir os 
 - O que os números de 10 a 19/11 mostraram (painel Raio-X das Redes da Nação): os vídeos que mais seguraram gente foram Adivinha quem é, Quem é quem e o placar em vídeo do Pacers (6 segundos assistidos); o resto ficou em 1 a 2 segundos. Quem não entende o primeiro quadro na hora, passa. Por isso: vídeo curto, uma ideia só, gancho grande.
 - Pergunta com opções escrita no vídeo, na última cena antes do "Segue a Nação" ("Quem decide: A) Embiid B) Maxey C) Edgecombe?"), e a legenda pede a letra nos comentários. "Comenta" sozinho não trouxe comentário: foi 1 em 26 posts.
 - Pré-jogo no TikTok só em carrossel, nunca em vídeo "Hoje tem".
+- **Teste de 23 a 29/11 (registro `testes`): carrossel primeiro.** Sem impulso, em 21 e 22/11, os carrosséis tiveram 104 visualizações em média e 3,1 segundos assistidos; os vídeos, 70 e 1,5 s. O vídeo mais curto (13 s) não mudou o tempo assistido. Nesta semana, o Raio-X e o placar do pós-jogo saem em carrossel; fica 1 vídeo por dia (o formato só do TikTok, ou o reel do dia de jogo). Sem impulso desde 19/11, o alcance médio caiu de uns 200 para menos de 100 por post.
 - Até 3 posts por dia, fora dos limites do Instagram:
   1. O reel do dia (Raio-X, história do confronto, duelo, número ou curiosidade; nunca repete o gancho do carrossel). No dia seguinte a um jogo, o reel do Raio-X sai às 12h, ou às 11h se o jogo acabou antes das 18h (conteúdo de jogo envelhece rápido no TikTok: nada sobre um jogo sai lá mais de 18 horas depois do fim). Nos outros dias, às 18h.
   2. Um carrossel de fotos (às 12h, ou às 18h no dia seguinte a um jogo): os cartazes do Raio-X, do número do dia ou de uma notícia, passados pelo `story.py`. A primeira foto é o gancho; a legenda termina com uma pergunta.
-  3. Nos dias de jogo, o placar em vídeo logo depois do fim (turno de pós-jogo). Nos outros dias, um formato só do TikTok às 21h30.
+  3. Nos dias de jogo, o placar em carrossel logo depois do fim (teste de 23 a 29/11; antes era vídeo). Nos outros dias, um formato só do TikTok às 21h30.
 - Formatos só do TikTok (reel de 3 ou 4 cenas):
   - "Adivinha quem é": 3 pistas com números de um jogador do 76ers, atual ou histórico; a resposta só na última cena. Legenda: "Acertou? Comenta antes de ver o fim."
   - "Você sabia?": uma curiosidade histórica do 76ers, com duas fontes.
@@ -131,7 +133,7 @@ Em 16/11 as rodadas automáticas das 7h51 e das 10h37 ficaram presas na platafor
 - Toda rodada grava em `estado/registro.json`, chave `rodadas`, quando começou e quando terminou: `"manha": "AAAA-MM-DD HH:MM em andamento"` no começo e `"... feito"` no fim (o mesmo para `vigia`, `radar` e `posjogo`). Commit e push logo no começo, para as outras rodadas verem.
 - O vigia (9h17, `vigia.md`) confere `rodadas.manha`. Se a manhã não rodou, ele faz o dia.
 - O radar das 12h51 confere de novo (passo 0 do `radar.md`).
-- Placar logo depois do fim e comentários ao vivo no X, em todo jogo: `aovivo.md` (combinado em 19/11, comentários em todo jogo desde 20/11). Quem roda é o Claude na conversa; os jogos marcados ficam em `aovivo_agenda` no registro.
+- Placar logo depois do fim e comentários ao vivo no X, em todo jogo: `aovivo.md` (combinado em 19/11, comentários em todo jogo desde 20/11, até 10 por jogo desde 23/11, com o meio dos quartos e o clutch). Quem roda é o Claude na conversa; os jogos marcados ficam em `aovivo_agenda` no registro.
 - Uma rodada atrasada que encontra o dia já feito termina sem fazer nada, mesmo que a mensagem que a disparou peça o contrário. Assim nunca sai post duplicado.
 - Quem refizer a manhã escreve na central `motor.texto` = "A rodada das 7h51 não rodou; o [vigia ou radar] fez o dia às HH:MM." e avisa o Rodrigo em uma linha.
 
