@@ -168,15 +168,18 @@ def placar(a):
         return f"""<div style="display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:8px solid {AZUL};padding:10px 0 16px">
 <span class="{font} ln fill" data-w="470" data-max="150" style="color:{col};{op}">{E(n)}</span>
 <span class="an" style="font-size:300px;line-height:.86;{op}">{p}</span></div>"""
-    label = "Vitória" if win else "Derrota" if s_pts is not None else "Final"
-    sc = VERMELHO if win else AZUL
+    # placar parcial (ex.: --contexto "Intervalo"): carimbo com o momento, sem vitória ou derrota
+    parcial = bool(a.contexto) and a.contexto.strip().lower() not in ("fim de jogo", "final", "placar final")
+    label = a.contexto.strip() if parcial else "Vitória" if win else "Derrota" if s_pts is not None else "Final"
+    sc = AZUL if parcial else VERMELHO if win else AZUL
     stamp = f"""<div class="an" style="transform:rotate(-7deg);border:8px solid {sc};outline:3px solid {sc};outline-offset:7px;padding:8px 26px 4px;color:{sc};font-size:92px;letter-spacing:.05em;line-height:1;margin-right:14px">{label}</div>"""
     frase = f"""<div class="fx" style="margin-top:44px;font-weight:700;font-size:48px;line-height:1.25;border-left:10px solid {VERMELHO};padding-left:26px">{E(a.frase)}</div>""" if a.frase else ""
     inner = f"""<div style="display:flex;justify-content:space-between;align-items:center;gap:24px;padding-bottom:34px">
 <div style="display:flex;flex-direction:column;gap:8px"><span class="an" style="font-size:96px;line-height:.9">Placar</span>
 <span class="up" style="font-weight:800;font-size:26px;letter-spacing:.1em">{E(a.liga)} · {E(a.contexto or 'Fim de jogo')}</span></div>{stamp}</div>
 {row(a.mandante, pm, pv)}{row(a.visitante, pv, pm)}{frase}"""
-    return frame(PAPEL["branco"], a.data or "Placar final", "Placar final · horário de Brasília", main_box(inner))
+    rodape = "Placar parcial · horário de Brasília" if parcial else "Placar final · horário de Brasília"
+    return frame(PAPEL["branco"], a.data or ("Placar" if parcial else "Placar final"), rodape, main_box(inner))
 
 
 def direto(a):
