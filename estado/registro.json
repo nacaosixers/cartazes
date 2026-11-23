@@ -175,6 +175,12 @@
       "titulo": "Relatório 76ers x Bucks: Maxey dúvida, Brown e Wade fora, Barlow provável",
       "data": "2026-11-21",
       "status": "agendado"
+    },
+    {
+      "url": "https://www.phillyvoice.com/sixers-news-76ers-analysis-injury-report-update-trail-blazers-jaylen-brown-dean-wade-adem-bona-ja-morant-nba/",
+      "titulo": "Relatório 76ers x Blazers: Brown, Wade e Bona prováveis; Morant fora",
+      "data": "2026-11-23",
+      "status": "agendado"
     }
   ],
   "curiosidades": [
@@ -221,6 +227,10 @@
     {
       "tema": "Você sabia? 46-4 do 76ers de 1966-67",
       "data": "2026-11-22"
+    },
+    {
+      "tema": "História: final de 1977 contra o Portland (2 a 0 e 4 derrotas seguidas)",
+      "data": "2026-11-23"
     }
   ],
   "reels": [
@@ -283,6 +293,10 @@
     {
       "tema": "Você sabia? 46-4 em 1966-67",
       "data": "2026-11-22"
+    },
+    {
+      "tema": "História 76ers x Trail Blazers: final de 1977, 2 a 0 e Portland 4-2, Walton MVP",
+      "data": "2026-11-23"
     }
   ],
   "prejogos": [
@@ -301,6 +315,10 @@
     {
       "jogo": "Magic x 76ers",
       "data": "2026-11-18"
+    },
+    {
+      "jogo": "76ers x Trail Blazers",
+      "data": "2026-11-23"
     }
   ],
   "posjogo": [
@@ -473,6 +491,16 @@
       "formato": "Você sabia?",
       "tema": "1966-67: 46-4, 68-13 e o fim dos 8 títulos do Celtics",
       "data": "2026-11-22"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "Pré-jogo 76ers x Blazers: capa, comparativo, prejogo, Brown provável, palpite",
+      "data": "2026-11-23"
+    },
+    {
+      "formato": "História do confronto",
+      "tema": "1977: 2 a 0 e o título escapou",
+      "data": "2026-11-23"
     }
   ],
   "agendas": [
@@ -566,6 +594,11 @@
       "estilo": "lofi",
       "video": "reel-vocesabia-1967.mp4",
       "data": "2026-11-22"
+    },
+    {
+      "estilo": "arena",
+      "video": "reel-historia-blazers.mp4",
+      "data": "2026-11-23"
     }
   ],
   "fatos": [
@@ -793,10 +826,35 @@
       "fato": "1966-67: começo 46-4, 68-13, campeão (4-1 no Celtics octacampeão, 4-2 no Warriors), Chamberlain MVP (NBA.com, Inquirer)",
       "canal": "tiktok, instagram story",
       "data": "2026-11-22"
+    },
+    {
+      "fato": "Pré-jogo Blazers: 76ers 14-3, 5 seguidas; Blazers 10-6 (Yahoo/Heavy, Sports Mole, Rip City Radio)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-23"
+    },
+    {
+      "fato": "Relatório: Brown, Wade e Bona prováveis; Morant fora no Blazers (PhillyVoice, Adam Aaronson)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-23"
+    },
+    {
+      "fato": "Comparativo Blazers: 115,5/112,6 x 116,1/110,3; três por jogo 12,1 x 15,4 (Rip City Radio)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-23"
+    },
+    {
+      "fato": "Simons: 7 temporadas no Portland, troca de 2025 com o Boston por Jrue Holiday (Sports Mole, NBA.com, CBS)",
+      "canal": "instagram",
+      "data": "2026-11-23"
+    },
+    {
+      "fato": "Final de 1977: 76ers 2-0, Portland ganhou 4 seguidas, 4-2, Walton MVP (Basketball-Reference, NBA.com, Inquirer)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-23"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-23 07:55 em andamento",
+    "manha": "2026-11-23 08:22 feito (11 posts agendados: X 12h, 15h30, 16h30, 18h; Instagram 12h, 15h, 18h e stories 13h30 e 20h; TikTok 12h e 18h). Ao vivo e placar do Blazers pela corrente do ao vivo (aovivo_agenda). Balanço da semana na central. Promoção indicada: carrossel LeBron 24 e Você sabia 46-4.",
     "radar": "2026-11-22 17:58 feito (sem pauta nova: nada publicado desde o radar das 12h58; relatório de lesões de 76ers x Trail Blazers ainda não saiu; canais conectados)",
     "posjogo": "2026-11-21 17:39 feito pelo Claude na conversa (76ers x Bucks: X com cartaz, feed e story do Instagram, TikTok)",
     "aovivo": "2026-11-21 feito pelo Claude na conversa: 5 comentários ao vivo no X (15h14 começo, 15h35 fim do 1º, 16h11 intervalo, 16h50 fim do 3º, 17h08 reta final) e o placar com cartaz às 17h39. O scores ficou em 'created' com o jogo rolando: o relógio saiu do game_stats.",
@@ -805,80 +863,66 @@
   "plano": [
     {
       "canal": "x",
-      "hora": "11h",
-      "formato": "agenda (azul)",
-      "gancho": "Agenda do 76ers na semana",
-      "fato": "4 jogos de 23 a 28/11"
+      "hora": "12h",
+      "formato": "capa azul + prejogo (2 imagens)",
+      "gancho": "Hoje tem 76ers x Trail Blazers",
+      "fato": "14-3 e 5 seguidas x 10-6; Brown provável"
     },
     {
       "canal": "instagram",
-      "hora": "11h",
-      "formato": "carrossel (agenda azul, pergunta amarela)",
-      "gancho": "A semana do 76ers: quatro jogos",
-      "fato": "agenda 23 a 28/11"
+      "hora": "12h",
+      "formato": "carrossel pré-jogo (5, capa azul)",
+      "gancho": "Hoje tem 76ers x Trail Blazers",
+      "fato": "pré-jogo, relatório, comparativo, palpite"
     },
     {
       "canal": "tiktok",
-      "hora": "11h",
-      "formato": "reel Raio-X (gancho amarelo, trap)",
-      "gancho": "Herro fez 50 e o 76ers venceu",
-      "fato": "38 no terceiro quarto, 30 do banco"
+      "hora": "12h",
+      "formato": "carrossel (5, capa azul)",
+      "gancho": "76ers x Trail Blazers hoje",
+      "fato": "pré-jogo, comparativo, Brown provável"
     },
     {
       "canal": "instagram story",
-      "hora": "11h",
-      "formato": "cartaz (branco)",
-      "gancho": "Segunda tem Trail Blazers",
-      "fato": "pergunta do placar"
+      "hora": "13h30",
+      "formato": "cartaz azul",
+      "gancho": "Quem ganha a linha de três?",
+      "fato": "15,4 x 12,1"
+    },
+    {
+      "canal": "instagram",
+      "hora": "15h",
+      "formato": "carrossel reencontro (numero azul + pergunta)",
+      "gancho": "Anfernee Simons reencontra o Portland",
+      "fato": "7 temporadas no Portland"
     },
     {
       "canal": "x",
-      "hora": "12h",
-      "formato": "Raio-X 4 imagens (capa amarela)",
-      "gancho": "Raio-X de 76ers 132 x 129 Bucks",
-      "fato": "38, 30, 37"
+      "hora": "15h30",
+      "formato": "manchete Notícia",
+      "gancho": "Jaylen Brown deve voltar hoje",
+      "fato": "Brown, Wade e Bona prováveis (PhillyVoice, Aaronson)"
     },
     {
-      "canal": "instagram",
-      "hora": "12h30",
-      "formato": "carrossel Raio-X (6)",
-      "gancho": "Raio-X de 76ers 132 x 129 Bucks",
-      "fato": "38, 30, 37 e o que fica"
+      "canal": "x",
+      "hora": "16h30",
+      "formato": "comparativo",
+      "gancho": "76ers x Trail Blazers em números",
+      "fato": "linha de três 15,4 x 12,1"
     },
     {
-      "canal": "x, instagram",
-      "hora": "16h",
-      "formato": "número do dia (azul); carrossel no Instagram",
-      "gancho": "LeBron James está na 24ª temporada",
-      "fato": "24 temporadas, recorde; 21/6/6/3 contra o Bucks"
-    },
-    {
-      "canal": "tiktok",
+      "canal": "x, instagram reel, tiktok",
       "hora": "18h",
-      "formato": "carrossel (azul)",
-      "gancho": "LeBron James, 24 temporadas",
-      "fato": "24 temporadas"
-    },
-    {
-      "canal": "x, instagram reel",
-      "hora": "19h30",
-      "formato": "reel Na Filadélfia (gancho amarelo, house)",
-      "gancho": "14-3 e o 76ers saiu cobrando",
-      "fato": "Nurse, LeBron e Maxey cobram o fim de jogo (ESPN)"
+      "formato": "reel história (gancho amarelo, arena)",
+      "gancho": "1977: 2 a 0 e o título escapou",
+      "fato": "final de 1977, Portland 4-2, Walton MVP"
     },
     {
       "canal": "instagram story",
-      "hora": "20h30",
-      "formato": "numero (azul)",
-      "gancho": "46-4",
-      "fato": "1966-67"
-    },
-    {
-      "canal": "tiktok",
-      "hora": "21h30",
-      "formato": "Você sabia? (gancho amarelo, lofi)",
-      "gancho": "46-4, o começo mais louco do 76ers",
-      "fato": "1966-67: 46-4, 68-13, campeão"
+      "hora": "20h",
+      "formato": "cartaz amarelo",
+      "gancho": "Quem é o cestinha?",
+      "fato": "Maxey, Embiid ou Brown"
     }
   ],
   "fios": [
