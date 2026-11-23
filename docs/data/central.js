@@ -1,9 +1,9 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "segunda, 23/11, às 08h20",
+ "atualizado": "segunda, 23/11, às 17h55",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: manhã, 08h20."
+  "texto": "Ligado. Última rodada: radar, 17h55."
  },
  "campanha": "14 vitórias e 3 derrotas",
  "hoje": {
@@ -28,7 +28,7 @@ window.CENTRAL = {
     "img": "img/hoje/manchete-brown.png",
     "arquivo": "manchete-brown.png",
     "x": "Jaylen Brown deve voltar hoje contra o Portland. 🏀\n\nSegundo Adam Aaronson, da PhillyVoice, Brown (posterior da coxa), Dean Wade e Adem Bona aparecem como prováveis no relatório do 76ers. Brown perdeu os 2 últimos jogos.\n\nNo Blazers, Ja Morant segue fora.",
-    "obs": "PhillyVoice (Adam Aaronson, 22/11) e CBS/RotoWire. O radar das 17h51 confere o relatório final.",
+    "obs": "PhillyVoice (Adam Aaronson, 22/11) e CBS/RotoWire. Radar das 17h51: Embiid entrou no relatório como dúvida (PhillyVoice, 23/11); o aviso de 1 hora antes no X (20h) foi corrigido com isso.",
     "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-23/manchete-brown.png"
    },
    {
@@ -123,7 +123,7 @@ window.CENTRAL = {
   "jogo": "76ers x Trail Blazers",
   "pontos": [
    "76ers 14-3, 5 vitórias seguidas e 12-0 no clutch (Yahoo/Heavy); Blazers 10-6, perdeu 3 dos últimos 5 e fecha uma viagem de 6 jogos fora (Sports Mole).",
-   "Lesões: Jaylen Brown, Dean Wade e Adem Bona prováveis (PhillyVoice); Hukporti fora da temporada. Blazers sem Ja Morant, Shaedon Sharpe e Vit Krejci (Rip City Radio).",
+   "Lesões: Joel Embiid virou dúvida depois do treino da manhã (PhillyVoice, 23/11, 12h05 de Nova York); Jaylen Brown, Dean Wade e Adem Bona prováveis; Hukporti fora da temporada. Blazers sem Ja Morant, Shaedon Sharpe e Vit Krejci (Rip City Radio).",
    "Médias: Maxey 25,9, Brown 22,6, Embiid 20,4 e 8,9 rebotes. Do outro lado, Deni Avdija 23,9 e 6,0 assistências, Damian Lillard 20,6, Donovan Clingan 10,9 rebotes.",
    "Perímetro: o Blazers acerta 15,4 bolas de três por jogo (segundo da NBA); o 76ers, 12,1. O 76ers erra só 12,1 bolas por jogo, o Blazers 16,4 (Sports Mole).",
    "Reencontro: Anfernee Simons, 7 temporadas no Portland. Última vez na Filadélfia: 76ers 109 x 103 em 15/3/2026."
@@ -135,6 +135,10 @@ window.CENTRAL = {
    "Reta final: clutch, 12-0"
   ],
   "fontes": [
+   {
+    "t": "PhillyVoice: Embiid dúvida",
+    "u": "https://phillyvoice.com/sixers-news-76ers-analysis-joel-embiid-downgraded-questionable-sixers-vs-trail-blazers-nba-rumors"
+   },
    {
     "t": "PhillyVoice",
     "u": "https://www.phillyvoice.com/sixers-news-76ers-analysis-injury-report-update-trail-blazers-jaylen-brown-dean-wade-adem-bona-ja-morant-nba/"

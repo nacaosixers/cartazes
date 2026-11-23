@@ -181,6 +181,12 @@
       "titulo": "Relatório 76ers x Blazers: Brown, Wade e Bona prováveis; Morant fora",
       "data": "2026-11-23",
       "status": "agendado"
+    },
+    {
+      "url": "https://phillyvoice.com/sixers-news-76ers-analysis-joel-embiid-downgraded-questionable-sixers-vs-trail-blazers-nba-rumors",
+      "titulo": "Embiid vira dúvida contra o Blazers (entrou no relatório depois do treino da manhã)",
+      "data": "2026-11-23",
+      "status": "usado no aviso de 1 hora (X) e na cola"
     }
   ],
   "curiosidades": [
@@ -855,7 +861,7 @@
   ],
   "rodadas": {
     "manha": "2026-11-23 08:22 feito (11 posts agendados: X 12h, 15h30, 16h30, 18h; Instagram 12h, 15h, 18h e stories 13h30 e 20h; TikTok 12h e 18h). Ao vivo e placar do Blazers pela corrente do ao vivo (aovivo_agenda). Balanço da semana na central. Promoção indicada: carrossel LeBron 24 e Você sabia 46-4.",
-    "radar": "2026-11-23 17:53 em andamento",
+    "radar": "2026-11-23 17:58 feito (Embiid dúvida no relatório, PhillyVoice 23/11: aviso de 1 hora no X corrigido com edit_post; cola atualizada; sem post novo; canais conectados)",
     "posjogo": "2026-11-21 17:39 feito pelo Claude na conversa (76ers x Bucks: X com cartaz, feed e story do Instagram, TikTok)",
     "aovivo": "2026-11-21 feito pelo Claude na conversa: 5 comentários ao vivo no X (15h14 começo, 15h35 fim do 1º, 16h11 intervalo, 16h50 fim do 3º, 17h08 reta final) e o placar com cartaz às 17h39. O scores ficou em 'created' com o jogo rolando: o relógio saiu do game_stats.",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
