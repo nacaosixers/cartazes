@@ -1,0 +1,5 @@
+{"cenas": [
+ {"papel": "amarelo", "kicker": "Adivinha quem é", "linhas": [["Adivinha", "as", "vermelho", 320], ["a lenda do 76ers", "an", "azul", 200]]},
+ {"papel": "branco", "kicker": "A pista", "numero": "7079", "rotulo": "rebotes pelo 76ers", "texto": "A) Barkley B) Malone C) Iverson?"},
+ {"papel": "azul", "kicker": "Resposta", "linhas": [["Charles Barkley", "as", "amarelo", 300], ["Sir Charles", "an", "creme", 240]]}
+], "cta": true, "trilha": true, "estilo": "pop", "semente": 2411}
