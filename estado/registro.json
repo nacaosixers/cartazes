@@ -77,6 +77,12 @@
       "data_jogo": "2026-11-21",
       "tiktok": "2026-11-22 11h",
       "carrossel": "2026-11-22 12h (X), 12h30 (Instagram)"
+    },
+    {
+      "jogo": "76ers 111 x 128 Trail Blazers",
+      "data_jogo": "2026-11-23",
+      "tiktok": "2026-11-24 12h (carrossel)",
+      "carrossel": "2026-11-24 12h"
     }
   ],
   "noticias": [
@@ -193,6 +199,12 @@
       "titulo": "Embiid vira dúvida contra o Blazers (entrou no relatório depois do treino da manhã)",
       "data": "2026-11-23",
       "status": "usado no aviso de 1 hora (X) e na cola"
+    },
+    {
+      "url": "https://www.inquirer.com/sixers/sixers-blazers-score-lebron-james-jaylen-brown-deni-avdija-20261123.html",
+      "titulo": "Inquirer: defesa em 29º nos últimos 6 jogos; Blazers 128 x 111",
+      "data": "2026-11-24",
+      "status": "usado no Raio-X"
     }
   ],
   "curiosidades": [
@@ -243,6 +255,10 @@
     {
       "tema": "História: final de 1977 contra o Portland (2 a 0 e 4 derrotas seguidas)",
       "data": "2026-11-23"
+    },
+    {
+      "tema": "Número do dia: 6 viradas de 10+ em 14 vitórias",
+      "data": "2026-11-24"
     }
   ],
   "reels": [
@@ -309,6 +325,10 @@
     {
       "tema": "História 76ers x Trail Blazers: final de 1977, 2 a 0 e Portland 4-2, Walton MVP",
       "data": "2026-11-23"
+    },
+    {
+      "tema": "Vitrine: Adivinha quem é, Charles Barkley (7.079 rebotes)",
+      "data": "2026-11-24"
     }
   ],
   "prejogos": [
@@ -513,6 +533,21 @@
       "formato": "História do confronto",
       "tema": "1977: 2 a 0 e o título escapou",
       "data": "2026-11-23"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "Raio-X Blazers: 59 a 42, LeBron 23, defesa 122,6",
+      "data": "2026-11-24"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "6 das 14 vitórias foram viradas",
+      "data": "2026-11-24"
+    },
+    {
+      "formato": "Adivinha quem é",
+      "tema": "Charles Barkley (vitrine)",
+      "data": "2026-11-24"
     }
   ],
   "agendas": [
@@ -611,6 +646,11 @@
       "estilo": "arena",
       "video": "reel-historia-blazers.mp4",
       "data": "2026-11-23"
+    },
+    {
+      "estilo": "pop",
+      "video": "reel-vitrine-barkley.mp4",
+      "data": "2026-11-24"
     }
   ],
   "fatos": [
@@ -863,10 +903,30 @@
       "fato": "Final de 1977: 76ers 2-0, Portland ganhou 4 seguidas, 4-2, Walton MVP (Basketball-Reference, NBA.com, Inquirer)",
       "canal": "x, instagram, tiktok",
       "data": "2026-11-23"
+    },
+    {
+      "fato": "Raio-X Blazers: 69 x 69 no intervalo, 59 a 42 no segundo tempo; LeBron 23 (máximo pelo 76ers), 4 de 5 de três (AP, NBC)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-24"
+    },
+    {
+      "fato": "Defesa 29ª nos últimos 6 jogos, 122,6 pontos por 100 posses (Inquirer, Gina Mizell)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-24"
+    },
+    {
+      "fato": "6 das 14 vitórias foram viradas de 10 pontos ou mais (NBC Sports Philadelphia, Cole Weintraub)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-24"
+    },
+    {
+      "fato": "Barkley: 7.079 rebotes pelo 76ers, terceiro do time; 1984-1992; Sir Charles (NBA.com, Land of Basketball)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-24"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-24 07:53 em andamento",
+    "manha": "2026-11-24 08:25 feito (11 posts agendados: X 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e stories 11h e 20h30; TikTok 12h, 18h e 21h30). Sem promoção hoje (pedido ontem). ESPN pediu permissão e não abriu: Raio-X com AP, NBC Sports Philadelphia e Inquirer.",
     "radar": "2026-11-23 17:58 feito (Embiid dúvida no relatório, PhillyVoice 23/11: aviso de 1 hora no X corrigido com edit_post; cola atualizada; sem post novo; canais conectados)",
     "posjogo": "2026-11-23 23:31 feito pelo Claude na conversa: X com cartaz, Instagram feed (carrossel de 4) e story, TikTok (carrossel de 3).",
     "aovivo": "2026-11-23 feito pelo Claude na conversa: 8 comentários ao vivo no X (21h14 começo, 21h23 meio do 1º, 21h39 fim do 1º, 21h58 meio do 2º, 22h11 intervalo com cartaz, 22h38 meio do 3º, 22h52 fim do 3º, 23h13 reta final; clutch pulado) e o placar com cartaz às 23h31.",
@@ -874,67 +934,46 @@
   },
   "plano": [
     {
-      "canal": "x",
+      "canal": "x, instagram, tiktok",
       "hora": "12h",
-      "formato": "capa azul + prejogo (2 imagens)",
-      "gancho": "Hoje tem 76ers x Trail Blazers",
-      "fato": "14-3 e 5 seguidas x 10-6; Brown provável"
+      "formato": "carrossel Raio-X (capa amarela)",
+      "gancho": "Raio-X de 76ers 111 x 128 Trail Blazers",
+      "fato": "59 a 42 no segundo tempo; LeBron 23; defesa 122,6 por 100 posses"
     },
     {
-      "canal": "instagram",
-      "hora": "12h",
-      "formato": "carrossel pré-jogo (5, capa azul)",
-      "gancho": "Hoje tem 76ers x Trail Blazers",
-      "fato": "pré-jogo, relatório, comparativo, palpite"
+      "canal": "instagram story",
+      "hora": "11h",
+      "formato": "cartaz azul",
+      "gancho": "Quem foi o melhor ontem?",
+      "fato": "LeBron 23, Maxey 22, Brown 20"
+    },
+    {
+      "canal": "x, instagram",
+      "hora": "16h",
+      "formato": "número do dia azul (Instagram com pergunta)",
+      "gancho": "6 das 14 vitórias foram viradas de 10+",
+      "fato": "NBC Sports Philadelphia, Cole Weintraub"
     },
     {
       "canal": "tiktok",
-      "hora": "12h",
-      "formato": "carrossel (5, capa azul)",
-      "gancho": "76ers x Trail Blazers hoje",
-      "fato": "pré-jogo, comparativo, Brown provável"
-    },
-    {
-      "canal": "instagram story",
-      "hora": "13h30",
-      "formato": "cartaz azul",
-      "gancho": "Quem ganha a linha de três?",
-      "fato": "15,4 x 12,1"
-    },
-    {
-      "canal": "instagram",
-      "hora": "15h",
-      "formato": "carrossel reencontro (numero azul + pergunta)",
-      "gancho": "Anfernee Simons reencontra o Portland",
-      "fato": "7 temporadas no Portland"
-    },
-    {
-      "canal": "x",
-      "hora": "15h30",
-      "formato": "manchete Notícia",
-      "gancho": "Jaylen Brown deve voltar hoje",
-      "fato": "Brown, Wade e Bona prováveis (PhillyVoice, Aaronson)"
-    },
-    {
-      "canal": "x",
-      "hora": "16h30",
-      "formato": "comparativo",
-      "gancho": "76ers x Trail Blazers em números",
-      "fato": "linha de três 15,4 x 12,1"
+      "hora": "18h",
+      "formato": "carrossel (número azul + pergunta)",
+      "gancho": "6 das 14 vitórias foram viradas",
+      "fato": "idem"
     },
     {
       "canal": "x, instagram reel, tiktok",
-      "hora": "18h",
-      "formato": "reel história (gancho amarelo, arena)",
-      "gancho": "1977: 2 a 0 e o título escapou",
-      "fato": "final de 1977, Portland 4-2, Walton MVP"
+      "hora": "19h30 (TikTok 21h30)",
+      "formato": "vitrine Adivinha quem é (gancho amarelo, pop)",
+      "gancho": "Adivinha a lenda do 76ers",
+      "fato": "Barkley: 7.079 rebotes, terceiro do time"
     },
     {
       "canal": "instagram story",
-      "hora": "20h",
+      "hora": "20h30",
       "formato": "cartaz amarelo",
-      "gancho": "Quem é o cestinha?",
-      "fato": "Maxey, Embiid ou Brown"
+      "gancho": "Quarta tem Heat, seu palpite?",
+      "fato": "76ers x Heat 19h"
     }
   ],
   "fios": [
@@ -977,16 +1016,17 @@
       "fonte": "PhillyVoice (Adam Aaronson, 21/11): 14-3; ESPN (Kris Rhim): melhor começo em 17 jogos desde 2000-01, empatado na melhor campanha da NBA",
       "ultimo_post": "20/11 (número do dia em todos os canais)",
       "proximo_marco": "a definir; 14-2 de 2000-01 ficou para trás"
-    }
-  ],
-  "fila_pautas": [
+    },
     {
-      "pauta": "Adivinha quem é: Charles Barkley (TikTok/vitrine), só com duas fontes (Basketball-Reference e Wikipédia não abriram em 20/11)",
-      "quando": "2026-11-24",
-      "fonte": "a conferir",
-      "sugerida_por": "Claude (manhã)"
+      "fio": "Viradas de 10 pontos ou mais",
+      "valor": "6 das 14 vitórias",
+      "ate": "jogo de 21/11 (Bucks)",
+      "fonte": "NBC Sports Philadelphia (Cole Weintraub, 23/11)",
+      "ultimo_post": "24/11 (número do dia em todos os canais)",
+      "proximo_marco": "só volta com número redondo ou recorde"
     }
   ],
+  "fila_pautas": [],
   "promovidos": [
     {
       "canal": "tiktok",
