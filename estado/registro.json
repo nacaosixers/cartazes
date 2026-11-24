@@ -33,6 +33,12 @@
       "data_jogo": "2026-11-21",
       "publicado": "2026-11-21: X 17h39 (cartaz), Instagram feed e story 17h39, TikTok (vídeo) 17h39, feitos pelo Claude na conversa",
       "obs": "Comentários ao vivo no X em todo jogo (combinado de 20/11): 5 comentários e o placar."
+    },
+    {
+      "jogo": "76ers 111 x 128 Trail Blazers",
+      "data_jogo": "2026-11-23",
+      "publicado": "2026-11-23: X 23h31 (cartaz), Instagram feed em carrossel de 4 (placar, 19 bolas de três, campanha, pergunta) e story 23h31, TikTok em carrossel de 3 23h31, feitos pelo Claude na conversa",
+      "obs": "Primeiro jogo da rota de 23/11: 8 comentários ao vivo no X e o placar; clutch pulado (diferença de 18 a 4min37 do fim). 76ers 14-4, 1º no Leste."
     }
   ],
   "raiox": [
@@ -862,8 +868,8 @@
   "rodadas": {
     "manha": "2026-11-23 08:22 feito (11 posts agendados: X 12h, 15h30, 16h30, 18h; Instagram 12h, 15h, 18h e stories 13h30 e 20h; TikTok 12h e 18h). Ao vivo e placar do Blazers pela corrente do ao vivo (aovivo_agenda). Balanço da semana na central. Promoção indicada: carrossel LeBron 24 e Você sabia 46-4.",
     "radar": "2026-11-23 17:58 feito (Embiid dúvida no relatório, PhillyVoice 23/11: aviso de 1 hora no X corrigido com edit_post; cola atualizada; sem post novo; canais conectados)",
-    "posjogo": "2026-11-23 23:30 em andamento (Claude na conversa, 76ers x Trail Blazers)",
-    "aovivo": "2026-11-21 feito pelo Claude na conversa: 5 comentários ao vivo no X (15h14 começo, 15h35 fim do 1º, 16h11 intervalo, 16h50 fim do 3º, 17h08 reta final) e o placar com cartaz às 17h39. O scores ficou em 'created' com o jogo rolando: o relógio saiu do game_stats.",
+    "posjogo": "2026-11-23 23:31 feito pelo Claude na conversa: X com cartaz, Instagram feed (carrossel de 4) e story, TikTok (carrossel de 3).",
+    "aovivo": "2026-11-23 feito pelo Claude na conversa: 8 comentários ao vivo no X (21h14 começo, 21h23 meio do 1º, 21h39 fim do 1º, 21h58 meio do 2º, 22h11 intervalo com cartaz, 22h38 meio do 3º, 22h52 fim do 3º, 23h13 reta final; clutch pulado) e o placar com cartaz às 23h31.",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
   },
   "plano": [
