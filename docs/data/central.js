@@ -1,63 +1,132 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "terça, 24/11, às 08h20",
+ "atualizado": "quarta, 25/11, às 08h20",
  "motor": {
   "ligado": true,
   "texto": "Ligado. Última rodada: manhã, 08h20."
  },
  "campanha": "14 vitórias e 4 derrotas",
  "hoje": {
-  "data": "Terça, 24/11",
-  "resumo": "Dia seguinte à derrota para o Blazers (111 x 128): Raio-X, o número das viradas (6 de 14) e o vídeo vitrine da semana, Adivinha quem é com Charles Barkley.",
+  "data": "Quarta, 25/11",
+  "resumo": "Dia de 76ers x Heat pela Copa NBA, às 19h, com Embiid improvável: pré-jogo, a coluna do pivô reserva, o confronto em números, a história nos playoffs e o 2001: 25 anos com a virada de Iverson no All-Star.",
   "itens": [
    {
-    "tipo": "Raio-X: 76ers 111 x 128 Trail Blazers",
+    "tipo": "Pré-jogo: 76ers x Heat (Copa NBA)",
     "status": "agendado",
-    "quando": "12h no X (4 imagens), no Instagram (carrossel de 5) e no TikTok (carrossel de 4)",
-    "img": "img/hoje/raiox-blazers-1.png",
-    "arquivo": "raiox-blazers-1.png",
-    "x": "Raio-X de 76ers 111 x 128 Trail Blazers 🔎\n\n69 x 69 no intervalo e 59 a 42 para o Portland no segundo tempo.\nLeBron fez 23, o máximo dele pelo 76ers, com 4 de 5 de três.\nNos últimos 6 jogos, só um time da NBA defendeu pior (Inquirer).\n\nO que preocupa mais: defesa ou banco?",
-    "ig": "Carrossel: capa amarela, 59 a 42 no segundo tempo, LeBron 23, defesa 122,6 por 100 posses e O que fica (Brown 20, primeira derrota para o Oeste, Heat na quarta).",
-    "obs": "Fontes: AP (Dan Gelston), NBC Sports Philadelphia (Noah Levick) e Inquirer (Gina Mizell). A ESPN pediu permissão e não abriu nesta rodada automática; por isso os números vêm das matérias, sem box score completo. A ausência de Embiid ficou fora dos posts: o motivo foi doença, não lesão esportiva.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-24/raiox-blazers-1.png",
+    "quando": "12h no X (capa + pré-jogo), no Instagram (carrossel de 5) e no TikTok (carrossel de 5)",
+    "img": "img/hoje/capa-heat.png",
+    "arquivo": "capa-heat.png",
+    "x": "Hoje tem 76ers x Heat, às 19h de Brasília, na Filadélfia, pela Copa NBA. 🏀\n\nJoel Embiid é improvável, por doença. No Heat, Giannis Antetokounmpo é dúvida (virilha), segundo a PhillyVoice.\n\n76ers com 14-4; Miami com 10-6 e 10 vitórias em 12. Seu palpite?",
+    "ig": "Carrossel: capa azul, pré-jogo, Na Filadélfia (pivô reserva), comparativo e Seu palpite. Com o convite do dia para mandar ao amigo que vai ver o jogo junto.",
+    "obs": "Relatório: PhillyVoice (Adam Aaronson, 24/11): Embiid doubtful por doença; Giannis questionable. Onde assistir no Brasil não confirmado: NBA League Pass. Capa azul porque o último post de cada canal (Barkley) abriu em amarelo.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-25/capa-heat.png",
     "linkTexto": "Ver a capa"
    },
    {
-    "tipo": "Número do dia: 6 viradas",
+    "tipo": "2001: 25 anos: Iverson e a virada do All-Star",
     "status": "agendado",
-    "quando": "16h no X e no Instagram (carrossel com a pergunta A ou B); 18h no TikTok (carrossel)",
-    "img": "img/hoje/numero-viradas-6.png",
-    "arquivo": "numero-viradas-6.png",
-    "x": "6 das 14 vitórias do 76ers nesta temporada foram viradas de 10 pontos ou mais 🔁\n\nO dado é de Cole Weintraub, da NBC Sports Philadelphia. Time que não desiste, mas que vive começando atrás.\n\nQuarta tem Heat, 19h de Brasília. Começar mal ainda é problema?",
-    "obs": "NBC Sports Philadelphia (Cole Weintraub, prévia de 23/11). No Instagram, entrou no lugar do reel extra: o único vídeo de ontem (1977) já tinha saído como Reel.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-24/numero-viradas-6.png"
+    "quando": "14h no X (cartaz); 15h no Instagram (Reel extra)",
+    "img": "img/hoje/numero-2001-allstar.png",
+    "arquivo": "numero-2001-allstar.png",
+    "x": "Allen Iverson e a virada do All-Star de 2001. 🏀\n\nO Leste perdia por 21 a 9 minutos do fim. Iverson fez 15 dos seus 25 pontos nessa reta, o Leste ganhou 111 a 110 e ele foi o MVP. O técnico: Larry Brown, do 76ers.\n\n(NBA.com e NBC Sports Philadelphia)",
+    "obs": "Três fontes batem: NBA.com, NBC Sports Philadelphia e Wikipedia. Reel de 13,2 s, trilha lofi, capa_ms 500. Entrou no lugar do reel extra: o vídeo de ontem (Barkley) já saiu como Reel.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-25/reel-2001-allstar.mp4",
+    "linkTexto": "Ver o vídeo"
    },
    {
-    "tipo": "Vitrine: Adivinha quem é (Charles Barkley)",
+    "tipo": "Na Filadélfia: falta um pivô reserva (Opinião)",
     "status": "agendado",
-    "quando": "19h30 no X e no Instagram (Reels); 21h30 no TikTok",
+    "quando": "15h30 no X; no Instagram e no TikTok, dentro do carrossel das 12h",
+    "img": "img/hoje/manchete-pivo.png",
+    "arquivo": "manchete-pivo.png",
+    "x": "OPINIÃO na Filadélfia: o 76ers precisa de um pivô reserva, custe o que custar. 🗞️\n\nÉ a coluna de David Murphy, do Philadelphia Inquirer. Sem Embiid, foram 2 derrotas em 4 jogos, por 30 pontos somados. E hoje ele é improvável contra o Heat.\n\nConcorda?",
+    "obs": "Inquirer, David Murphy, 24/11. A queda da defesa (Keith Pompey: 105,1 nos 9 primeiros jogos, 122,8 nos últimos 9) ficou fora: a defesa foi o fato principal de ontem.",
+    "link": "https://www.inquirer.com/sixers/sixers-joel-embiid-backup-center-blazers-20261124.html",
+    "linkTexto": "Ler a coluna"
+   },
+   {
+    "tipo": "O confronto em números",
+    "status": "agendado",
+    "quando": "16h30 no X; no carrossel das 12h no Instagram e no TikTok",
+    "img": "img/hoje/comparativo-heat.png",
+    "arquivo": "comparativo-heat.png",
+    "x": "76ers x Heat em números 📊\n\nO 76ers tem a campanha melhor (14-4 contra 10-6), mas o Heat ganhou 6 dos últimos 7 duelos, segundo Keith Pompey. Na temporada regular, a história está 77 a 68 para o Miami.\n\nHoje, 19h de Brasília.",
+    "obs": "Keith Pompey (25/11) e Champs or Chumps (68-77 na temporada regular). ESPN e Land of Basketball pediram permissão e não abriram, por isso sem pontos por jogo.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-25/comparativo-heat.png"
+   },
+   {
+    "tipo": "Reel do dia de jogo: o Heat já tirou o 76ers 2 vezes",
+    "status": "agendado",
+    "quando": "17h30 no X; 18h no Instagram (Reel) e no TikTok",
+    "img": "img/hoje/reel-historia-heat.png",
+    "arquivo": "reel-historia-heat.png",
+    "x": "76ers x Heat nos playoffs: 3 séries, e o Miami levou 2. 🏀\n\n2011: Heat 4 a 1. 2018: 76ers 4 a 1. 2022: Heat 4 a 2, na semifinal do Leste. (Champs or Chumps e Sports Illustrated)\n\nHoje, 19h de Brasília, pela Copa NBA. Quem leva?",
+    "obs": "13,2 s, trilha drumline, capa_ms 500, pergunta A, B ou C na última cena. No X saiu às 17h30 para não bater com o aquecimento das 18h.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-25/reel-historia-heat.mp4",
+    "linkTexto": "Ver o vídeo"
+   },
+   {
+    "tipo": "Aquecimento no X",
+    "status": "agendado",
+    "quando": "18h no X",
+    "x": "Falta 1 hora: 76ers x Heat, 19h de Brasília. ⏱️\n\nO 76ers lidera o Leste com 14-4, mas Joel Embiid é improvável (doença), segundo a PhillyVoice. No Heat, Giannis é dúvida.\n\nPalpite da Nação: 76ers 116 x 110. Os comentários ao vivo saem aqui.",
+    "obs": "Se o relatório mudar à tarde, o radar das 12h51 ou das 17h51 corrige com edit_post."
+   },
+   {
+    "tipo": "Stories: quem decide sem Embiid e Falta 1 hora",
+    "status": "agendado",
+    "quando": "13h30 e 18h01 no story do Instagram",
+    "img": "img/hoje/st-story-decide-base.png",
+    "arquivo": "st-story-decide-base.png",
+    "obs": "Pergunta na arte e Responde aqui. Atenção: o story das 20h30 de ontem (Quarta tem Heat, seu palpite?) deu erro no Buffer e não saiu.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-25/st-story-decide-base.png"
+   },
+   {
+    "tipo": "Promoção paga no TikTok (opcional)",
+    "status": "promover",
+    "quando": "hoje, entre 18h e 20h",
     "img": "img/hoje/reel-vitrine-barkley.png",
-    "arquivo": "reel-vitrine-barkley.png",
-    "x": "Adivinha a lenda do 76ers 🤔\n\nA pista: 7.079 rebotes com a camisa do time, o terceiro na história da franquia (dados da NBA e do Land of Basketball).\n\nBarkley, Malone ou Iverson? Responde antes de ver o fim do vídeo.",
-    "ig": "Com o convite do dia para mandar ao amigo que jura que sabe tudo de 76ers.",
-    "obs": "Duas fontes: NBA.com (perfil de lenda e página de ex-jogadores do 76ers) e Land of Basketball (7.079 rebotes, terceiro do time). 12,2 s, trilha pop, capa_ms 500. É o primeiro da lista de promoção de amanhã.",
+    "obs": "Os vídeos já estão publicados pelo Buffer. Isto é só o impulso pago, que o TikTok não deixa automatizar: no app, Promover > Mais seguidores > público Nação NBA, no valor da seção Impulsionar. Vídeos: 1) Adivinha quem é com Charles Barkley (vitrine de 24/11); 2) carrossel 6 das 14 vitórias foram viradas (24/11). Por quê: o vitrine é o primeiro da lista da semana; o carrossel das viradas segurou 2,06 s em média, o melhor fora de jogo das últimas 48 horas (o Barkley ainda mostra 0,78 s com 23 visualizações, mas as métricas atrasam até 24 horas). Nenhum vídeo de jogo com menos de 24 horas.",
     "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-24/reel-vitrine-barkley.mp4",
     "linkTexto": "Ver o vídeo"
    },
    {
-    "tipo": "Stories: o melhor de ontem e o palpite do Heat",
+    "tipo": "Ao vivo: 76ers x Heat",
     "status": "agendado",
-    "quando": "11h e 20h30 no story do Instagram",
-    "img": "img/hoje/story-melhor-ontem.png",
-    "arquivo": "story-melhor-ontem.png",
-    "obs": "Cada um com a pergunta na arte e Responde aqui.",
-    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-24/st-story-melhor-ontem-base.png"
+    "quando": "hoje, 19h de Brasília",
+    "obs": "Já marcado em aovivo_agenda (comentários no X e placar logo depois do fim, pela corrente do ao vivo)."
+   }
+  ]
+ },
+ "cola": {
+  "jogo": "76ers x Heat · Copa NBA",
+  "quando": "Hoje, quarta 25/11, 19h de Brasília, na Filadélfia",
+  "onde": "NBA League Pass",
+  "pontos": [
+   "Campanhas: 76ers 14-4 (7-3 em casa, 1-1 na Copa NBA); Heat 10-6 (4-3 fora, 2-0 na Copa), 10 vitórias nos últimos 12 depois de abrir 0-4 (Keith Pompey).",
+   "Desfalques: Embiid improvável (doença); Hukporti fora da temporada (tendão de Aquiles). Heat: Giannis Antetokounmpo dúvida (tendinite na virilha direita) (PhillyVoice, Pompey).",
+   "Defesa do 76ers: 105,1 por 100 posses nos 9 primeiros jogos (2º da NBA), 122,8 nos últimos 9 (28º); adversários com 58,2% nos arremessos (Pompey).",
+   "Retrospecto: Heat ganhou 6 dos últimos 7 duelos; 77-68 Heat na temporada regular; 43-30 para o 76ers na Filadélfia (Pompey).",
+   "Titulares prováveis: 76ers Maxey, Edgecombe, Justin Edwards, LeBron James, Jaylen Brown; Heat Davion Mitchell, Klay Thompson, Pelle Larsson, Giannis, Bam Adebayo (Pompey). Adebayo fez 24, 15 e 12 contra o Thunder no domingo."
+  ],
+  "roteiro": [
+   "Começo: quem marca Adebayo sem Embiid?",
+   "Intervalo: rebotes e pontos no garrafão.",
+   "Terceiro quarto: a defesa voltou ou segue em 122?",
+   "Reta final: clutch (diferença de até 5 nos 5 minutos finais), fio em 12-0."
+  ],
+  "fontes": [
+   {
+    "t": "Keith Pompey",
+    "u": "https://keithpompey1.substack.com/p/sixers-vs-heat-which-version-of-the"
    },
    {
-    "tipo": "Ao vivo de quarta: 76ers x Heat",
-    "status": "agendado",
-    "quando": "qua 25/11, 19h de Brasília",
-    "obs": "Já marcado em aovivo_agenda (comentários e placar pela corrente do ao vivo). Promoção paga: hoje não, porque ontem teve pedido (um a cada 2 dias)."
+    "t": "PhillyVoice",
+    "u": "https://www.phillyvoice.com/sixers-vs-heat-76ers-injury-report-news-analysis-lebron-james-update-joel-embiid-status-nba-giannis-antetokounmpo/"
+   },
+   {
+    "t": "Champs or Chumps",
+    "u": "https://champsorchumps.us/team/nba/philadelphia-76ers/head-to-head/miami-heat"
    }
   ]
  },
@@ -92,13 +161,12 @@ window.CENTRAL = {
   ],
   "ajuste": "O TikTok seguiu como a rede que cresce, mas o tempo assistido não subiu (1,97 s) e quase não houve comentário; no Instagram, carrossel e reel de história chegaram mais longe que o cartaz solto. Nesta semana: vitrine na terça (Adivinha quem é com Barkley), ganchos ainda mais curtos e perguntas A, B ou C em todo vídeo. Teste azul x amarelo: o Buffer não separa os números por cor e nesta semana as capas alternaram quase sempre, então não deu diferença clara; o motor segue alternando. Seguidores: o último registro é de 20/11; manda os prints dos 3 perfis no balanço da próxima segunda."
  },
- "cola": null,
  "jogos": [
   {
    "d": "QUA 25/11",
    "j": "76ers x Heat",
    "h": "19h",
-   "o": ""
+   "o": "Copa NBA"
   },
   {
    "d": "SEX 27/11",

@@ -205,6 +205,24 @@
       "titulo": "Inquirer: defesa em 29º nos últimos 6 jogos; Blazers 128 x 111",
       "data": "2026-11-24",
       "status": "usado no Raio-X"
+    },
+    {
+      "url": "https://www.phillyvoice.com/sixers-vs-heat-76ers-injury-report-news-analysis-lebron-james-update-joel-embiid-status-nba-giannis-antetokounmpo/",
+      "titulo": "Relatório 76ers x Heat: Embiid improvável (doença); Giannis dúvida",
+      "data": "2026-11-25",
+      "status": "agendado (pré-jogo e aquecimento)"
+    },
+    {
+      "url": "https://www.inquirer.com/sixers/sixers-joel-embiid-backup-center-blazers-20261124.html",
+      "titulo": "David Murphy: o 76ers precisa de um pivô reserva",
+      "data": "2026-11-25",
+      "status": "agendado (Na Filadélfia)"
+    },
+    {
+      "url": "https://keithpompey1.substack.com/p/sixers-vs-heat-which-version-of-the",
+      "titulo": "Keith Pompey: defesa 105,1 nos 9 primeiros jogos, 122,8 nos últimos 9; Heat 6 dos últimos 7 duelos",
+      "data": "2026-11-25",
+      "status": "usado no comparativo"
     }
   ],
   "curiosidades": [
@@ -259,6 +277,10 @@
     {
       "tema": "Número do dia: 6 viradas de 10+ em 14 vitórias",
       "data": "2026-11-24"
+    },
+    {
+      "tema": "2001: 25 anos: All-Star de 2001, virada de 21 e Iverson MVP",
+      "data": "2026-11-25"
     }
   ],
   "reels": [
@@ -329,6 +351,14 @@
     {
       "tema": "Vitrine: Adivinha quem é, Charles Barkley (7.079 rebotes)",
       "data": "2026-11-24"
+    },
+    {
+      "tema": "2001: 25 anos, Iverson e a virada do All-Star de 2001",
+      "data": "2026-11-25"
+    },
+    {
+      "tema": "História 76ers x Heat nos playoffs: 2011, 2018, 2022",
+      "data": "2026-11-25"
     }
   ],
   "prejogos": [
@@ -351,6 +381,11 @@
     {
       "jogo": "76ers x Trail Blazers",
       "data": "2026-11-23"
+    },
+    {
+      "jogo": "76ers x Heat",
+      "data": "2026-11-25",
+      "publicado": "X, Instagram e TikTok 12h"
     }
   ],
   "posjogo": [
@@ -548,6 +583,16 @@
       "formato": "Adivinha quem é",
       "tema": "Charles Barkley (vitrine)",
       "data": "2026-11-24"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "Pré-jogo 76ers x Heat: capa, comparativo, prejogo, pivô reserva, palpite",
+      "data": "2026-11-25"
+    },
+    {
+      "formato": "História do confronto",
+      "tema": "Playoffs: Heat 2 de 3 séries (2011, 2018, 2022)",
+      "data": "2026-11-25"
     }
   ],
   "agendas": [
@@ -651,6 +696,16 @@
       "estilo": "pop",
       "video": "reel-vitrine-barkley.mp4",
       "data": "2026-11-24"
+    },
+    {
+      "estilo": "lofi",
+      "video": "reel-2001-allstar.mp4",
+      "data": "2026-11-25"
+    },
+    {
+      "estilo": "drumline",
+      "video": "reel-historia-heat.mp4",
+      "data": "2026-11-25"
     }
   ],
   "fatos": [
@@ -923,10 +978,35 @@
       "fato": "Barkley: 7.079 rebotes pelo 76ers, terceiro do time; 1984-1992; Sir Charles (NBA.com, Land of Basketball)",
       "canal": "x, instagram, tiktok",
       "data": "2026-11-24"
+    },
+    {
+      "fato": "Pré-jogo Heat: Copa NBA, 19h; Embiid improvável (doença), Giannis dúvida (PhillyVoice, Adam Aaronson); 14-4 x 10-6, Heat 10 de 12 (Keith Pompey)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-25"
+    },
+    {
+      "fato": "Heat ganhou 6 dos últimos 7 duelos; 77-68 Heat na temporada regular (Keith Pompey, Champs or Chumps)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-25"
+    },
+    {
+      "fato": "Murphy (Inquirer): precisa de pivô reserva; sem Embiid, 2 derrotas em 4, por 30 somados",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-25"
+    },
+    {
+      "fato": "2001: All-Star, Leste 21 atrás a 9 min, Iverson 15 dos 25, 111 x 110, MVP; técnico Larry Brown",
+      "canal": "x, instagram",
+      "data": "2026-11-25"
+    },
+    {
+      "fato": "Playoffs 76ers x Heat: 2011 Heat 4-1, 2018 76ers 4-1, 2022 Heat 4-2",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-25"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-25 07:53 em andamento",
+    "manha": "2026-11-25 08:22 feito (13 posts agendados: X 12h, 14h, 15h30, 16h30, 17h30, 18h; Instagram 12h, 15h, 18h e stories 13h30 e 18h01; TikTok 12h e 18h). Promoção indicada (Barkley e viradas). Story das 20h30 de 24/11 deu erro no Buffer. ESPN e Land of Basketball não abriram.",
     "radar": "2026-11-24 18:02 feito (sem novidade confirmada desde 12h58; nba.com e PhillyVoice não abriram; canais conectados; sem post novo)",
     "posjogo": "2026-11-23 23:31 feito pelo Claude na conversa: X com cartaz, Instagram feed (carrossel de 4) e story, TikTok (carrossel de 3).",
     "aovivo": "2026-11-23 feito pelo Claude na conversa: 8 comentários ao vivo no X (21h14 começo, 21h23 meio do 1º, 21h39 fim do 1º, 21h58 meio do 2º, 22h11 intervalo com cartaz, 22h38 meio do 3º, 22h52 fim do 3º, 23h13 reta final; clutch pulado) e o placar com cartaz às 23h31.",
@@ -934,46 +1014,74 @@
   },
   "plano": [
     {
-      "canal": "x, instagram, tiktok",
+      "canal": "x",
       "hora": "12h",
-      "formato": "carrossel Raio-X (capa amarela)",
-      "gancho": "Raio-X de 76ers 111 x 128 Trail Blazers",
-      "fato": "59 a 42 no segundo tempo; LeBron 23; defesa 122,6 por 100 posses"
+      "formato": "capa azul + prejogo",
+      "gancho": "Hoje tem 76ers x Heat",
+      "fato": "Copa NBA 19h; Embiid improvável (doença), Giannis dúvida (PhillyVoice); 14-4 x 10-6"
+    },
+    {
+      "canal": "instagram, tiktok",
+      "hora": "12h",
+      "formato": "carrossel (capa azul, prejogo/comparativo, Na Filadélfia, comparativo, palpite)",
+      "gancho": "Hoje tem 76ers x Heat",
+      "fato": "idem + Heat 6 dos últimos 7 duelos + coluna de Murphy"
     },
     {
       "canal": "instagram story",
-      "hora": "11h",
-      "formato": "cartaz azul",
-      "gancho": "Quem foi o melhor ontem?",
-      "fato": "LeBron 23, Maxey 22, Brown 20"
+      "hora": "13h30",
+      "formato": "cartaz branco com pergunta",
+      "gancho": "Sem Embiid, quem decide?",
+      "fato": "Maxey, LeBron ou Brown"
     },
     {
-      "canal": "x, instagram",
-      "hora": "16h",
-      "formato": "número do dia azul (Instagram com pergunta)",
-      "gancho": "6 das 14 vitórias foram viradas de 10+",
-      "fato": "NBC Sports Philadelphia, Cole Weintraub"
+      "canal": "x",
+      "hora": "14h",
+      "formato": "numero azul",
+      "gancho": "Allen Iverson e a virada do All-Star de 2001",
+      "fato": "21 atrás a 9 min, 15 dos 25, 111 x 110, MVP (NBA.com, NBC Sports Philadelphia, Wikipedia)"
     },
     {
-      "canal": "tiktok",
-      "hora": "18h",
-      "formato": "carrossel (número azul + pergunta)",
-      "gancho": "6 das 14 vitórias foram viradas",
+      "canal": "instagram reel",
+      "hora": "15h",
+      "formato": "reel 2001 (gancho amarelo, lofi)",
+      "gancho": "Iverson e a virada mais louca do All-Star",
       "fato": "idem"
     },
     {
-      "canal": "x, instagram reel, tiktok",
-      "hora": "19h30 (TikTok 21h30)",
-      "formato": "vitrine Adivinha quem é (gancho amarelo, pop)",
-      "gancho": "Adivinha a lenda do 76ers",
-      "fato": "Barkley: 7.079 rebotes, terceiro do time"
+      "canal": "x",
+      "hora": "15h30",
+      "formato": "manchete Opinião",
+      "gancho": "OPINIÃO na Filadélfia: o 76ers precisa de um pivô reserva",
+      "fato": "David Murphy, Inquirer, 24/11: 2 derrotas em 4 sem Embiid, por 30"
+    },
+    {
+      "canal": "x",
+      "hora": "16h30",
+      "formato": "comparativo azul",
+      "gancho": "76ers x Heat em números",
+      "fato": "14-4 x 10-6; Heat 6 dos últimos 7; 77-68 Heat na temporada regular (Pompey, Champs or Chumps)"
+    },
+    {
+      "canal": "x 17h30, instagram reel 18h, tiktok 18h",
+      "hora": "17h30/18h",
+      "formato": "reel história (gancho azul, drumline)",
+      "gancho": "O Heat já tirou o 76ers 2 vezes",
+      "fato": "2011 Heat 4-1, 2018 76ers 4-1, 2022 Heat 4-2 (Champs or Chumps, SI)"
+    },
+    {
+      "canal": "x",
+      "hora": "18h",
+      "formato": "aquecimento (texto)",
+      "gancho": "Falta 1 hora: 76ers x Heat",
+      "fato": "Embiid improvável, Giannis dúvida; palpite 116 x 110"
     },
     {
       "canal": "instagram story",
-      "hora": "20h30",
-      "formato": "cartaz amarelo",
-      "gancho": "Quarta tem Heat, seu palpite?",
-      "fato": "76ers x Heat 19h"
+      "hora": "18h01",
+      "formato": "cartaz azul com pergunta",
+      "gancho": "Falta 1 hora, quanto termina?",
+      "fato": "palpite"
     }
   ],
   "fios": [
