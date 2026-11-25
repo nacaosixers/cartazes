@@ -1,9 +1,9 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "quarta, 25/11, às 08h20",
+ "atualizado": "quarta, 25/11, às 17h55",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: manhã, 08h20."
+  "texto": "Ligado. Última rodada: radar, 17h55."
  },
  "campanha": "14 vitórias e 4 derrotas",
  "hoje": {
@@ -69,8 +69,8 @@ window.CENTRAL = {
     "tipo": "Aquecimento no X",
     "status": "agendado",
     "quando": "18h no X",
-    "x": "Falta 1 hora: 76ers x Heat, 19h de Brasília. ⏱️\n\nO 76ers lidera o Leste com 14-4, mas Joel Embiid é improvável (doença), segundo a PhillyVoice. No Heat, Giannis é dúvida.\n\nPalpite da Nação: 76ers 116 x 110. Os comentários ao vivo saem aqui.",
-    "obs": "Se o relatório mudar à tarde, o radar das 12h51 ou das 17h51 corrige com edit_post."
+    "x": "Falta 1 hora: 76ers x Heat, 19h de Brasília. ⏱️\n\nO 76ers lidera o Leste com 14-4, mas sem Joel Embiid: ele está fora por doença, segundo Adam Aaronson, da PhillyVoice, e Kyle Neubeck, da PHLY.\n\nPalpite da Nação: 76ers 116 x 110. Os comentários ao vivo saem aqui.",
+    "obs": "Corrigido pelo radar das 17h51: Embiid foi descartado à tarde (Heavy, citando Aaronson e Neubeck; BasketNews)."
    },
    {
     "tipo": "Stories: quem decide sem Embiid e Falta 1 hora",
@@ -104,7 +104,7 @@ window.CENTRAL = {
   "onde": "NBA League Pass",
   "pontos": [
    "Campanhas: 76ers 14-4 (7-3 em casa, 1-1 na Copa NBA); Heat 10-6 (4-3 fora, 2-0 na Copa), 10 vitórias nos últimos 12 depois de abrir 0-4 (Keith Pompey).",
-   "Desfalques: Embiid improvável (doença); Hukporti fora da temporada (tendão de Aquiles). Heat: Giannis Antetokounmpo dúvida (tendinite na virilha direita) (PhillyVoice, Pompey).",
+   "Desfalques: Embiid FORA (doença), confirmado à tarde (Aaronson e Neubeck, via Heavy); terceiro jogo seguido sem ele. Hukporti fora da temporada (tendão de Aquiles). Heat: Giannis subiu para provável (tendinite na virilha direita), segundo o Heavy.",
    "Defesa do 76ers: 105,1 por 100 posses nos 9 primeiros jogos (2º da NBA), 122,8 nos últimos 9 (28º); adversários com 58,2% nos arremessos (Pompey).",
    "Retrospecto: Heat ganhou 6 dos últimos 7 duelos; 77-68 Heat na temporada regular; 43-30 para o 76ers na Filadélfia (Pompey).",
    "Titulares prováveis: 76ers Maxey, Edgecombe, Justin Edwards, LeBron James, Jaylen Brown; Heat Davion Mitchell, Klay Thompson, Pelle Larsson, Giannis, Bam Adebayo (Pompey). Adebayo fez 24, 15 e 12 contra o Thunder no domingo."

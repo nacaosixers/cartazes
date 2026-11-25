@@ -223,6 +223,12 @@
       "titulo": "Keith Pompey: defesa 105,1 nos 9 primeiros jogos, 122,8 nos últimos 9; Heat 6 dos últimos 7 duelos",
       "data": "2026-11-25",
       "status": "usado no comparativo"
+    },
+    {
+      "url": "https://heavy.com/sports/nba/philadelphia-76ers/joel-embiid-playing-tonight-heat-injury/",
+      "titulo": "Embiid fora contra o Heat (doença), segundo Aaronson e Neubeck; Giannis provável",
+      "data": "2026-11-25",
+      "status": "usado na correção do aquecimento e na cola"
     }
   ],
   "curiosidades": [
@@ -1007,7 +1013,7 @@
   ],
   "rodadas": {
     "manha": "2026-11-25 08:22 feito (13 posts agendados: X 12h, 14h, 15h30, 16h30, 17h30, 18h; Instagram 12h, 15h, 18h e stories 13h30 e 18h01; TikTok 12h e 18h). Promoção indicada (Barkley e viradas). Story das 20h30 de 24/11 deu erro no Buffer. ESPN e Land of Basketball não abriram.",
-    "radar": "2026-11-25 17:53 em andamento",
+    "radar": "2026-11-25 17:55 feito (Embiid descartado à tarde: aquecimento das 18h no X corrigido com edit_post e cola atualizada; Giannis provável segundo o Heavy; canais conectados; sem post novo)",
     "posjogo": "2026-11-23 23:31 feito pelo Claude na conversa: X com cartaz, Instagram feed (carrossel de 4) e story, TikTok (carrossel de 3).",
     "aovivo": "2026-11-23 feito pelo Claude na conversa: 8 comentários ao vivo no X (21h14 começo, 21h23 meio do 1º, 21h39 fim do 1º, 21h58 meio do 2º, 22h11 intervalo com cartaz, 22h38 meio do 3º, 22h52 fim do 3º, 23h13 reta final; clutch pulado) e o placar com cartaz às 23h31.",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
