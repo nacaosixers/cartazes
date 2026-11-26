@@ -89,6 +89,12 @@
       "data_jogo": "2026-11-23",
       "tiktok": "2026-11-24 12h (carrossel)",
       "carrossel": "2026-11-24 12h"
+    },
+    {
+      "jogo": "76ers 111 x 104 Heat",
+      "data_jogo": "2026-11-25",
+      "tiktok": "2026-11-26 12h (carrossel)",
+      "carrossel": "2026-11-26 12h"
     }
   ],
   "noticias": [
@@ -235,6 +241,30 @@
       "titulo": "Embiid fora contra o Heat (doença), segundo Aaronson e Neubeck; Giannis provável",
       "data": "2026-11-25",
       "status": "usado na correção do aquecimento e na cola"
+    },
+    {
+      "url": "https://www.nba.com/news/lebron-james-nets-first-triple-double-with-76ers-in-win-over-heat",
+      "titulo": "AP: LeBron 126º triplo-duplo, primeiro pelo 76ers, mais velho da história",
+      "data": "2026-11-26",
+      "status": "usado no número do dia"
+    },
+    {
+      "url": "https://www.inquirer.com/sixers/sixers-heat-score-highlights-lebron-james-tyrese-maxey-jaylen-brown-injury-20261125.html",
+      "titulo": "Chris Hine (Inquirer): Heat 1 de 7 no 2º quarto, Brown fora no intervalo, Embiid dúvida para Indiana, desempates do Grupo B",
+      "data": "2026-11-26",
+      "status": "usado no Raio-X e no reel da Copa"
+    },
+    {
+      "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-vs-heat-analysis-lebron-james-tyrese-maxey-nba-cup/769459/",
+      "titulo": "Noah Levick (NBC Sports Philadelphia): Grupo B 2-1, vantagem de 16",
+      "data": "2026-11-26",
+      "status": "usado"
+    },
+    {
+      "url": "https://www.nba.com/sixers/news/lebron-dusts-off-the-cape-for-his-signature-sixers-moment",
+      "titulo": "sixers.com (Owen Boyle): 29 assistências; Nurse e as bolas de longe",
+      "data": "2026-11-26",
+      "status": "usado no Raio-X"
     }
   ],
   "curiosidades": [
@@ -293,6 +323,10 @@
     {
       "tema": "2001: 25 anos: All-Star de 2001, virada de 21 e Iverson MVP",
       "data": "2026-11-25"
+    },
+    {
+      "tema": "Número do dia: LeBron 126 triplos-duplos, primeiro pelo 76ers",
+      "data": "2026-11-26"
     }
   ],
   "reels": [
@@ -371,6 +405,10 @@
     {
       "tema": "História 76ers x Heat nos playoffs: 2011, 2018, 2022",
       "data": "2026-11-25"
+    },
+    {
+      "tema": "Copa NBA: o 76ers se decide na sexta (2-1 no Grupo B)",
+      "data": "2026-11-26"
     }
   ],
   "prejogos": [
@@ -605,6 +643,21 @@
       "formato": "História do confronto",
       "tema": "Playoffs: Heat 2 de 3 séries (2011, 2018, 2022)",
       "data": "2026-11-25"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "Raio-X Heat: 1 de 7, 4 de 6, 29 assistências",
+      "data": "2026-11-26"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "LeBron 126 triplos-duplos",
+      "data": "2026-11-26"
+    },
+    {
+      "formato": "Explicando o 76ers",
+      "tema": "Copa NBA: 2-1 no Grupo B, decide na sexta",
+      "data": "2026-11-26"
     }
   ],
   "agendas": [
@@ -718,6 +771,11 @@
       "estilo": "drumline",
       "video": "reel-historia-heat.mp4",
       "data": "2026-11-25"
+    },
+    {
+      "estilo": "house",
+      "video": "reel-copa.mp4",
+      "data": "2026-11-26"
     }
   ],
   "fatos": [
@@ -1015,10 +1073,25 @@
       "fato": "Playoffs 76ers x Heat: 2011 Heat 4-1, 2018 76ers 4-1, 2022 Heat 4-2",
       "canal": "x, instagram, tiktok",
       "data": "2026-11-25"
+    },
+    {
+      "fato": "Raio-X Heat: Heat 1 de 7 de três no 2º quarto, 62 x 53 no intervalo; LeBron 4 de 6 de três; 29 assistências; Maxey 30 (maior desde 38 em 31/10); Brown saiu no intervalo (coxa)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-26"
+    },
+    {
+      "fato": "LeBron 126 triplos-duplos, primeiro pelo 76ers, quinto da história, mais velho da NBA a fazer um (AP, Inquirer, sixers.com)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-26"
+    },
+    {
+      "fato": "Copa NBA: 76ers 2-1 no Grupo B, igual ao Heat; Cavaliers tem desempate sobre o 76ers, 76ers sobre o Heat; sexta contra o Pacers decide (Inquirer, NBC Sports Philadelphia)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-26"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-26 07:53 em andamento",
+    "manha": "2026-11-26 08:15 feito (11 posts agendados: X 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e stories 11h e 20h30; TikTok 12h, 18h e 21h30). Sem promoção (indicada em 25/11). ESPN não abriu: dados do Raio-X vieram de AP, Inquirer, NBC Sports Philadelphia e sixers.com.",
     "radar": "2026-11-25 17:55 feito (Embiid descartado à tarde: aquecimento das 18h no X corrigido com edit_post e cola atualizada; Giannis provável segundo o Heavy; canais conectados; sem post novo)",
     "posjogo": "2026-11-25 21:35 feito pelo Claude na conversa: X com cartaz, Instagram feed (carrossel de 4) e story, TikTok (carrossel de 3).",
     "aovivo": "2026-11-25 feito pelo Claude na conversa: 9 comentários ao vivo no X (19h15 começo, 19h26 meio do 1º, 19h41 fim do 1º, 19h57 meio do 2º, 20h15 intervalo com cartaz, 20h43 meio do 3º, 20h58 fim do 3º, 21h16 reta final, 21h29 triplo-duplo do LeBron; clutch pulado) e o placar com cartaz às 21h34.",
@@ -1026,74 +1099,53 @@
   },
   "plano": [
     {
-      "canal": "x",
-      "hora": "12h",
-      "formato": "capa azul + prejogo",
-      "gancho": "Hoje tem 76ers x Heat",
-      "fato": "Copa NBA 19h; Embiid improvável (doença), Giannis dúvida (PhillyVoice); 14-4 x 10-6"
-    },
-    {
-      "canal": "instagram, tiktok",
-      "hora": "12h",
-      "formato": "carrossel (capa azul, prejogo/comparativo, Na Filadélfia, comparativo, palpite)",
-      "gancho": "Hoje tem 76ers x Heat",
-      "fato": "idem + Heat 6 dos últimos 7 duelos + coluna de Murphy"
-    },
-    {
       "canal": "instagram story",
-      "hora": "13h30",
+      "hora": "11h",
       "formato": "cartaz branco com pergunta",
-      "gancho": "Sem Embiid, quem decide?",
-      "fato": "Maxey, LeBron ou Brown"
+      "gancho": "Quem foi o melhor ontem?",
+      "fato": "LeBron, Maxey ou Edgecombe"
     },
     {
-      "canal": "x",
-      "hora": "14h",
-      "formato": "numero azul",
-      "gancho": "Allen Iverson e a virada do All-Star de 2001",
-      "fato": "21 atrás a 9 min, 15 dos 25, 111 x 110, MVP (NBA.com, NBC Sports Philadelphia, Wikipedia)"
+      "canal": "x, instagram, tiktok",
+      "hora": "12h",
+      "formato": "carrossel Raio-X (capa amarela)",
+      "gancho": "Raio-X de 76ers 111 x 104 Heat",
+      "fato": "Heat 1 de 7 de três no 2º quarto; LeBron 4 de 6 de três; 29 assistências"
     },
     {
-      "canal": "instagram reel",
-      "hora": "15h",
-      "formato": "reel 2001 (gancho amarelo, lofi)",
-      "gancho": "Iverson e a virada mais louca do All-Star",
+      "canal": "x, instagram",
+      "hora": "16h",
+      "formato": "numero azul (Instagram: carrossel com pergunta)",
+      "gancho": "126 triplos-duplos de LeBron",
+      "fato": "primeiro pelo 76ers, quinto da história, mais velho a fazer um (AP, Inquirer, sixers.com)"
+    },
+    {
+      "canal": "tiktok",
+      "hora": "18h",
+      "formato": "carrossel",
+      "gancho": "LeBron chegou a 126 triplos-duplos",
       "fato": "idem"
     },
     {
-      "canal": "x",
-      "hora": "15h30",
-      "formato": "manchete Opinião",
-      "gancho": "OPINIÃO na Filadélfia: o 76ers precisa de um pivô reserva",
-      "fato": "David Murphy, Inquirer, 24/11: 2 derrotas em 4 sem Embiid, por 30"
-    },
-    {
-      "canal": "x",
-      "hora": "16h30",
-      "formato": "comparativo azul",
-      "gancho": "76ers x Heat em números",
-      "fato": "14-4 x 10-6; Heat 6 dos últimos 7; 77-68 Heat na temporada regular (Pompey, Champs or Chumps)"
-    },
-    {
-      "canal": "x 17h30, instagram reel 18h, tiktok 18h",
-      "hora": "17h30/18h",
-      "formato": "reel história (gancho azul, drumline)",
-      "gancho": "O Heat já tirou o 76ers 2 vezes",
-      "fato": "2011 Heat 4-1, 2018 76ers 4-1, 2022 Heat 4-2 (Champs or Chumps, SI)"
-    },
-    {
-      "canal": "x",
-      "hora": "18h",
-      "formato": "aquecimento (texto)",
-      "gancho": "Falta 1 hora: 76ers x Heat",
-      "fato": "Embiid improvável, Giannis dúvida; palpite 116 x 110"
+      "canal": "x, instagram reel",
+      "hora": "19h30",
+      "formato": "reel Copa NBA (gancho amarelo, house)",
+      "gancho": "A Copa NBA se decide na sexta",
+      "fato": "76ers 2-1 no Grupo B, igual ao Heat; último jogo contra o Pacers (Inquirer, NBC Sports Philadelphia)"
     },
     {
       "canal": "instagram story",
-      "hora": "18h01",
+      "hora": "20h30",
       "formato": "cartaz azul com pergunta",
-      "gancho": "Falta 1 hora, quanto termina?",
-      "fato": "palpite"
+      "gancho": "Edgecombe fez 18",
+      "fato": "18 pontos contra o Heat (Inquirer, sixers.com)"
+    },
+    {
+      "canal": "tiktok",
+      "hora": "21h30",
+      "formato": "vídeo (mesmo reel da Copa)",
+      "gancho": "Copa NBA: o 76ers se decide na sexta",
+      "fato": "idem"
     }
   ],
   "fios": [
@@ -1144,15 +1196,17 @@
       "fonte": "NBC Sports Philadelphia (Cole Weintraub, 23/11)",
       "ultimo_post": "24/11 (número do dia em todos os canais)",
       "proximo_marco": "só volta com número redondo ou recorde"
-    }
-  ],
-  "fila_pautas": [
+    },
     {
-      "pauta": "Triplo-duplo do LeBron contra o Heat em 25/11 (25 pontos, 10 rebotes e 12 assistências)",
-      "conferir": "se é o primeiro dele pelo 76ers e o número na carreira, com fonte (time, NBA ou imprensa)",
-      "data": "2026-11-25"
+      "fio": "Triplos-duplos de LeBron James",
+      "valor": "126 na carreira (quinto da história), 1 pelo 76ers",
+      "ate": "jogo de 25/11 (Heat)",
+      "fonte": "AP, Inquirer e sixers.com",
+      "ultimo_post": "26/11 (número do dia em todos os canais)",
+      "proximo_marco": "subir no ranking histórico"
     }
   ],
+  "fila_pautas": [],
   "promovidos": [
     {
       "canal": "tiktok",
