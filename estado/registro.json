@@ -39,6 +39,12 @@
       "data_jogo": "2026-11-23",
       "publicado": "2026-11-23: X 23h31 (cartaz), Instagram feed em carrossel de 4 (placar, 19 bolas de três, campanha, pergunta) e story 23h31, TikTok em carrossel de 3 23h31, feitos pelo Claude na conversa",
       "obs": "Primeiro jogo da rota de 23/11: 8 comentários ao vivo no X e o placar; clutch pulado (diferença de 18 a 4min37 do fim). 76ers 14-4, 1º no Leste."
+    },
+    {
+      "jogo": "76ers 111 x 104 Heat",
+      "data_jogo": "2026-11-25",
+      "publicado": "2026-11-25: X 21h34 (cartaz), Instagram feed em carrossel de 4 (placar, 12 assistências de LeBron, campanha, pergunta) e story 21h34, TikTok em carrossel de 3 21h35, feitos pelo Claude na conversa",
+      "obs": "9 comentários ao vivo no X e o placar (clutch pulado, diferença de 11 a 1min08; o 9º foi o triplo-duplo do LeBron, assunto do dia). LeBron 25/10/12, Maxey 30, Giannis 32. 76ers 15-4."
     }
   ],
   "raiox": [
@@ -1014,8 +1020,8 @@
   "rodadas": {
     "manha": "2026-11-25 08:22 feito (13 posts agendados: X 12h, 14h, 15h30, 16h30, 17h30, 18h; Instagram 12h, 15h, 18h e stories 13h30 e 18h01; TikTok 12h e 18h). Promoção indicada (Barkley e viradas). Story das 20h30 de 24/11 deu erro no Buffer. ESPN e Land of Basketball não abriram.",
     "radar": "2026-11-25 17:55 feito (Embiid descartado à tarde: aquecimento das 18h no X corrigido com edit_post e cola atualizada; Giannis provável segundo o Heavy; canais conectados; sem post novo)",
-    "posjogo": "2026-11-25 21:29 em andamento (Claude na conversa, 76ers x Heat)",
-    "aovivo": "2026-11-23 feito pelo Claude na conversa: 8 comentários ao vivo no X (21h14 começo, 21h23 meio do 1º, 21h39 fim do 1º, 21h58 meio do 2º, 22h11 intervalo com cartaz, 22h38 meio do 3º, 22h52 fim do 3º, 23h13 reta final; clutch pulado) e o placar com cartaz às 23h31.",
+    "posjogo": "2026-11-25 21:35 feito pelo Claude na conversa: X com cartaz, Instagram feed (carrossel de 4) e story, TikTok (carrossel de 3).",
+    "aovivo": "2026-11-25 feito pelo Claude na conversa: 9 comentários ao vivo no X (19h15 começo, 19h26 meio do 1º, 19h41 fim do 1º, 19h57 meio do 2º, 20h15 intervalo com cartaz, 20h43 meio do 3º, 20h58 fim do 3º, 21h16 reta final, 21h29 triplo-duplo do LeBron; clutch pulado) e o placar com cartaz às 21h34.",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
   },
   "plano": [
@@ -1140,7 +1146,13 @@
       "proximo_marco": "só volta com número redondo ou recorde"
     }
   ],
-  "fila_pautas": [],
+  "fila_pautas": [
+    {
+      "pauta": "Triplo-duplo do LeBron contra o Heat em 25/11 (25 pontos, 10 rebotes e 12 assistências)",
+      "conferir": "se é o primeiro dele pelo 76ers e o número na carreira, com fonte (time, NBA ou imprensa)",
+      "data": "2026-11-25"
+    }
+  ],
   "promovidos": [
     {
       "canal": "tiktok",
