@@ -1,0 +1,5 @@
+{"cenas": [
+ {"papel": "amarelo", "kicker": "Copa NBA", "linhas": [["A Copa NBA", "as", "vermelho", 300], ["se decide na sexta", "an", "azul", 190]]},
+ {"papel": "branco", "kicker": "Grupo B", "numero": "2-1", "rotulo": "do 76ers no Grupo B"},
+ {"papel": "azul", "kicker": "Seu palpite", "linhas": [["Passa do grupo?", "an", "amarelo", 200], ["A) Primeiro B) Segundo C) Não", "an", "creme", 110]]}
+], "cta": true, "trilha": true, "estilo": "house", "semente": 2611}
