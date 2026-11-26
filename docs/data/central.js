@@ -1,9 +1,9 @@
 /* Dados da Central Nação Sixers. O motor (tarefa agendada) reescreve este arquivo a cada execução, sempre neste formato. */
 window.CENTRAL = {
- "atualizado": "quinta, 26/11, às 08h20",
+ "atualizado": "quinta, 26/11, às 12h58",
  "motor": {
   "ligado": true,
-  "texto": "Ligado. Última rodada: manhã, 08h20."
+  "texto": "Ligado. Última rodada: radar, 12h58."
  },
  "campanha": "15 vitórias e 4 derrotas",
  "hoje": {
@@ -64,6 +64,17 @@ window.CENTRAL = {
     "status": "agendado",
     "quando": "sexta 27/11, 21h30 de Brasília",
     "obs": "Já está em aovivo_agenda. Embiid é dúvida (Nick Nurse não sabia se ele viaja a Indianápolis) e Jaylen Brown saiu com dor na coxa (Inquirer)."
+   },
+   {
+    "tipo": "Notícia: Jaylen Brown faz exame na coxa esquerda",
+    "status": "agendado",
+    "quando": "13h10 no X; 14h no Instagram (carrossel de 2)",
+    "img": "img/hoje/brown-ressonancia.png",
+    "arquivo": "brown-ressonancia.png",
+    "x": "Jaylen Brown faz exame na coxa esquerda nesta quinta, e o jogo de sexta contra o Pacers vira dúvida. 🩺\n\nEle saiu no 2º quarto contra o Heat. Nick Nurse disse que Brown faria exames hoje, segundo Chris Hine, do Inquirer, e Ky Carlin, do Sixers Wire.\n\nSe ele faltar, quem resolve?",
+    "ig": "Carrossel: manchete e pergunta azul (Se Brown faltar, quem resolve? A) Maxey B) LeBron C) Edgecombe).",
+    "obs": "Radar das 12h51. O resultado do exame ainda não saiu; o radar das 17h51 confere.",
+    "link": "https://raw.githubusercontent.com/nacaosixers/cartazes/main/dias/2026-11-26/brown-ressonancia.png"
    }
   ]
  },

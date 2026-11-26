@@ -265,6 +265,12 @@
       "titulo": "sixers.com (Owen Boyle): 29 assistências; Nurse e as bolas de longe",
       "data": "2026-11-26",
       "status": "usado no Raio-X"
+    },
+    {
+      "url": "https://sports.yahoo.com/nba/articles/76ers-nick-nurse-reveals-crucial-023153275.html",
+      "titulo": "Brown (coxa esquerda) faz exames na quinta; Pacers na sexta é dúvida (Chris Hine, Inquirer; Ky Carlin, Sixers Wire)",
+      "data": "2026-11-26",
+      "status": "agendado (X 13h10, Instagram carrossel 14h)"
     }
   ],
   "curiosidades": [
@@ -1088,11 +1094,16 @@
       "fato": "Copa NBA: 76ers 2-1 no Grupo B, igual ao Heat; Cavaliers tem desempate sobre o 76ers, 76ers sobre o Heat; sexta contra o Pacers decide (Inquirer, NBC Sports Philadelphia)",
       "canal": "x, instagram, tiktok",
       "data": "2026-11-26"
+    },
+    {
+      "fato": "Jaylen Brown faz exame na coxa esquerda, dúvida para o Pacers",
+      "canal": "x, instagram",
+      "data": "2026-11-26"
     }
   ],
   "rodadas": {
     "manha": "2026-11-26 08:15 feito (11 posts agendados: X 12h, 16h, 19h30; Instagram 12h, 16h, 19h30 e stories 11h e 20h30; TikTok 12h, 18h e 21h30). Sem promoção (indicada em 25/11). ESPN não abriu: dados do Raio-X vieram de AP, Inquirer, NBC Sports Philadelphia e sixers.com.",
-    "radar": "2026-11-26 12:53 em andamento",
+    "radar": "2026-11-26 12:58 feito (Brown faz exame na coxa esquerda: X 13h10 e Instagram carrossel 14h; resultado do exame ainda não saiu, conferir às 17h51; canais conectados)",
     "posjogo": "2026-11-25 21:35 feito pelo Claude na conversa: X com cartaz, Instagram feed (carrossel de 4) e story, TikTok (carrossel de 3).",
     "aovivo": "2026-11-25 feito pelo Claude na conversa: 9 comentários ao vivo no X (19h15 começo, 19h26 meio do 1º, 19h41 fim do 1º, 19h57 meio do 2º, 20h15 intervalo com cartaz, 20h43 meio do 3º, 20h58 fim do 3º, 21h16 reta final, 21h29 triplo-duplo do LeBron; clutch pulado) e o placar com cartaz às 21h34.",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
@@ -1146,6 +1157,20 @@
       "formato": "vídeo (mesmo reel da Copa)",
       "gancho": "Copa NBA: o 76ers se decide na sexta",
       "fato": "idem"
+    },
+    {
+      "canal": "x",
+      "hora": "13h10",
+      "formato": "manchete branca",
+      "gancho": "Jaylen Brown faz exame na coxa esquerda",
+      "fato": "exame na quinta, dúvida para sexta (radar)"
+    },
+    {
+      "canal": "instagram",
+      "hora": "14h",
+      "formato": "carrossel manchete + pergunta azul",
+      "gancho": "Jaylen Brown faz exame na coxa esquerda",
+      "fato": "idem (radar)"
     }
   ],
   "fios": [
