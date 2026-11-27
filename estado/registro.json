@@ -271,6 +271,18 @@
       "titulo": "Brown (coxa esquerda) faz exames na quinta; Pacers na sexta é dúvida (Chris Hine, Inquirer; Ky Carlin, Sixers Wire)",
       "data": "2026-11-26",
       "status": "agendado (X 13h10, Instagram carrossel 14h)"
+    },
+    {
+      "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-injury-update-jaylen-brown-joel-embiid-nba-cup/769769/",
+      "titulo": "Noah Levick: Brown fora contra o Pacers; vitória dá as quartas inéditas, derrota elimina",
+      "data": "2026-11-27",
+      "status": "usado (pré-jogo e Na Filadélfia)"
+    },
+    {
+      "url": "https://www.nba.com/pacers/news/preview-pacers-76ers-261127",
+      "titulo": "Prévia do Pacers (Madie Chandler-Donahue): 6-12, Siakam 23, Haliburton fora, 3-2 do 76ers sem Embiid",
+      "data": "2026-11-27",
+      "status": "usado (comparativo, reel, story, cola)"
     }
   ],
   "curiosidades": [
@@ -415,6 +427,10 @@
     {
       "tema": "Copa NBA: o 76ers se decide na sexta (2-1 no Grupo B)",
       "data": "2026-11-26"
+    },
+    {
+      "tema": "Duelo da noite: Maxey x Siakam (Pacers)",
+      "data": "2026-11-27"
     }
   ],
   "prejogos": [
@@ -441,6 +457,11 @@
     {
       "jogo": "76ers x Heat",
       "data": "2026-11-25",
+      "publicado": "X, Instagram e TikTok 12h"
+    },
+    {
+      "jogo": "Pacers x 76ers",
+      "data": "2026-11-27",
       "publicado": "X, Instagram e TikTok 12h"
     }
   ],
@@ -664,6 +685,16 @@
       "formato": "Explicando o 76ers",
       "tema": "Copa NBA: 2-1 no Grupo B, decide na sexta",
       "data": "2026-11-26"
+    },
+    {
+      "formato": "Carrossel",
+      "tema": "Pré-jogo Pacers x 76ers: capa, comparativo, prejogo, Na Filadélfia, palpite",
+      "data": "2026-11-27"
+    },
+    {
+      "formato": "Reel",
+      "tema": "Duelo Maxey x Siakam",
+      "data": "2026-11-27"
     }
   ],
   "agendas": [
@@ -782,6 +813,11 @@
       "estilo": "house",
       "video": "reel-copa.mp4",
       "data": "2026-11-26"
+    },
+    {
+      "estilo": "trap",
+      "video": "reel-duelo-pacers.mp4",
+      "data": "2026-11-27"
     }
   ],
   "fatos": [
@@ -1099,10 +1135,35 @@
       "fato": "Jaylen Brown faz exame na coxa esquerda, dúvida para o Pacers",
       "canal": "x, instagram",
       "data": "2026-11-26"
+    },
+    {
+      "fato": "Copa NBA: vitória sobre o Pacers dá as quartas pela primeira vez, derrota elimina (Noah Levick, NBC Sports Philadelphia); Brown fora, Embiid dúvida",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-27"
+    },
+    {
+      "fato": "Comparativo Pacers x 76ers: 15-4 x 6-12, 7 x 4 nos últimos 10, 76ers 2-0 na temporada (114 x 109 e 131 x 124) (NBA.com)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-27"
+    },
+    {
+      "fato": "Duelo Maxey x Siakam: Maxey 27 nos dois jogos contra o Pacers, Siakam 23 por jogo e cestinha há 9 jogos (NBA.com)",
+      "canal": "x, instagram, tiktok",
+      "data": "2026-11-27"
+    },
+    {
+      "fato": "From Brazil: Maxey 30 e primeiro triplo-duplo de LeBron pelo 76ers (111 x 104 Heat)",
+      "canal": "x, instagram",
+      "data": "2026-11-27"
+    },
+    {
+      "fato": "3-2 sem Embiid nesta temporada (NBA.com)",
+      "canal": "instagram story",
+      "data": "2026-11-27"
     }
   ],
   "rodadas": {
-    "manha": "2026-11-27 07:53 em andamento",
+    "manha": "2026-11-27 08:20 feito (13 posts agendados: X 12h, 15h30, 16h From Brazil, 16h30, 18h, 20h30; Instagram 12h, 16h, 18h e stories 13h30 e 20h30; TikTok 12h e 18h). Promoção indicada (carrossel LeBron 126 e reel Maxey x Siakam). ESPN não abriu: dados de NBC Sports Philadelphia, Yahoo, NBA.com e AP. Story de 26/11 11h deu erro no Buffer.",
     "radar": "2026-11-26 17:58 feito (sem novidade: resultado do exame de Brown, posterior da coxa esquerda, ainda não saiu; canais conectados)",
     "posjogo": "2026-11-25 21:35 feito pelo Claude na conversa: X com cartaz, Instagram feed (carrossel de 4) e story, TikTok (carrossel de 3).",
     "aovivo": "2026-11-25 feito pelo Claude na conversa: 9 comentários ao vivo no X (19h15 começo, 19h26 meio do 1º, 19h41 fim do 1º, 19h57 meio do 2º, 20h15 intervalo com cartaz, 20h43 meio do 3º, 20h58 fim do 3º, 21h16 reta final, 21h29 triplo-duplo do LeBron; clutch pulado) e o placar com cartaz às 21h34.",
@@ -1110,67 +1171,60 @@
   },
   "plano": [
     {
-      "canal": "instagram story",
-      "hora": "11h",
-      "formato": "cartaz branco com pergunta",
-      "gancho": "Quem foi o melhor ontem?",
-      "fato": "LeBron, Maxey ou Edgecombe"
-    },
-    {
       "canal": "x, instagram, tiktok",
       "hora": "12h",
-      "formato": "carrossel Raio-X (capa amarela)",
-      "gancho": "Raio-X de 76ers 111 x 104 Heat",
-      "fato": "Heat 1 de 7 de três no 2º quarto; LeBron 4 de 6 de três; 29 assistências"
+      "formato": "pré-jogo (X: capa azul + prejogo; Instagram e TikTok: carrossel de 5)",
+      "gancho": "Hoje tem Pacers x 76ers / Vale as quartas",
+      "fato": "vencer classifica às quartas, perder elimina; Brown fora, Embiid dúvida"
+    },
+    {
+      "canal": "instagram story",
+      "hora": "13h30",
+      "formato": "numero azul com pergunta",
+      "gancho": "3-2 sem Embiid",
+      "fato": "76ers 3-2 sem Embiid (NBA.com)"
+    },
+    {
+      "canal": "x",
+      "hora": "15h30",
+      "formato": "manchete branca (Na Filadélfia)",
+      "gancho": "Uma vitória e o 76ers vai às quartas pela primeira vez",
+      "fato": "Noah Levick, NBC Sports Philadelphia"
     },
     {
       "canal": "x, instagram",
       "hora": "16h",
-      "formato": "numero azul (Instagram: carrossel com pergunta)",
-      "gancho": "126 triplos-duplos de LeBron",
-      "fato": "primeiro pelo 76ers, quinto da história, mais velho a fazer um (AP, Inquirer, sixers.com)"
+      "formato": "From Brazil (cartaz azul, inglês, @sixers; Instagram carrossel com pergunta)",
+      "gancho": "From Brazil",
+      "fato": "semana: Maxey 30 e o primeiro triplo-duplo de LeBron pelo 76ers"
     },
     {
-      "canal": "tiktok",
+      "canal": "x",
+      "hora": "16h30",
+      "formato": "comparativo",
+      "gancho": "Pacers x 76ers em números",
+      "fato": "15-4 x 6-12, 7 x 4 nos últimos 10, 2-0 na temporada"
+    },
+    {
+      "canal": "x, instagram reel, tiktok",
       "hora": "18h",
-      "formato": "carrossel",
-      "gancho": "LeBron chegou a 126 triplos-duplos",
-      "fato": "idem"
+      "formato": "reel duelo (gancho azul, trap)",
+      "gancho": "Maxey x Siakam, quem decide hoje?",
+      "fato": "Maxey 27 nos dois jogos contra o Pacers; Siakam 23 por jogo (NBA.com)"
     },
     {
-      "canal": "x, instagram reel",
-      "hora": "19h30",
-      "formato": "reel Copa NBA (gancho amarelo, house)",
-      "gancho": "A Copa NBA se decide na sexta",
-      "fato": "76ers 2-1 no Grupo B, igual ao Heat; último jogo contra o Pacers (Inquirer, NBC Sports Philadelphia)"
+      "canal": "x",
+      "hora": "20h30",
+      "formato": "aquecimento (texto)",
+      "gancho": "Falta 1 hora",
+      "fato": "6 dos últimos 7, Brown fora, Embiid dúvida; palpite 76ers por 8"
     },
     {
       "canal": "instagram story",
       "hora": "20h30",
-      "formato": "cartaz azul com pergunta",
-      "gancho": "Edgecombe fez 18",
-      "fato": "18 pontos contra o Heat (Inquirer, sixers.com)"
-    },
-    {
-      "canal": "tiktok",
-      "hora": "21h30",
-      "formato": "vídeo (mesmo reel da Copa)",
-      "gancho": "Copa NBA: o 76ers se decide na sexta",
-      "fato": "idem"
-    },
-    {
-      "canal": "x",
-      "hora": "13h10",
-      "formato": "manchete branca",
-      "gancho": "Jaylen Brown faz exame na coxa esquerda",
-      "fato": "exame na quinta, dúvida para sexta (radar)"
-    },
-    {
-      "canal": "instagram",
-      "hora": "14h",
-      "formato": "carrossel manchete + pergunta azul",
-      "gancho": "Jaylen Brown faz exame na coxa esquerda",
-      "fato": "idem (radar)"
+      "formato": "cartaz amarelo com pergunta",
+      "gancho": "Quem é o cestinha?",
+      "fato": "Maxey, LeBron ou VJ"
     }
   ],
   "fios": [
@@ -1229,6 +1283,14 @@
       "fonte": "AP, Inquirer e sixers.com",
       "ultimo_post": "26/11 (número do dia em todos os canais)",
       "proximo_marco": "subir no ranking histórico"
+    },
+    {
+      "fio": "Campanha sem Joel Embiid",
+      "valor": "3-2",
+      "ate": "jogo de 25/11 (Heat)",
+      "fonte": "NBA.com (prévia do Pacers, 26/11)",
+      "ultimo_post": "27/11 (story do Instagram)",
+      "proximo_marco": "só volta com sequência ou número redondo"
     }
   ],
   "fila_pautas": [],
@@ -1406,6 +1468,10 @@
     {
       "tema": "virada em Orlando (Magic 116 x 121)",
       "data": "2026-11-20"
+    },
+    {
+      "tema": "Maxey 30 e o primeiro triplo-duplo de LeBron pelo 76ers (Heat)",
+      "data": "2026-11-27"
     }
   ],
   "seguidores": [
