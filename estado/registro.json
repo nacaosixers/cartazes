@@ -45,6 +45,12 @@
       "data_jogo": "2026-11-25",
       "publicado": "2026-11-25: X 21h34 (cartaz), Instagram feed em carrossel de 4 (placar, 12 assistências de LeBron, campanha, pergunta) e story 21h34, TikTok em carrossel de 3 21h35, feitos pelo Claude na conversa",
       "obs": "9 comentários ao vivo no X e o placar (clutch pulado, diferença de 11 a 1min08; o 9º foi o triplo-duplo do LeBron, assunto do dia). LeBron 25/10/12, Maxey 30, Giannis 32. 76ers 15-4."
+    },
+    {
+      "jogo": "Pacers 87 x 111 76ers",
+      "data_jogo": "2026-11-27",
+      "publicado": "2026-11-28: X 00h03 (cartaz), Instagram feed em carrossel de 4 (placar, 5 de 37 de três do Pacers, campanha, pergunta) e story 00h03, TikTok em carrossel de 3 00h03, feitos pelo Claude na conversa",
+      "obs": "Copa NBA: vitória dá as quartas pela primeira vez (Noah Levick, NBC Sports Philadelphia). 8 comentários ao vivo no X e o placar (clutch pulado, maior vantagem 32). LeBron 21, Simons 19, Embiid 14 e 11. 76ers 16-4."
     }
   ],
   "raiox": [
@@ -1165,8 +1171,8 @@
   "rodadas": {
     "manha": "2026-11-27 08:20 feito (13 posts agendados: X 12h, 15h30, 16h From Brazil, 16h30, 18h, 20h30; Instagram 12h, 16h, 18h e stories 13h30 e 20h30; TikTok 12h e 18h). Promoção indicada (carrossel LeBron 126 e reel Maxey x Siakam). ESPN não abriu: dados de NBC Sports Philadelphia, Yahoo, NBA.com e AP. Story de 26/11 11h deu erro no Buffer.",
     "radar": "2026-11-27 17:56 feito (sem novidade: ESPN, Yahoo e Liberty Ballers seguem com Embiid dúvida por doença e Brown fora; nada novo para pauta; canais conectados)",
-    "posjogo": "2026-11-28 00:03 em andamento (Claude na conversa, Pacers x 76ers)",
-    "aovivo": "2026-11-25 feito pelo Claude na conversa: 9 comentários ao vivo no X (19h15 começo, 19h26 meio do 1º, 19h41 fim do 1º, 19h57 meio do 2º, 20h15 intervalo com cartaz, 20h43 meio do 3º, 20h58 fim do 3º, 21h16 reta final, 21h29 triplo-duplo do LeBron; clutch pulado) e o placar com cartaz às 21h34.",
+    "posjogo": "2026-11-28 00:03 feito pelo Claude na conversa: X com cartaz, Instagram feed (carrossel de 4) e story, TikTok (carrossel de 3).",
+    "aovivo": "2026-11-27 feito pelo Claude na conversa: 8 comentários ao vivo no X (21h44 começo, 21h53 meio do 1º, 22h12 fim do 1º, 22h29 meio do 2º, 22h42 intervalo com cartaz, 23h10 meio do 3º, 23h31 fim do 3º, 23h48 reta final; clutch pulado) e o placar com cartaz às 00h03.",
     "aovivo_renovacao": "2026-12-03 10:07 (despertador na conversa marca os jogos seguintes)"
   },
   "plano": [
@@ -1293,7 +1299,13 @@
       "proximo_marco": "só volta com sequência ou número redondo"
     }
   ],
-  "fila_pautas": [],
+  "fila_pautas": [
+    {
+      "pauta": "76ers nas quartas da Copa NBA pela primeira vez (vitória sobre o Pacers em 27/11)",
+      "conferir": "adversário, data e horário das quartas (NBA.com ou time), para o post da manhã e a agenda do ao vivo",
+      "data": "2026-11-28"
+    }
+  ],
   "promovidos": [
     {
       "canal": "tiktok",
